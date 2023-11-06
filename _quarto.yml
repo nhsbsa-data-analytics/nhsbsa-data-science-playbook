@@ -1,0 +1,44 @@
+project:
+  type: website
+
+website:
+  favicon: static/bsa-favicon.png
+  title: "Official Statistics" 
+  navbar:
+    title: false
+    logo: "static/logo-nhs.svg"
+    logo-alt: "NHS logo"
+    pinned: true
+    background: "#005EB8"
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "Guidance"
+        menu: 
+        - href: "guidance/responsible-statisticians/index.qmd"
+        - href: "guidance/reviewing-content/index.qmd"
+        - href: "guidance/planning/index.qmd"
+        - href: "guidance/production/index.qmd"
+        - href: "guidance/qa/index.qmd"
+        - href: "guidance/sign-off/index.qmd"
+        - href: "guidance/pra/index.qmd"
+        - href: "guidance/publish/index.qmd"
+
+    right:
+      - about.qmd
+      - icon: globe
+        href: https://www.nhsbsa.nhs.uk/nhsbsa-statistics-and-data-science
+      - icon: github
+        href: https://github.com/nhsbsa-data-analytics
+      - icon: twitter
+        href: https://twitter.com/nhsbsa
+
+format:
+  html:
+    pagetitle: "NHSBSA Official Statistics Guidance"
+    lang: en-GB
+    theme: cosmo
+    css: styles.css
+    mainfont: "Arial"
+    page-layout: full
+    toc: true

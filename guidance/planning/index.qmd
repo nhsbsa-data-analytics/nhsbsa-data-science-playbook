@@ -1,0 +1,20 @@
+---
+title: "Planning"
+description: "Planning the publication and working together"
+---
+
+Each publication production cycle needs to be planned out in order to make sure that we have all of the outputs ready in time to be fully assured and each team member knows what they are responsible for delivering --- every publication is a collaborative effort.
+
+## Planning meeting
+A meeting should be organised to bring together the team to discuss the tasks required and assign them to a team member. The responsible statistician for the publication should arrange this meeting for a time when everyone is available. This meeting can be in-person, virtual, or hybrid. 
+
+## GitHub issues
+We currently use GitHub issues to describe, assign, and track tasks for a publication. If more suitable software is available for a particular publication or project then this should be used instead (for example, JIRA). Issues should be created in the pipeline repository of the publication and milestones used to group related tasks together and assign due dates.
+
+As much detail as possible should be put into the issue about the task to allow the assigned person to be able to pick it up and complete it independently.
+
+## Assigning issues
+Issues should be assigned to the team in accordance with existing workloads. Also consider assigning issues based on who has the **least** experience doing a task. This will help all team members to develop skills equally and prevent silos or bottlenecks being created.
+
+## Milestones
+GitHub uses [milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones){target="_blank"} to group together related issues and pull requests and track their progress, including assigning due dates. You should use milestones to make sure that achievable deadlines are set.

@@ -1,0 +1,35 @@
+---
+title: "NHSBSA Official Statistics guidance"
+description: "Detailed guidance on the Official Statistics production process"
+title-block-banner: true
+listing: 
+  type: grid
+  contents: guidance
+  sort: "title"
+---
+
+This guidance is intended to describe the processes that our publications go 
+through to turn data into valuable, high quality, and trustworthy Official 
+Statistics. It can be used by statisticians, data analysts, and data scientists 
+at the NHSBSA and other organisations who are statistics producers to help guide 
+the creation of data products.
+
+## High level process
+
+Each publication will go through the below stages before release. Each stage is 
+expanded upon further on in this guidance.
+
+```{mermaid stats-flowchart}
+%%| label: fig-process
+%%| fig-cap: High level publication production process
+flowchart LR
+  A([start]) --> B[Review content]
+  B --> C[planning]
+  C --> D[Production]
+  D --> E[QA]
+  E --> F[Sign off]
+  F --> D & G(Publish)
+
+```
+
+## Guidance

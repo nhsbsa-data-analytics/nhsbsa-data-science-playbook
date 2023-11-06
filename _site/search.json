@@ -1,0 +1,219 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NHSBSA Official Statistics guidance",
+    "section": "",
+    "text": "This guidance is intended to describe the processes that our publications go through to turn data into valuable, high quality, and trustworthy Official Statistics. It can be used by statisticians, data analysts, and data scientists at the NHSBSA and other organisations who are statistics producers to help guide the creation of data products."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This website has been developed by the NHSBSA Official Statistics team to provide guidance and processes for producing new and existing Official Statistics publications, including those with National Statistics designation."
+  },
+  {
+    "objectID": "guidance/process/index.html",
+    "href": "guidance/process/index.html",
+    "title": "Process for producing a publication",
+    "section": "",
+    "text": "Each publication is assigned a responsible statistician. This is the person who will lead on the development and maintenance of the publication and be the main point of contact for queries about the statistics. Our current publications and responsible statisticians are:\n\n\n\nPublication\nLead statistician\n\n\n\n\nDependency forming medicines\nKirsty Gray\n\n\nGeneral pharmaceutical services\nKirsty Gray\n\n\nHormone replacement therapy\nGraham Platten\n\n\nMedicines used in mental health — annual\nKirsty Gray\n\n\nMedicines used in mental health — quarterly\nGrace Libby\n\n\nPrescribing costs in hospitals and the community\nGraham Platten\n\n\nPrescribing for diabetes\nKirsty Gray\n\n\nPrescription cost analysis\nGraham Platten"
+  },
+  {
+    "objectID": "guidance/process/index.html#high-level-process",
+    "href": "guidance/process/index.html#high-level-process",
+    "title": "Process for producing a publication",
+    "section": "High level process",
+    "text": "High level process\nEach publication will go through the below stages before release. Each stage is expanded upon further on in this guidance.\n\n\n\n\n\nflowchart LR\n  A([start]) --> B[Review content]\n  B --> C[planning]\n  C --> D[Production]\n  D --> E[QA]\n  E --> F[Sign off]\n  F --> D & G(Publish)\n\n\n\n\n\n\nFigure 1: High level publication production process"
+  },
+  {
+    "objectID": "guidance/process/index.html#reviewing-content",
+    "href": "guidance/process/index.html#reviewing-content",
+    "title": "Process for producing a publication",
+    "section": "Reviewing content",
+    "text": "Reviewing content\nIn line with the Code of Practice for Statistics, particularly principles V1: Relevance to users and V4: Innovation and improvement, we should always be reviewing the content of our statistics to make sure that they provide public value and meet our user’s needs.\n\nResearch, policy developments and media interests\nAs we begin the production for a new release of a publication the responsible statistician should make sure to familiarise themselves with the content of the publication including the data sources, and their quality, and any policy context/background that we have. A lot can change in the time between releases especially for our prescribing and medicines publications, keeping up to date with policy developments, the release of new prescribing guidance, and what has been in the media is essential. This research should be documented so that it can easily be referenced in the future.\n\n\nUser and stakeholder feedback\nFeedback collected through our continuous surveys, provided via email, or any other route should be reviewed and help guide any changes and improvements that we want to make to the statistics. This could include requests for new analyses, feedback on usability and clarity, or even feedback that an analysis is no longer needed. The views of interested stakeholders should also be regularly sought to make sure that the statistics fulfil their intended purpose. For example, colleagues at the Department for Health and Social Care (DHSC) and NHS England.\n\n\nNew and emerging services\nNew services may become available that would be of interest to include in our publications, for example, a new advanced service for pharmacy contractors or a new service launched by the NHSBSA. Including data and analyses on these new services may provide new insights and increase the value of our statistics.\n\n\nCriteria and SME engagement\nThe criteria for our publications should also be reviewed to make sure that they are still relevant. For example, for publications in specific clinical areas such as Medicines Used in Mental Health and Prescribing for Diabetes the drug lists used should be reviewed and where appropriate the views of clinical colleagues should be sought. New products may have come to market or the BNF classifications of some existing products changed1, We need to make sure that the drug lists that we use are up to date, comprehensive and clinically approved. Subject matter experts (SMEs) should be engaged here to provide guidance.\n\n\nData quality issues\nAs with any data set mistakes can and do happen in our data. To make sure that we are aware of any data quality issues that may impact our statistics the data quality incident register maintained by the Data Governance team should be reviewed. Where a data quality issue is identified this should be noted and steps taken to correct the data or communicated to users what the issue is.\n\n\nIdentified improvements and opportunities\nWe as statisticians often know of improvements that we can make to our outputs to make them more relevant to users or may have seen demonstrations of best practice from across the UK statistical system. During publication retrospectives ideas for improvements to take forward are logged and recorded as part of each publication’s wiki. These ideas should be reviewed and where needed exploratory analysis carried out and documented.\n\n\nMethodological changes\nWe should always be reviewing the methodologies that we use in our statistics to make sure that they are recognised best practice and coherent with other statistics across the health and social care sector. If an improvement to a methodology is identified, for example, calculating standardised population rates or assigning patients to a particular lower-layer super output area (LSOA), then this improvement should be documented alongside any impacts that it may have on the statistics. There is not a dedicated methods group at the NHSBSA, however, other statisticians and analysts in the Data Analytics Learning Lab (DALL) and External Reporting teams should be invited to review the new methodology and discussions held on possible alternatives. Where practicable, all statisticians, data scientists, and analysts across the NHSBSA should be using standardised methods for analysis.\nWhere a new method is statistically innovative or a wholesale change from what has been used before it may be advised to consult the Methodology Advisory Service(MAS) at the Office for National Statistics (ONS).\n\n\nUser engagement and pre-announcing changes\nOnce a review of content has been completed all changes that have been decided to be carried forward for the new release should be documented in full, including additions/removal of content. The impacts of any changes should also be explored and documented, for example, if a methodological change is being made or if a data source is changing. The views of the NHSBSA Lead Official for Statistics and/or Statistical Publication Lead should then be sought on the proposed changes to provide guidance.\nAny changes that we are making to the statistics must be pre-announced on the NHSBSA website well in advance of the release of the statistics (at least 4 weeks in advance). Where practicable, users views should be sought on the proposed changes, but were these changes have been guided by user feedback already this may not be necessary.\nWhere large methodological changes have taken place or where the underlying data source for the statistics has changed and materially impacted new or historical figures users views must be sought before the change is implemented — particularly for National Statistics publications. User engagement can be done through a variety of methods, including:\n\ndedicated engagement events\npublic consultations\nblogs detailing the changes and impacts\nother activities\n\nUser engagement is often done in conjunction with other teams throughout the organisation such as Communications and Customer Insight. These teams should be consulted to help support our engagement activities.\n\n\nchecklist\n\ndo you know what analyses are in the statistics and their data source?\nare all data sources still available?\nwhat policy developments have their been?\nhave there been any FOI/data/PQ requests that show there is a gap in the statistics?\nare new services/areas for analysis available? Have any services stopped?\nhave users provided any feedback that can be acted upon?\nhave there been any data quality incidents that would impact the statistics?\nwhat areas did we identify for improvement from the previous release’s debrief?\nhave you documented the review process and formulated an improvement plan for the release"
+  },
+  {
+    "objectID": "guidance/process/index.html#user-engagement-and-pre-announcing-changes",
+    "href": "guidance/process/index.html#user-engagement-and-pre-announcing-changes",
+    "title": "Process for producing a publication",
+    "section": "User engagement and pre-announcing changes",
+    "text": "User engagement and pre-announcing changes\nOnce\n\nchecklist\n\ndo you know what analyses are in the statistics and their data source?\nare all data sources still available?\nwhat policy developments have their been?\nare new services/areas for analysis available? Have any services stopped?\nhave users provided any feedback that can be acted upon?\nwhat areas did we identify for improvement from the previous release’s debrief?\nhave you documented the review process and formulated an improvement plan for the release"
+  },
+  {
+    "objectID": "guidance/process/index.html#planning",
+    "href": "guidance/process/index.html#planning",
+    "title": "Process for producing a publication",
+    "section": "Planning",
+    "text": "Planning\nOnce"
+  },
+  {
+    "objectID": "index.html#high-level-process",
+    "href": "index.html#high-level-process",
+    "title": "NHSBSA Official Statistics guidance",
+    "section": "High level process",
+    "text": "High level process\nEach publication will go through the below stages before release. Each stage is expanded upon further on in this guidance.\n\n\n\n\n\nflowchart LR\n  A([start]) --&gt; B[Review content]\n  B --&gt; C[planning]\n  C --&gt; D[Production]\n  D --&gt; E[QA]\n  E --&gt; F[Sign off]\n  F --&gt; D & G(Publish)\n\n\n\nFigure 1: High level publication production process"
+  },
+  {
+    "objectID": "index.html#guidance",
+    "href": "index.html#guidance",
+    "title": "NHSBSA Official Statistics guidance",
+    "section": "Guidance",
+    "text": "Guidance"
+  },
+  {
+    "objectID": "guidance/reviewing-content/index.html",
+    "href": "guidance/reviewing-content/index.html",
+    "title": "Reviewing content",
+    "section": "",
+    "text": "In line with the Code of Practice for Statistics, particularly principles V1: Relevance to users and V4: Innovation and improvement, we should always be reviewing the content of our statistics to make sure that they provide public value and meet our user’s needs."
+  },
+  {
+    "objectID": "guidance/reviewing-content/index.html#reviewing-content",
+    "href": "guidance/reviewing-content/index.html#reviewing-content",
+    "title": "Process for producing a publication",
+    "section": "Reviewing content",
+    "text": "Reviewing content\nIn line with the Code of Practice for Statistics, particularly principles V1: Relevance to users and V4: Innovation and improvement, we should always be reviewing the content of our statistics to make sure that they provide public value and meet our user’s needs.\n\nResearch, policy developments and media interests\nAs we begin the production for a new release of a publication the responsible statistician should make sure to familiarise themselves with the content of the publication including the data sources, and their quality, and any policy context/background that we have. A lot can change in the time between releases especially for our prescribing and medicines publications, keeping up to date with policy developments, the release of new prescribing guidance, and what has been in the media is essential. This research should be documented so that it can easily be referenced in the future.\n\n\nUser and stakeholder feedback\nFeedback collected through our continuous surveys, provided via email, or any other route should be reviewed and help guide any changes and improvements that we want to make to the statistics. This could include requests for new analyses, feedback on usability and clarity, or even feedback that an analysis is no longer needed. The views of interested stakeholders should also be regularly sought to make sure that the statistics fulfil their intended purpose. For example, colleagues at the Department for Health and Social Care (DHSC) and NHS England.\n\n\nNew and emerging services\nNew services may become available that would be of interest to include in our publications, for example, a new advanced service for pharmacy contractors or a new service launched by the NHSBSA. Including data and analyses on these new services may provide new insights and increase the value of our statistics.\n\n\nCriteria and SME engagement\nThe criteria for our publications should also be reviewed to make sure that they are still relevant. For example, for publications in specific clinical areas such as Medicines Used in Mental Health and Prescribing for Diabetes the drug lists used should be reviewed and where appropriate the views of clinical colleagues should be sought. New products may have come to market or the BNF classifications of some existing products changed1, We need to make sure that the drug lists that we use are up to date, comprehensive and clinically approved. Subject matter experts (SMEs) should be engaged here to provide guidance.\n\n\nData quality issues\nAs with any data set mistakes can and do happen in our data. To make sure that we are aware of any data quality issues that may impact our statistics the data quality incident register maintained by the Data Governance team should be reviewed. Where a data quality issue is identified this should be noted and steps taken to correct the data or communicated to users what the issue is.\n\n\nIdentified improvements and opportunities\nWe as statisticians often know of improvements that we can make to our outputs to make them more relevant to users or may have seen demonstrations of best practice from across the UK statistical system. During publication retrospectives ideas for improvements to take forward are logged and recorded as part of each publication’s wiki. These ideas should be reviewed and where needed exploratory analysis carried out and documented.\n\n\nMethodological changes\nWe should always be reviewing the methodologies that we use in our statistics to make sure that they are recognised best practice and coherent with other statistics across the health and social care sector. If an improvement to a methodology is identified, for example, calculating standardised population rates or assigning patients to a particular lower-layer super output area (LSOA), then this improvement should be documented alongside any impacts that it may have on the statistics. There is not a dedicated methods group at the NHSBSA, however, other statisticians and analysts in the Data Analytics Learning Lab (DALL) and External Reporting teams should be invited to review the new methodology and discussions held on possible alternatives. Where practicable, all statisticians, data scientists, and analysts across the NHSBSA should be using standardised methods for analysis.\nWhere a new method is statistically innovative or a wholesale change from what has been used before it may be advised to consult the Methodology Advisory Service(MAS) at the Office for National Statistics (ONS).\n\n\nUser engagement and pre-announcing changes\nOnce a review of content has been completed all changes that have been decided to be carried forward for the new release should be documented in full, including additions/removal of content. The impacts of any changes should also be explored and documented, for example, if a methodological change is being made or if a data source is changing. The views of the NHSBSA Lead Official for Statistics and/or Statistical Publication Lead should then be sought on the proposed changes to provide guidance.\nAny changes that we are making to the statistics must be pre-announced on the NHSBSA website well in advance of the release of the statistics (at least 4 weeks in advance). Where practicable, users views should be sought on the proposed changes, but were these changes have been guided by user feedback already this may not be necessary.\nWhere large methodological changes have taken place or where the underlying data source for the statistics has changed and materially impacted new or historical figures users views must be sought before the change is implemented — particularly for National Statistics publications. User engagement can be done through a variety of methods, including:\n\ndedicated engagement events\npublic consultations\nblogs detailing the changes and impacts\nother activities\n\nUser engagement is often done in conjunction with other teams throughout the organisation such as Communications and Customer Insight. These teams should be consulted to help support our engagement activities.\n\n\nchecklist\n\ndo you know what analyses are in the statistics and their data source?\nare all data sources still available?\nwhat policy developments have their been?\nhave there been any FOI/data/PQ requests that show there is a gap in the statistics?\nare new services/areas for analysis available? Have any services stopped?\nhave users provided any feedback that can be acted upon?\nhave there been any data quality incidents that would impact the statistics?\nwhat areas did we identify for improvement from the previous release’s debrief?\nhave you documented the review process and formulated an improvement plan for the release"
+  },
+  {
+    "objectID": "guidance/reviewing-content/index.html#planning",
+    "href": "guidance/reviewing-content/index.html#planning",
+    "title": "Process for producing a publication",
+    "section": "Planning",
+    "text": "Planning\nOnce"
+  },
+  {
+    "objectID": "guidance/responsible-statisticians/index.html",
+    "href": "guidance/responsible-statisticians/index.html",
+    "title": "Responsible statisticians",
+    "section": "",
+    "text": "Publication\nLead statistician\n\n\n\n\nDependency forming medicines\nKirsty Gray\n\n\nGeneral pharmaceutical services\nKirsty Gray\n\n\nHormone replacement therapy\nGraham Platten\n\n\nMedicines used in mental health — annual\nKirsty Gray\n\n\nMedicines used in mental health — quarterly\nGrace Libby\n\n\nPrescribing costs in hospitals and the community\nGraham Platten\n\n\nPrescribing for diabetes\nKirsty Gray\n\n\nPrescription cost analysis\nGraham Platten\n\n\n\nResponsible statisticians are expected to be subject matter experts (SMEs) for the topic areas that they cover."
+  },
+  {
+    "objectID": "guidance/planning/index.html",
+    "href": "guidance/planning/index.html",
+    "title": "Planning",
+    "section": "",
+    "text": "Each publication production cycle needs to be planned out in order to make sure that we have all of the outputs ready in time to be fully assured and each team member knows what they are responsible for delivering — every publication is a collaborative effort."
+  },
+  {
+    "objectID": "guidance/pra/index.html",
+    "href": "guidance/pra/index.html",
+    "title": "Pre-release access (PRA)",
+    "section": "",
+    "text": "Guidance coming soon"
+  },
+  {
+    "objectID": "guidance/production/index.html",
+    "href": "guidance/production/index.html",
+    "title": "Production",
+    "section": "",
+    "text": "Guidance coming soon"
+  },
+  {
+    "objectID": "guidance/publish/index.html",
+    "href": "guidance/publish/index.html",
+    "title": "Publishing content",
+    "section": "",
+    "text": "Guidance coming soon"
+  },
+  {
+    "objectID": "guidance/qa/index.html",
+    "href": "guidance/qa/index.html",
+    "title": "Quality assurance",
+    "section": "",
+    "text": "Guidance coming soon"
+  },
+  {
+    "objectID": "guidance/sign-off/index.html",
+    "href": "guidance/sign-off/index.html",
+    "title": "Sign off",
+    "section": "",
+    "text": "Guidance coming soon"
+  },
+  {
+    "objectID": "guidance/planning/index.html#planning-meeting",
+    "href": "guidance/planning/index.html#planning-meeting",
+    "title": "Planning",
+    "section": "Planning meeting",
+    "text": "Planning meeting\nA meeting should be organised to bring together the team to discuss the tasks required and assign them to a team member. The responsible statistician for the publication should arrange this meeting for a time when everyone is available. This meeting can be in-person, virtual, or hybrid."
+  },
+  {
+    "objectID": "guidance/planning/index.html#github-issues",
+    "href": "guidance/planning/index.html#github-issues",
+    "title": "Planning",
+    "section": "GitHub issues",
+    "text": "GitHub issues\nWe currently use GitHub issues to describe, assign, and track tasks for a publication. If more suitable software is available for a particular publication or project then this should be used instead (for example, JIRA). Issues should be created in the pipeline repository of the publication and milestones used to group related tasks together and assign due dates.\nAs much detail as possible should be put into the issue about the task to allow the assigned person to be able to pick it up and complete it independently."
+  },
+  {
+    "objectID": "guidance/planning/index.html#assigning-issues",
+    "href": "guidance/planning/index.html#assigning-issues",
+    "title": "Planning",
+    "section": "Assigning issues",
+    "text": "Assigning issues"
+  },
+  {
+    "objectID": "guidance/reviewing-content/index.html#research-policy-developments-and-media-interests",
+    "href": "guidance/reviewing-content/index.html#research-policy-developments-and-media-interests",
+    "title": "Reviewing content",
+    "section": "Research, policy developments and media interests",
+    "text": "Research, policy developments and media interests\nAs we begin the production for a new release of a publication the responsible statistician should make sure to familiarise themselves with the content of the publication including the data sources, and their quality, and any policy context/background that we have. A lot can change in the time between releases especially for our prescribing and medicines publications, keeping up to date with policy developments, the release of new prescribing guidance, and what has been in the media is essential. This research should be documented so that it can easily be referenced in the future."
+  },
+  {
+    "objectID": "guidance/reviewing-content/index.html#user-and-stakeholder-feedback",
+    "href": "guidance/reviewing-content/index.html#user-and-stakeholder-feedback",
+    "title": "Reviewing content",
+    "section": "User and stakeholder feedback",
+    "text": "User and stakeholder feedback\nFeedback collected through our continuous surveys, provided via email, or any other route should be reviewed and help guide any changes and improvements that we want to make to the statistics. This could include requests for new analyses, feedback on usability and clarity, or even feedback that an analysis is no longer needed. The views of interested stakeholders should also be regularly sought to make sure that the statistics fulfil their intended purpose. For example, colleagues at the Department for Health and Social Care (DHSC) and NHS England."
+  },
+  {
+    "objectID": "guidance/reviewing-content/index.html#new-and-emerging-services",
+    "href": "guidance/reviewing-content/index.html#new-and-emerging-services",
+    "title": "Reviewing content",
+    "section": "New and emerging services",
+    "text": "New and emerging services\nNew services may become available that would be of interest to include in our publications, for example, a new advanced service for pharmacy contractors or a new service launched by the NHSBSA. Including data and analyses on these new services may provide new insights and increase the value of our statistics."
+  },
+  {
+    "objectID": "guidance/reviewing-content/index.html#criteria-and-sme-engagement",
+    "href": "guidance/reviewing-content/index.html#criteria-and-sme-engagement",
+    "title": "Reviewing content",
+    "section": "Criteria and SME engagement",
+    "text": "Criteria and SME engagement\nThe criteria for our publications should also be reviewed to make sure that they are still relevant. For example, for publications in specific clinical areas such as Medicines Used in Mental Health and Prescribing for Diabetes the drug lists used should be reviewed and where appropriate the views of clinical colleagues should be sought. New products may have come to market or the BNF classifications of some existing products changed1, We need to make sure that the drug lists that we use are up to date, comprehensive and clinically approved. Subject matter experts (SMEs) should be engaged here to provide guidance."
+  },
+  {
+    "objectID": "guidance/reviewing-content/index.html#data-quality-issues",
+    "href": "guidance/reviewing-content/index.html#data-quality-issues",
+    "title": "Reviewing content",
+    "section": "Data quality issues",
+    "text": "Data quality issues\nAs with any data set mistakes can and do happen in our data. To make sure that we are aware of any data quality issues that may impact our statistics the data quality incident register maintained by the Data Governance team should be reviewed. Where a data quality issue is identified this should be noted and steps taken to correct the data or communicated to users what the issue is."
+  },
+  {
+    "objectID": "guidance/reviewing-content/index.html#identified-improvements-and-opportunities",
+    "href": "guidance/reviewing-content/index.html#identified-improvements-and-opportunities",
+    "title": "Reviewing content",
+    "section": "Identified improvements and opportunities",
+    "text": "Identified improvements and opportunities\nWe as statisticians often know of improvements that we can make to our outputs to make them more relevant to users or may have seen demonstrations of best practice from across the UK statistical system. During publication retrospectives ideas for improvements to take forward are logged and recorded as part of each publication’s wiki. These ideas should be reviewed and where needed exploratory analysis carried out and documented."
+  },
+  {
+    "objectID": "guidance/reviewing-content/index.html#methodological-changes",
+    "href": "guidance/reviewing-content/index.html#methodological-changes",
+    "title": "Reviewing content",
+    "section": "Methodological changes",
+    "text": "Methodological changes\nWe should always be reviewing the methodologies that we use in our statistics to make sure that they are recognised best practice and coherent with other statistics across the health and social care sector. If an improvement to a methodology is identified, for example, calculating standardised population rates or assigning patients to a particular lower-layer super output area (LSOA), then this improvement should be documented alongside any impacts that it may have on the statistics. There is not a dedicated methods group at the NHSBSA, however, other statisticians and analysts in the Data Analytics Learning Lab (DALL) and External Reporting teams should be invited to review the new methodology and discussions held on possible alternatives. Where practicable, all statisticians, data scientists, and analysts across the NHSBSA should be using standardised methods for analysis.\nWhere a new method is statistically innovative or a wholesale change from what has been used before it may be advised to consult the Methodology Advisory Service(MAS) at the Office for National Statistics (ONS)."
+  },
+  {
+    "objectID": "guidance/reviewing-content/index.html#user-engagement-and-pre-announcing-changes",
+    "href": "guidance/reviewing-content/index.html#user-engagement-and-pre-announcing-changes",
+    "title": "Reviewing content",
+    "section": "User engagement and pre-announcing changes",
+    "text": "User engagement and pre-announcing changes\nOnce a review of content has been completed all changes that have been decided to be carried forward for the new release should be documented in full, including additions/removal of content. The impacts of any changes should also be explored and documented, for example, if a methodological change is being made or if a data source is changing. The views of the NHSBSA Lead Official for Statistics and/or Statistical Publication Lead should then be sought on the proposed changes to provide guidance.\nAny changes that we are making to the statistics must be pre-announced on the NHSBSA website well in advance of the release of the statistics (at least 4 weeks in advance). Where practicable, users views should be sought on the proposed changes, but were these changes have been guided by user feedback already this may not be necessary.\nWhere large methodological changes have taken place or where the underlying data source for the statistics has changed and materially impacted new or historical figures users views must be sought before the change is implemented — particularly for National Statistics publications. User engagement can be done through a variety of methods, including:\n\ndedicated engagement events\npublic consultations\nblogs detailing the changes and impacts\nother activities\n\nUser engagement is often done in conjunction with other teams throughout the organisation such as Communications and Customer Insight. These teams should be consulted to help support our engagement activities."
+  },
+  {
+    "objectID": "guidance/reviewing-content/index.html#checklist",
+    "href": "guidance/reviewing-content/index.html#checklist",
+    "title": "Reviewing content",
+    "section": "checklist",
+    "text": "checklist\n\ndo you know what analyses are in the statistics and their data source?\nare all data sources still available?\nwhat policy developments have their been?\nhave there been any FOI/data/PQ requests that show there is a gap in the statistics?\nare new services/areas for analysis available? Have any services stopped?\nhave users provided any feedback that can be acted upon?\nhave there been any data quality incidents that would impact the statistics?\nwhat areas did we identify for improvement from the previous release’s debrief?\nhave you documented the review process and formulated an improvement plan for the release"
+  }
+]
