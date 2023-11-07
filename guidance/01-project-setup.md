@@ -35,12 +35,13 @@ If you're trying something new, consider taking a course from Data Camp to learn
 
 ## Initial Meeting with the Customer
 It is important to setup a first meeting with the customer once you have an initial understanding of initiative. If you are unsure who to invite to the meeting, you can ask your critical friend, the DALL team manager, or other colleagues. During this meeting, you can identify:
-•	What they are looking to do within the initiative,
-•	What outputs they are expecting to see, in which format,
-•	Any business knowledge or insights they can provide to aid your work,
-•	Any data limitations and possible solutions,
-•	If there are any additional data sources to be considered and
-•	The required timescales if applicable.
+
+* What they are looking to do within the initiative,
+* What outputs they are expecting to see, in which format,
+* Any business knowledge or insights they can provide to aid your work,
+* Any data limitations and possible solutions,
+* If there are any additional data sources to be considered and
+* The required timescales if applicable.
 
 This meeting is important, as it can help to inform the problem definition within section 2. If the work is particularly urgent, more colleagues and resource can be assigned to the initiative accordingly.
 
@@ -50,9 +51,10 @@ Following this meeting, it may be useful to setup a reoccurring follow up meetin
 
 ## Create Initiative Resources
 Before beginning to work on your problem definition, you will need to setup all of the initiative resources. Currently, these include:
-•	A JIRA ticket to track progress on the work,
-•	SharePoint folder to store documents and data and
-•	A GitHub repository to store and monitor code.
+
+* A JIRA ticket to track progress on the work,
+* SharePoint folder to store documents and data and
+* A GitHub repository to store and monitor code.
 
 Before creating these, you will need to identify the DALL number of the initiative. To do this, and for guidance on how to setup the above, please see the DALL OneNote Wiki page here: Project setup  (Web view).
 
