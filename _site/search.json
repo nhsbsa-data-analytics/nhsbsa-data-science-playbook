@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "NHSBSA Official Statistics guidance",
+    "title": "NHSBSA DALL Playbook",
     "section": "",
-    "text": "This guidance is intended to describe the processes that our publications go through to turn data into valuable, high quality, and trustworthy Official Statistics. It can be used by statisticians, data analysts, and data scientists at the NHSBSA and other organisations who are statistics producers to help guide the creation of data products."
+    "text": "Add Text Here"
   },
   {
     "objectID": "about.html",
@@ -51,14 +51,14 @@
   {
     "objectID": "index.html#high-level-process",
     "href": "index.html#high-level-process",
-    "title": "NHSBSA Official Statistics guidance",
+    "title": "NHSBSA DALL Playbook",
     "section": "High level process",
-    "text": "High level process\nEach publication will go through the below stages before release. Each stage is expanded upon further on in this guidance.\n\n\n\n\n\nflowchart LR\n  A([start]) --&gt; B[Review content]\n  B --&gt; C[planning]\n  C --&gt; D[Production]\n  D --&gt; E[QA]\n  E --&gt; F[Sign off]\n  F --&gt; D & G(Publish)\n\n\n\nFigure 1: High level publication production process"
+    "text": "High level process\nAdd Text Here\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'neutral',\n    'themeVariables': {\n      'primaryColor': '#BB2528',\n      'primaryTextColor': '#fff',\n      'primaryBorderColor': '#7C0000',\n      'lineColor': '#F8B229',\n      'secondaryColor': '#006100',\n      'tertiaryColor': '#fff',\n      'fontSize': '16px'\n    }\n  }\n}%%\n\nflowchart LR\n  1A[\"Problem Identified\"] \n  1B[\"Assign Critical Friend\"]\n  1C[\"Initial Research and Look at Previous Iterations\"]\n  1D[\"Initial Meeting with Customer\"]\n  1E[\"Get Access to Data\"]\n  1F[\"Create JIRA, SharePoint, Git and Others\"]\n    \n  1G[\"Write Problem \n    Definition\"] \n  1H[\"Data and \n    Business \n    Understanding\"] \n  1I[\"Further \n    Research\"] \n  1J[\"Meet with \n    Customer\"]\n  \n  2A[\"Data Preparation\"]\n  2B[\"Analysis/Modelling\"] \n  2C[\"Reporting and Visuals\"] \n  2D[\"Review and Test\"] \n  2E[\"Critical Friend to Review\"] \n  2F[\"Customer Review\"]\n  \n  3A[\"Final Meeting with Customer\"]\n  3B[\"Wrap Up and  Clean Code\"]\n  3C[\"Write Documentation\"]\n  3D[\"Add to Wiki\"]\n  3E[\"Make Repo Public If Applicable\"]\n  3F[\"Document Any Further Work That Can Be Done\"]\n\n  subgraph pre_pd[\"01: Project Setup\"]\n  direction TB\n    1A --&gt; 1B\n    1B --&gt; 1C\n    1C --&gt; 1D\n    1D --&gt; 1E\n    1E --&gt; 1F\n  end\n  \n  subgraph pd_loop[\"02: Problem Definition\"]\n  direction TB\n    1G --&gt; 1H --&gt; 1I --&gt; 1J --&gt; 1G\n  end\n  \n  subgraph analysis_loop[\"03: Analysis/Modelling\"]\n  direction TB\n    2A --&gt; 2B --&gt; 2C --&gt; 2D --&gt; 2E --&gt; 2F --&gt; 2A\n  end\n  \n  subgraph review[\"04: Initiative Review\"]\n  direction TB\n    3A --&gt; 3B\n    3B --&gt; 3C\n    3C --&gt; 3D\n    3D --&gt; 3E\n    3E --&gt; 3F\n  end\n\n  pre_pd --&gt;|Items &lt;BR&gt; Created| pd_loop\n  pd_loop --&gt;|Sign Off From &lt;BR&gt; Customer| analysis_loop\n  analysis_loop --&gt;|Work &lt;BR&gt; Completed| review\n  \n  click 1B \"http://www.github.com\"\n\n\nFigure 1: High level process"
   },
   {
     "objectID": "index.html#guidance",
     "href": "index.html#guidance",
-    "title": "NHSBSA Official Statistics guidance",
+    "title": "NHSBSA DALL Playbook",
     "section": "Guidance",
     "text": "Guidance"
   },
