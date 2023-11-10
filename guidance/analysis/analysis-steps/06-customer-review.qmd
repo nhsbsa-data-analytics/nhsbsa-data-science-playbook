@@ -1,0 +1,28 @@
+---
+title: "Customer review"
+description: "Customer reviews and either agrees outputs match expectations or provides detailed feedback to guide the next iteration."
+---
+
+## Data preparation
+
+
+
+## Analysis and modelling
+
+
+
+## Reporting and visuals
+
+
+
+## Review and test
+
+
+
+## Critical friend review
+
+
+
+## Customer review
+
+

@@ -2,14 +2,13 @@
   {
     "listing": "/index.html",
     "items": [
-      "/guidance/planning/index.html",
-      "/guidance/pra/index.html",
-      "/guidance/production/index.html",
-      "/guidance/publish/index.html",
-      "/guidance/qa/index.html",
-      "/guidance/responsible-statisticians/index.html",
-      "/guidance/reviewing-content/index.html",
-      "/guidance/sign-off/index.html"
+      "/guidance/analysis/index.html",
+      "/guidance/analysis/analysis-steps/02-analysis-modelling.html",
+      "/guidance/analysis/analysis-steps/05-critical-friend-review.html",
+      "/guidance/analysis/analysis-steps/06-customer-review.html",
+      "/guidance/analysis/analysis-steps/01-data-prep.html",
+      "/guidance/analysis/analysis-steps/03-reporting-visuals.html",
+      "/guidance/analysis/analysis-steps/04-team-review-test.html"
     ]
   }
 ]

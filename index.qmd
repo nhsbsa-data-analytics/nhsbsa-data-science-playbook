@@ -14,6 +14,163 @@ Add Text Here
 
 Add Text Here
 
+```{dot fig-overall-flow, echo=FALSE}
+digraph G {
+  //bgcolor="#0000FF44:#FF000044";
+  gradientangle=90;
+	fontname="Helvetica,Arial,sans-serif";
+	rankdir="LR";
+	compound=true;
+	node [fontname="Helvetica,Arial,sans-serif" peripheries=0 penwidth=0];
+	edge [fontname="Helvetica,Arial,sans-serif"];
+
+  ZZ [shape=point style=invis group=dummy peripheries=0 height=0 width=0];
+  subgraph cluster_pre_pd {
+		style=filled;
+		color=lightgrey;
+		fillcolor="darkgray:gold";
+		gradientangle=0;
+		subgraph cluster_dummy_a {
+		  style=invis;
+      00 [shape=point style=invis group=dummy1];
+    }
+		node [fillcolor="yellow:green" style=filled gradientangle=270 label="Problem Identified"] a1;
+		node [fillcolor="lightgreen:red" label="Assign Critical Friend"] a2;
+		node [fillcolor="lightskyblue:darkcyan" label="Initial Research and Look at Previous Iterations"] a3;
+		node [fillcolor="cyan:lightslateblue" label="Initial Meeting with Customer"] a4;
+		node [fillcolor="skyblue:green" label="Get Access to Data"] a5;
+		node [fillcolor="lightgreen:lightslateblue" label="Create JIRA, SharePoint, Git and Others"] a6;
+		
+		label = "01: Project setup";
+	}
+	
+	subgraph cluster_pd_loop {
+		style=filled;
+		color=lightgrey;
+		fillcolor="darkgray:gold";
+		gradientangle=0
+		subgraph cluster_dummy_b {
+		  style=invis;
+      10 [shape=point style=invis group=dummy];
+    }
+    node [fillcolor="yellow:green" style=filled gradientangle=270 label="Write Problem Definition"] b1;
+		node [fillcolor="lightgreen:red" label="Data and Business Understanding"] b2;
+		node [fillcolor="lightskyblue:darkcyan" label="Further Research"] b3;
+		node [fillcolor="cyan:lightslateblue" label="Meet with Customer"] b4;
+
+		label = "02: Problem definition";
+	}
+	
+	subgraph cluster_analysis_loop {
+		style=filled;
+		color=lightgrey;
+		fillcolor="darkgray:gold";
+		gradientangle=0
+		subgraph cluster_dummy_c {
+		  style=invis;
+      20 [shape=point style=invis group=dummy];
+    }
+    node [fillcolor="yellow:green" style=filled gradientangle=270 label="Data Preparation"] c1;
+		node [fillcolor="lightgreen:red" label="Analysis/Modelling"] c2;
+		node [fillcolor="lightskyblue:darkcyan" label="Reporting and Visuals"] c3;
+		node [fillcolor="cyan:lightslateblue" label="Review and Test"] c4;
+		node [fillcolor="skyblue:green" label="Critical Friend to Review"] c5;
+		node [fillcolor="lightgreen:lightslateblue" label="Customer Review"] c6;
+
+    label = "03: Analysis and modelling";
+	}
+
+	subgraph cluster_review {
+		style=filled;
+		color=lightgrey;
+		fillcolor="darkgray:gold";
+		gradientangle=0
+		subgraph cluster_dummy_d {
+		  style=invis;
+      30 [shape=point style=invis group=dummy2];
+    }
+		node [fillcolor="yellow:green" style=filled gradientangle=270 label="Final Meeting with Customer"] d1;
+		node [fillcolor="lightgreen:red" label="Wrap Up and  Clean Code"] d2;
+		node [fillcolor="lightskyblue:darkcyan" label="Write Documentation"] d3;
+		node [fillcolor="cyan:lightslateblue" label="Add to Wiki"] d4;
+		node [fillcolor="skyblue:green" label="Make Repo Public If Applicable"] d5;
+		node [fillcolor="lightgreen:lightslateblue" label="Document Any Further Work That Can Be Done"] d6;
+
+    label = "04: Initiative review";
+	}
+	
+	a1 -> b1 [label="Items Created" ltail=cluster_pre_pd constraint=true];
+	b1 -> c1 [label="Sign Off From Customer" ltail=cluster_pd_loop];
+	c1 -> d1 [label="Work Completed" ltail=cluster_analysis_loop constraint=true];
+	
+	00 -> 10 [style=invis peripheries=0 height=0 width=0];
+	10 -> 20 [style=invis peripheries=0 height=0 width=0];
+	20 -> 30 [style=invis peripheries=0 height=0 width=0];
+	30 -> zz [style=invis peripheries=0 height=0 width=0];
+	
+	edge [constraint=false];
+  00 -> ZZ [style=invis peripheries=0 height=0 width=0];
+  10 -> ZZ [style=invis peripheries=0 height=0 width=0];
+  20 -> ZZ [style=invis peripheries=0 height=0 width=0];
+  30 -> ZZ [style=invis peripheries=0 height=0 width=0];
+  00 -> a1 [style=invis peripheries=0 height=0 width=0];
+  a1 -> a2 -> a3 -> a4 -> a5 -> a6;
+  10 -> b1 [style=invis peripheries=0 height=0 width=0];
+  b1 -> b2 -> b3 -> b4 -> b1;
+  20 -> c1 [style=invis peripheries=0 height=0 width=0];
+  c1 -> c2 -> c3 -> c4 -> c5 -> c6 -> c1;
+  30 -> d1 [style=invis peripheries=0 height=0 width=0];
+  d1 -> d2 -> d3 -> d4 -> d5 -> d6;
+}
+```
+
+```{dot fig-process, echo=FALSE}
+
+digraph {
+  graph[
+    label = "High level process\n\n"
+		labelloc = t
+		fontname = "Helvetica,Arial,sans-serif"
+		fontsize = 20
+		layout = dot
+		rankdir = LR
+		newrank = true
+	];
+	node [
+  		style = filled
+  		shape = rect
+  		pencolor = "#00000044" // frames color
+  		fontname = "Helvetica,Arial,sans-serif"
+  		shape = plaintext
+  ];
+  
+  pre_pd [
+    label = "01: Project setup";
+  ];
+  pd_loop [
+    label = "02: Problem definition";
+  ];
+  analysis_loop [
+    label = "03: Analysis and modelling";
+  ];
+  review [
+    label = "04: Initiative review";
+  ];
+
+  pre_pd -> pd_loop [ label = "Items created"; ];
+  pd_loop -> analysis_loop [ label = "Sign off from customer"; dir=down ];
+  analysis_loop -> review [ label = "Work completed" ];
+  {
+    rank=same;
+    pre_pd; review;
+  }
+  {
+    rank=same;
+    pd_loop; analysis_loop;
+  }
+}
+```
+
 ```{mermaid playbook-flowchart}
 %%| label: fig-process
 %%| fig-cap: High level process

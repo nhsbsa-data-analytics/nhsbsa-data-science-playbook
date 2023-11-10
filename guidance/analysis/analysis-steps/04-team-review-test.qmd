@@ -1,0 +1,33 @@
+---
+title: "Team review"
+description: "Analysis loop - prepare data, analyse it and review until outputs in problem definition are finalised."
+title-block-banner: true
+listing: 
+  type: grid
+  contents: analysis-steps
+  sort: "title"
+---
+
+## Data preparation
+
+
+
+## Analysis and modelling
+
+
+
+## Reporting and visuals
+
+
+
+## Team review
+
+
+
+## Critical friend review
+
+
+
+## Customer review
+
+

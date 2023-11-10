@@ -1,0 +1,28 @@
+---
+title: "Critical friend review"
+description: "Critical friend reviews in detail and provides feedback"
+---
+
+## Data preparation
+
+
+
+## Analysis and modelling
+
+
+
+## Reporting and visuals
+
+
+
+## Review and test
+
+
+
+## Critical friend review
+
+
+
+## Customer review
+
+

@@ -1,0 +1,28 @@
+---
+title: "Analysis and modelling"
+description: "Analyse data and create models to support the expected outputs"
+---
+
+## Data preparation
+
+
+
+## Analysis and modelling
+
+
+
+## Reporting and visuals
+
+
+
+## Review and test
+
+
+
+## Critical friend review
+
+
+
+## Customer review
+
+

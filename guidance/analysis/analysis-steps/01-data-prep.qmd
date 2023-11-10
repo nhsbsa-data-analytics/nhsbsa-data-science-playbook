@@ -1,0 +1,28 @@
+---
+title: "Data preparation"
+description: "Prepare data and create base table(s)"
+---
+
+## Data preparation
+
+
+
+## Analysis and modelling
+
+
+
+## Reporting and visuals
+
+
+
+## Review and test
+
+
+
+## Critical friend review
+
+
+
+## Customer review
+
+
