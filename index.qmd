@@ -1,6 +1,6 @@
 ---
 title: "NHSBSA DALL Playbook"
-description: "Detailed guidance on DALL process"
+description: "Detailed guidance on DALL initiatives workflow"
 title-block-banner: true
 listing: 
   type: grid

@@ -1,0 +1,81 @@
+---
+title: "Output artifacts"
+description: "Draft reports, slide decks, data sets, applications and any other agreed outputs"
+---
+
+The expected outputs of an initiative will have been agreed in the problem definition. These will range from written reports, summary slide decks, data sets and applications such as dashboards or interactive reports. Getting frequent feedback is important, as it helps to prevent drift from the problem definition and allows more people to spot problems as early as possible.
+
+## Supporting text
+
+A written report could be be done in Word or markdown (plain or Rmarkdown, depending on need to run and include code and code output). Using markdown the output could be rendered as either Word or PDF. Alternatively, the output may be in the form of an app, such as a Quarto site, Rmarkdown HTML output or Shiny dashboard. Some style guidelines applicable to all these outputs include
+
+- Key findings at the front as people won't read the whole thing
+- Include caveats and assumptions, and for particularly important ones mention them up front
+- Numbers under 10 are in words, over 10 in digits (but use common sense!)
+- Use bold tag lines for emphasis of important points
+- Sometimes difficult to do, but try to have a story
+- If appropriate, include recommendations and ideas for further exploration
+- Sentences shorter than 20 words
+- Write it so that a 12 year old would be able to understand it
+
+For a sense of cohesiveness, have one person be the editor. This does not mean they must write everything themselves from scratch. Often when working as a team individuals will be responsible for different parts of the whole piece. They should write up their own parts, which can then be re-written by the person taking the editor role. The whole team can then review and agree on a final version that speaks with one clear voice.
+
+A very useful tool for written output is [Hemingway Editor](https://hemingwayapp.com/). If you can get your text to mostly have no issues in this, you know it is readable.
+
+It is advised to leave writing any text supporting visuals such as charts or tables until the team is almost certain they are finalised.
+
+## Slide decks
+
+All initiatives should have a slide deck as an agreed output. At a minimum this should be detailed enough to state the problems or questions the initiative looked at, the approach used to address or answer these and a summary of the most important findings. Aim to have most of the content be visual, with limited amounts of explanatory text.
+
+NOTE: Tom and/or Ryan may have more to add to this as I missed the session covering slide deck creation.
+
+## Applications
+
+Shiny powered applications should use the template provided by the [`nhsbsaShinyR` repository](https://github.com/nhsbsa-data-analytics/nhsbsaShinyR). This repo is continually being refined, so will include code already tested (including accessibility testing). Using the same starting point also means our Shiny outputs will have a single easily recognisable look and feel.
+
+The other platform we use to deliver output as an application is Power BI. This platform is much newer, so best working practices are still being discovered. Similarly to the `nhsbsaShinyR` template for Shiny, there is a template for use in Power BI.
+
+NOTE: Thomas may have more to add to this as he is more familiar with Power BI.
+
+### RAP and development considerations
+
+Don't repeat yourself is a well known adage in software development. While we are not writing software, it still applies and is a core principle of RAP. Pull out repeated code into functions; this allows for good tests to be written, another core principle of RAP. Variables should not be spread throughout a script, but instead gathered together into a config file or single block at the top of a script.
+
+The `nhsbsaShinyR` template for Shiny is a good starting point for creating the app with RAP in mind. An excellent book on the subject of Shiny apps is [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/). Whilst not written specifically with RAP in mind, many of the principles and techniques are relevant. Following the advice and techniques in this book should produce a very professional and well-planned app. The authors are the team behind the `golem` framework, ThinkR, used in the `nhsbsaShinyR` template.
+
+For a more in-depth look at what can be done in Shiny, there is [Outstanding User Interfaces with Shiny](https://unleash-shiny.rinterface.com/). This is particularly helpful when trying to address an accessibility failing of some content.
+
+### Issue tracking
+
+It is recommended to use GitHub issues for tracking essential and potential changes or fixes. Issues allow easy creation of branches and pull requests, keeping the non-coding tasks all in one place.
+
+### Testing and code reviews
+
+When some set of changes or fixes is ready, make sure to run the whole app and go through any content related to the change. Add tests as you add functionality, you will thank yourself later! When code reviewing, always download and run the app. This catches issues related to something being present in someones environment, which is no longer there when someone else runs it.
+
+## Data set outputs
+
+Sometimes the customer requires a regularly updated data set to be provided as an output. Done with little thought, this can result in unnecessary overhead that continues indefinitely. It is recommended to productionise the process as much as it can be, in line with the principles of RAP.
+
+### Miro points (for reference, to be removed)
+
+Key findings at the front as people won't read the whole thing  
+Add in caveats and assumptions  
+Numbers under 10 are in words, over 10 in digits  
+Bold tag lines are appreciated  
+Always need to have a story  
+Recommendation section to what we could do next, when do they want us to do it?  
+Sentences shorter than 20 words!!!  
+Explain everything in laymen's terms, as if they don't know anything  
+Either just a presentation or speadsheet  
+Slides for it too to present (small as possible)  
+Send them it ahead of time to read  
+Either small presentation to stakeholders and mini handover  
+Do webinars to spread awareness  
+Conferences  
+Summary slides  
+Put in text AFTER all the graphs are happy with, to avoid duplication  
+Self assigned projects, present to Nadine?  
+Wouldn't write it with Nadine in mind but would make suggestions  
+Better for one person to writeup the results or report, with others providing peer review. One voice comes across better than multiple writing styles.  
