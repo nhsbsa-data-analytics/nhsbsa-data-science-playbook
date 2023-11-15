@@ -58,7 +58,7 @@ When some set of changes or fixes is ready, make sure to run the whole app and g
 
 Sometimes the customer requires a regularly updated data set to be provided as an output. Done with little thought, this can result in unnecessary overhead that continues indefinitely. It is recommended to productionise the process as much as it can be, in line with the principles of RAP.
 
-### Miro points (for reference, to be removed)
+## Miro points (for reference, to be removed)
 
 Key findings at the front as people won't read the whole thing  
 Add in caveats and assumptions  

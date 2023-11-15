@@ -2,24 +2,18 @@
   {
     "listing": "/index.html",
     "items": [
-      "/guidance/analysis/index.html",
-      "/guidance/analysis/analysis-steps/02-analysis-modelling.html",
-      "/guidance/analysis/analysis-steps/05-critical-friend-review.html",
-      "/guidance/analysis/analysis-steps/06-customer-review.html",
-      "/guidance/analysis/analysis-steps/01-data-prep.html",
-      "/guidance/analysis/analysis-steps/03-output_artifacts.html",
-      "/guidance/analysis/analysis-steps/04-team-review-test.html"
+      "/guidance/analysis/index.html"
     ]
   },
   {
     "listing": "/guidance/analysis/index.html",
     "items": [
-      "/guidance/analysis/analysis-steps/02-analysis-modelling.html",
-      "/guidance/analysis/analysis-steps/05-critical-friend-review.html",
-      "/guidance/analysis/analysis-steps/06-customer-review.html",
       "/guidance/analysis/analysis-steps/01-data-prep.html",
+      "/guidance/analysis/analysis-steps/02-analysis-modelling.html",
       "/guidance/analysis/analysis-steps/03-output_artifacts.html",
-      "/guidance/analysis/analysis-steps/04-team-review-test.html"
+      "/guidance/analysis/analysis-steps/04-team-review-test.html",
+      "/guidance/analysis/analysis-steps/05-critical-friend-review.html",
+      "/guidance/analysis/analysis-steps/06-customer-review.html"
     ]
   }
 ]

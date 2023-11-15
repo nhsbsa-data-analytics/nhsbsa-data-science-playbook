@@ -21,7 +21,7 @@ Some thought should be given to how to validate the results of the analysis. Som
 
 If the data is something that you would expect personal details to appear in, you can also confirm you see what you would expect for yourself.
 
-### Miro points (for reference, to be removed)
+## Miro points (for reference, to be removed)
 
 Keep detailed notes as you progress - Excel, Rmd, PowerPoint. This will speed up creating your outputs  
 Good tip: Search for yourself as you know it's correct  

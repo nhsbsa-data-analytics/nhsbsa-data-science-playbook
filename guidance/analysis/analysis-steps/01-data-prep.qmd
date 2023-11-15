@@ -1,6 +1,8 @@
 ---
 title: "Data preparation"
 description: "Prepare data and create base table(s)"
+image: data-prep.jpg
+image-alt: Photo by Emily Morter on Unsplash
 ---
 
 ## Data quality

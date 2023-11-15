@@ -2,11 +2,49 @@
 title: "Analysis"
 description: "Analysis loop - prepare data, analyse it and review until outputs in problem definition are finalised."
 title-block-banner: true
+image: analysis.jpg
+image-alt: Photo by Emily Morter on Unsplash
 listing: 
   type: grid
   contents: analysis-steps
-  sort: "title"
+  sort: "filename"
 ---
+
+![](analysis.jpg){fig-alt="Photo by Emily Morter on Unsplash"}
+
+```{dot fig-overall-flow, echo=FALSE}
+digraph G {
+  //bgcolor="#0000FF44:#FF000044";
+  gradientangle=90;
+	fontname="Helvetica,Arial,sans-serif";
+	rankdir="LR";
+	compound=true;
+	node [fontname="Helvetica,Arial,sans-serif" peripheries=0 penwidth=0];
+	edge [fontname="Helvetica,Arial,sans-serif"];
+
+  subgraph cluster_analysis_loop {
+		style=filled;
+		color=lightgrey;
+		fillcolor="darkgray:gold";
+		gradientangle=0
+		subgraph cluster_dummy_c {
+		  style=invis;
+      20 [shape=point style=invis group=dummy];
+    }
+    node [fillcolor="yellow:green" style=filled gradientangle=270 label="Data preparation"] c1;
+		node [fillcolor="lightgreen:red" label="Analysis and modelling"] c2;
+		node [fillcolor="lightskyblue:darkcyan" label="Output artifacts"] c3;
+		node [fillcolor="cyan:lightslateblue" label="Team review"] c4;
+		node [fillcolor="skyblue:green" label="Critical friend review"] c5;
+		node [fillcolor="lightgreen:lightslateblue" label="Customer review"] c6;
+
+    label = "03: Analysis and modelling";
+	}
+
+  edge [constraint=false];
+  c1 -> c2 -> c3 -> c4 -> c5 -> c6 -> c1;
+}
+```
 
 ## Data preparation
 
@@ -22,32 +60,11 @@ The expected outputs of an initiative will have been agreed in the problem defin
 
 ## Team review
 
-Frequent reviews of the work give a chance to pick up on any issues before asking third parties to look at it. An important component of this is code review. With the mindset that the code may become public, put yourself in the shoes of someone coming across the code and wanting to both understand it and then reuse it. This means keeping in mind the principles of [Reproducible Analytical Pipelines (RAP)](RAP_playbook?), which benefits others coming across the code in future, but also the team themselves while continuing to work on it.
-
-Test driven development: Write the tests before the code?  
-If scope changes account for additional time later in the projects  
-Ideally do accessibility testing upfront or as you go so you don't have to change loads of stuff  
+Frequent reviews of the work give a chance to pick up on any issues before asking third parties to look at it. An important component of this is code review. With the mindset that the code may become public, put yourself in the shoes of someone coming across the code and wanting to both understand it and then reuse it. This means keeping in mind the principles of [Reproducible Analytical Pipelines (RAP)](RAP_playbook), which benefits others coming across the code in future, but also the team themselves while continuing to work on it.
 
 ## Critical friend review
 
-The critical friend is an integral part of the team. They serve as someone to bounce ideas off, offer advice and act as a another pair of eyes and ears that may pick up up on something unnoticed by the rest of the team. So keep them in the loop as much as possible by asking them to review things before taking anything to the customer of the initiative.
-
-Ideally create an issue and PR combination and have them reviewed as you go by the critical friend, rather than a massive check at the end  
-Can be an element of waiting around while waiting for review  
-Can be make a branch on another branch to continue while waiting  
-Get them involved as early as possible  
-Keep them in the loop throughout, rather than right at the end  
-They should refer to the PD and make sure everything is correct and on track  
-Potentially they should just be on the output and make sure it looks good, any ideas?  
-Don't accept suggestions just to be "nice". Similarly, be confident in making suggestions and don't worry about offending people! This is part of the value a critical friend should bring to a project.  
-If reviewing code make sure to give the critical friend small but frequent  bits of code to review  
-Find a critical friend, who has done the coding before or content or both  
-Bring the critical friend along for a "second set of ears"  
-Hard to find critical friend, conscious everyone is busy  
-Table or JIRA to see what everyone is working on, if they're already a critical friend?  
-Involve your critical friends from the beginning - they may notice things you missed  
-Give your critical friend notice that stuff to review will be coming their way  
-Don't be afraid to voice your opinion/challenge more senior members of the team  
+The critical friend is an integral part of the team. They serve as someone to bounce ideas off, offer advice and act as another pair of eyes and ears that may pick up up on something unnoticed by the rest of the team. So keep them in the loop as much as possible by asking them to review things before taking anything to the customer of the initiative.
 
 ## Customer review
 
