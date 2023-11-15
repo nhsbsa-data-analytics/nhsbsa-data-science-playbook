@@ -1,6 +1,6 @@
 ## Write the Problem Definition:
 
-The Problem Definition is like a contract between the assignees and the customer(s). It defines a set of goals that everyone agrees on before starting the work. This should be saved in the SharePoint folder you setup in the previous section. As part of writing the PD, you will need to include:
+The Problem Definition is like a contract between the assignees and the customer(s). It defines a set of goals that everyone agrees on **before** starting the work. This should be saved in the SharePoint folder you setup in the previous section. As part of writing the PD, you will need to include:
 
 * some background information about the area,
 * what it is that needs to be solved,
@@ -9,7 +9,7 @@ The Problem Definition is like a contract between the assignees and the customer
 * what tools and data we will use and
 * any data governance considerations if they are applicable.
 
-For sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team before you start the work. During this process, you will need to tell them what sensitive data you are using and how you intend to use it. Your critical friend and DALL team manager can assist with this process. For more information, please see the following page within the wiki [INSERT LINK].
+For sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team **before** you start the work. During this process, you will need to tell them what sensitive data you are using and how you intend to use it. Your critical friend and DALL team manager can assist with this process. For more information, please see the following page within the wiki [INSERT LINK].
 
 For tips on writing the content of the PD, please see the DALL OneNote Wiki [INSERT LINK]. To make sure customers understand our plan, it's best to include a lot of details in the PD. If any further caveats are discovered during the work, it is important to add these to the PD and make the customer aware. If you need to do more work after starting the initiative, update the plan and tell the customer about the extra time needed. If you are unsure about any terms agreed within the PD, you can reach out to your critical friend or the DALL team manager for advice.
 
@@ -49,4 +49,4 @@ After finishing your draft of the Problem Definition (PD), meet with the custome
 
 As an outcome of meeting, there may be additional things to explore or add to the PD before the customer can sign off. Therefore, it is important to repeat section 2 again until the customer is happy to proceed.
 
-In rare cases, this meeting may highlight that the initiative may not be possible in the way that the customer initially intended. Unless any suitable alternatives are identified, we may need to give up on the project. In this case, you must discuss your concerns with the DALL team manager before communicating this with the customer.
+In rare cases, this meeting may highlight that the initiative may not be possible in the way that the customer initially intended. Unless any suitable alternatives are identified, we may need to give up on the project. In this case, you **must** discuss your concerns with the DALL team manager before communicating this with the customer.
