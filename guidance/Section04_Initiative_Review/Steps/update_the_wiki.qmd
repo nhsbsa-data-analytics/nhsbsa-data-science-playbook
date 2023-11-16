@@ -1,0 +1,6 @@
+---
+title: "Update the Wiki"
+description: "Take the oppourtunity to share any knowledge with the wider team."
+---
+  
+Throughout the initiative you will have interrogated some data and maybe learnt some new skills in the process. If there is anything you found particularly useful or that could be beneficial for others within the team then add it to the DALL Wiki. Within the team we are promoting knowledge sharing. The DALL Wiki has been set up for all team members to update. The wiki should be the first place you look when you have questions on a particular dataset or piece of software. If you are struggling with something there is a chance that someone else has too and recorded this.

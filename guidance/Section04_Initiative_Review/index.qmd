@@ -1,0 +1,28 @@
+---
+title: "Initiative Review"
+description: "Final steps taken to complete a DALL project"
+title-block-banner: true
+listing: 
+  type: grid
+  contents: 
+  - "/Steps/final_meeting_with_customer.qmd"
+  
+  - "/Steps/wrap_up_and_clean_up.qmd"
+  
+  - "/Steps/write_documentation.qmd"
+  
+  - "/Steps/update_the_wiki.qmd"
+    
+  - "/Steps/make_repo_public.qmd"
+  
+  - "/Steps/document_future_work.qmd"
+    
+  sort: false
+---
+
+Add Text Here
+
+## High level process
+
+
+## Guidance

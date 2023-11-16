@@ -1,0 +1,9 @@
+---
+title: "Make repository public"
+description: "General tips to tidying your GitHub repository for public release."
+---
+  
+Now that the project has ended you may have explored or wanted to explore areas that were beyond the scope of the initiative. Be sure to add these ideas to the DALL ideas register located on the SharePoint. If there is not enough for a full initiative the ideas can always be undertaken as a three week exploratory project. 
+
+
+
