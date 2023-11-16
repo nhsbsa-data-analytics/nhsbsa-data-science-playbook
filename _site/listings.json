@@ -2,14 +2,24 @@
   {
     "listing": "/index.html",
     "items": [
-      "/guidance/planning/index.html",
-      "/guidance/pra/index.html",
-      "/guidance/production/index.html",
-      "/guidance/publish/index.html",
-      "/guidance/qa/index.html",
-      "/guidance/responsible-statisticians/index.html",
-      "/guidance/reviewing-content/index.html",
-      "/guidance/sign-off/index.html"
+      "/guidance/Section04_Initiative_Review/index.html"
+    ]
+  },
+  {
+    "listing": "/guidance/Section04_Initiative_Review/index.html",
+    "items": [
+      "/guidance/Section04_Initiative_Review/Steps/final_meeting_with_customer.html",
+      "/guidance/Section04_Initiative_Review/Steps/wrap_up_and_clean_up.html",
+      "/guidance/Section04_Initiative_Review/Steps/write_documentation.html",
+      "/guidance/Section04_Initiative_Review/Steps/update_the_wiki.html",
+      "/guidance/Section04_Initiative_Review/Steps/make_repo_public.html",
+      "/guidance/Section04_Initiative_Review/Steps/document_future_work.html"
+    ]
+  },
+  {
+    "listing": "/index_v2.html",
+    "items": [
+      "/guidance/Section04_Initiative_Review/index.html"
     ]
   }
 ]

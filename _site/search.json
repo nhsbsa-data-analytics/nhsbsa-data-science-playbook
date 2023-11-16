@@ -53,7 +53,7 @@
     "href": "index.html#high-level-process",
     "title": "NHSBSA DALL Playbook",
     "section": "High level process",
-    "text": "High level process\nAdd Text Here\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'neutral',\n    'themeVariables': {\n      'primaryColor': '#BB2528',\n      'primaryTextColor': '#fff',\n      'primaryBorderColor': '#7C0000',\n      'lineColor': '#F8B229',\n      'secondaryColor': '#006100',\n      'tertiaryColor': '#fff',\n      'fontSize': '16px'\n    }\n  }\n}%%\n\nflowchart LR\n  1A[\"Problem Identified\"] \n  1B[\"Assign Critical Friend\"]\n  1C[\"Initial Research and Look at Previous Iterations\"]\n  1D[\"Initial Meeting with Customer\"]\n  1E[\"Get Access to Data\"]\n  1F[\"Create JIRA, SharePoint, Git and Others\"]\n    \n  1G[\"Write Problem \n    Definition\"] \n  1H[\"Data and \n    Business \n    Understanding\"] \n  1I[\"Further \n    Research\"] \n  1J[\"Meet with \n    Customer\"]\n  \n  2A[\"Data Preparation\"]\n  2B[\"Analysis/Modelling\"] \n  2C[\"Reporting and Visuals\"] \n  2D[\"Review and Test\"] \n  2E[\"Critical Friend to Review\"] \n  2F[\"Customer Review\"]\n  \n  3A[\"Final Meeting with Customer\"]\n  3B[\"Wrap Up and  Clean Code\"]\n  3C[\"Write Documentation\"]\n  3D[\"Add to Wiki\"]\n  3E[\"Make Repo Public If Applicable\"]\n  3F[\"Document Any Further Work That Can Be Done\"]\n\n  subgraph pre_pd[\"01: Project Setup\"]\n  direction TB\n    1A --&gt; 1B\n    1B --&gt; 1C\n    1C --&gt; 1D\n    1D --&gt; 1E\n    1E --&gt; 1F\n  end\n  \n  subgraph pd_loop[\"02: Problem Definition\"]\n  direction TB\n    1G --&gt; 1H --&gt; 1I --&gt; 1J --&gt; 1G\n  end\n  \n  subgraph analysis_loop[\"03: Analysis/Modelling\"]\n  direction TB\n    2A --&gt; 2B --&gt; 2C --&gt; 2D --&gt; 2E --&gt; 2F --&gt; 2A\n  end\n  \n  subgraph review[\"04: Initiative Review\"]\n  direction TB\n    3A --&gt; 3B\n    3B --&gt; 3C\n    3C --&gt; 3D\n    3D --&gt; 3E\n    3E --&gt; 3F\n  end\n\n  pre_pd --&gt;|Items &lt;BR&gt; Created| pd_loop\n  pd_loop --&gt;|Sign Off From &lt;BR&gt; Customer| analysis_loop\n  analysis_loop --&gt;|Work &lt;BR&gt; Completed| review\n  \n  click 1B \"http://www.github.com\"\n\n\nFigure 1: High level process"
+    "text": "High level process"
   },
   {
     "objectID": "index.html#guidance",
@@ -215,5 +215,159 @@
     "title": "Reviewing content",
     "section": "checklist",
     "text": "checklist\n\ndo you know what analyses are in the statistics and their data source?\nare all data sources still available?\nwhat policy developments have their been?\nhave there been any FOI/data/PQ requests that show there is a gap in the statistics?\nare new services/areas for analysis available? Have any services stopped?\nhave users provided any feedback that can be acted upon?\nhave there been any data quality incidents that would impact the statistics?\nwhat areas did we identify for improvement from the previous release’s debrief?\nhave you documented the review process and formulated an improvement plan for the release"
+  },
+  {
+    "objectID": "diagrams/option1.html",
+    "href": "diagrams/option1.html",
+    "title": "test2",
+    "section": "",
+    "text": "Issues:\n\nGraph is too small\nFigure out how to link to tabs with information\nConfigure NHSBSA Theme for diagram?\n\nNotes:\n\nChange theme to base to edit format and colours below\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'neutral',\n    'themeVariables': {\n      'primaryColor': '#BB2528',\n      'primaryTextColor': '#fff',\n      'primaryBorderColor': '#7C0000',\n      'lineColor': '#F8B229',\n      'secondaryColor': '#006100',\n      'tertiaryColor': '#fff',\n      'fontSize': '16px'\n    }\n  }\n}%%\n\nflowchart LR\n  1A[\"Problem Identified\"] \n  1B[\"Assign Critical Friend\"]\n  1C[\"Initial Research and Look at Previous Iterations\"]\n  1D[\"Initial Meeting with Customer\"]\n  1E[\"Get Access to Data\"]\n  1F[\"Create JIRA, SharePoint, Git and Others\"]\n    \n  1G[\"Write Problem \n    Definition\"] \n  1H[\"Data and \n    Business \n    Understanding\"] \n  1I[\"Further \n    Research\"] \n  1J[\"Meet with \n    Customer\"]\n  \n  2A[\"Data Preparation\"]\n  2B[\"Analysis/Modelling\"] \n  2C[\"Reporting and Visuals\"] \n  2D[\"Review and Test\"] \n  2E[\"Critical Friend to Review\"] \n  2F[\"Customer Review\"]\n  \n  3A[\"Final Meeting with Customer\"]\n  3B[\"Wrap Up and  Clean Code\"]\n  3C[\"Write Documentation\"]\n  3D[\"Add to Wiki\"]\n  3E[\"Make Repo Public If Applicable\"]\n  3F[\"Document Any Further Work That Can Be Done\"]\n\n  subgraph pre_pd[\"01: Project Setup\"]\n  direction TB\n    1A --&gt; 1B\n    1B --&gt; 1C\n    1C --&gt; 1D\n    1D --&gt; 1E\n    1E --&gt; 1F\n  end\n  \n  subgraph pd_loop[\"02: Problem Definition\"]\n  direction TB\n    1G --&gt; 1H --&gt; 1I --&gt; 1J --&gt; 1G\n  end\n  \n  subgraph analysis_loop[\"03: Analysis/Modelling\"]\n  direction TB\n    2A --&gt; 2B --&gt; 2C --&gt; 2D --&gt; 2E --&gt; 2F --&gt; 2A\n  end\n  \n  subgraph review[\"04: Initiative Review\"]\n  direction TB\n    3A --&gt; 3B\n    3B --&gt; 3C\n    3C --&gt; 3D\n    3D --&gt; 3E\n    3E --&gt; 3F\n  end\n\n  pre_pd --&gt;|Items &lt;BR&gt; Created| pd_loop\n  pd_loop --&gt;|Sign Off From &lt;BR&gt; Customer| analysis_loop\n  analysis_loop --&gt;|Work &lt;BR&gt; Completed| review\n  \n  click 1B \"http://www.github.com\"\n\n\n\n\n\nclassDef padding stroke:none,fill:none\nclassDef title font-size:26px classDef pad padding-left:5em;\nclass review title class review pad"
+  },
+  {
+    "objectID": "diagrams/option2.html",
+    "href": "diagrams/option2.html",
+    "title": "test2",
+    "section": "",
+    "text": "Issues:\n\nGraph is too small\nFigure out how to link to tabs with information\nConfigure NHSBSA Theme for diagram?\n\nNotes:\n\nChange theme to base to edit format and colours below\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'neutral',\n    'themeVariables': {\n      'primaryColor': '#BB2528',\n      'primaryTextColor': '#fff',\n      'primaryBorderColor': '#7C0000',\n      'lineColor': '#F8B229',\n      'secondaryColor': '#006100',\n      'tertiaryColor': '#fff',\n      'fontSize': '16px'\n    }\n  }\n}%%\n\nflowchart TB\n  1A[\"Problem Identified\"] \n  1B[\"Assign Critical Friend\"]\n  1C[\"Initial Research and Look at Previous Iterations\"]\n  1D[\"Initial Meeting with Customer\"]\n  1E[\"Get Access to Data\"]\n  1F[\"Create JIRA, SharePoint, Git and Others\"]\n    \n  1G[\"Write Problem \n    Definition\"] \n  1H[\"Data and \n    Business \n    Understanding\"] \n  1I[\"Further \n    Research\"] \n  1J[\"Meet with \n    Customer\"]\n  \n  2A[\"Data Preparation\"]\n  2B[\"Analysis/Modelling\"] \n  2C[\"Reporting and Visuals\"] \n  2D[\"Review and Test\"] \n  2E[\"Critical Friend to Review\"] \n  2F[\"Customer Review\"]\n  \n  3A[\"Final Meeting with Customer\"]\n  3B[\"Wrap Up and  Clean Code\"]\n  3C[\"Write Documentation\"]\n  3D[\"Add to Wiki\"]\n  3E[\"Make Repo Public If Applicable\"]\n  3F[\"Document Any Further Work That Can Be Done\"]\n  \n  subgraph first_two[\" \"]\n  direction LR\n\n    subgraph pre_pd[\"01: Project Setup\"]\n    direction TB\n      1A --&gt; 1B\n      1B --&gt; 1C\n      1C --&gt; 1D\n      1D --&gt; 1E\n      1E --&gt; 1F\n    end\n  \n    subgraph pd_loop[\"02: Problem Definition\"]\n    direction TB\n      1G --&gt; 1H --&gt; 1I --&gt; 1J --&gt; 1G\n    end\n    \n  end\n  \n  subgraph second_two[\" \"]\n  direction LR\n  \n    subgraph analysis_loop[\"03: Analysis/Modelling\"]\n    direction TB\n      2A --&gt; 2B --&gt; 2C --&gt; 2D --&gt; 2E --&gt; 2F --&gt; 2A\n    end\n  \n    subgraph review[\"04: Initiative Review\"]\n    direction TB\n      3A --&gt; 3B\n      3B --&gt; 3C\n      3C --&gt; 3D\n      3D --&gt; 3E\n      3E --&gt; 3F\n    end\n  \n  end\n\n   pre_pd --&gt;|Items &lt;BR&gt; Created| pd_loop\n  analysis_loop --&gt;|Work &lt;BR&gt; Completed| review\n  first_two--&gt;|Sign Off From Customer| second_two\n\n  \n  classDef padding stroke:none,fill:none\n  \n  class first_two padding\n  class second_two padding\n  \n  click 1B \"http://www.github.com\"\n\n\n\n\n\npre_pd –&gt;|Items  Created| pd_loop pd_loop –&gt;|Sign Off From  Customer| analysis_loop analysis_loop –&gt;|Work  Completed| review\nclassDef padding stroke:none,fill:none\nclassDef title font-size:26px classDef pad padding-left:5em;\nclass review title class review pad"
+  },
+  {
+    "objectID": "diagrams/option3.html",
+    "href": "diagrams/option3.html",
+    "title": "test2",
+    "section": "",
+    "text": "Issues:\n\nGraph is too small\nFigure out how to link to tabs with information\nConfigure NHSBSA Theme for diagram?\n\nNotes:\n\nChange theme to base to edit format and colours below\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'neutral',\n    'themeVariables': {\n      'primaryColor': '#BB2528',\n      'primaryTextColor': '#fff',\n      'primaryBorderColor': '#7C0000',\n      'lineColor': '#F8B229',\n      'secondaryColor': '#006100',\n      'tertiaryColor': '#fff',\n      'fontSize': '16px'\n    }\n  }\n}%%\n\nflowchart LR\n  1A[\"Problem Identified\"] \n  1B[\"Assign Critical Friend\"]\n  1C[\"Initial Research and Look at Previous Iterations\"]\n  1D[\"Initial Meeting with Customer\"]\n  1E[\"Get Access to Data\"]\n  1F[\"Create JIRA, SharePoint, Git and Others\"]\n    \n  1G[\"Write Problem \n    Definition\"] \n  1H[\"Data and \n    Business \n    Understanding\"] \n  1I[\"Further \n    Research\"] \n  1J[\"Meet with \n    Customer\"]\n  \n  2A[\"Data Preparation\"]\n  2B[\"Analysis/Modelling\"] \n  2C[\"Reporting and Visuals\"] \n  2D[\"Review and Test\"] \n  2E[\"Critical Friend to Review\"] \n  2F[\"Customer Review\"]\n  \n  3A[\"Final Meeting with Customer\"]\n  3B[\"Wrap Up and  Clean Code\"]\n  3C[\"Write Documentation\"]\n  3D[\"Add to Wiki\"]\n  3E[\"Make Repo Public If Applicable\"]\n  3F[\"Document Any Further Work That Can Be Done\"]\n  \n  subgraph first_two[\" \"]\n  direction TB\n\n    subgraph pre_pd[\"01: Project Setup\"]\n    direction TB\n      1A --&gt; 1B\n      1B --&gt; 1C\n      1C --&gt; 1D\n      1D --&gt; 1E\n      1E --&gt; 1F\n    end\n  \n    subgraph pd_loop[\"02: Problem Definition\"]\n    direction TB\n      1G --&gt; 1H --&gt; 1I --&gt; 1J --&gt; 1G\n    end\n    \n  end\n  \n  subgraph second_two[\" \"]\n  direction TB\n  \n    subgraph analysis_loop[\"03: Analysis/Modelling\"]\n    direction TB\n      2A --&gt; 2B --&gt; 2C --&gt; 2D --&gt; 2E --&gt; 2F --&gt; 2A\n    end\n  \n    subgraph review[\"04: Initiative Review\"]\n    direction TB\n      3A --&gt; 3B\n      3B --&gt; 3C\n      3C --&gt; 3D\n      3D --&gt; 3E\n      3E --&gt; 3F\n    end\n  \n  end\n\n  pre_pd --&gt;|Items &lt;BR&gt; Created| pd_loop\n  analysis_loop --&gt;|Work &lt;BR&gt; Completed| review\n  first_two --- second_two\n  \n  linkStyle 22 stroke:white\n\n  \n  classDef padding stroke:none,fill:none\n  \n  class first_two padding\n  class second_two padding\n  \n  click 1B \"http://www.github.com\"\n\n\n\n\n\npre_pd –&gt;|Items  Created| pd_loop pd_loop –&gt;|Sign Off From  Customer| analysis_loop analysis_loop –&gt;|Work  Completed| review\nclassDef padding stroke:none,fill:none\nclassDef title font-size:26px classDef pad padding-left:5em;\nclass review title class review pad"
+  },
+  {
+    "objectID": "guidance/Section04_Initiative_Review/Final_meeting_with_customer/index.html",
+    "href": "guidance/Section04_Initiative_Review/Final_meeting_with_customer/index.html",
+    "title": "Final Meeting with the Customer",
+    "section": "",
+    "text": "Once the final output of the project has been created and agreed upon it is a good idea to have one final meeting with the customer. This final meeting can be useful to make sure that all the objectives outlined in the problem definition have been met and that the customer is happy with the output.\nAt this point the customer should know exactly what has been done but it could also be useful to prepare a presentation. This presentation can then be shown to members of the customers team for additional input.\nThe meeting should end with an agreement in place that the customer is happy with the output and that the project can be wrapped up."
+  },
+  {
+    "objectID": "guidance/Section04_Initiative_Review/Wrap_up_and_clean_up/index.html",
+    "href": "guidance/Section04_Initiative_Review/Wrap_up_and_clean_up/index.html",
+    "title": "Wrap up and clean up",
+    "section": "",
+    "text": "Cleaning your project is an equally important step as the modelling and analysis. Leaving a messy project folder and code can lead to difficulties later down the line. It is important that you dedicate sufficient time to completing this step and remember to treat it as a serious and worthwhile endeavour.\nRemember when using git to work with the mindset that everything committed will be made public. Small and precise commits will make the project clean up easier to complete.\nEven if the code base will not be made public, take the time to clean it up and make sure all branches are committed to main or deleted. Streamlining the codebase is key. Be sure to archive old scripts that are no longer required and to clean up and document the code that is key for the project. If you create a shiny dashboard as an output then your code should already be structured well. If it isn’t consider separating data, scripts and output to separate sub-directories. Ask a member of the DALL team for an example template to follow or look up recent projects on the DALL GitHub page for ideas. If you intend to re-run the code in the future, consider creating a config or preamble script that contains all of the key parameters. For example, if filtering by a date range you can define this range in the config file and reference it throughout the project. This will speed up future work as only a single value needs to be edited for the change to be implemented.\nIf you have key base tables created within DALP make sure these are made available to the wider team so they are not lost. Often the key tables are moved to the DALL_REF schema. At the end of the project make sure to remove any tables. This includes permanent and temporary tables. Once a project concludes you shouldn’t have access to the data anymore."
+  },
+  {
+    "objectID": "guidance/Section04_Initiative_Review/Write_documentation/index.html",
+    "href": "guidance/Section04_Initiative_Review/Write_documentation/index.html",
+    "title": "Write Documentation",
+    "section": "",
+    "text": "Documenting code is another crucial step that should not be ignored. Without good documentation it is difficult for future projects to leverage our work. Make sure that all the custom functions are described in detail. Consider replicating a similar structure to an R package with each parameter explained, and examples of how to run the function.\nIf you have a Github repository remember to update the README file. It should contain a summary of the project along with a breakdown of its structure. This will make it easier for future users to use your code and understand your project.\nRemember to document anything that you tried that did not work. This is good practice so that future work can avoid running into similar issues. The documentation can be included on the SharePoint but one of the best places would be the DALL One Note Wiki."
+  },
+  {
+    "objectID": "guidance/Section04_Initiative_Review/Update_the_Wiki/index.html",
+    "href": "guidance/Section04_Initiative_Review/Update_the_Wiki/index.html",
+    "title": "Update the Wiki",
+    "section": "",
+    "text": "Throughout the initiative you will have interrogated some data and maybe learnt some new skills in the process. If there is anything you found particularly useful or that could be beneficial for others within the team then add it to the DALL Wiki. The wiki should be the first place you look when you have questions on a particular dataset or piece of software. If you are struggling with something there is a chance that someone else has too and recorded this."
+  },
+  {
+    "objectID": "guidance/Section04_Initiative_Review/index.html",
+    "href": "guidance/Section04_Initiative_Review/index.html",
+    "title": "Initiative Review",
+    "section": "",
+    "text": "Add Text Here"
+  },
+  {
+    "objectID": "guidance/Section04_Initiative_Review/index.html#high-level-process",
+    "href": "guidance/Section04_Initiative_Review/index.html#high-level-process",
+    "title": "Initiative Review",
+    "section": "High level process",
+    "text": "High level process"
+  },
+  {
+    "objectID": "guidance/Section04_Initiative_Review/index.html#guidance",
+    "href": "guidance/Section04_Initiative_Review/index.html#guidance",
+    "title": "Initiative Review",
+    "section": "Guidance",
+    "text": "Guidance"
+  },
+  {
+    "objectID": "index.html#section3",
+    "href": "index.html#section3",
+    "title": "NHSBSA DALL Playbook",
+    "section": "Section3",
+    "text": "Section3\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#section4",
+    "href": "index.html#section4",
+    "title": "NHSBSA DALL Playbook",
+    "section": "Section4",
+    "text": "Section4\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index_v2.html",
+    "href": "index_v2.html",
+    "title": "NHSBSA DALL Playbook",
+    "section": "",
+    "text": "Add Text Here"
+  },
+  {
+    "objectID": "index_v2.html#high-level-process",
+    "href": "index_v2.html#high-level-process",
+    "title": "NHSBSA DALL Playbook",
+    "section": "High level process",
+    "text": "High level process"
+  },
+  {
+    "objectID": "index_v2.html#section3",
+    "href": "index_v2.html#section3",
+    "title": "NHSBSA DALL Playbook",
+    "section": "Section3",
+    "text": "Section3"
+  },
+  {
+    "objectID": "guidance/Section04_Initiative_Review/Steps/final_meeting_with_customer.html",
+    "href": "guidance/Section04_Initiative_Review/Steps/final_meeting_with_customer.html",
+    "title": "Final Meeting with the Customer",
+    "section": "",
+    "text": "Once the final output of the project has been created and agreed upon it is a good idea to have a final meeting with the customer. This final meeting can be useful to make sure that all the objectives have been met. The meeting can also be used to make sure that the customer is happy with the output.\nAt this point the customer should know exactly what has been done but it can be useful to prepare a presentation. You can then use the presentation to summarise what you have done for other colleagues.\nThe meeting should end with an agreement between the customer and the assigned DALL members. It is at this stage the customer should agree that the project can be wrapped up and that no more analysis is required."
+  },
+  {
+    "objectID": "guidance/Section04_Initiative_Review/Steps/update_the_wiki.html",
+    "href": "guidance/Section04_Initiative_Review/Steps/update_the_wiki.html",
+    "title": "Update the Wiki",
+    "section": "",
+    "text": "Throughout the initiative you will have interrogated some data and maybe learnt some new skills in the process. If there is anything you found particularly useful or that could be beneficial for others within the team then add it to the DALL Wiki. Within the team we are promoting knowledge sharing. The DALL Wiki has been set up for all team members to update. The wiki should be the first place you look when you have questions on a particular dataset or piece of software. If you are struggling with something there is a chance that someone else has too and recorded this."
+  },
+  {
+    "objectID": "guidance/Section04_Initiative_Review/Steps/wrap_up_and_clean_up.html",
+    "href": "guidance/Section04_Initiative_Review/Steps/wrap_up_and_clean_up.html",
+    "title": "Wrap up and clean up",
+    "section": "",
+    "text": "Cleaning your project is an equally important step as the modelling and analysis. Leaving a messy project folder and code can lead to difficulties later down the line. It is important that you dedicate enough time to completing this step. Also, remember to treat it as a serious and worthwhile endeavour as it can come in handy in the future."
+  },
+  {
+    "objectID": "guidance/Section04_Initiative_Review/Steps/wrap_up_and_clean_up.html#general-tips-for-cleaning-your-project",
+    "href": "guidance/Section04_Initiative_Review/Steps/wrap_up_and_clean_up.html#general-tips-for-cleaning-your-project",
+    "title": "Wrap up and clean up",
+    "section": "General tips for cleaning your project",
+    "text": "General tips for cleaning your project\nIf you are using Git remember to work with the mindset that everything committed could be made public. Small and precise commits will make the project clean up easier to complete.\nEven if the code base will not be made public, take the time to clean it up and make sure all development branches are committed to main or deleted. Streamlining the codebase is crucial. Be sure to archive old scripts that are no longer required. For the remaining scripts take the time to simplify and document the code. If you create a shiny dashboard as part of the project then your code should already be structured well. If it isn’t consider separating data, scripts and output into separate sub-directories. Remember to check the DALL GitHub page to look up other projects for inspiration.\nIf you have written custom functions it is a good idea to place these into a separate functions script which can then be called later in the project. Be sure to document the functions making it clear what the expected input structure should look like and what each of the parameters correspond to. It is also important to state what the output corresponds to. Including a simple example of how the function works can also be useful but is not mandatory.\nIf you intend to re-run the code in the future, consider creating a config or preamble script. The config script should contain all the key parameters and filters used in the project. For example, if you are filtering by a date range you can define this in the config file and reference it throughout the project. This will speed up future work as only a single value needs editing before the code needs re running.\nCleaning code can be a subjective process. Remember to ask your critical friend for advice if you aren’t sure. When writing code in R a lot of DALL users like to use tidyverse packages. These packages offer direct querying with the database whilst offering a degree of readability. We should always try and find a balance between performance and readability. Code should perform well and run quickly but also be understood by colleagues. It should be noted that you are not constrained to use tidyverse packages. But keeping in mind readability with well commented code will improve your project.\nIf you have key base tables created within DALP make sure these are made available to the wider team. That way if you are away on annual leave or unavailable they are not lost. Often the key tables are moved to the DALL_REF schema. At the end of the project make sure to remove any tables that you have created. This includes permanent and temporary tables. Once a project concludes you shouldn’t have access to the data anymore, especially if it has personal information included."
+  },
+  {
+    "objectID": "guidance/Section04_Initiative_Review/Steps/write_documentation.html",
+    "href": "guidance/Section04_Initiative_Review/Steps/write_documentation.html",
+    "title": "Write Documentation",
+    "section": "",
+    "text": "Documenting code is another crucial step that should not be ignored. Without good documentation it is difficult for future projects to leverage our work. Make sure that all the custom functions are described in detail. Consider replicating a similar structure to an R package with each parameter explained, and examples of how to run the function.\nIf you have a Github repository remember to update the README file. The README file should contain as a minimum the project name, and a quick overview of the project’s purpose. It can also be valuable to include a summary of the project structure, steps to reproduce your code locally and a description of the key technologies and methods used. A clean and informative README will make it more likely someone will use your code and will make it easier for future users to understand your project.\nRemember to document anything that you tried that did not work. This is good practice so that someone picking up your work in the future can avoid running into the same issues. The documentation can be included on the SharePoint but one of the best places would be the DALL One Note Wiki."
+  },
+  {
+    "objectID": "guidance/Section04_Initiative_Review/Steps/document_future_work.html",
+    "href": "guidance/Section04_Initiative_Review/Steps/document_future_work.html",
+    "title": "Make repository public",
+    "section": "",
+    "text": "Now that the project has ended you may have explored or wanted to explore areas that were beyond the scope of the initiative. Be sure to add these ideas to the DALL ideas register located on the SharePoint. If there is not enough for a full initiative the ideas can always be undertaken as a three week exploratory project."
+  },
+  {
+    "objectID": "guidance/Section04_Initiative_Review/Steps/make_repo_public.html",
+    "href": "guidance/Section04_Initiative_Review/Steps/make_repo_public.html",
+    "title": "Make repository public",
+    "section": "",
+    "text": "Not all Github repositories will be made public. But if you need to make it public then there are a few things you should consider:\n\nYour git commit history will be made public. Although commit messages can be changed it is advised that you adopt a good commit practice throughout. Try to limit each commit to a single change and not large chunks of code.\nMake sure that you never push data or PID to the GitHub repository. An easy example of something that could be overlooked is an NHS number. If you test a chunk of code by looking at a single individual it is easy for the NHS number to be forgotten about. It’s even easier to miss if the PID is part of some test code that has been commented out. Using something like Git Leaks is a useful tool to help capture some of these subtle examples and minimise the risk of uploading personal information to GitHub.\n\nMore information on creating a public Github repository can be found on the DALL Wiki (Coding & Dashboards &gt; GitHub &gt; DALL standard practice)."
   }
 ]
