@@ -28,7 +28,9 @@ It is advised to leave writing any text supporting visuals such as charts or tab
 
 All initiatives should have a slide deck as an agreed output. At a minimum this should be detailed enough to state the problems or questions the initiative looked at, the approach used to address or answer these and a summary of the most important findings. Aim to have most of the content be visual, with limited amounts of explanatory text.
 
-NOTE: Tom and/or Ryan may have more to add to this as I missed the session covering slide deck creation.
+When creating a slide deck it is important to consider the audience. Overcrowding the slides with technical detail would not be suitable for a non-technical audience.
+
+Often times it is difficult to condense a whole initiative into a single short presentation. If the circumstances allow it, e.g. a conference talk, focus on a single clear message. Split the talk into three key sections and messages that you want somebody to remember about your project. A good presentation style to get a clear message across is the [newsreader style](https://www.revolutionlearning.co.uk/article/newsreader-style-presentation-structure/).
 
 ## Applications
 
@@ -36,7 +38,7 @@ Shiny powered applications should use the template provided by the [`nhsbsaShiny
 
 The other platform we use to deliver output as an application is Power BI. This platform is much newer, so best working practices are still being discovered. Similarly to the `nhsbsaShinyR` template for Shiny, there is a template for use in Power BI.
 
-NOTE: Thomas may have more to add to this as he is more familiar with Power BI.
+There are communities of practice within the organisation for Data Visualisation and for Power BI. These are good places to start with any questions you have while creating applications, or other means of data visualisation.
 
 ### RAP and development considerations
 

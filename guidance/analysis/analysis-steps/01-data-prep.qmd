@@ -7,17 +7,20 @@ image-alt: Photo by Emily Morter on Unsplash
 
 ## Data quality
 
-The goal of this step is to end up with one or more base tables on which analysis is then conducted. The base tables should include any data relevant, or possibly relevant, to the initiative. Data preparation may be iterative, as the analysis becomes refined with frequent feedback from stakeholders.
+The goal of this step is to end up with one or more base tables on which analysis is then conducted. The base tables should include __only__ data relevant, or possibly relevant, to the initiative. Some tables can have hundreds of columns, so reducing the footprint in your base tables is a recommended. Data preparation may be iterative, as the analysis becomes refined with frequent feedback from stakeholders.
 
-The tables relevant to the initiative will have been identified in the process of writing the problem definition. Before using them it is important to get an idea of the data quality. This consists of summary statistics including 
+The tables relevant to the initiative will have been identified in the process of writing the problem definition. Before using them it is important to get an idea of the data quality. This consists of summary statistics including at least 
 
 - Data type
 - Most common values for categorical fields, or minima/maxima and median for numeric
 - Completeness
+- Cross-correlation
+
+There is the possibility of creating a SQL macro or stored procedure to generate the summary statistics in Oracle itself. This will streamline the process and is reproducible and promotes a consistent treatment of data quality.
 
 ### Data type
 
-This is the data type _as stored_. This may or may not be the same as what you expect. For example, it is common to use a numeric key in a fact table that represents a categorical value found in a dimension table.
+This is the data type _as stored_. This may or may not be the same as what you expect. For example, it is common to use a numeric key in a fact table that represents a categorical value found in a dimension table. See the Wiki for more on [fact and dimension tables (TODO)](https://nhsbsauk.sharepoint.com/sites/InsightTeam-DataAnalyticsLearningLabDALL/_layouts/15/Doc.aspx).
 
 ### Common values
 
@@ -30,6 +33,14 @@ For numeric fields, this is the analogue to common values for categorical data. 
 ### Completeness
 
 Many techniques are sensitive to missing data. Extreme cases of this can even prevent any useful analysis, so needs to be mitigated in some way. How it is mitigated will depend on the techniques employed. One thing to look out for is cases where a field has values only after, or before, a certain time. When this occurs it may limit some specific analysis to the time period for which values exist.
+
+### Cross-correlation
+
+Some techniques are resistant to correlation between explanatory variables, while others require all but one such correlated variable to be removed. In either case it is useful to understand what, if any, correlation between variables exists. The correlations can be computed with R, python or directly in Oracle. See these guides for more info
+
+[R](http://www.sthda.com/english/wiki/correlation-matrix-a-quick-start-guide-to-analyze-format-and-visualize-a-correlation-matrix-using-r-software)
+[Python](https://datatofish.com/correlation-matrix-pandas/)
+[Oracle](https://www.pythian.com/blog/multi-column-correlation-and-extended-stats-in-oracle-11g)
 
 ### Examples
 
