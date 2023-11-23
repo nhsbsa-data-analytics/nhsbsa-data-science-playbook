@@ -1,0 +1,13 @@
+---
+title: "Analysis"
+description: "Analysis loop - prepare data, analyse it and review until outputs in problem definition are finalised."
+title-block-banner: true
+image: analysis.jpg
+image-alt: Photo by Emily Morter on Unsplash
+listing: 
+  type: grid
+  contents: analysis-steps
+  sort: "filename"
+---
+
+Add text here

@@ -1,0 +1,13 @@
+---
+title: "Before problem definition"
+description: "Before problem definition"
+title-block-banner: true
+image: pre-pd.jpg
+image-alt: Photo by SOMEONE on Unsplash
+listing: 
+  type: grid
+  contents: pre-pd-steps
+  sort: "filename"
+---
+
+Add text here

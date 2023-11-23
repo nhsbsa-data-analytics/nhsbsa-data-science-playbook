@@ -3,7 +3,7 @@ project:
 
 website:
   favicon: static/bsa-favicon.png
-  title: "Official Statistics" 
+  title: "NHSBSA DALL Playbook" 
   navbar:
     title: false
     logo: "static/logo-nhs.svg"
@@ -14,15 +14,11 @@ website:
       - href: index.qmd
         text: Home
       - text: "Guidance"
-        menu: 
-        - href: "guidance/responsible-statisticians/index.qmd"
-        - href: "guidance/reviewing-content/index.qmd"
-        - href: "guidance/planning/index.qmd"
-        - href: "guidance/production/index.qmd"
-        - href: "guidance/qa/index.qmd"
-        - href: "guidance/sign-off/index.qmd"
-        - href: "guidance/pra/index.qmd"
-        - href: "guidance/publish/index.qmd"
+        menu:
+        - href: "guidance/pre-pd/index.qmd"
+        - href: "guidance/pd/index.qmd"
+        - href: "guidance/analysis/index.qmd"
+        - href: "guidance/wrap-up/index.qmd"
 
     right:
       - about.qmd
@@ -35,7 +31,7 @@ website:
 
 format:
   html:
-    pagetitle: "NHSBSA Official Statistics Guidance"
+    pagetitle: "NHSBSA DALL Playbook"
     lang: en-GB
     theme: cosmo
     css: styles.css
