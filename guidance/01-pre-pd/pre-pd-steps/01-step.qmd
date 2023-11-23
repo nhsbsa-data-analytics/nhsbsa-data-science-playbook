@@ -1,0 +1,93 @@
+---
+title: "Data preparation"
+description: "Prepare data and create base table(s)"
+image: data-prep.jpg
+image-alt: Photo by Emily Morter on Unsplash
+---
+
+## Data quality
+
+The goal of this step is to end up with one or more base tables on which analysis is then conducted. The base tables should include __only__ data relevant, or possibly relevant, to the initiative. Some tables can have hundreds of columns, so reducing the footprint in your base tables is a recommended. Data preparation may be iterative, as the analysis becomes refined with frequent feedback from stakeholders.
+
+The tables relevant to the initiative will have been identified in the process of writing the problem definition. Before using them it is important to get an idea of the data quality. This consists of summary statistics including at least 
+
+- Data type
+- Most common values for categorical fields, or minima/maxima and median for numeric
+- Completeness
+- Cross-correlation
+
+There is the possibility of creating a SQL macro or stored procedure to generate the summary statistics in Oracle itself. This will streamline the process and is reproducible and promotes a consistent treatment of data quality.
+
+### Data type
+
+This is the data type _as stored_. This may or may not be the same as what you expect. For example, it is common to use a numeric key in a fact table that represents a categorical value found in a dimension table. See the Wiki for more on [fact and dimension tables (TODO)](https://nhsbsauk.sharepoint.com/sites/InsightTeam-DataAnalyticsLearningLabDALL/_layouts/15/Doc.aspx).
+
+### Common values
+
+For categorical fields, it is useful to have an idea of the distribution of values. For example, if considering use of machine learning techniques that are sensitive to imbalanced data. Even when considering techniques that handle imbalanced data well keeping the distribution in mind is useful when interpreting and reporting on the the results.
+
+### Minima/maxima/median
+
+For numeric fields, this is the analogue to common values for categorical data. The values will give you an idea of how the data is distributed. You could go further and plot a histogram for better visualisation of this. NOTE: Consider adding to Rmarkdown example
+
+### Completeness
+
+Many techniques are sensitive to missing data. Extreme cases of this can even prevent any useful analysis, so needs to be mitigated in some way. How it is mitigated will depend on the techniques employed. One thing to look out for is cases where a field has values only after, or before, a certain time. When this occurs it may limit some specific analysis to the time period for which values exist.
+
+### Cross-correlation
+
+Some techniques are resistant to correlation between explanatory variables, while others require all but one such correlated variable to be removed. In either case it is useful to understand what, if any, correlation between variables exists. The correlations can be computed with R, python or directly in Oracle. See these guides for more info
+
+[R](http://www.sthda.com/english/wiki/correlation-matrix-a-quick-start-guide-to-analyze-format-and-visualize-a-correlation-matrix-using-r-software)
+[Python](https://datatofish.com/correlation-matrix-pandas/)
+[Oracle](https://www.pythian.com/blog/multi-column-correlation-and-extended-stats-in-oracle-11g)
+
+### Examples
+
+The template initiative `Data` folder contains a Rmarkdown, `data_summary.Rmd`, which can be used as an example or starting point for data quality checking. When using it make sure to add notes of the findings for future reference.
+
+An alternative would be to do it directly in the database, such as suggested on this [github issue](https://github.com/nhsbsa-data-analytics/dall-playbook/issues/5).
+
+In addition to any Rmarkdown used, you may find it helpful to keep a record of specific counts found during initial EDA and during any further EDA performed while preparing the base tables. An example Excel file is in the template initiative `Data` folder, `EDA figures.xlsx`.
+
+## Data cleansing
+
+### Missingness
+
+The data may have some degree of missingness. How it is handled will depend on the both the data and the techniques to be employed in the analysis. There are many techniques to handle this. Sometimes the best method is obvious, sometimes you will have to choose between several potentially viable methods.
+
+### Data types
+
+From the data summary generated you may find some fields that are better expressed in a different data type.
+
+### Keep or discard fields
+
+In the first iteration it is best to keep any and all fields that may be useful in the analysis. As the analysis is refined through exploration and feedback, you can discard fields no longer deemed relevant. By the end, only fields which are used in the analysis should remain in the base tables. An exception to this is when a future phase of work is planned. In such cases it may make sense to keep some fields not immediately useful available.
+
+## RAP considerations
+
+Don't repeat yourself is a well known adage in software development. While we are not writing software, it still applies and is a core principle of RAP. Pull out repeated code into functions; this allows for good tests to be written, another core principle of RAP. Variables should not be spread throughout a script, but instead gathered together into a config file or single block at the top of a script. 
+
+## Note keeping
+
+Throughout data preparation, ensure to make notes (saved in the initiative folder) of any potential or realised issues, caveats to be included in final outputs and decisions made with their reasoning. This will help in writing the supporting text in the main outputs.
+
+## Validation
+
+Some thought should be given to how to validate the base tables are a true reflection of what is intended. Some data may be checked against other data sources, such ePACT2. In addition, adding tests is a worthwhile investment. With tests you can be more confident that any future change that introduces an error will be caught quickly.
+
+If the data is something that you would expect personal details to appear in, you can also confirm you see what you would expect for yourself.
+
+## Miro points (for reference, to be removed)
+
+Keep small spreadsheet to keep track of all EDA results  
+Also links with business understanding  
+Invest the time into creating accurate base tables  
+Either R or SQL for her analysis, just whatever she feels like  
+R markdown is quite good to lift into presentations  
+Uses data miner to extract insights and aggregate SQL tables with the info  
+DALP data is mostly snapshot data, some get automatically refreshed, otherwise we ask for it, get it from DWCP or external system  
+Can do SQL script and put all results into Excel  
+SQL to do base tables, get all the columns you need and cleaned. Then analysis in R  
+Could pull base table into R via DBI or DBPLYR  
+Keep detailed notes as you progress - Excel, Rmd, PowerPoint. This will speed up creating your outputs
