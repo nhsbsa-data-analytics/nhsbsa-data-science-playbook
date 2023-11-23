@@ -1,0 +1,13 @@
+---
+title: "Problem Identified"
+description: "Problem Identified"
+image: 01-step.jpg
+image-alt: Photo by Emily Morter on Unsplash
+---
+
+## Identify a Problem
+This could be identified by the DALL team, an internal NHSBSA customer, or an external customer.
+
+For NHSBSA and external customers, you should log each initiative request through Nhsbsa.dall@nhs.net before starting the work. The DALL team manager normally assigns these initiatives.
+
+Internal ideas can come from the ideas register, exploratory project, or another source. The customer of these initiatives is the DALL team manager unless a customer is found. If you, your critical friend or the DALL team manager has a potential customer in mind, you should setup a meeting with them to explain your ideas and see if they would be interested.
