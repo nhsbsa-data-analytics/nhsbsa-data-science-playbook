@@ -1,0 +1,41 @@
+---
+title: "Critical friend review"
+description: "Critical friend reviews in detail and provides feedback"
+---
+
+## Role of a critical friend
+
+The critical friend is an integral part of the team. They serve as someone to bounce ideas off, offer advice and act as another pair of eyes and ears that may pick up up on something unnoticed by the rest of the team. So keep them in the loop as much as possible by asking them to review things before taking anything to the customer of the initiative.
+
+The critical friend should review the process, code and outputs of the team. This should be done before asking the initiative customer to review the outputs. The ask is always "be as thorough as you can", but other commitments can make a thorough review challenging. So, where possible, give the critical friend advance notice that you expect to be ready for their review soon.
+
+At a minimum, the critical friend should be
+
+- Pulling code to their local environment and running it
+- Reading supporting text and commenting on it where they are unsure of something, believe a mistake is there or have a suggestion
+- Checking the outputs against the problem definition and calling out any discrepancies
+
+## Flexible reviewing
+
+Since the critical friend will be working on other initiatives, it can be challenging to coordinate reviews. So we should do things in a way that is as flexible as possible, while also keeping on top of any timescales promised. One way to promote this is to make it possible for the critical friend to review work in progress.
+
+GitHub allows for the creation of draft pull requests (PRs). By using these at the beginning of a review cycle, and ensuring to always check our work into GitHub at least daily, the work can be reviewed when it is convenient. Some may prefer to dip in and out to fit around other commitments, while others would prefer to review things only when fully developed.
+
+## Miro points (for reference, to be removed)
+
+Ideally create an issue and PR combination and have them reviewed as you go by the critical friend, rather than a massive check at the end  
+Can be an element of waiting around while waiting for review  
+Can be make a branch on another branch to continue while waiting  
+Get them involved as early as possible  
+Keep them in the loop throughout, rather than right at the end  
+They should refer to the PD and make sure everything is correct and on track  
+Potentially they should just be on the output and make sure it looks good, any ideas?  
+Don't accept suggestions just to be "nice". Similarly, be confident in making suggestions and don't worry about offending people! This is part of the value a critical friend should bring to a project.  
+If reviewing code make sure to give the critical friend small but frequent  bits of code to review  
+Find a critical friend, who has done the coding before or content or both  
+Bring the critical friend along for a "second set of ears"  
+Hard to find critical friend, conscious everyone is busy  
+Table or JIRA to see what everyone is working on, if they're already a critical friend?  
+Involve your critical friends from the beginning - they may notice things you missed  
+Give your critical friend notice that stuff to review will be coming their way  
+Don't be afraid to voice your opinion/challenge more senior members of the team  
