@@ -1,13 +1,63 @@
 ---
-title: "Before problem definition"
-description: "Before problem definition"
+title: "Before the Problem Definition"
+# description: "Before the Problem Definition"
 title-block-banner: true
 image: pre-pd.jpg
-image-alt: Photo by SOMEONE on Unsplash
 listing: 
   type: grid
   contents: pre-pd-steps
   sort: "filename"
+format:
+  html:
+    mermaid:
+      theme: neutral
+toc: false
 ---
 
-Add text here
+## Overview
+
+```{mermaid}
+%%| label: fig-1
+%%| fig-cap: Placeholder Diagram
+%%| fig-align: center
+%%{
+  init: {
+    'theme': 'neutral',
+    'themeVariables': {
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff',
+      'fontSize': '16px'
+    }
+  }
+}%%
+
+flowchart LR
+  1A["Problem 
+  Identified"] 
+  1B["Assign Critical 
+  Friend"]
+  1C["Get Access 
+  to the Data"]
+  1D["Initial Research and 
+  Look at Previous 
+  Iterations"]
+  1E["Initial Meeting 
+  with the Customer"]
+  1F["Create Initiative 
+  Resources"]
+
+  subgraph pre_pd["01: Before the Problem Definition"]
+  direction LR
+    1A --> 1B
+    1B --> 1C
+    1C --> 1D
+    1D --> 1E
+    1E --> 1F
+  end
+```
+
+## Sections

@@ -1,8 +1,7 @@
 ---
 title: "Initial Research and Look at Previous Iterations"
-description: "Initial Research and Look at Previous Iterations"
-image: 01-step.jpg
-image-alt: Photo by Emily Morter on Unsplash
+# description: "Initial Research and Look at Previous Iterations"
+image: 04-initial-research.jpg
 ---
 
 ## Resources You Can Use

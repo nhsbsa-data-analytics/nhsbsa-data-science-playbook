@@ -1,8 +1,7 @@
 ---
 title: "Get Access to the Data"
-description: "Get Access to the Data"
-image: 01-step.jpg
-image-alt: Photo by Emily Morter on Unsplash
+# description: "Get Access to the Data"
+image: 03-get-access-to-data.jpg
 ---
 
 ## How to Get Access

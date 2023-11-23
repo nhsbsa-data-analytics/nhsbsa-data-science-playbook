@@ -1,8 +1,7 @@
 ---
 title: "Problem Identified"
-description: "Problem Identified"
-image: 01-step.jpg
-image-alt: Photo by Emily Morter on Unsplash
+# description: "Problem Identified"
+image: 01-problem-identified.jpg
 ---
 
 ## Identify a Problem

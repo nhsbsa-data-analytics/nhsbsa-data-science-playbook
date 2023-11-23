@@ -1,8 +1,7 @@
 ---
 title: "Assign a Critical Friend"
-description: "Assign a Critical Friend"
-image: 01-step.jpg
-image-alt: Photo by Emily Morter on Unsplash
+# description: "Assign a Critical Friend"
+image: 02-assign-critical-friend.jpg
 ---
 
 ## What is a Critical Friend?

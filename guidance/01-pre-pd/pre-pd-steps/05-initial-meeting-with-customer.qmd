@@ -1,8 +1,7 @@
 ---
 title: "Initial Meeting with the Customer"
-description: "Initial Meeting with the Customer"
-image: 01-step.jpg
-image-alt: Photo by Emily Morter on Unsplash
+# description: "Initial Meeting with the Customer"
+image: 05-initial-meeting-with-customer.jpg
 ---
 
 ## Tips for Setting Up and Conducting the Meeting

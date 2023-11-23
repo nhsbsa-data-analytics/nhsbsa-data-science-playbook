@@ -1,8 +1,7 @@
 ---
 title: "Create Initiative Resources"
-description: "Create Initiative Resources"
-image: 01-step.jpg
-image-alt: Photo by Emily Morter on Unsplash
+# description: "Create Initiative Resources"
+image: 06-create-initiative-resources.jpg
 ---
 
 ## What to Setup
