@@ -1,0 +1,13 @@
+---
+title: "Initial Research and Look at Previous Iterations"
+description: "Look at previous work conducted by the team to gain inspiration."
+image: 04-initial-research.jpg
+---
+
+## Resources You Can Use
+If you have the data, analysing it for insights and limitations will help you understand what is possible for the initiative.
+As an aside, look at previous initiatives conducted in the team, these can be identified using JIRA and by asking around within the team. Your critical friend and the DALL team manager may be able to assist here too. This is especially helpful for understanding the business in the area you're focused on and the data you'll be using.
+
+Additionally, online resources may help here such as Stack Overflow, Medium and other websites. There is also the NHS-R and government slack channels that you can use to message other data scientists and statisticians for advice. It is likely that your initiative has been conducted by another individual or company.
+
+For technical projects such as machine learning based initiatives, research papers may assist. These can guide what is possible and what is not, given the data you have available.  If you're trying something new, consider taking a course from Data Camp to learn before starting.
