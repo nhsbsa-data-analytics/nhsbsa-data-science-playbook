@@ -1,6 +1,6 @@
 ---
 title: "Get Access to the Data"
-# description: "Get Access to the Data"
+description: "Identify and gain access to the data required for the initiatve."
 image: 03-get-access-to-data.jpg
 ---
 

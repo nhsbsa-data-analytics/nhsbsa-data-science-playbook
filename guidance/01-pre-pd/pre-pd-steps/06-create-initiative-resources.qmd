@@ -1,6 +1,6 @@
 ---
 title: "Create Initiative Resources"
-# description: "Create Initiative Resources"
+description: "Create resources such as JIRA, GitHub, Sharepoint and others."
 image: 06-create-initiative-resources.jpg
 ---
 

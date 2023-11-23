@@ -1,6 +1,6 @@
 ---
 title: "Before the Problem Definition"
-# description: "Before the Problem Definition"
+description: "Setup the initiative by identifying a problem, understanding the customer's expecations and allocating resources accordingly."
 title-block-banner: true
 image: pre-pd.jpg
 listing: 

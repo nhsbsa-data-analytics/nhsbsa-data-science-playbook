@@ -1,6 +1,6 @@
 ---
 title: "Problem Identified"
-# description: "Problem Identified"
+description: "Investigate an initiative to work on for internal NHSBSA customer, or an external customer."
 image: 01-problem-identified.jpg
 ---
 

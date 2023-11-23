@@ -1,6 +1,6 @@
 ---
 title: "Assign a Critical Friend"
-# description: "Assign a Critical Friend"
+description: "Find a colleague who can provide support throughout the initiative."
 image: 02-assign-critical-friend.jpg
 ---
 
