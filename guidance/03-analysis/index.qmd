@@ -10,4 +10,33 @@ listing:
   sort: "filename"
 ---
 
-Add text here
+```{dot fig-overall-flow, echo=FALSE}
+digraph G {
+  //bgcolor="#0000FF44:#FF000044";
+  gradientangle=90;
+	fontname="Helvetica,Arial,sans-serif";
+	rankdir="LR";
+	compound=true;
+	node [fontname="Helvetica,Arial,sans-serif" peripheries=0 penwidth=0];
+	edge [fontname="Helvetica,Arial,sans-serif"];
+  subgraph cluster_analysis_loop {
+		style=filled;
+		color=lightgrey;
+		fillcolor="darkgray:gold";
+		gradientangle=0
+		subgraph cluster_dummy_c {
+		  style=invis;
+      20 [shape=point style=invis group=dummy];
+    }
+    node [fillcolor="yellow:green" style=filled gradientangle=270 label="Data preparation"] c1;
+		node [fillcolor="lightgreen:red" label="Analysis and modelling"] c2;
+		node [fillcolor="lightskyblue:darkcyan" label="Output artifacts"] c3;
+		node [fillcolor="cyan:lightslateblue" label="Team review"] c4;
+		node [fillcolor="skyblue:green" label="Critical friend review"] c5;
+		node [fillcolor="lightgreen:lightslateblue" label="Customer review"] c6;
+    label = "03: Analysis and modelling";
+	}
+  edge [constraint=false];
+  c1 -> c2 -> c3 -> c4 -> c5 -> c6 -> c1;
+}
+```

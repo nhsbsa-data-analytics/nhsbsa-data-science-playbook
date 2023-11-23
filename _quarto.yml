@@ -15,10 +15,10 @@ website:
         text: Home
       - text: "Guidance"
         menu:
-        - href: "guidance/pre-pd/index.qmd"
-        - href: "guidance/pd/index.qmd"
-        - href: "guidance/analysis/index.qmd"
-        - href: "guidance/wrap-up/index.qmd"
+        - href: guidance/01-pre-pd/index.qmd
+        - href: guidance/02-pd/index.qmd
+        - href: guidance/03-analysis/index.qmd
+        - href: guidance/04-wrap-up/index.qmd
 
     right:
       - about.qmd

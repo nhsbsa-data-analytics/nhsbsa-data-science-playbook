@@ -1,0 +1,6 @@
+---
+title: "Customer review"
+description: "Customer reviews and either agrees outputs match expectations or provides detailed feedback to guide the next iteration."
+---
+
+Before asking the customer to review and feedback on the work, ensure that whichever output they are looking at is either complete according to the problem definition, or for work in progress that you have made it clear what points on the problem definition are (or are not) being covered so far. Use the feedback to help steer things back on course if necessary. Something that can occur is the customer now asking for something different, or entirely new. This should be handled with care, as over-committing can backfire. In such cases it may be better to propose a future phase of work for any additional outputs requested.
