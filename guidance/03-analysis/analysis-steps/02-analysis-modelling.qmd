@@ -1,6 +1,8 @@
 ---
 title: "Analysis and modelling"
 description: "Analyse data and create models to support the expected outputs"
+image: analysis-modelling.jpg
+image-alt: Photo by Shubham Dhage on Unsplash
 ---
 
 In this step we turn data into insights. This could involve a plethora of data science techniques from statistics to machine learning. The choice of which techniques to use will depend on the desired outputs of the initiative and what the data available allows. The problem definition should be used to steer the analysis towards delivery of the agreed outputs.
@@ -20,13 +22,3 @@ Throughout the analysis, ensure to make notes (saved in the initiative folder) o
 Some thought should be given to how to validate the results of the analysis. Some data may be checked against other data sources, such ePACT2. In addition, adding tests is a worthwhile investment. With tests you can be more confident that any future change that introduces an error will be caught quickly.
 
 If the data is something that you would expect personal details to appear in, you can also confirm you see what you would expect for yourself.
-
-## Miro points (for reference, to be removed)
-
-Keep detailed notes as you progress - Excel, Rmd, PowerPoint. This will speed up creating your outputs  
-Good tip: Search for yourself as you know it's correct  
-Can use variables in SQL. Also can perform more complex ops with PL/SQL, such as scheduling and loops.  
-Replicates a result from Epact2 in SQL as a sanity check  
-Create your own reusable data analysis script/markdown file to make it easier to start some new analysis  
-Have a config file to avoid a nightmare later on with changing hard coded variables  
-How best to embed RAP into what we do  

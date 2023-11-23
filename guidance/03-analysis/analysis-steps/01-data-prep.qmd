@@ -2,7 +2,7 @@
 title: "Data preparation"
 description: "Prepare data and create base table(s)"
 image: data-prep.jpg
-image-alt: Photo by Emily Morter on Unsplash
+image-alt: Photo by Claudio Schwarz on Unsplash
 ---
 
 ## Data quality
@@ -20,7 +20,7 @@ There is the possibility of creating a SQL macro or stored procedure to generate
 
 ### Data type
 
-This is the data type _as stored_. This may or may not be the same as what you expect. For example, it is common to use a numeric key in a fact table that represents a categorical value found in a dimension table. See the Wiki for more on [fact and dimension tables (TODO)](https://nhsbsauk.sharepoint.com/sites/InsightTeam-DataAnalyticsLearningLabDALL/_layouts/15/Doc.aspx).
+This is the data type _as stored_. This may or may not be the same as what you expect. For example, it is common to use a numeric key in a fact table that represents a categorical value found in a dimension table. See the Wiki for more on [fact and dimension tables (TODO: check if already exists, if not add  + use actual link)](https://nhsbsauk.sharepoint.com/sites/InsightTeam-DataAnalyticsLearningLabDALL/_layouts/15/Doc.aspx).
 
 ### Common values
 
@@ -77,17 +77,3 @@ Throughout data preparation, ensure to make notes (saved in the initiative folde
 Some thought should be given to how to validate the base tables are a true reflection of what is intended. Some data may be checked against other data sources, such ePACT2. In addition, adding tests is a worthwhile investment. With tests you can be more confident that any future change that introduces an error will be caught quickly.
 
 If the data is something that you would expect personal details to appear in, you can also confirm you see what you would expect for yourself.
-
-## Miro points (for reference, to be removed)
-
-Keep small spreadsheet to keep track of all EDA results  
-Also links with business understanding  
-Invest the time into creating accurate base tables  
-Either R or SQL for her analysis, just whatever she feels like  
-R markdown is quite good to lift into presentations  
-Uses data miner to extract insights and aggregate SQL tables with the info  
-DALP data is mostly snapshot data, some get automatically refreshed, otherwise we ask for it, get it from DWCP or external system  
-Can do SQL script and put all results into Excel  
-SQL to do base tables, get all the columns you need and cleaned. Then analysis in R  
-Could pull base table into R via DBI or DBPLYR  
-Keep detailed notes as you progress - Excel, Rmd, PowerPoint. This will speed up creating your outputs

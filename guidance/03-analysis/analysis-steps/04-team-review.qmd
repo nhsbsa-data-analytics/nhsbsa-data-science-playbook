@@ -1,0 +1,46 @@
+---
+title: "Team review"
+description: "Team self-review everything before asking critical friend for feedback"
+image: team-review.jpg
+image-alt: Photo by Clay Banks on Unsplash
+---
+
+Frequent reviews of the work give a chance to pick up on any issues before asking third parties to look at it. An important component of this is code review. With the mindset that the code may become public, put yourself in the shoes of someone coming across the code and wanting to both understand it and then reuse it. This means keeping in mind the principles of [Reproducible Analytical Pipelines (RAP)](RAP_playbook), which benefits others coming across the code in future, but also the team themselves while continuing to work on it.
+
+The basic idea of the analysis loop is a tight cycle of refine and get feedback. Before asking for feedback, the team needs to ensure that they have checked everything is as they expect it to be. This includes code and any supporting text or other artifacts such as data sets, slide decks etc. By doing the analysis in a reproducible way, using RAP principles, this continuous improvement can be made to run smoothly.
+
+## Is the code in a good state?
+
+### Testing
+
+Consider using a test driven development (TDD) approach to writing functions. This has many benefits but comes with the drawback of investing time up-front, with no guarantee that it will be useful. TDD means knowing immediately when something is wrong and where the bug occurs. In the long run, the time saved will outweigh the up-front investment.
+
+Even if not using TDD, you should be testing code as you develop it. Since you are testing, spend a bit longer on making these tests reproducible _automatically_.
+
+For R, it is recommended to use the [`testthat`](https://testthat.r-lib.org/reference/index.html) package.
+
+For python, use of ?? is recommended.
+
+### Comments
+
+In general, the purpose of code should be apparent to someone who is familiar with the language. If it is not, first try to find a more readable and clear way to write it. If not, code comments should be present to explain it. Also, you can split code into sections. For example in Rstudio by using `Ctrl+Shift+R`.
+
+### Documentation
+
+People other than the authors may look at and use our code. This could be other members of the team, colleagues in the NHSBSA or the public. Our code should be well documented. This is both professional and increases ease of reuse and maintenance.
+
+For R, it is recommended to use the `roxygen2` package. See [chapter 16 of R Packages (2e)](https://r-pkgs.org/man.html) for details by the author of `roxygen2`.
+
+For python, use of ?? is recommended.
+
+## Textual content
+
+A common component of the outputs we create is [text](http://localhost:3121/guidance/analysis/analysis-steps/03-output_artifacts.html#supporting-text). Be aware that the refine-feedback cycle can be challenging if you have such text in multiple places. For example, in a Word document used for review, but also in a `shiny` dashboard. Try to keep all text in a single place until as late as possible in the initiative life cycle.
+
+Specifically for R, there is text review functionality built-in to the `nhsbsaShinyR` template. If you have this installed, see the vignette on this by running `vignette("Text review", "nhsbsaShinyR")`. This allows for using a Word document initially, the contents of which can be automatically used to create markdown content for the app. It works the other way also, to provide a Word document constructed from existing markdown files. This makes syncing the text when it has changed due to review feedback back into the app a mostly automatic process.
+
+## Accessibility testing
+
+If your output is to be available online, it must be tested for accessibility. Full [details are on the DALL wiki](https://nhsbsauk.sharepoint.com/sites/InsightTeam-DataAnalyticsLearningLabDALL/_layouts/15/Doc.aspx?sourcedoc={e0ee8ea3-87db-4464-9184-8a19407544f4}&action=edit&wd=target%28Accessibility.one%7C3f35f160-5135-4f36-8e6f-39cf0c693f08%2FAccessibility%20process%7C5a74cfaf-8ed7-4991-851a-6a2e2fdf0d2f%2F%29&wdorigin=NavigationUrl).
+
+Bear in mind that testing accessibility too early can result in wasted time, as aspects of the app can and do change. So in general, leave such testing until fairly confident that only minor adjustments and text agreement remain to be done.
