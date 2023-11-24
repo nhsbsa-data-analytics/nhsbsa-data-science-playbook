@@ -1,0 +1,13 @@
+---
+title: "Problem definition"
+description: "Problem definition"
+title-block-banner: true
+image: pd.jpg
+image-alt: Photo by SOMEONE on Unsplash
+listing: 
+  type: grid
+  contents: pd-steps
+  sort: "filename"
+---
+
+Add text here

@@ -1,0 +1,24 @@
+---
+title: "Analysis and modelling"
+description: "Analyse data and create models to support the expected outputs"
+image: analysis-modelling.jpg
+image-alt: Photo by Shubham Dhage on Unsplash
+---
+
+In this step we turn data into insights. This could involve a plethora of data science techniques from statistics to machine learning. The choice of which techniques to use will depend on the desired outputs of the initiative and what the data available allows. The problem definition should be used to steer the analysis towards delivery of the agreed outputs.
+
+NOTE: What to write for this? There is no way to cover all possible techniques, and other than the below points that also applied to the data prep, I am finding it hard to think of anything else that would apply in general...
+
+## RAP considerations
+
+Don't repeat yourself is a well known adage in software development. While we are not writing software, it still applies and is a core principle of RAP. Pull out repeated code into functions; this allows for good tests to be written, another core principle of RAP. Variables should not be spread throughout a script, but instead gathered together into a config file or single block at the top of a script. 
+
+## Note keeping
+
+Throughout the analysis, ensure to make notes (saved in the initiative folder) of any potential or realised issues, caveats to be included in final outputs and decisions made with their reasoning. This will help in writing the supporting text in the main outputs.
+
+## Validation
+
+Some thought should be given to how to validate the results of the analysis. Some data may be checked against other data sources, such ePACT2. In addition, adding tests is a worthwhile investment. With tests you can be more confident that any future change that introduces an error will be caught quickly.
+
+If the data is something that you would expect personal details to appear in, you can also confirm you see what you would expect for yourself.

@@ -1,22 +1,24 @@
 ---
 title: "NHSBSA DALL Playbook"
-description: "Detailed guidance on DALL process"
+description: "Detailed guidance on DALL initiatives workflow"
 title-block-banner: true
 listing: 
   type: grid
-  contents: guidance
-  sort: "title"
+  contents: "guidance/*/index.qmd"
+  sort: "path"
+format:
+  html:
+    mermaid:
+      theme: neutral
+toc: false
 ---
 
-Add Text Here
+## Overview
 
-## High level process
-
-Add Text Here
-
-```{mermaid playbook-flowchart}
-%%| label: fig-process
-%%| fig-cap: High level process
+```{mermaid}
+%%| label: fig-1
+%%| fig-cap: Placeholder Diagram
+%%| fig-align: center
 %%{
   init: {
     'theme': 'neutral',
@@ -33,70 +35,15 @@ Add Text Here
 }%%
 
 flowchart LR
-  1A["Problem Identified"] 
-  1B["Assign Critical Friend"]
-  1C["Initial Research and Look at Previous Iterations"]
-  1D["Initial Meeting with Customer"]
-  1E["Get Access to Data"]
-  1F["Create JIRA, SharePoint, Git and Others"]
-    
-  1G["Write Problem 
-    Definition"] 
-  1H["Data and 
-    Business 
-    Understanding"] 
-  1I["Further 
-    Research"] 
-  1J["Meet with 
-    Customer"]
-  
-  2A["Data Preparation"]
-  2B["Analysis/Modelling"] 
-  2C["Reporting and Visuals"] 
-  2D["Review and Test"] 
-  2E["Critical Friend to Review"] 
-  2F["Customer Review"]
-  
-  3A["Final Meeting with Customer"]
-  3B["Wrap Up and  Clean Code"]
-  3C["Write Documentation"]
-  3D["Add to Wiki"]
-  3E["Make Repo Public If Applicable"]
-  3F["Document Any Further Work That Can Be Done"]
+  A["Before the Problem Definition"] 
+  B["Problem Definition"]
+  C["Analysis and Modelling"]
+  D["Initative Wrap Up"]
 
-  subgraph pre_pd["01: Project Setup"]
-  direction TB
-    1A --> 1B
-    1B --> 1C
-    1C --> 1D
-    1D --> 1E
-    1E --> 1F
+  subgraph whole_process["The Process at a Glance"]
+  direction LR
+    A --> B --> C --> D
   end
-  
-  subgraph pd_loop["02: Problem Definition"]
-  direction TB
-    1G --> 1H --> 1I --> 1J --> 1G
-  end
-  
-  subgraph analysis_loop["03: Analysis/Modelling"]
-  direction TB
-    2A --> 2B --> 2C --> 2D --> 2E --> 2F --> 2A
-  end
-  
-  subgraph review["04: Initiative Review"]
-  direction TB
-    3A --> 3B
-    3B --> 3C
-    3C --> 3D
-    3D --> 3E
-    3E --> 3F
-  end
-
-  pre_pd -->|Items <BR> Created| pd_loop
-  pd_loop -->|Sign Off From <BR> Customer| analysis_loop
-  analysis_loop -->|Work <BR> Completed| review
-  
-  click 1B "http://www.github.com"
 ```
 
-## Guidance
+## Sections
