@@ -1,6 +1,6 @@
 ---
-title: "Problem definition"
-description: "Problem definition"
+title: "Problem Definition"
+description: "Gain further understanding through research and talking with the customer, to complete your problem definition."
 title-block-banner: true
 image: pd.jpg
 image-alt: Photo by SOMEONE on Unsplash
@@ -8,6 +8,50 @@ listing:
   type: grid
   contents: pd-steps
   sort: "filename"
+format:
+  html:
+    mermaid:
+      theme: neutral
+toc: false
 ---
 
-Add text here
+## Overview
+
+```{mermaid}
+%%| label: fig-1
+%%| fig-cap: Placeholder Diagram
+%%| fig-align: center
+%%{
+  init: {
+    'theme': 'neutral',
+    'themeVariables': {
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff',
+      'fontSize': '16px'
+    }
+  }
+}%%
+
+flowchart LR
+  2A["Write Problem 
+    Definition"]
+  2B["Estimate
+  Timescales"] 
+  2C["Data and 
+    Business 
+    Understanding"] 
+  2D["Meet with the
+    Customer"]
+  
+  subgraph pd_loop["02: Problem Definition"]
+  direction LR
+    2A --> 2B --> 2C --> 2D --> 2A
+  end
+
+```
+
+## Sections
