@@ -3,6 +3,6 @@ title: "About"
 title-block-banner: true
 ---
 
-This website has been developed by the NHSBSA Official Statistics team to provide guidance and processes for producing new and existing Official Statistics publications, including those with National Statistics designation. 
+This website has been developed by the NHSBSA Data and Analytics Learning Laboratory (DALL) team to provide guidance and processes for producing new initiatives.
 
 
