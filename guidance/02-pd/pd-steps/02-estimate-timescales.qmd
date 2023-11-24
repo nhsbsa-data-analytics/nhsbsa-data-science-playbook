@@ -6,7 +6,7 @@ image-alt: Photo by Emily Morter on Unsplash
 ---
 
 ## Gannt Charts
-During the planning stages of the initiative, it is a good idea to plan the timescales of the project. To plan effectively, create a Gannt chart. List the items and their completion times. Estimate when each element will be finished. Please see the Gannt chart template within the wiki for more information [INSERT LINK].
+During the planning stages of the initiative, it is a good idea to plan the timescales of the project. To plan effectively, create a Gannt chart. List the items and their completion times. Estimate when each element will be finished. Please see the Gannt chart template within the templates folder [here](https://nhsbsauk.sharepoint.com/sites/InsightTeam-DataAnalyticsLearningLabDALL/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FInsightTeam%2DDataAnalyticsLearningLabDALL%2FShared%20Documents%2FData%20Analytics%20Learning%20Lab%20%28DALL%29%2FDALL%2FDALL%20Initiatives%20CRISP%2DDM%2FTemplate%20Documents&p=true&ga=1).
 
 When planning any project, it is easy to underestimate the time required to complete it. You should always account for:
 
