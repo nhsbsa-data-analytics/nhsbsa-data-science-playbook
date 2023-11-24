@@ -3,11 +3,11 @@ title: "Wrap-up"
 description: "Wrap-up"
 title-block-banner: true
 image: wrap-up.jpg
-image-alt: Photo by SOMEONE on Unsplash
+image-alt: Photo by Sigmund on Unsplash
 listing: 
   type: grid
   contents: wrap-up-steps
   sort: "filename"
 ---
 
-Add text here
+## Sections
