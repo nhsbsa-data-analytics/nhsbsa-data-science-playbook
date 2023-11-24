@@ -1,11 +1,11 @@
 ---
 title: "Estimate the Timescales"
-description: ""
+description: "Create a Gannt chart or equivalent to plan the initiative's timescales."
 image: 02-estimate-timescales.jpg
 image-alt: Photo by Emily Morter on Unsplash
 ---
 
-## Estimate Timescales:
+## Gannt Charts
 During the planning stages of the initiative, it is a good idea to plan the timescales of the project. To plan effectively, create a Gannt chart. List the items and their completion times. Estimate when each element will be finished. Please see the Gannt chart template within the wiki for more information [INSERT LINK].
 
 When planning any project, it is easy to underestimate the time required to complete it. You should always account for:
