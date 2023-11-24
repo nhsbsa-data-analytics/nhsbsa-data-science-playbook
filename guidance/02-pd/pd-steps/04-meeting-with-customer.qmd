@@ -1,0 +1,13 @@
+---
+title: "Meet With the Customer"
+description: ""
+image: 04-meeting-with-customer.jpg
+image-alt: Photo by Emily Morter on Unsplash
+---
+
+## Meet with the Customer:
+After finishing your draft of the Problem Definition (PD), meet with the customer(s) to go through it together. Talk about any limitations or questions found during the data exploration and set the agreed outputs.
+
+As an outcome of meeting, there may be additional things to explore or add to the PD before the customer can sign off. Therefore, it is important to repeat section 2 again until the customer is happy to proceed.
+
+In rare cases, this meeting may highlight that the initiative may not be possible in the way that the customer initially intended. Unless any suitable alternatives are identified, we may need to give up on the project. In this case, you **must** discuss your concerns with the DALL team manager before communicating this with the customer.
