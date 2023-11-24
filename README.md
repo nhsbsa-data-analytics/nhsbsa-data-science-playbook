@@ -14,19 +14,19 @@ The playbook is structured into a series of sections and sub-sections. The home 
 
 ```
 dall-playbook
-├───guidance ..........................# Folder containing all of the playbook content within a series of sections and sub-sections
-│   ├───*.section-main-folder .........# Series of folders with identical structure that contain the content for each section 
-│   │   ├───section-steps-folder ......# Folder containing the .qmd files of each sub-section content and .jpeg images for the tab navigation
-|   |       ├───*.sub-section-name.qmd
-|   |       ├───*.sub-section-name.jpeg
-|   |   ├───index.qmd .................# The .qmd file for each section
-|   |   ├───section-name.jpeg .........# The .jpeg image for the tab navigation of each section
-|   ├───_metadata.yml .................# Additional settings applied to the quarto document
-├───static ............................# A folder containing the the BSA visual settings for the quarto document
-├───_quarto.yml .......................# A file that controls the page layout and settings for the quarto document
-├───about.qmd .........................# An additional .qmd that populates the 'About' button within the document
-├───dall-playbook.Rproj ...............# The R Project file
-├───index.qmd .........................# The primary .qmd file, used to compile the entire document.
-├───README.md .........................# The README file
-├───styles.css ........................# A file containing some additional settings for the quarto document
+├───guidance ............................# Folder containing all of the playbook content within a series of sections and sub-sections
+│   ├───*.{section-name} ................# Series of folders with identical structure that contain the content for each section 
+│   │   ├───{section-name}-steps ........# Folder containing the .qmd files of each sub-section content and .jpeg images for the tab navigation
+|   |       ├───*.{sub-section-name}.qmd
+|   |       ├───*.{sub-section-name}.jpeg
+|   |   ├───index.qmd ...................# The .qmd file for each section
+|   |   ├───{section-name}.jpeg .........# The .jpeg image for the tab navigation of each section
+|   ├───_metadata.yml ...................# Additional settings applied to the quarto document
+├───static ..............................# A folder containing the the BSA visual settings for the quarto document
+├───_quarto.yml .........................# A file that controls the page layout and settings for the quarto document
+├───about.qmd ...........................# An additional .qmd that populates the 'About' button within the document
+├───dall-playbook.Rproj .................# The R Project file
+├───index.qmd ...........................# The primary .qmd file, used to compile the entire document.
+├───README.md ...........................# The README file
+├───styles.css ..........................# A file containing some additional settings for the quarto document
 ```
