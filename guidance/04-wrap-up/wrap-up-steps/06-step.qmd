@@ -1,8 +1,8 @@
 ---
 title: "Document Future Work"
-description: "TBC"
+description: "Take the opportunity to document any interesting areas for future analysis by members of the DALL team."
 image: 06-future-work.jpg
 image-alt: Photo by Brands&People on Unsplash
 ---
   
-Now that the project has ended you may have explored or wanted to explore areas that were beyond the scope of the initiative. Be sure to add these ideas to the DALL ideas register located on the SharePoint. If there is not enough for a full initiative the ideas can always be undertaken as a three week exploratory project. 
+Now that the project has ended you may have explored or wanted to explore areas that were beyond the scope of the initiative. Be sure to add these ideas to the DALL ideas register located on the SharePoint [INSERT LINK]. If there is not enough for a full initiative the ideas can always be undertaken as a three week exploratory project. 

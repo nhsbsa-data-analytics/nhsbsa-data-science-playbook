@@ -5,7 +5,7 @@ image: 01-final-meeting.jpg
 image-alt: Photo by CoWomen on Unsplash
 ---
   
-Once the final output of the project has been created and agreed upon it is a good idea to have a final meeting with the customer. This final meeting can be useful to make sure that all the objectives have been met. The meeting can also be used to make sure that the customer is happy with the output.
+Once the final output of the project has been created and agreed upon within the team it is a good idea to have a final meeting with the customer. This final meeting can be useful to make sure that all the objectives have been met. The meeting can also be used to make sure that the customer is happy with the output.
 
 At this point the customer should know exactly what has been done but it can be useful to prepare a presentation. You can then use the presentation to summarise what you have done for other colleagues.
 
