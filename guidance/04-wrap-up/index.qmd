@@ -1,0 +1,13 @@
+---
+title: "Wrap-up"
+description: "Wrap-up"
+title-block-banner: true
+image: wrap-up.jpg
+image-alt: Photo by SOMEONE on Unsplash
+listing: 
+  type: grid
+  contents: wrap-up-steps
+  sort: "filename"
+---
+
+## Sections

@@ -1,0 +1,12 @@
+---
+title: "Final Meeting with the Customer"
+description: "Use this as an oppourtunity to finalise the output and check that the objectives have been met."
+image: 01-final-meeting.jpg
+image-alt: Photo by CoWomen on Unsplash
+---
+  
+Once the final output of the project has been created and agreed upon it is a good idea to have a final meeting with the customer. This final meeting can be useful to make sure that all the objectives have been met. The meeting can also be used to make sure that the customer is happy with the output.
+
+At this point the customer should know exactly what has been done but it can be useful to prepare a presentation. You can then use the presentation to summarise what you have done for other colleagues.
+
+The meeting should end with an agreement between the customer and the assigned DALL members. It is at this stage the customer should agree that the project can be wrapped up and that no more analysis is required.

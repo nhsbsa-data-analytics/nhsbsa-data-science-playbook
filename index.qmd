@@ -5,14 +5,45 @@ title-block-banner: true
 listing: 
   type: grid
   contents: "guidance/*/index.qmd"
-  sort: "title"
+  sort: "path"
+format:
+  html:
+    mermaid:
+      theme: neutral
+toc: false
 ---
 
-Add Text Here
+## Overview
 
-## High level process
+```{mermaid}
+%%| label: fig-1
+%%| fig-cap: Placeholder Diagram
+%%| fig-align: center
+%%{
+  init: {
+    'theme': 'neutral',
+    'themeVariables': {
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff',
+      'fontSize': '16px'
+    }
+  }
+}%%
 
-![](playbook.png){width="60%"}
+flowchart LR
+  A["Before the Problem Definition"] 
+  B["Problem Definition"]
+  C["Analysis and Modelling"]
+  D["Initative Wrap Up"]
 
+  subgraph whole_process["The Process at a Glance"]
+  direction LR
+    A --> B --> C --> D
+  end
+```
 
-
+## Sections

@@ -1,0 +1,15 @@
+---
+title: "Assign a Critical Friend"
+description: "Find a colleague who can provide support throughout the initiative."
+image: 02-assign-critical-friend.jpg
+---
+
+## What is a Critical Friend?
+Typical DALL initiatives usually involve 1-2 people working on the project. They also choose a "critical friend" to give an extra review of the coding and/or business understanding. They can also attend meetings, check documents and provide extra support and guidance throughout the initiative.
+
+The data scientist usually chooses a critical friend with input from the DALL team manager. The manager knows who is available and has valuable knowledge about the upcoming project.
+
+## Tips for Working With Your Critical Friend
+It is useful to assign a critical friend **as early as possible**. Ideally, they should have prior experience with similar data or techniques. This will help them offer more insight and review the project. If you are an initiative expert, you can choose a new team member as the critical friend so they can gain experience.
+
+Make sure to include them in the project through regular catch ups. This way, they can review your work gradually, instead of all at once. If you can, make sure to give your critical friend as much as notice as possible of work that you will be sending over, to ensure they can make the time to look at it.

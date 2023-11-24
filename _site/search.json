@@ -4,266 +4,427 @@
     "href": "index.html",
     "title": "NHSBSA DALL Playbook",
     "section": "",
-    "text": "Add Text Here"
+    "text": "%%{\n  init: {\n    'theme': 'neutral',\n    'themeVariables': {\n      'primaryColor': '#BB2528',\n      'primaryTextColor': '#fff',\n      'primaryBorderColor': '#7C0000',\n      'lineColor': '#F8B229',\n      'secondaryColor': '#006100',\n      'tertiaryColor': '#fff',\n      'fontSize': '16px'\n    }\n  }\n}%%\n\nflowchart LR\n  A[\"Before the Problem Definition\"] \n  B[\"Problem Definition\"]\n  C[\"Analysis and Modelling\"]\n  D[\"Initative Wrap Up\"]\n\n  subgraph whole_process[\"The Process at a Glance\"]\n  direction LR\n    A --&gt; B --&gt; C --&gt; D\n  end\n\n\nFigure 1: Placeholder Diagram"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This website has been developed by the NHSBSA Official Statistics team to provide guidance and processes for producing new and existing Official Statistics publications, including those with National Statistics designation."
-  },
-  {
-    "objectID": "guidance/process/index.html",
-    "href": "guidance/process/index.html",
-    "title": "Process for producing a publication",
-    "section": "",
-    "text": "Each publication is assigned a responsible statistician. This is the person who will lead on the development and maintenance of the publication and be the main point of contact for queries about the statistics. Our current publications and responsible statisticians are:\n\n\n\nPublication\nLead statistician\n\n\n\n\nDependency forming medicines\nKirsty Gray\n\n\nGeneral pharmaceutical services\nKirsty Gray\n\n\nHormone replacement therapy\nGraham Platten\n\n\nMedicines used in mental health — annual\nKirsty Gray\n\n\nMedicines used in mental health — quarterly\nGrace Libby\n\n\nPrescribing costs in hospitals and the community\nGraham Platten\n\n\nPrescribing for diabetes\nKirsty Gray\n\n\nPrescription cost analysis\nGraham Platten"
-  },
-  {
-    "objectID": "guidance/process/index.html#high-level-process",
-    "href": "guidance/process/index.html#high-level-process",
-    "title": "Process for producing a publication",
-    "section": "High level process",
-    "text": "High level process\nEach publication will go through the below stages before release. Each stage is expanded upon further on in this guidance.\n\n\n\n\n\nflowchart LR\n  A([start]) --> B[Review content]\n  B --> C[planning]\n  C --> D[Production]\n  D --> E[QA]\n  E --> F[Sign off]\n  F --> D & G(Publish)\n\n\n\n\n\n\nFigure 1: High level publication production process"
-  },
-  {
-    "objectID": "guidance/process/index.html#reviewing-content",
-    "href": "guidance/process/index.html#reviewing-content",
-    "title": "Process for producing a publication",
-    "section": "Reviewing content",
-    "text": "Reviewing content\nIn line with the Code of Practice for Statistics, particularly principles V1: Relevance to users and V4: Innovation and improvement, we should always be reviewing the content of our statistics to make sure that they provide public value and meet our user’s needs.\n\nResearch, policy developments and media interests\nAs we begin the production for a new release of a publication the responsible statistician should make sure to familiarise themselves with the content of the publication including the data sources, and their quality, and any policy context/background that we have. A lot can change in the time between releases especially for our prescribing and medicines publications, keeping up to date with policy developments, the release of new prescribing guidance, and what has been in the media is essential. This research should be documented so that it can easily be referenced in the future.\n\n\nUser and stakeholder feedback\nFeedback collected through our continuous surveys, provided via email, or any other route should be reviewed and help guide any changes and improvements that we want to make to the statistics. This could include requests for new analyses, feedback on usability and clarity, or even feedback that an analysis is no longer needed. The views of interested stakeholders should also be regularly sought to make sure that the statistics fulfil their intended purpose. For example, colleagues at the Department for Health and Social Care (DHSC) and NHS England.\n\n\nNew and emerging services\nNew services may become available that would be of interest to include in our publications, for example, a new advanced service for pharmacy contractors or a new service launched by the NHSBSA. Including data and analyses on these new services may provide new insights and increase the value of our statistics.\n\n\nCriteria and SME engagement\nThe criteria for our publications should also be reviewed to make sure that they are still relevant. For example, for publications in specific clinical areas such as Medicines Used in Mental Health and Prescribing for Diabetes the drug lists used should be reviewed and where appropriate the views of clinical colleagues should be sought. New products may have come to market or the BNF classifications of some existing products changed1, We need to make sure that the drug lists that we use are up to date, comprehensive and clinically approved. Subject matter experts (SMEs) should be engaged here to provide guidance.\n\n\nData quality issues\nAs with any data set mistakes can and do happen in our data. To make sure that we are aware of any data quality issues that may impact our statistics the data quality incident register maintained by the Data Governance team should be reviewed. Where a data quality issue is identified this should be noted and steps taken to correct the data or communicated to users what the issue is.\n\n\nIdentified improvements and opportunities\nWe as statisticians often know of improvements that we can make to our outputs to make them more relevant to users or may have seen demonstrations of best practice from across the UK statistical system. During publication retrospectives ideas for improvements to take forward are logged and recorded as part of each publication’s wiki. These ideas should be reviewed and where needed exploratory analysis carried out and documented.\n\n\nMethodological changes\nWe should always be reviewing the methodologies that we use in our statistics to make sure that they are recognised best practice and coherent with other statistics across the health and social care sector. If an improvement to a methodology is identified, for example, calculating standardised population rates or assigning patients to a particular lower-layer super output area (LSOA), then this improvement should be documented alongside any impacts that it may have on the statistics. There is not a dedicated methods group at the NHSBSA, however, other statisticians and analysts in the Data Analytics Learning Lab (DALL) and External Reporting teams should be invited to review the new methodology and discussions held on possible alternatives. Where practicable, all statisticians, data scientists, and analysts across the NHSBSA should be using standardised methods for analysis.\nWhere a new method is statistically innovative or a wholesale change from what has been used before it may be advised to consult the Methodology Advisory Service(MAS) at the Office for National Statistics (ONS).\n\n\nUser engagement and pre-announcing changes\nOnce a review of content has been completed all changes that have been decided to be carried forward for the new release should be documented in full, including additions/removal of content. The impacts of any changes should also be explored and documented, for example, if a methodological change is being made or if a data source is changing. The views of the NHSBSA Lead Official for Statistics and/or Statistical Publication Lead should then be sought on the proposed changes to provide guidance.\nAny changes that we are making to the statistics must be pre-announced on the NHSBSA website well in advance of the release of the statistics (at least 4 weeks in advance). Where practicable, users views should be sought on the proposed changes, but were these changes have been guided by user feedback already this may not be necessary.\nWhere large methodological changes have taken place or where the underlying data source for the statistics has changed and materially impacted new or historical figures users views must be sought before the change is implemented — particularly for National Statistics publications. User engagement can be done through a variety of methods, including:\n\ndedicated engagement events\npublic consultations\nblogs detailing the changes and impacts\nother activities\n\nUser engagement is often done in conjunction with other teams throughout the organisation such as Communications and Customer Insight. These teams should be consulted to help support our engagement activities.\n\n\nchecklist\n\ndo you know what analyses are in the statistics and their data source?\nare all data sources still available?\nwhat policy developments have their been?\nhave there been any FOI/data/PQ requests that show there is a gap in the statistics?\nare new services/areas for analysis available? Have any services stopped?\nhave users provided any feedback that can be acted upon?\nhave there been any data quality incidents that would impact the statistics?\nwhat areas did we identify for improvement from the previous release’s debrief?\nhave you documented the review process and formulated an improvement plan for the release"
-  },
-  {
-    "objectID": "guidance/process/index.html#user-engagement-and-pre-announcing-changes",
-    "href": "guidance/process/index.html#user-engagement-and-pre-announcing-changes",
-    "title": "Process for producing a publication",
-    "section": "User engagement and pre-announcing changes",
-    "text": "User engagement and pre-announcing changes\nOnce\n\nchecklist\n\ndo you know what analyses are in the statistics and their data source?\nare all data sources still available?\nwhat policy developments have their been?\nare new services/areas for analysis available? Have any services stopped?\nhave users provided any feedback that can be acted upon?\nwhat areas did we identify for improvement from the previous release’s debrief?\nhave you documented the review process and formulated an improvement plan for the release"
-  },
-  {
-    "objectID": "guidance/process/index.html#planning",
-    "href": "guidance/process/index.html#planning",
-    "title": "Process for producing a publication",
-    "section": "Planning",
-    "text": "Planning\nOnce"
-  },
-  {
-    "objectID": "index.html#high-level-process",
-    "href": "index.html#high-level-process",
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
     "title": "NHSBSA DALL Playbook",
-    "section": "High level process",
-    "text": "High level process"
+    "section": "",
+    "text": "%%{\n  init: {\n    'theme': 'neutral',\n    'themeVariables': {\n      'primaryColor': '#BB2528',\n      'primaryTextColor': '#fff',\n      'primaryBorderColor': '#7C0000',\n      'lineColor': '#F8B229',\n      'secondaryColor': '#006100',\n      'tertiaryColor': '#fff',\n      'fontSize': '16px'\n    }\n  }\n}%%\n\nflowchart LR\n  A[\"Before the Problem Definition\"] \n  B[\"Problem Definition\"]\n  C[\"Analysis and Modelling\"]\n  D[\"Initative Wrap Up\"]\n\n  subgraph whole_process[\"The Process at a Glance\"]\n  direction LR\n    A --&gt; B --&gt; C --&gt; D\n  end\n\n\nFigure 1: Placeholder Diagram"
   },
   {
-    "objectID": "index.html#guidance",
-    "href": "index.html#guidance",
+    "objectID": "index.html#sections",
+    "href": "index.html#sections",
     "title": "NHSBSA DALL Playbook",
-    "section": "Guidance",
-    "text": "Guidance"
+    "section": "Sections",
+    "text": "Sections"
   },
   {
-    "objectID": "guidance/reviewing-content/index.html",
-    "href": "guidance/reviewing-content/index.html",
-    "title": "Reviewing content",
+    "objectID": "guidance/01-pre-pd/index.html",
+    "href": "guidance/01-pre-pd/index.html",
+    "title": "Before the Problem Definition",
     "section": "",
-    "text": "In line with the Code of Practice for Statistics, particularly principles V1: Relevance to users and V4: Innovation and improvement, we should always be reviewing the content of our statistics to make sure that they provide public value and meet our user’s needs."
+    "text": "%%{\n  init: {\n    'theme': 'neutral',\n    'themeVariables': {\n      'primaryColor': '#BB2528',\n      'primaryTextColor': '#fff',\n      'primaryBorderColor': '#7C0000',\n      'lineColor': '#F8B229',\n      'secondaryColor': '#006100',\n      'tertiaryColor': '#fff',\n      'fontSize': '16px'\n    }\n  }\n}%%\n\nflowchart LR\n  1A[\"Problem \n  Identified\"] \n  1B[\"Assign Critical \n  Friend\"]\n  1C[\"Get Access \n  to the Data\"]\n  1D[\"Initial Research and \n  Look at Previous \n  Iterations\"]\n  1E[\"Initial Meeting \n  with the Customer\"]\n  1F[\"Create Initiative \n  Resources\"]\n\n  subgraph pre_pd[\"01: Before the Problem Definition\"]\n  direction LR\n    1A --&gt; 1B\n    1B --&gt; 1C\n    1C --&gt; 1D\n    1D --&gt; 1E\n    1E --&gt; 1F\n  end\n\n\nFigure 1: Placeholder Diagram"
   },
   {
-    "objectID": "guidance/reviewing-content/index.html#reviewing-content",
-    "href": "guidance/reviewing-content/index.html#reviewing-content",
-    "title": "Process for producing a publication",
-    "section": "Reviewing content",
-    "text": "Reviewing content\nIn line with the Code of Practice for Statistics, particularly principles V1: Relevance to users and V4: Innovation and improvement, we should always be reviewing the content of our statistics to make sure that they provide public value and meet our user’s needs.\n\nResearch, policy developments and media interests\nAs we begin the production for a new release of a publication the responsible statistician should make sure to familiarise themselves with the content of the publication including the data sources, and their quality, and any policy context/background that we have. A lot can change in the time between releases especially for our prescribing and medicines publications, keeping up to date with policy developments, the release of new prescribing guidance, and what has been in the media is essential. This research should be documented so that it can easily be referenced in the future.\n\n\nUser and stakeholder feedback\nFeedback collected through our continuous surveys, provided via email, or any other route should be reviewed and help guide any changes and improvements that we want to make to the statistics. This could include requests for new analyses, feedback on usability and clarity, or even feedback that an analysis is no longer needed. The views of interested stakeholders should also be regularly sought to make sure that the statistics fulfil their intended purpose. For example, colleagues at the Department for Health and Social Care (DHSC) and NHS England.\n\n\nNew and emerging services\nNew services may become available that would be of interest to include in our publications, for example, a new advanced service for pharmacy contractors or a new service launched by the NHSBSA. Including data and analyses on these new services may provide new insights and increase the value of our statistics.\n\n\nCriteria and SME engagement\nThe criteria for our publications should also be reviewed to make sure that they are still relevant. For example, for publications in specific clinical areas such as Medicines Used in Mental Health and Prescribing for Diabetes the drug lists used should be reviewed and where appropriate the views of clinical colleagues should be sought. New products may have come to market or the BNF classifications of some existing products changed1, We need to make sure that the drug lists that we use are up to date, comprehensive and clinically approved. Subject matter experts (SMEs) should be engaged here to provide guidance.\n\n\nData quality issues\nAs with any data set mistakes can and do happen in our data. To make sure that we are aware of any data quality issues that may impact our statistics the data quality incident register maintained by the Data Governance team should be reviewed. Where a data quality issue is identified this should be noted and steps taken to correct the data or communicated to users what the issue is.\n\n\nIdentified improvements and opportunities\nWe as statisticians often know of improvements that we can make to our outputs to make them more relevant to users or may have seen demonstrations of best practice from across the UK statistical system. During publication retrospectives ideas for improvements to take forward are logged and recorded as part of each publication’s wiki. These ideas should be reviewed and where needed exploratory analysis carried out and documented.\n\n\nMethodological changes\nWe should always be reviewing the methodologies that we use in our statistics to make sure that they are recognised best practice and coherent with other statistics across the health and social care sector. If an improvement to a methodology is identified, for example, calculating standardised population rates or assigning patients to a particular lower-layer super output area (LSOA), then this improvement should be documented alongside any impacts that it may have on the statistics. There is not a dedicated methods group at the NHSBSA, however, other statisticians and analysts in the Data Analytics Learning Lab (DALL) and External Reporting teams should be invited to review the new methodology and discussions held on possible alternatives. Where practicable, all statisticians, data scientists, and analysts across the NHSBSA should be using standardised methods for analysis.\nWhere a new method is statistically innovative or a wholesale change from what has been used before it may be advised to consult the Methodology Advisory Service(MAS) at the Office for National Statistics (ONS).\n\n\nUser engagement and pre-announcing changes\nOnce a review of content has been completed all changes that have been decided to be carried forward for the new release should be documented in full, including additions/removal of content. The impacts of any changes should also be explored and documented, for example, if a methodological change is being made or if a data source is changing. The views of the NHSBSA Lead Official for Statistics and/or Statistical Publication Lead should then be sought on the proposed changes to provide guidance.\nAny changes that we are making to the statistics must be pre-announced on the NHSBSA website well in advance of the release of the statistics (at least 4 weeks in advance). Where practicable, users views should be sought on the proposed changes, but were these changes have been guided by user feedback already this may not be necessary.\nWhere large methodological changes have taken place or where the underlying data source for the statistics has changed and materially impacted new or historical figures users views must be sought before the change is implemented — particularly for National Statistics publications. User engagement can be done through a variety of methods, including:\n\ndedicated engagement events\npublic consultations\nblogs detailing the changes and impacts\nother activities\n\nUser engagement is often done in conjunction with other teams throughout the organisation such as Communications and Customer Insight. These teams should be consulted to help support our engagement activities.\n\n\nchecklist\n\ndo you know what analyses are in the statistics and their data source?\nare all data sources still available?\nwhat policy developments have their been?\nhave there been any FOI/data/PQ requests that show there is a gap in the statistics?\nare new services/areas for analysis available? Have any services stopped?\nhave users provided any feedback that can be acted upon?\nhave there been any data quality incidents that would impact the statistics?\nwhat areas did we identify for improvement from the previous release’s debrief?\nhave you documented the review process and formulated an improvement plan for the release"
-  },
-  {
-    "objectID": "guidance/reviewing-content/index.html#planning",
-    "href": "guidance/reviewing-content/index.html#planning",
-    "title": "Process for producing a publication",
-    "section": "Planning",
-    "text": "Planning\nOnce"
-  },
-  {
-    "objectID": "guidance/responsible-statisticians/index.html",
-    "href": "guidance/responsible-statisticians/index.html",
-    "title": "Responsible statisticians",
+    "objectID": "guidance/01-pre-pd/index.html#overview",
+    "href": "guidance/01-pre-pd/index.html#overview",
+    "title": "Before the Problem Definition",
     "section": "",
-    "text": "Publication\nLead statistician\n\n\n\n\nDependency forming medicines\nKirsty Gray\n\n\nGeneral pharmaceutical services\nKirsty Gray\n\n\nHormone replacement therapy\nGraham Platten\n\n\nMedicines used in mental health — annual\nKirsty Gray\n\n\nMedicines used in mental health — quarterly\nGrace Libby\n\n\nPrescribing costs in hospitals and the community\nGraham Platten\n\n\nPrescribing for diabetes\nKirsty Gray\n\n\nPrescription cost analysis\nGraham Platten\n\n\n\nResponsible statisticians are expected to be subject matter experts (SMEs) for the topic areas that they cover."
+    "text": "%%{\n  init: {\n    'theme': 'neutral',\n    'themeVariables': {\n      'primaryColor': '#BB2528',\n      'primaryTextColor': '#fff',\n      'primaryBorderColor': '#7C0000',\n      'lineColor': '#F8B229',\n      'secondaryColor': '#006100',\n      'tertiaryColor': '#fff',\n      'fontSize': '16px'\n    }\n  }\n}%%\n\nflowchart LR\n  1A[\"Problem \n  Identified\"] \n  1B[\"Assign Critical \n  Friend\"]\n  1C[\"Get Access \n  to the Data\"]\n  1D[\"Initial Research and \n  Look at Previous \n  Iterations\"]\n  1E[\"Initial Meeting \n  with the Customer\"]\n  1F[\"Create Initiative \n  Resources\"]\n\n  subgraph pre_pd[\"01: Before the Problem Definition\"]\n  direction LR\n    1A --&gt; 1B\n    1B --&gt; 1C\n    1C --&gt; 1D\n    1D --&gt; 1E\n    1E --&gt; 1F\n  end\n\n\nFigure 1: Placeholder Diagram"
   },
   {
-    "objectID": "guidance/planning/index.html",
-    "href": "guidance/planning/index.html",
-    "title": "Planning",
+    "objectID": "guidance/01-pre-pd/index.html#sections",
+    "href": "guidance/01-pre-pd/index.html#sections",
+    "title": "Before the Problem Definition",
+    "section": "Sections",
+    "text": "Sections"
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/01-problem-identified.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/01-problem-identified.html",
+    "title": "Problem Identified",
     "section": "",
-    "text": "Each publication production cycle needs to be planned out in order to make sure that we have all of the outputs ready in time to be fully assured and each team member knows what they are responsible for delivering — every publication is a collaborative effort."
+    "text": "This could be identified by the DALL team, an internal NHSBSA customer, or an external customer.\nFor NHSBSA and external customers, you should log each initiative request through Nhsbsa.dall@nhs.net before starting the work. The DALL team manager normally assigns these initiatives.\nInternal ideas can come from the ideas register, exploratory project, or another source. The customer of these initiatives is the DALL team manager unless a customer is found. If you, your critical friend or the DALL team manager has a potential customer in mind, you should setup a meeting with them to explain your ideas and see if they would be interested."
   },
   {
-    "objectID": "guidance/pra/index.html",
-    "href": "guidance/pra/index.html",
-    "title": "Pre-release access (PRA)",
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/01-problem-identified.html#identify-a-problem",
+    "href": "guidance/01-pre-pd/pre-pd-steps/01-problem-identified.html#identify-a-problem",
+    "title": "Problem Identified",
     "section": "",
-    "text": "Guidance coming soon"
+    "text": "This could be identified by the DALL team, an internal NHSBSA customer, or an external customer.\nFor NHSBSA and external customers, you should log each initiative request through Nhsbsa.dall@nhs.net before starting the work. The DALL team manager normally assigns these initiatives.\nInternal ideas can come from the ideas register, exploratory project, or another source. The customer of these initiatives is the DALL team manager unless a customer is found. If you, your critical friend or the DALL team manager has a potential customer in mind, you should setup a meeting with them to explain your ideas and see if they would be interested."
   },
   {
-    "objectID": "guidance/production/index.html",
-    "href": "guidance/production/index.html",
-    "title": "Production",
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html",
+    "title": "Assign a Critical Friend",
     "section": "",
-    "text": "Guidance coming soon"
+    "text": "Typical DALL initiatives usually involve 1-2 people working on the project. They also choose a “critical friend” to give an extra review of the coding and/or business understanding. They can also attend meetings, check documents and provide extra support and guidance throughout the initiative.\nThe data scientist usually chooses a critical friend with input from the DALL team manager. The manager knows who is available and has valuable knowledge about the upcoming project."
   },
   {
-    "objectID": "guidance/publish/index.html",
-    "href": "guidance/publish/index.html",
-    "title": "Publishing content",
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#what-is-a-critical-friend",
+    "href": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#what-is-a-critical-friend",
+    "title": "Assign a Critical Friend",
     "section": "",
-    "text": "Guidance coming soon"
+    "text": "Typical DALL initiatives usually involve 1-2 people working on the project. They also choose a “critical friend” to give an extra review of the coding and/or business understanding. They can also attend meetings, check documents and provide extra support and guidance throughout the initiative.\nThe data scientist usually chooses a critical friend with input from the DALL team manager. The manager knows who is available and has valuable knowledge about the upcoming project."
   },
   {
-    "objectID": "guidance/qa/index.html",
-    "href": "guidance/qa/index.html",
-    "title": "Quality assurance",
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#tips-for-working-with-your-critical-friend",
+    "href": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#tips-for-working-with-your-critical-friend",
+    "title": "Assign a Critical Friend",
+    "section": "Tips for Working With Your Critical Friend",
+    "text": "Tips for Working With Your Critical Friend\nIt is useful to assign a critical friend as early as possible. Ideally, they should have prior experience with similar data or techniques. This will help them offer more insight and review the project. If you are an initiative expert, you can choose a new team member as the critical friend so they can gain experience.\nMake sure to include them in the project through regular catch ups. This way, they can review your work gradually, instead of all at once. If you can, make sure to give your critical friend as much as notice as possible of work that you will be sending over, to ensure they can make the time to look at it."
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html",
+    "title": "Get Access to the Data",
     "section": "",
-    "text": "Guidance coming soon"
+    "text": "If you don’t have access to the data already, you will need request access. To access the data you need for initiatives, email the DALL data holder and team manager. They will confirm and provide the data from the DALP Oracle database.\nIf the data is not in DALP or not what you need, you can submit a service request to access to the required data in the DWCP Oracle database. Advice on how to request data from both sources can be found within the DALL OneNote Wiki [INSERT LINK]. Additionally, tips on how to connect to and use both sources are included here within the DALL OneNote Wiki."
   },
   {
-    "objectID": "guidance/sign-off/index.html",
-    "href": "guidance/sign-off/index.html",
-    "title": "Sign off",
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#how-to-get-access",
+    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#how-to-get-access",
+    "title": "Get Access to the Data",
     "section": "",
-    "text": "Guidance coming soon"
+    "text": "If you don’t have access to the data already, you will need request access. To access the data you need for initiatives, email the DALL data holder and team manager. They will confirm and provide the data from the DALP Oracle database.\nIf the data is not in DALP or not what you need, you can submit a service request to access to the required data in the DWCP Oracle database. Advice on how to request data from both sources can be found within the DALL OneNote Wiki [INSERT LINK]. Additionally, tips on how to connect to and use both sources are included here within the DALL OneNote Wiki."
   },
   {
-    "objectID": "guidance/planning/index.html#planning-meeting",
-    "href": "guidance/planning/index.html#planning-meeting",
-    "title": "Planning",
-    "section": "Planning meeting",
-    "text": "Planning meeting\nA meeting should be organised to bring together the team to discuss the tasks required and assign them to a team member. The responsible statistician for the publication should arrange this meeting for a time when everyone is available. This meeting can be in-person, virtual, or hybrid."
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#usage",
+    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#usage",
+    "title": "Get Access to the Data",
+    "section": "Usage",
+    "text": "Usage\nTo note, the data stored within DALP is typically static, while it is updated on a regular basis within DWCP. Depending on your use case, you may opt to use the data in DWCP instead, if the work needs to be repeated on a regular basis. You must be careful when using DWCP data. Running SQL queries may slow down production systems.\nFinally, on occasion, data may come from additional locations such as internal spreadsheets. You must store the data securely in SharePoint and never access it on your personal laptop."
   },
   {
-    "objectID": "guidance/planning/index.html#github-issues",
-    "href": "guidance/planning/index.html#github-issues",
-    "title": "Planning",
-    "section": "GitHub issues",
-    "text": "GitHub issues\nWe currently use GitHub issues to describe, assign, and track tasks for a publication. If more suitable software is available for a particular publication or project then this should be used instead (for example, JIRA). Issues should be created in the pipeline repository of the publication and milestones used to group related tasks together and assign due dates.\nAs much detail as possible should be put into the issue about the task to allow the assigned person to be able to pick it up and complete it independently."
-  },
-  {
-    "objectID": "guidance/planning/index.html#assigning-issues",
-    "href": "guidance/planning/index.html#assigning-issues",
-    "title": "Planning",
-    "section": "Assigning issues",
-    "text": "Assigning issues"
-  },
-  {
-    "objectID": "guidance/reviewing-content/index.html#research-policy-developments-and-media-interests",
-    "href": "guidance/reviewing-content/index.html#research-policy-developments-and-media-interests",
-    "title": "Reviewing content",
-    "section": "Research, policy developments and media interests",
-    "text": "Research, policy developments and media interests\nAs we begin the production for a new release of a publication the responsible statistician should make sure to familiarise themselves with the content of the publication including the data sources, and their quality, and any policy context/background that we have. A lot can change in the time between releases especially for our prescribing and medicines publications, keeping up to date with policy developments, the release of new prescribing guidance, and what has been in the media is essential. This research should be documented so that it can easily be referenced in the future."
-  },
-  {
-    "objectID": "guidance/reviewing-content/index.html#user-and-stakeholder-feedback",
-    "href": "guidance/reviewing-content/index.html#user-and-stakeholder-feedback",
-    "title": "Reviewing content",
-    "section": "User and stakeholder feedback",
-    "text": "User and stakeholder feedback\nFeedback collected through our continuous surveys, provided via email, or any other route should be reviewed and help guide any changes and improvements that we want to make to the statistics. This could include requests for new analyses, feedback on usability and clarity, or even feedback that an analysis is no longer needed. The views of interested stakeholders should also be regularly sought to make sure that the statistics fulfil their intended purpose. For example, colleagues at the Department for Health and Social Care (DHSC) and NHS England."
-  },
-  {
-    "objectID": "guidance/reviewing-content/index.html#new-and-emerging-services",
-    "href": "guidance/reviewing-content/index.html#new-and-emerging-services",
-    "title": "Reviewing content",
-    "section": "New and emerging services",
-    "text": "New and emerging services\nNew services may become available that would be of interest to include in our publications, for example, a new advanced service for pharmacy contractors or a new service launched by the NHSBSA. Including data and analyses on these new services may provide new insights and increase the value of our statistics."
-  },
-  {
-    "objectID": "guidance/reviewing-content/index.html#criteria-and-sme-engagement",
-    "href": "guidance/reviewing-content/index.html#criteria-and-sme-engagement",
-    "title": "Reviewing content",
-    "section": "Criteria and SME engagement",
-    "text": "Criteria and SME engagement\nThe criteria for our publications should also be reviewed to make sure that they are still relevant. For example, for publications in specific clinical areas such as Medicines Used in Mental Health and Prescribing for Diabetes the drug lists used should be reviewed and where appropriate the views of clinical colleagues should be sought. New products may have come to market or the BNF classifications of some existing products changed1, We need to make sure that the drug lists that we use are up to date, comprehensive and clinically approved. Subject matter experts (SMEs) should be engaged here to provide guidance."
-  },
-  {
-    "objectID": "guidance/reviewing-content/index.html#data-quality-issues",
-    "href": "guidance/reviewing-content/index.html#data-quality-issues",
-    "title": "Reviewing content",
-    "section": "Data quality issues",
-    "text": "Data quality issues\nAs with any data set mistakes can and do happen in our data. To make sure that we are aware of any data quality issues that may impact our statistics the data quality incident register maintained by the Data Governance team should be reviewed. Where a data quality issue is identified this should be noted and steps taken to correct the data or communicated to users what the issue is."
-  },
-  {
-    "objectID": "guidance/reviewing-content/index.html#identified-improvements-and-opportunities",
-    "href": "guidance/reviewing-content/index.html#identified-improvements-and-opportunities",
-    "title": "Reviewing content",
-    "section": "Identified improvements and opportunities",
-    "text": "Identified improvements and opportunities\nWe as statisticians often know of improvements that we can make to our outputs to make them more relevant to users or may have seen demonstrations of best practice from across the UK statistical system. During publication retrospectives ideas for improvements to take forward are logged and recorded as part of each publication’s wiki. These ideas should be reviewed and where needed exploratory analysis carried out and documented."
-  },
-  {
-    "objectID": "guidance/reviewing-content/index.html#methodological-changes",
-    "href": "guidance/reviewing-content/index.html#methodological-changes",
-    "title": "Reviewing content",
-    "section": "Methodological changes",
-    "text": "Methodological changes\nWe should always be reviewing the methodologies that we use in our statistics to make sure that they are recognised best practice and coherent with other statistics across the health and social care sector. If an improvement to a methodology is identified, for example, calculating standardised population rates or assigning patients to a particular lower-layer super output area (LSOA), then this improvement should be documented alongside any impacts that it may have on the statistics. There is not a dedicated methods group at the NHSBSA, however, other statisticians and analysts in the Data Analytics Learning Lab (DALL) and External Reporting teams should be invited to review the new methodology and discussions held on possible alternatives. Where practicable, all statisticians, data scientists, and analysts across the NHSBSA should be using standardised methods for analysis.\nWhere a new method is statistically innovative or a wholesale change from what has been used before it may be advised to consult the Methodology Advisory Service(MAS) at the Office for National Statistics (ONS)."
-  },
-  {
-    "objectID": "guidance/reviewing-content/index.html#user-engagement-and-pre-announcing-changes",
-    "href": "guidance/reviewing-content/index.html#user-engagement-and-pre-announcing-changes",
-    "title": "Reviewing content",
-    "section": "User engagement and pre-announcing changes",
-    "text": "User engagement and pre-announcing changes\nOnce a review of content has been completed all changes that have been decided to be carried forward for the new release should be documented in full, including additions/removal of content. The impacts of any changes should also be explored and documented, for example, if a methodological change is being made or if a data source is changing. The views of the NHSBSA Lead Official for Statistics and/or Statistical Publication Lead should then be sought on the proposed changes to provide guidance.\nAny changes that we are making to the statistics must be pre-announced on the NHSBSA website well in advance of the release of the statistics (at least 4 weeks in advance). Where practicable, users views should be sought on the proposed changes, but were these changes have been guided by user feedback already this may not be necessary.\nWhere large methodological changes have taken place or where the underlying data source for the statistics has changed and materially impacted new or historical figures users views must be sought before the change is implemented — particularly for National Statistics publications. User engagement can be done through a variety of methods, including:\n\ndedicated engagement events\npublic consultations\nblogs detailing the changes and impacts\nother activities\n\nUser engagement is often done in conjunction with other teams throughout the organisation such as Communications and Customer Insight. These teams should be consulted to help support our engagement activities."
-  },
-  {
-    "objectID": "guidance/reviewing-content/index.html#checklist",
-    "href": "guidance/reviewing-content/index.html#checklist",
-    "title": "Reviewing content",
-    "section": "checklist",
-    "text": "checklist\n\ndo you know what analyses are in the statistics and their data source?\nare all data sources still available?\nwhat policy developments have their been?\nhave there been any FOI/data/PQ requests that show there is a gap in the statistics?\nare new services/areas for analysis available? Have any services stopped?\nhave users provided any feedback that can be acted upon?\nhave there been any data quality incidents that would impact the statistics?\nwhat areas did we identify for improvement from the previous release’s debrief?\nhave you documented the review process and formulated an improvement plan for the release"
-  },
-  {
-    "objectID": "diagrams/option1.html",
-    "href": "diagrams/option1.html",
-    "title": "test2",
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/04-initial-research.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/04-initial-research.html",
+    "title": "Initial Research and Look at Previous Iterations",
     "section": "",
-    "text": "Issues:\n\nGraph is too small\nFigure out how to link to tabs with information\nConfigure NHSBSA Theme for diagram?\n\nNotes:\n\nChange theme to base to edit format and colours below\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'neutral',\n    'themeVariables': {\n      'primaryColor': '#BB2528',\n      'primaryTextColor': '#fff',\n      'primaryBorderColor': '#7C0000',\n      'lineColor': '#F8B229',\n      'secondaryColor': '#006100',\n      'tertiaryColor': '#fff',\n      'fontSize': '16px'\n    }\n  }\n}%%\n\nflowchart LR\n  1A[\"Problem Identified\"] \n  1B[\"Assign Critical Friend\"]\n  1C[\"Initial Research and Look at Previous Iterations\"]\n  1D[\"Initial Meeting with Customer\"]\n  1E[\"Get Access to Data\"]\n  1F[\"Create JIRA, SharePoint, Git and Others\"]\n    \n  1G[\"Write Problem \n    Definition\"] \n  1H[\"Data and \n    Business \n    Understanding\"] \n  1I[\"Further \n    Research\"] \n  1J[\"Meet with \n    Customer\"]\n  \n  2A[\"Data Preparation\"]\n  2B[\"Analysis/Modelling\"] \n  2C[\"Reporting and Visuals\"] \n  2D[\"Review and Test\"] \n  2E[\"Critical Friend to Review\"] \n  2F[\"Customer Review\"]\n  \n  3A[\"Final Meeting with Customer\"]\n  3B[\"Wrap Up and  Clean Code\"]\n  3C[\"Write Documentation\"]\n  3D[\"Add to Wiki\"]\n  3E[\"Make Repo Public If Applicable\"]\n  3F[\"Document Any Further Work That Can Be Done\"]\n\n  subgraph pre_pd[\"01: Project Setup\"]\n  direction TB\n    1A --&gt; 1B\n    1B --&gt; 1C\n    1C --&gt; 1D\n    1D --&gt; 1E\n    1E --&gt; 1F\n  end\n  \n  subgraph pd_loop[\"02: Problem Definition\"]\n  direction TB\n    1G --&gt; 1H --&gt; 1I --&gt; 1J --&gt; 1G\n  end\n  \n  subgraph analysis_loop[\"03: Analysis/Modelling\"]\n  direction TB\n    2A --&gt; 2B --&gt; 2C --&gt; 2D --&gt; 2E --&gt; 2F --&gt; 2A\n  end\n  \n  subgraph review[\"04: Initiative Review\"]\n  direction TB\n    3A --&gt; 3B\n    3B --&gt; 3C\n    3C --&gt; 3D\n    3D --&gt; 3E\n    3E --&gt; 3F\n  end\n\n  pre_pd --&gt;|Items &lt;BR&gt; Created| pd_loop\n  pd_loop --&gt;|Sign Off From &lt;BR&gt; Customer| analysis_loop\n  analysis_loop --&gt;|Work &lt;BR&gt; Completed| review\n  \n  click 1B \"http://www.github.com\"\n\n\n\n\n\nclassDef padding stroke:none,fill:none\nclassDef title font-size:26px classDef pad padding-left:5em;\nclass review title class review pad"
+    "text": "If you have the data, analysing it for insights and limitations will help you understand what is possible for the initiative. As an aside, look at previous initiatives conducted in the team, these can be identified using JIRA and by asking around within the team. Your critical friend and the DALL team manager may be able to assist here too. This is especially helpful for understanding the business in the area you’re focused on and the data you’ll be using.\nAdditionally, online resources may help here such as Stack Overflow, Medium and other websites. There is also the NHS-R and government slack channels that you can use to message other data scientists and statisticians for advice. It is likely that your initiative has been conducted by another individual or company.\nFor technical projects such as machine learning based initiatives, research papers may assist. These can guide what is possible and what is not, given the data you have available. If you’re trying something new, consider taking a course from Data Camp to learn before starting."
   },
   {
-    "objectID": "diagrams/option2.html",
-    "href": "diagrams/option2.html",
-    "title": "test2",
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/04-initial-research.html#resources-you-can-use",
+    "href": "guidance/01-pre-pd/pre-pd-steps/04-initial-research.html#resources-you-can-use",
+    "title": "Initial Research and Look at Previous Iterations",
     "section": "",
-    "text": "Issues:\n\nGraph is too small\nFigure out how to link to tabs with information\nConfigure NHSBSA Theme for diagram?\n\nNotes:\n\nChange theme to base to edit format and colours below\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'neutral',\n    'themeVariables': {\n      'primaryColor': '#BB2528',\n      'primaryTextColor': '#fff',\n      'primaryBorderColor': '#7C0000',\n      'lineColor': '#F8B229',\n      'secondaryColor': '#006100',\n      'tertiaryColor': '#fff',\n      'fontSize': '16px'\n    }\n  }\n}%%\n\nflowchart TB\n  1A[\"Problem Identified\"] \n  1B[\"Assign Critical Friend\"]\n  1C[\"Initial Research and Look at Previous Iterations\"]\n  1D[\"Initial Meeting with Customer\"]\n  1E[\"Get Access to Data\"]\n  1F[\"Create JIRA, SharePoint, Git and Others\"]\n    \n  1G[\"Write Problem \n    Definition\"] \n  1H[\"Data and \n    Business \n    Understanding\"] \n  1I[\"Further \n    Research\"] \n  1J[\"Meet with \n    Customer\"]\n  \n  2A[\"Data Preparation\"]\n  2B[\"Analysis/Modelling\"] \n  2C[\"Reporting and Visuals\"] \n  2D[\"Review and Test\"] \n  2E[\"Critical Friend to Review\"] \n  2F[\"Customer Review\"]\n  \n  3A[\"Final Meeting with Customer\"]\n  3B[\"Wrap Up and  Clean Code\"]\n  3C[\"Write Documentation\"]\n  3D[\"Add to Wiki\"]\n  3E[\"Make Repo Public If Applicable\"]\n  3F[\"Document Any Further Work That Can Be Done\"]\n  \n  subgraph first_two[\" \"]\n  direction LR\n\n    subgraph pre_pd[\"01: Project Setup\"]\n    direction TB\n      1A --&gt; 1B\n      1B --&gt; 1C\n      1C --&gt; 1D\n      1D --&gt; 1E\n      1E --&gt; 1F\n    end\n  \n    subgraph pd_loop[\"02: Problem Definition\"]\n    direction TB\n      1G --&gt; 1H --&gt; 1I --&gt; 1J --&gt; 1G\n    end\n    \n  end\n  \n  subgraph second_two[\" \"]\n  direction LR\n  \n    subgraph analysis_loop[\"03: Analysis/Modelling\"]\n    direction TB\n      2A --&gt; 2B --&gt; 2C --&gt; 2D --&gt; 2E --&gt; 2F --&gt; 2A\n    end\n  \n    subgraph review[\"04: Initiative Review\"]\n    direction TB\n      3A --&gt; 3B\n      3B --&gt; 3C\n      3C --&gt; 3D\n      3D --&gt; 3E\n      3E --&gt; 3F\n    end\n  \n  end\n\n   pre_pd --&gt;|Items &lt;BR&gt; Created| pd_loop\n  analysis_loop --&gt;|Work &lt;BR&gt; Completed| review\n  first_two--&gt;|Sign Off From Customer| second_two\n\n  \n  classDef padding stroke:none,fill:none\n  \n  class first_two padding\n  class second_two padding\n  \n  click 1B \"http://www.github.com\"\n\n\n\n\n\npre_pd –&gt;|Items  Created| pd_loop pd_loop –&gt;|Sign Off From  Customer| analysis_loop analysis_loop –&gt;|Work  Completed| review\nclassDef padding stroke:none,fill:none\nclassDef title font-size:26px classDef pad padding-left:5em;\nclass review title class review pad"
+    "text": "If you have the data, analysing it for insights and limitations will help you understand what is possible for the initiative. As an aside, look at previous initiatives conducted in the team, these can be identified using JIRA and by asking around within the team. Your critical friend and the DALL team manager may be able to assist here too. This is especially helpful for understanding the business in the area you’re focused on and the data you’ll be using.\nAdditionally, online resources may help here such as Stack Overflow, Medium and other websites. There is also the NHS-R and government slack channels that you can use to message other data scientists and statisticians for advice. It is likely that your initiative has been conducted by another individual or company.\nFor technical projects such as machine learning based initiatives, research papers may assist. These can guide what is possible and what is not, given the data you have available. If you’re trying something new, consider taking a course from Data Camp to learn before starting."
   },
   {
-    "objectID": "diagrams/option3.html",
-    "href": "diagrams/option3.html",
-    "title": "test2",
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html",
+    "title": "Initial Meeting with the Customer",
     "section": "",
-    "text": "Issues:\n\nGraph is too small\nFigure out how to link to tabs with information\nConfigure NHSBSA Theme for diagram?\n\nNotes:\n\nChange theme to base to edit format and colours below\n\n\n\n\n\n%%{\n  init: {\n    'theme': 'neutral',\n    'themeVariables': {\n      'primaryColor': '#BB2528',\n      'primaryTextColor': '#fff',\n      'primaryBorderColor': '#7C0000',\n      'lineColor': '#F8B229',\n      'secondaryColor': '#006100',\n      'tertiaryColor': '#fff',\n      'fontSize': '16px'\n    }\n  }\n}%%\n\nflowchart LR\n  1A[\"Problem Identified\"] \n  1B[\"Assign Critical Friend\"]\n  1C[\"Initial Research and Look at Previous Iterations\"]\n  1D[\"Initial Meeting with Customer\"]\n  1E[\"Get Access to Data\"]\n  1F[\"Create JIRA, SharePoint, Git and Others\"]\n    \n  1G[\"Write Problem \n    Definition\"] \n  1H[\"Data and \n    Business \n    Understanding\"] \n  1I[\"Further \n    Research\"] \n  1J[\"Meet with \n    Customer\"]\n  \n  2A[\"Data Preparation\"]\n  2B[\"Analysis/Modelling\"] \n  2C[\"Reporting and Visuals\"] \n  2D[\"Review and Test\"] \n  2E[\"Critical Friend to Review\"] \n  2F[\"Customer Review\"]\n  \n  3A[\"Final Meeting with Customer\"]\n  3B[\"Wrap Up and  Clean Code\"]\n  3C[\"Write Documentation\"]\n  3D[\"Add to Wiki\"]\n  3E[\"Make Repo Public If Applicable\"]\n  3F[\"Document Any Further Work That Can Be Done\"]\n  \n  subgraph first_two[\" \"]\n  direction TB\n\n    subgraph pre_pd[\"01: Project Setup\"]\n    direction TB\n      1A --&gt; 1B\n      1B --&gt; 1C\n      1C --&gt; 1D\n      1D --&gt; 1E\n      1E --&gt; 1F\n    end\n  \n    subgraph pd_loop[\"02: Problem Definition\"]\n    direction TB\n      1G --&gt; 1H --&gt; 1I --&gt; 1J --&gt; 1G\n    end\n    \n  end\n  \n  subgraph second_two[\" \"]\n  direction TB\n  \n    subgraph analysis_loop[\"03: Analysis/Modelling\"]\n    direction TB\n      2A --&gt; 2B --&gt; 2C --&gt; 2D --&gt; 2E --&gt; 2F --&gt; 2A\n    end\n  \n    subgraph review[\"04: Initiative Review\"]\n    direction TB\n      3A --&gt; 3B\n      3B --&gt; 3C\n      3C --&gt; 3D\n      3D --&gt; 3E\n      3E --&gt; 3F\n    end\n  \n  end\n\n  pre_pd --&gt;|Items &lt;BR&gt; Created| pd_loop\n  analysis_loop --&gt;|Work &lt;BR&gt; Completed| review\n  first_two --- second_two\n  \n  linkStyle 22 stroke:white\n\n  \n  classDef padding stroke:none,fill:none\n  \n  class first_two padding\n  class second_two padding\n  \n  click 1B \"http://www.github.com\"\n\n\n\n\n\npre_pd –&gt;|Items  Created| pd_loop pd_loop –&gt;|Sign Off From  Customer| analysis_loop analysis_loop –&gt;|Work  Completed| review\nclassDef padding stroke:none,fill:none\nclassDef title font-size:26px classDef pad padding-left:5em;\nclass review title class review pad"
+    "text": "It is important to setup a first meeting with the customer once you have an initial understanding of initiative. If you are unsure who to invite to the meeting, you can ask your critical friend, the DALL team manager, or other colleagues. During this meeting, you can identify:\n\nWhat they are looking to do within the initiative,\nWhat outputs they are expecting to see, in which format,\nAny business knowledge or insights they can provide to aid your work,\nAny data limitations and possible solutions,\nIf there are any additional data sources to be considered and\nThe required timescales if applicable.\n\nThis meeting is important, as it can help to inform the problem definition within section 2. If the work is particularly urgent, more colleagues and resource can be assigned to the initiative accordingly.\nNote that some customers will have busy schedules so it is important to setup the meeting in advance so the project can progress. You should invite your critical friend to the meeting, so they can provide additional insight from prior work and understand the ask.\nFollowing this meeting, it may be useful to setup a reoccurring follow up meeting to keep in touch regularly. If you feel like you have questions unanswered following the meeting, make sure to follow on team or email to ask additional questions."
   },
   {
-    "objectID": "guidance/Section04_Initiative_Review/Final_meeting_with_customer/index.html",
-    "href": "guidance/Section04_Initiative_Review/Final_meeting_with_customer/index.html",
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html#tips-for-setting-up-and-conducting-the-meeting",
+    "href": "guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html#tips-for-setting-up-and-conducting-the-meeting",
+    "title": "Initial Meeting with the Customer",
+    "section": "",
+    "text": "It is important to setup a first meeting with the customer once you have an initial understanding of initiative. If you are unsure who to invite to the meeting, you can ask your critical friend, the DALL team manager, or other colleagues. During this meeting, you can identify:\n\nWhat they are looking to do within the initiative,\nWhat outputs they are expecting to see, in which format,\nAny business knowledge or insights they can provide to aid your work,\nAny data limitations and possible solutions,\nIf there are any additional data sources to be considered and\nThe required timescales if applicable.\n\nThis meeting is important, as it can help to inform the problem definition within section 2. If the work is particularly urgent, more colleagues and resource can be assigned to the initiative accordingly.\nNote that some customers will have busy schedules so it is important to setup the meeting in advance so the project can progress. You should invite your critical friend to the meeting, so they can provide additional insight from prior work and understand the ask.\nFollowing this meeting, it may be useful to setup a reoccurring follow up meeting to keep in touch regularly. If you feel like you have questions unanswered following the meeting, make sure to follow on team or email to ask additional questions."
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.html",
+    "title": "Create Initiative Resources",
+    "section": "",
+    "text": "Before beginning to work on your problem definition, you will need to setup the initiative resources. Currently, these include:\n\nA JIRA ticket to track progress on the work,\nSharePoint folder to store documents and data and\nA GitHub repository to store and monitor code."
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.html#what-to-setup",
+    "href": "guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.html#what-to-setup",
+    "title": "Create Initiative Resources",
+    "section": "",
+    "text": "Before beginning to work on your problem definition, you will need to setup the initiative resources. Currently, these include:\n\nA JIRA ticket to track progress on the work,\nSharePoint folder to store documents and data and\nA GitHub repository to store and monitor code."
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.html#tips-for-setting-up-the-resources",
+    "href": "guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.html#tips-for-setting-up-the-resources",
+    "title": "Create Initiative Resources",
+    "section": "Tips for Setting Up the Resources",
+    "text": "Tips for Setting Up the Resources\nBefore creating these, you will need to identify the DALL number of the initiative. To do this, and for guidance on how to setup the above, please see the DALL OneNote Wiki page here.\nWhen setting up a Github repository, remember to set it to private and invite the DALL team to the project so everyone can make changes. You should write your code with the intention of the repo going public in the future. Therefore, you must be careful not to include PII information within your code, such as NHS numbers.\nAfter creating all resources, remember to provide regular updates to the ticket and repository. This allows the DALL team manager to track progress."
+  },
+  {
+    "objectID": "guidance/02-pd/index.html",
+    "href": "guidance/02-pd/index.html",
+    "title": "Problem definition",
+    "section": "",
+    "text": "Add text here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData preparation\n\n\nPrepare data and create base table(s)\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-step.html",
+    "href": "guidance/02-pd/pd-steps/01-step.html",
+    "title": "Data preparation",
+    "section": "",
+    "text": "The goal of this step is to end up with one or more base tables on which analysis is then conducted. The base tables should include only data relevant, or possibly relevant, to the initiative. Some tables can have hundreds of columns, so reducing the footprint in your base tables is a recommended. Data preparation may be iterative, as the analysis becomes refined with frequent feedback from stakeholders.\nThe tables relevant to the initiative will have been identified in the process of writing the problem definition. Before using them it is important to get an idea of the data quality. This consists of summary statistics including at least\n\nData type\nMost common values for categorical fields, or minima/maxima and median for numeric\nCompleteness\nCross-correlation\n\nThere is the possibility of creating a SQL macro or stored procedure to generate the summary statistics in Oracle itself. This will streamline the process and is reproducible and promotes a consistent treatment of data quality.\n\n\nThis is the data type as stored. This may or may not be the same as what you expect. For example, it is common to use a numeric key in a fact table that represents a categorical value found in a dimension table. See the Wiki for more on fact and dimension tables (TODO).\n\n\n\nFor categorical fields, it is useful to have an idea of the distribution of values. For example, if considering use of machine learning techniques that are sensitive to imbalanced data. Even when considering techniques that handle imbalanced data well keeping the distribution in mind is useful when interpreting and reporting on the the results.\n\n\n\nFor numeric fields, this is the analogue to common values for categorical data. The values will give you an idea of how the data is distributed. You could go further and plot a histogram for better visualisation of this. NOTE: Consider adding to Rmarkdown example\n\n\n\nMany techniques are sensitive to missing data. Extreme cases of this can even prevent any useful analysis, so needs to be mitigated in some way. How it is mitigated will depend on the techniques employed. One thing to look out for is cases where a field has values only after, or before, a certain time. When this occurs it may limit some specific analysis to the time period for which values exist.\n\n\n\nSome techniques are resistant to correlation between explanatory variables, while others require all but one such correlated variable to be removed. In either case it is useful to understand what, if any, correlation between variables exists. The correlations can be computed with R, python or directly in Oracle. See these guides for more info\nR Python Oracle\n\n\n\nThe template initiative Data folder contains a Rmarkdown, data_summary.Rmd, which can be used as an example or starting point for data quality checking. When using it make sure to add notes of the findings for future reference.\nAn alternative would be to do it directly in the database, such as suggested on this github issue.\nIn addition to any Rmarkdown used, you may find it helpful to keep a record of specific counts found during initial EDA and during any further EDA performed while preparing the base tables. An example Excel file is in the template initiative Data folder, EDA figures.xlsx."
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-step.html#data-quality",
+    "href": "guidance/02-pd/pd-steps/01-step.html#data-quality",
+    "title": "Data preparation",
+    "section": "",
+    "text": "The goal of this step is to end up with one or more base tables on which analysis is then conducted. The base tables should include only data relevant, or possibly relevant, to the initiative. Some tables can have hundreds of columns, so reducing the footprint in your base tables is a recommended. Data preparation may be iterative, as the analysis becomes refined with frequent feedback from stakeholders.\nThe tables relevant to the initiative will have been identified in the process of writing the problem definition. Before using them it is important to get an idea of the data quality. This consists of summary statistics including at least\n\nData type\nMost common values for categorical fields, or minima/maxima and median for numeric\nCompleteness\nCross-correlation\n\nThere is the possibility of creating a SQL macro or stored procedure to generate the summary statistics in Oracle itself. This will streamline the process and is reproducible and promotes a consistent treatment of data quality.\n\n\nThis is the data type as stored. This may or may not be the same as what you expect. For example, it is common to use a numeric key in a fact table that represents a categorical value found in a dimension table. See the Wiki for more on fact and dimension tables (TODO).\n\n\n\nFor categorical fields, it is useful to have an idea of the distribution of values. For example, if considering use of machine learning techniques that are sensitive to imbalanced data. Even when considering techniques that handle imbalanced data well keeping the distribution in mind is useful when interpreting and reporting on the the results.\n\n\n\nFor numeric fields, this is the analogue to common values for categorical data. The values will give you an idea of how the data is distributed. You could go further and plot a histogram for better visualisation of this. NOTE: Consider adding to Rmarkdown example\n\n\n\nMany techniques are sensitive to missing data. Extreme cases of this can even prevent any useful analysis, so needs to be mitigated in some way. How it is mitigated will depend on the techniques employed. One thing to look out for is cases where a field has values only after, or before, a certain time. When this occurs it may limit some specific analysis to the time period for which values exist.\n\n\n\nSome techniques are resistant to correlation between explanatory variables, while others require all but one such correlated variable to be removed. In either case it is useful to understand what, if any, correlation between variables exists. The correlations can be computed with R, python or directly in Oracle. See these guides for more info\nR Python Oracle\n\n\n\nThe template initiative Data folder contains a Rmarkdown, data_summary.Rmd, which can be used as an example or starting point for data quality checking. When using it make sure to add notes of the findings for future reference.\nAn alternative would be to do it directly in the database, such as suggested on this github issue.\nIn addition to any Rmarkdown used, you may find it helpful to keep a record of specific counts found during initial EDA and during any further EDA performed while preparing the base tables. An example Excel file is in the template initiative Data folder, EDA figures.xlsx."
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-step.html#data-cleansing",
+    "href": "guidance/02-pd/pd-steps/01-step.html#data-cleansing",
+    "title": "Data preparation",
+    "section": "Data cleansing",
+    "text": "Data cleansing\n\nMissingness\nThe data may have some degree of missingness. How it is handled will depend on the both the data and the techniques to be employed in the analysis. There are many techniques to handle this. Sometimes the best method is obvious, sometimes you will have to choose between several potentially viable methods.\n\n\nData types\nFrom the data summary generated you may find some fields that are better expressed in a different data type.\n\n\nKeep or discard fields\nIn the first iteration it is best to keep any and all fields that may be useful in the analysis. As the analysis is refined through exploration and feedback, you can discard fields no longer deemed relevant. By the end, only fields which are used in the analysis should remain in the base tables. An exception to this is when a future phase of work is planned. In such cases it may make sense to keep some fields not immediately useful available."
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-step.html#rap-considerations",
+    "href": "guidance/02-pd/pd-steps/01-step.html#rap-considerations",
+    "title": "Data preparation",
+    "section": "RAP considerations",
+    "text": "RAP considerations\nDon’t repeat yourself is a well known adage in software development. While we are not writing software, it still applies and is a core principle of RAP. Pull out repeated code into functions; this allows for good tests to be written, another core principle of RAP. Variables should not be spread throughout a script, but instead gathered together into a config file or single block at the top of a script."
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-step.html#note-keeping",
+    "href": "guidance/02-pd/pd-steps/01-step.html#note-keeping",
+    "title": "Data preparation",
+    "section": "Note keeping",
+    "text": "Note keeping\nThroughout data preparation, ensure to make notes (saved in the initiative folder) of any potential or realised issues, caveats to be included in final outputs and decisions made with their reasoning. This will help in writing the supporting text in the main outputs."
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-step.html#validation",
+    "href": "guidance/02-pd/pd-steps/01-step.html#validation",
+    "title": "Data preparation",
+    "section": "Validation",
+    "text": "Validation\nSome thought should be given to how to validate the base tables are a true reflection of what is intended. Some data may be checked against other data sources, such ePACT2. In addition, adding tests is a worthwhile investment. With tests you can be more confident that any future change that introduces an error will be caught quickly.\nIf the data is something that you would expect personal details to appear in, you can also confirm you see what you would expect for yourself."
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-step.html#miro-points-for-reference-to-be-removed",
+    "href": "guidance/02-pd/pd-steps/01-step.html#miro-points-for-reference-to-be-removed",
+    "title": "Data preparation",
+    "section": "Miro points (for reference, to be removed)",
+    "text": "Miro points (for reference, to be removed)\nKeep small spreadsheet to keep track of all EDA results\nAlso links with business understanding\nInvest the time into creating accurate base tables\nEither R or SQL for her analysis, just whatever she feels like\nR markdown is quite good to lift into presentations\nUses data miner to extract insights and aggregate SQL tables with the info\nDALP data is mostly snapshot data, some get automatically refreshed, otherwise we ask for it, get it from DWCP or external system\nCan do SQL script and put all results into Excel\nSQL to do base tables, get all the columns you need and cleaned. Then analysis in R\nCould pull base table into R via DBI or DBPLYR\nKeep detailed notes as you progress - Excel, Rmd, PowerPoint. This will speed up creating your outputs"
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/01-data-prep.html",
+    "href": "guidance/03-analysis/analysis-steps/01-data-prep.html",
+    "title": "Data preparation",
+    "section": "",
+    "text": "The goal of this step is to end up with one or more base tables on which analysis is then conducted. The base tables should include only data relevant, or possibly relevant, to the initiative. Some tables can have hundreds of columns, so reducing the footprint in your base tables is a recommended. Data preparation may be iterative, as the analysis becomes refined with frequent feedback from stakeholders.\nThe tables relevant to the initiative will have been identified in the process of writing the problem definition. Before using them it is important to get an idea of the data quality. This consists of summary statistics including at least\n\nData type\nMost common values for categorical fields, or minima/maxima and median for numeric\nCompleteness\nCross-correlation\n\nThere is the possibility of creating a SQL macro or stored procedure to generate the summary statistics in Oracle itself. This will streamline the process and is reproducible and promotes a consistent treatment of data quality.\n\n\nThis is the data type as stored. This may or may not be the same as what you expect. For example, it is common to use a numeric key in a fact table that represents a categorical value found in a dimension table. See the Wiki for more on fact and dimension tables (TODO: check if already exists, if not add + use actual link).\n\n\n\nFor categorical fields, it is useful to have an idea of the distribution of values. For example, if considering use of machine learning techniques that are sensitive to imbalanced data. Even when considering techniques that handle imbalanced data well keeping the distribution in mind is useful when interpreting and reporting on the the results.\n\n\n\nFor numeric fields, this is the analogue to common values for categorical data. The values will give you an idea of how the data is distributed. You could go further and plot a histogram for better visualisation of this. NOTE: Consider adding to Rmarkdown example\n\n\n\nMany techniques are sensitive to missing data. Extreme cases of this can even prevent any useful analysis, so needs to be mitigated in some way. How it is mitigated will depend on the techniques employed. One thing to look out for is cases where a field has values only after, or before, a certain time. When this occurs it may limit some specific analysis to the time period for which values exist.\n\n\n\nSome techniques are resistant to correlation between explanatory variables, while others require all but one such correlated variable to be removed. In either case it is useful to understand what, if any, correlation between variables exists. The correlations can be computed with R, python or directly in Oracle. See these guides for more info\nR Python Oracle\n\n\n\nThe template initiative Data folder contains a Rmarkdown, data_summary.Rmd, which can be used as an example or starting point for data quality checking. When using it make sure to add notes of the findings for future reference.\nAn alternative would be to do it directly in the database, such as suggested on this github issue.\nIn addition to any Rmarkdown used, you may find it helpful to keep a record of specific counts found during initial EDA and during any further EDA performed while preparing the base tables. An example Excel file is in the template initiative Data folder, EDA figures.xlsx."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/01-data-prep.html#data-quality",
+    "href": "guidance/03-analysis/analysis-steps/01-data-prep.html#data-quality",
+    "title": "Data preparation",
+    "section": "",
+    "text": "The goal of this step is to end up with one or more base tables on which analysis is then conducted. The base tables should include only data relevant, or possibly relevant, to the initiative. Some tables can have hundreds of columns, so reducing the footprint in your base tables is a recommended. Data preparation may be iterative, as the analysis becomes refined with frequent feedback from stakeholders.\nThe tables relevant to the initiative will have been identified in the process of writing the problem definition. Before using them it is important to get an idea of the data quality. This consists of summary statistics including at least\n\nData type\nMost common values for categorical fields, or minima/maxima and median for numeric\nCompleteness\nCross-correlation\n\nThere is the possibility of creating a SQL macro or stored procedure to generate the summary statistics in Oracle itself. This will streamline the process and is reproducible and promotes a consistent treatment of data quality.\n\n\nThis is the data type as stored. This may or may not be the same as what you expect. For example, it is common to use a numeric key in a fact table that represents a categorical value found in a dimension table. See the Wiki for more on fact and dimension tables (TODO: check if already exists, if not add + use actual link).\n\n\n\nFor categorical fields, it is useful to have an idea of the distribution of values. For example, if considering use of machine learning techniques that are sensitive to imbalanced data. Even when considering techniques that handle imbalanced data well keeping the distribution in mind is useful when interpreting and reporting on the the results.\n\n\n\nFor numeric fields, this is the analogue to common values for categorical data. The values will give you an idea of how the data is distributed. You could go further and plot a histogram for better visualisation of this. NOTE: Consider adding to Rmarkdown example\n\n\n\nMany techniques are sensitive to missing data. Extreme cases of this can even prevent any useful analysis, so needs to be mitigated in some way. How it is mitigated will depend on the techniques employed. One thing to look out for is cases where a field has values only after, or before, a certain time. When this occurs it may limit some specific analysis to the time period for which values exist.\n\n\n\nSome techniques are resistant to correlation between explanatory variables, while others require all but one such correlated variable to be removed. In either case it is useful to understand what, if any, correlation between variables exists. The correlations can be computed with R, python or directly in Oracle. See these guides for more info\nR Python Oracle\n\n\n\nThe template initiative Data folder contains a Rmarkdown, data_summary.Rmd, which can be used as an example or starting point for data quality checking. When using it make sure to add notes of the findings for future reference.\nAn alternative would be to do it directly in the database, such as suggested on this github issue.\nIn addition to any Rmarkdown used, you may find it helpful to keep a record of specific counts found during initial EDA and during any further EDA performed while preparing the base tables. An example Excel file is in the template initiative Data folder, EDA figures.xlsx."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/01-data-prep.html#data-cleansing",
+    "href": "guidance/03-analysis/analysis-steps/01-data-prep.html#data-cleansing",
+    "title": "Data preparation",
+    "section": "Data cleansing",
+    "text": "Data cleansing\n\nMissingness\nThe data may have some degree of missingness. How it is handled will depend on the both the data and the techniques to be employed in the analysis. There are many techniques to handle this. Sometimes the best method is obvious, sometimes you will have to choose between several potentially viable methods.\n\n\nData types\nFrom the data summary generated you may find some fields that are better expressed in a different data type.\n\n\nKeep or discard fields\nIn the first iteration it is best to keep any and all fields that may be useful in the analysis. As the analysis is refined through exploration and feedback, you can discard fields no longer deemed relevant. By the end, only fields which are used in the analysis should remain in the base tables. An exception to this is when a future phase of work is planned. In such cases it may make sense to keep some fields not immediately useful available."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/01-data-prep.html#rap-considerations",
+    "href": "guidance/03-analysis/analysis-steps/01-data-prep.html#rap-considerations",
+    "title": "Data preparation",
+    "section": "RAP considerations",
+    "text": "RAP considerations\nDon’t repeat yourself is a well known adage in software development. While we are not writing software, it still applies and is a core principle of RAP. Pull out repeated code into functions; this allows for good tests to be written, another core principle of RAP. Variables should not be spread throughout a script, but instead gathered together into a config file or single block at the top of a script."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/01-data-prep.html#note-keeping",
+    "href": "guidance/03-analysis/analysis-steps/01-data-prep.html#note-keeping",
+    "title": "Data preparation",
+    "section": "Note keeping",
+    "text": "Note keeping\nThroughout data preparation, ensure to make notes (saved in the initiative folder) of any potential or realised issues, caveats to be included in final outputs and decisions made with their reasoning. This will help in writing the supporting text in the main outputs."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/01-data-prep.html#validation",
+    "href": "guidance/03-analysis/analysis-steps/01-data-prep.html#validation",
+    "title": "Data preparation",
+    "section": "Validation",
+    "text": "Validation\nSome thought should be given to how to validate the base tables are a true reflection of what is intended. Some data may be checked against other data sources, such ePACT2. In addition, adding tests is a worthwhile investment. With tests you can be more confident that any future change that introduces an error will be caught quickly.\nIf the data is something that you would expect personal details to appear in, you can also confirm you see what you would expect for yourself."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html",
+    "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html",
+    "title": "Analysis and modelling",
+    "section": "",
+    "text": "In this step we turn data into insights. This could involve a plethora of data science techniques from statistics to machine learning. The choice of which techniques to use will depend on the desired outputs of the initiative and what the data available allows. The problem definition should be used to steer the analysis towards delivery of the agreed outputs.\nNOTE: What to write for this? There is no way to cover all possible techniques, and other than the below points that also applied to the data prep, I am finding it hard to think of anything else that would apply in general…"
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#rap-considerations",
+    "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#rap-considerations",
+    "title": "Analysis and modelling",
+    "section": "RAP considerations",
+    "text": "RAP considerations\nDon’t repeat yourself is a well known adage in software development. While we are not writing software, it still applies and is a core principle of RAP. Pull out repeated code into functions; this allows for good tests to be written, another core principle of RAP. Variables should not be spread throughout a script, but instead gathered together into a config file or single block at the top of a script."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#note-keeping",
+    "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#note-keeping",
+    "title": "Analysis and modelling",
+    "section": "Note keeping",
+    "text": "Note keeping\nThroughout the analysis, ensure to make notes (saved in the initiative folder) of any potential or realised issues, caveats to be included in final outputs and decisions made with their reasoning. This will help in writing the supporting text in the main outputs."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#validation",
+    "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#validation",
+    "title": "Analysis and modelling",
+    "section": "Validation",
+    "text": "Validation\nSome thought should be given to how to validate the results of the analysis. Some data may be checked against other data sources, such ePACT2. In addition, adding tests is a worthwhile investment. With tests you can be more confident that any future change that introduces an error will be caught quickly.\nIf the data is something that you would expect personal details to appear in, you can also confirm you see what you would expect for yourself."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/03-output-artifacts.html",
+    "href": "guidance/03-analysis/analysis-steps/03-output-artifacts.html",
+    "title": "Output artifacts",
+    "section": "",
+    "text": "The expected outputs of an initiative will have been agreed in the problem definition. These will range from written reports, summary slide decks, data sets and applications such as dashboards or interactive reports. Getting frequent feedback is important, as it helps to prevent drift from the problem definition and allows more people to spot problems as early as possible."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/03-output-artifacts.html#supporting-text",
+    "href": "guidance/03-analysis/analysis-steps/03-output-artifacts.html#supporting-text",
+    "title": "Output artifacts",
+    "section": "Supporting text",
+    "text": "Supporting text\nA written report could be be done in Word or markdown (plain or Rmarkdown, depending on need to run and include code and code output). Using markdown the output could be rendered as either Word or PDF. Alternatively, the output may be in the form of an app, such as a Quarto site, Rmarkdown HTML output or Shiny dashboard. Some style guidelines applicable to all these outputs include\n\nKey findings at the front as people won’t read the whole thing\nInclude caveats and assumptions, and for particularly important ones mention them up front\nNumbers under 10 are in words, over 10 in digits (but use common sense!)\nUse bold tag lines for emphasis of important points\nSometimes difficult to do, but try to have a story\nIf appropriate, include recommendations and ideas for further exploration\nSentences shorter than 20 words\nWrite it so that a 12 year old would be able to understand it\n\nFor a sense of cohesiveness, have one person be the editor. This does not mean they must write everything themselves from scratch. Often when working as a team individuals will be responsible for different parts of the whole piece. They should write up their own parts, which can then be re-written by the person taking the editor role. The whole team can then review and agree on a final version that speaks with one clear voice.\nA very useful tool for written output is Hemingway Editor. If you can get your text to mostly have no issues in this, you know it is readable.\nIt is advised to leave writing any text supporting visuals such as charts or tables until the team is almost certain they are finalised."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/03-output-artifacts.html#slide-decks",
+    "href": "guidance/03-analysis/analysis-steps/03-output-artifacts.html#slide-decks",
+    "title": "Output artifacts",
+    "section": "Slide decks",
+    "text": "Slide decks\nAll initiatives should have a slide deck as an agreed output. At a minimum this should be detailed enough to state the problems or questions the initiative looked at, the approach used to address or answer these and a summary of the most important findings. Aim to have most of the content be visual, with limited amounts of explanatory text.\nWhen creating a slide deck it is important to consider the audience. Overcrowding the slides with technical detail would not be suitable for a non-technical audience.\nOften times it is difficult to condense a whole initiative into a single short presentation. If the circumstances allow it, e.g. a conference talk, focus on a single clear message. Split the talk into three key sections and messages that you want somebody to remember about your project. A good presentation style to get a clear message across is the newsreader style."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/03-output-artifacts.html#applications",
+    "href": "guidance/03-analysis/analysis-steps/03-output-artifacts.html#applications",
+    "title": "Output artifacts",
+    "section": "Applications",
+    "text": "Applications\nShiny powered applications should use the template provided by the nhsbsaShinyR repository. This repo is continually being refined, so will include code already tested (including accessibility testing). Using the same starting point also means our Shiny outputs will have a single easily recognisable look and feel.\nThe other platform we use to deliver output as an application is Power BI. This platform is much newer, so best working practices are still being discovered. Similarly to the nhsbsaShinyR template for Shiny, there is a template for use in Power BI.\nThere are communities of practice within the organisation for Data Visualisation and for Power BI. These are good places to start with any questions you have while creating applications, or other means of data visualisation.\n\nRAP and development considerations\nDon’t repeat yourself is a well known adage in software development. While we are not writing software, it still applies and is a core principle of RAP. Pull out repeated code into functions; this allows for good tests to be written, another core principle of RAP. Variables should not be spread throughout a script, but instead gathered together into a config file or single block at the top of a script.\nThe nhsbsaShinyR template for Shiny is a good starting point for creating the app with RAP in mind. An excellent book on the subject of Shiny apps is Engineering Production-Grade Shiny Apps. Whilst not written specifically with RAP in mind, many of the principles and techniques are relevant. Following the advice and techniques in this book should produce a very professional and well-planned app. The authors are the team behind the golem framework, ThinkR, used in the nhsbsaShinyR template.\nFor a more in-depth look at what can be done in Shiny, there is Outstanding User Interfaces with Shiny. This is particularly helpful when trying to address an accessibility failing of some content.\n\n\nIssue tracking\nIt is recommended to use GitHub issues for tracking essential and potential changes or fixes. Issues allow easy creation of branches and pull requests, keeping the non-coding tasks all in one place.\n\n\nTesting and code reviews\nWhen some set of changes or fixes is ready, make sure to run the whole app and go through any content related to the change. Add tests as you add functionality, you will thank yourself later! When code reviewing, always download and run the app. This catches issues related to something being present in someones environment, which is no longer there when someone else runs it."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/03-output-artifacts.html#data-set-outputs",
+    "href": "guidance/03-analysis/analysis-steps/03-output-artifacts.html#data-set-outputs",
+    "title": "Output artifacts",
+    "section": "Data set outputs",
+    "text": "Data set outputs\nSometimes the customer requires a regularly updated data set to be provided as an output. Done with little thought, this can result in unnecessary overhead that continues indefinitely. It is recommended to productionise the process as much as it can be, in line with the principles of RAP."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/04-team-review.html",
+    "href": "guidance/03-analysis/analysis-steps/04-team-review.html",
+    "title": "Team review",
+    "section": "",
+    "text": "Frequent reviews of the work give a chance to pick up on any issues before asking third parties to look at it. An important component of this is code review. With the mindset that the code may become public, put yourself in the shoes of someone coming across the code and wanting to both understand it and then reuse it. This means keeping in mind the principles of Reproducible Analytical Pipelines (RAP), which benefits others coming across the code in future, but also the team themselves while continuing to work on it.\nThe basic idea of the analysis loop is a tight cycle of refine and get feedback. Before asking for feedback, the team needs to ensure that they have checked everything is as they expect it to be. This includes code and any supporting text or other artifacts such as data sets, slide decks etc. By doing the analysis in a reproducible way, using RAP principles, this continuous improvement can be made to run smoothly."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/04-team-review.html#is-the-code-in-a-good-state",
+    "href": "guidance/03-analysis/analysis-steps/04-team-review.html#is-the-code-in-a-good-state",
+    "title": "Team review",
+    "section": "Is the code in a good state?",
+    "text": "Is the code in a good state?\n\nTesting\nConsider using a test driven development (TDD) approach to writing functions. This has many benefits but comes with the drawback of investing time up-front, with no guarantee that it will be useful. TDD means knowing immediately when something is wrong and where the bug occurs. In the long run, the time saved will outweigh the up-front investment.\nEven if not using TDD, you should be testing code as you develop it. Since you are testing, spend a bit longer on making these tests reproducible automatically.\nFor R, it is recommended to use the testthat package.\nFor python, use of ?? is recommended.\n\n\nComments\nIn general, the purpose of code should be apparent to someone who is familiar with the language. If it is not, first try to find a more readable and clear way to write it. If not, code comments should be present to explain it. Also, you can split code into sections. For example in Rstudio by using Ctrl+Shift+R.\n\n\nDocumentation\nPeople other than the authors may look at and use our code. This could be other members of the team, colleagues in the NHSBSA or the public. Our code should be well documented. This is both professional and increases ease of reuse and maintenance.\nFor R, it is recommended to use the roxygen2 package. See chapter 16 of R Packages (2e) for details by the author of roxygen2.\nFor python, use of ?? is recommended."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/04-team-review.html#textual-content",
+    "href": "guidance/03-analysis/analysis-steps/04-team-review.html#textual-content",
+    "title": "Team review",
+    "section": "Textual content",
+    "text": "Textual content\nA common component of the outputs we create is text. Be aware that the refine-feedback cycle can be challenging if you have such text in multiple places. For example, in a Word document used for review, but also in a shiny dashboard. Try to keep all text in a single place until as late as possible in the initiative life cycle.\nSpecifically for R, there is text review functionality built-in to the nhsbsaShinyR template. If you have this installed, see the vignette on this by running vignette(\"Text review\", \"nhsbsaShinyR\"). This allows for using a Word document initially, the contents of which can be automatically used to create markdown content for the app. It works the other way also, to provide a Word document constructed from existing markdown files. This makes syncing the text when it has changed due to review feedback back into the app a mostly automatic process."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/04-team-review.html#accessibility-testing",
+    "href": "guidance/03-analysis/analysis-steps/04-team-review.html#accessibility-testing",
+    "title": "Team review",
+    "section": "Accessibility testing",
+    "text": "Accessibility testing\nIf your output is to be available online, it must be tested for accessibility. Full details are on the DALL wiki.\nBear in mind that testing accessibility too early can result in wasted time, as aspects of the app can and do change. So in general, leave such testing until fairly confident that only minor adjustments and text agreement remain to be done."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/05-critical-friend-review.html",
+    "href": "guidance/03-analysis/analysis-steps/05-critical-friend-review.html",
+    "title": "Critical friend review",
+    "section": "",
+    "text": "The critical friend is an integral part of the team. They serve as someone to bounce ideas off, offer advice and act as another pair of eyes and ears that may pick up up on something unnoticed by the rest of the team. So keep them in the loop as much as possible by asking them to review things before taking anything to the customer of the initiative.\nThe critical friend should review the process, code and outputs of the team. This should be done before asking the initiative customer to review the outputs. The ask is always “be as thorough as you can”, but other commitments can make a thorough review challenging. So, where possible, give the critical friend advance notice that you expect to be ready for their review soon.\nAt a minimum, the critical friend should be\n\nPulling code to their local environment and running it\nReading supporting text and commenting on it where they are unsure of something, believe a mistake is there or have a suggestion\nChecking the outputs against the problem definition and calling out any discrepancies"
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/05-critical-friend-review.html#role-of-a-critical-friend",
+    "href": "guidance/03-analysis/analysis-steps/05-critical-friend-review.html#role-of-a-critical-friend",
+    "title": "Critical friend review",
+    "section": "",
+    "text": "The critical friend is an integral part of the team. They serve as someone to bounce ideas off, offer advice and act as another pair of eyes and ears that may pick up up on something unnoticed by the rest of the team. So keep them in the loop as much as possible by asking them to review things before taking anything to the customer of the initiative.\nThe critical friend should review the process, code and outputs of the team. This should be done before asking the initiative customer to review the outputs. The ask is always “be as thorough as you can”, but other commitments can make a thorough review challenging. So, where possible, give the critical friend advance notice that you expect to be ready for their review soon.\nAt a minimum, the critical friend should be\n\nPulling code to their local environment and running it\nReading supporting text and commenting on it where they are unsure of something, believe a mistake is there or have a suggestion\nChecking the outputs against the problem definition and calling out any discrepancies"
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/05-critical-friend-review.html#flexible-reviewing",
+    "href": "guidance/03-analysis/analysis-steps/05-critical-friend-review.html#flexible-reviewing",
+    "title": "Critical friend review",
+    "section": "Flexible reviewing",
+    "text": "Flexible reviewing\nSince the critical friend will be working on other initiatives, it can be challenging to coordinate reviews. So we should do things in a way that is as flexible as possible, while also keeping on top of any timescales promised. One way to promote this is to make it possible for the critical friend to review work in progress.\nGitHub allows for the creation of draft pull requests (PRs). By using these at the beginning of a review cycle, and ensuring to always check our work into GitHub at least daily, the work can be reviewed when it is convenient. Some may prefer to dip in and out to fit around other commitments, while others would prefer to review things only when fully developed."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/06-customer-review.html",
+    "href": "guidance/03-analysis/analysis-steps/06-customer-review.html",
+    "title": "Customer review",
+    "section": "",
+    "text": "Before asking the customer to review and feedback on the work, ensure that whichever output they are looking at is either complete according to the problem definition, or for work in progress that you have made it clear what points on the problem definition are (or are not) being covered so far. Use the feedback to help steer things back on course if necessary. Something that can occur is the customer now asking for something different, or entirely new. This should be handled with care, as over-committing can backfire. In such cases it may be better to propose a future phase of work for any additional outputs requested."
+  },
+  {
+    "objectID": "guidance/03-analysis/index.html",
+    "href": "guidance/03-analysis/index.html",
+    "title": "Analysis",
+    "section": "",
+    "text": "TODO: replace with new version of flow chart for this section\n\n\n\n\n\n\n\nG\n\n \n\ncluster_analysis_loop\n\n       03: Analysis and modelling  \n\ncluster_dummy_c\n\n   \n\nc1\n\n       Data preparation   \n\nc2\n\n       Analysis and modelling   \n\nc1-&gt;c2\n\n    \n\nc3\n\n       Output artifacts   \n\nc2-&gt;c3\n\n    \n\nc4\n\n       Team review   \n\nc3-&gt;c4\n\n    \n\nc5\n\n       Critical friend review   \n\nc4-&gt;c5\n\n    \n\nc6\n\n       Customer review   \n\nc5-&gt;c6\n\n    \n\nc6-&gt;c1\n\n   \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData preparation\n\n\nPrepare data and create base table(s)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis and modelling\n\n\nAnalyse data and create models to support the expected outputs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOutput artifacts\n\n\nDraft reports, slide decks, data sets, applications and any other agreed outputs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeam review\n\n\nTeam self-review everything before asking critical friend for feedback\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCritical friend review\n\n\nCritical friend reviews in detail and provides feedback\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCustomer review\n\n\nCustomer reviews and either agrees outputs match expectations or provides detailed feedback to guide the next iteration.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "guidance/04-wrap-up/index.html",
+    "href": "guidance/04-wrap-up/index.html",
+    "title": "Wrap-up",
+    "section": "",
+    "text": "Add text here\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFinal Meeting with the Customer\n\n\nUse this as an oppourtunity to finalise the output and check that the objectives have been met.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWrap up and clean up\n\n\nWhat needs to be done as the project draws to a close.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWrite Documentation\n\n\nIdeas on how you should document your code before archiving it.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpdate the Wiki\n\n\nTake the oppourtunity to share any knowledge with the wider team.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMake repository public\n\n\nGeneral tips to tidying your GitHub repository for public release.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDocument Future Work\n\n\nTBC\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/01-step.html",
+    "href": "guidance/04-wrap-up/wrap-up-steps/01-step.html",
     "title": "Final Meeting with the Customer",
     "section": "",
-    "text": "Once the final output of the project has been created and agreed upon it is a good idea to have one final meeting with the customer. This final meeting can be useful to make sure that all the objectives outlined in the problem definition have been met and that the customer is happy with the output.\nAt this point the customer should know exactly what has been done but it could also be useful to prepare a presentation. This presentation can then be shown to members of the customers team for additional input.\nThe meeting should end with an agreement in place that the customer is happy with the output and that the project can be wrapped up."
+    "text": "Once the final output of the project has been created and agreed upon it is a good idea to have a final meeting with the customer. This final meeting can be useful to make sure that all the objectives have been met. The meeting can also be used to make sure that the customer is happy with the output.\nAt this point the customer should know exactly what has been done but it can be useful to prepare a presentation. You can then use the presentation to summarise what you have done for other colleagues.\nThe meeting should end with an agreement between the customer and the assigned DALL members. It is at this stage the customer should agree that the project can be wrapped up and that no more analysis is required."
   },
   {
-    "objectID": "guidance/Section04_Initiative_Review/Wrap_up_and_clean_up/index.html",
-    "href": "guidance/Section04_Initiative_Review/Wrap_up_and_clean_up/index.html",
-    "title": "Wrap up and clean up",
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/01-step.html#data-quality",
+    "href": "guidance/04-wrap-up/wrap-up-steps/01-step.html#data-quality",
+    "title": "Data preparation",
     "section": "",
-    "text": "Cleaning your project is an equally important step as the modelling and analysis. Leaving a messy project folder and code can lead to difficulties later down the line. It is important that you dedicate sufficient time to completing this step and remember to treat it as a serious and worthwhile endeavour.\nRemember when using git to work with the mindset that everything committed will be made public. Small and precise commits will make the project clean up easier to complete.\nEven if the code base will not be made public, take the time to clean it up and make sure all branches are committed to main or deleted. Streamlining the codebase is key. Be sure to archive old scripts that are no longer required and to clean up and document the code that is key for the project. If you create a shiny dashboard as an output then your code should already be structured well. If it isn’t consider separating data, scripts and output to separate sub-directories. Ask a member of the DALL team for an example template to follow or look up recent projects on the DALL GitHub page for ideas. If you intend to re-run the code in the future, consider creating a config or preamble script that contains all of the key parameters. For example, if filtering by a date range you can define this range in the config file and reference it throughout the project. This will speed up future work as only a single value needs to be edited for the change to be implemented.\nIf you have key base tables created within DALP make sure these are made available to the wider team so they are not lost. Often the key tables are moved to the DALL_REF schema. At the end of the project make sure to remove any tables. This includes permanent and temporary tables. Once a project concludes you shouldn’t have access to the data anymore."
+    "text": "The goal of this step is to end up with one or more base tables on which analysis is then conducted. The base tables should include only data relevant, or possibly relevant, to the initiative. Some tables can have hundreds of columns, so reducing the footprint in your base tables is a recommended. Data preparation may be iterative, as the analysis becomes refined with frequent feedback from stakeholders.\nThe tables relevant to the initiative will have been identified in the process of writing the problem definition. Before using them it is important to get an idea of the data quality. This consists of summary statistics including at least\n\nData type\nMost common values for categorical fields, or minima/maxima and median for numeric\nCompleteness\nCross-correlation\n\nThere is the possibility of creating a SQL macro or stored procedure to generate the summary statistics in Oracle itself. This will streamline the process and is reproducible and promotes a consistent treatment of data quality.\n\n\nThis is the data type as stored. This may or may not be the same as what you expect. For example, it is common to use a numeric key in a fact table that represents a categorical value found in a dimension table. See the Wiki for more on fact and dimension tables (TODO).\n\n\n\nFor categorical fields, it is useful to have an idea of the distribution of values. For example, if considering use of machine learning techniques that are sensitive to imbalanced data. Even when considering techniques that handle imbalanced data well keeping the distribution in mind is useful when interpreting and reporting on the the results.\n\n\n\nFor numeric fields, this is the analogue to common values for categorical data. The values will give you an idea of how the data is distributed. You could go further and plot a histogram for better visualisation of this. NOTE: Consider adding to Rmarkdown example\n\n\n\nMany techniques are sensitive to missing data. Extreme cases of this can even prevent any useful analysis, so needs to be mitigated in some way. How it is mitigated will depend on the techniques employed. One thing to look out for is cases where a field has values only after, or before, a certain time. When this occurs it may limit some specific analysis to the time period for which values exist.\n\n\n\nSome techniques are resistant to correlation between explanatory variables, while others require all but one such correlated variable to be removed. In either case it is useful to understand what, if any, correlation between variables exists. The correlations can be computed with R, python or directly in Oracle. See these guides for more info\nR Python Oracle\n\n\n\nThe template initiative Data folder contains a Rmarkdown, data_summary.Rmd, which can be used as an example or starting point for data quality checking. When using it make sure to add notes of the findings for future reference.\nAn alternative would be to do it directly in the database, such as suggested on this github issue.\nIn addition to any Rmarkdown used, you may find it helpful to keep a record of specific counts found during initial EDA and during any further EDA performed while preparing the base tables. An example Excel file is in the template initiative Data folder, EDA figures.xlsx."
   },
   {
-    "objectID": "guidance/Section04_Initiative_Review/Write_documentation/index.html",
-    "href": "guidance/Section04_Initiative_Review/Write_documentation/index.html",
-    "title": "Write Documentation",
-    "section": "",
-    "text": "Documenting code is another crucial step that should not be ignored. Without good documentation it is difficult for future projects to leverage our work. Make sure that all the custom functions are described in detail. Consider replicating a similar structure to an R package with each parameter explained, and examples of how to run the function.\nIf you have a Github repository remember to update the README file. It should contain a summary of the project along with a breakdown of its structure. This will make it easier for future users to use your code and understand your project.\nRemember to document anything that you tried that did not work. This is good practice so that future work can avoid running into similar issues. The documentation can be included on the SharePoint but one of the best places would be the DALL One Note Wiki."
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/01-step.html#data-cleansing",
+    "href": "guidance/04-wrap-up/wrap-up-steps/01-step.html#data-cleansing",
+    "title": "Data preparation",
+    "section": "Data cleansing",
+    "text": "Data cleansing\n\nMissingness\nThe data may have some degree of missingness. How it is handled will depend on the both the data and the techniques to be employed in the analysis. There are many techniques to handle this. Sometimes the best method is obvious, sometimes you will have to choose between several potentially viable methods.\n\n\nData types\nFrom the data summary generated you may find some fields that are better expressed in a different data type.\n\n\nKeep or discard fields\nIn the first iteration it is best to keep any and all fields that may be useful in the analysis. As the analysis is refined through exploration and feedback, you can discard fields no longer deemed relevant. By the end, only fields which are used in the analysis should remain in the base tables. An exception to this is when a future phase of work is planned. In such cases it may make sense to keep some fields not immediately useful available."
   },
   {
-    "objectID": "guidance/Section04_Initiative_Review/Update_the_Wiki/index.html",
-    "href": "guidance/Section04_Initiative_Review/Update_the_Wiki/index.html",
-    "title": "Update the Wiki",
-    "section": "",
-    "text": "Throughout the initiative you will have interrogated some data and maybe learnt some new skills in the process. If there is anything you found particularly useful or that could be beneficial for others within the team then add it to the DALL Wiki. The wiki should be the first place you look when you have questions on a particular dataset or piece of software. If you are struggling with something there is a chance that someone else has too and recorded this."
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/01-step.html#rap-considerations",
+    "href": "guidance/04-wrap-up/wrap-up-steps/01-step.html#rap-considerations",
+    "title": "Data preparation",
+    "section": "RAP considerations",
+    "text": "RAP considerations\nDon’t repeat yourself is a well known adage in software development. While we are not writing software, it still applies and is a core principle of RAP. Pull out repeated code into functions; this allows for good tests to be written, another core principle of RAP. Variables should not be spread throughout a script, but instead gathered together into a config file or single block at the top of a script."
+  },
+  {
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/01-step.html#note-keeping",
+    "href": "guidance/04-wrap-up/wrap-up-steps/01-step.html#note-keeping",
+    "title": "Data preparation",
+    "section": "Note keeping",
+    "text": "Note keeping\nThroughout data preparation, ensure to make notes (saved in the initiative folder) of any potential or realised issues, caveats to be included in final outputs and decisions made with their reasoning. This will help in writing the supporting text in the main outputs."
+  },
+  {
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/01-step.html#validation",
+    "href": "guidance/04-wrap-up/wrap-up-steps/01-step.html#validation",
+    "title": "Data preparation",
+    "section": "Validation",
+    "text": "Validation\nSome thought should be given to how to validate the base tables are a true reflection of what is intended. Some data may be checked against other data sources, such ePACT2. In addition, adding tests is a worthwhile investment. With tests you can be more confident that any future change that introduces an error will be caught quickly.\nIf the data is something that you would expect personal details to appear in, you can also confirm you see what you would expect for yourself."
+  },
+  {
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/01-step.html#miro-points-for-reference-to-be-removed",
+    "href": "guidance/04-wrap-up/wrap-up-steps/01-step.html#miro-points-for-reference-to-be-removed",
+    "title": "Data preparation",
+    "section": "Miro points (for reference, to be removed)",
+    "text": "Miro points (for reference, to be removed)\nKeep small spreadsheet to keep track of all EDA results\nAlso links with business understanding\nInvest the time into creating accurate base tables\nEither R or SQL for her analysis, just whatever she feels like\nR markdown is quite good to lift into presentations\nUses data miner to extract insights and aggregate SQL tables with the info\nDALP data is mostly snapshot data, some get automatically refreshed, otherwise we ask for it, get it from DWCP or external system\nCan do SQL script and put all results into Excel\nSQL to do base tables, get all the columns you need and cleaned. Then analysis in R\nCould pull base table into R via DBI or DBPLYR\nKeep detailed notes as you progress - Excel, Rmd, PowerPoint. This will speed up creating your outputs"
   },
   {
     "objectID": "guidance/Section04_Initiative_Review/index.html",
@@ -287,39 +448,11 @@
     "text": "Guidance"
   },
   {
-    "objectID": "index.html#section3",
-    "href": "index.html#section3",
-    "title": "NHSBSA DALL Playbook",
-    "section": "Section3",
-    "text": "Section3\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#section4",
-    "href": "index.html#section4",
-    "title": "NHSBSA DALL Playbook",
-    "section": "Section4",
-    "text": "Section4\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index_v2.html",
-    "href": "index_v2.html",
-    "title": "NHSBSA DALL Playbook",
+    "objectID": "guidance/Section04_Initiative_Review/Steps/document_future_work.html",
+    "href": "guidance/Section04_Initiative_Review/Steps/document_future_work.html",
+    "title": "Make repository public",
     "section": "",
-    "text": "Add Text Here"
-  },
-  {
-    "objectID": "index_v2.html#high-level-process",
-    "href": "index_v2.html#high-level-process",
-    "title": "NHSBSA DALL Playbook",
-    "section": "High level process",
-    "text": "High level process"
-  },
-  {
-    "objectID": "index_v2.html#section3",
-    "href": "index_v2.html#section3",
-    "title": "NHSBSA DALL Playbook",
-    "section": "Section3",
-    "text": "Section3"
+    "text": "Now that the project has ended you may have explored or wanted to explore areas that were beyond the scope of the initiative. Be sure to add these ideas to the DALL ideas register located on the SharePoint. If there is not enough for a full initiative the ideas can always be undertaken as a three week exploratory project."
   },
   {
     "objectID": "guidance/Section04_Initiative_Review/Steps/final_meeting_with_customer.html",
@@ -327,6 +460,13 @@
     "title": "Final Meeting with the Customer",
     "section": "",
     "text": "Once the final output of the project has been created and agreed upon it is a good idea to have a final meeting with the customer. This final meeting can be useful to make sure that all the objectives have been met. The meeting can also be used to make sure that the customer is happy with the output.\nAt this point the customer should know exactly what has been done but it can be useful to prepare a presentation. You can then use the presentation to summarise what you have done for other colleagues.\nThe meeting should end with an agreement between the customer and the assigned DALL members. It is at this stage the customer should agree that the project can be wrapped up and that no more analysis is required."
+  },
+  {
+    "objectID": "guidance/Section04_Initiative_Review/Steps/make_repo_public.html",
+    "href": "guidance/Section04_Initiative_Review/Steps/make_repo_public.html",
+    "title": "Make repository public",
+    "section": "",
+    "text": "Not all Github repositories will be made public. But if you need to make it public then there are a few things you should consider:\n\nYour git commit history will be made public. Although commit messages can be changed it is advised that you adopt a good commit practice throughout. Try to limit each commit to a single change and not large chunks of code.\nMake sure that you never push data or PID to the GitHub repository. An easy example of something that could be overlooked is an NHS number. If you test a chunk of code by looking at a single individual it is easy for the NHS number to be forgotten about. It’s even easier to miss if the PID is part of some test code that has been commented out. Using something like Git Leaks is a useful tool to help capture some of these subtle examples and minimise the risk of uploading personal information to GitHub.\n\nMore information on creating a public Github repository can be found on the DALL Wiki (Coding & Dashboards &gt; GitHub &gt; DALL standard practice)."
   },
   {
     "objectID": "guidance/Section04_Initiative_Review/Steps/update_the_wiki.html",
@@ -357,17 +497,45 @@
     "text": "Documenting code is another crucial step that should not be ignored. Without good documentation it is difficult for future projects to leverage our work. Make sure that all the custom functions are described in detail. Consider replicating a similar structure to an R package with each parameter explained, and examples of how to run the function.\nIf you have a Github repository remember to update the README file. The README file should contain as a minimum the project name, and a quick overview of the project’s purpose. It can also be valuable to include a summary of the project structure, steps to reproduce your code locally and a description of the key technologies and methods used. A clean and informative README will make it more likely someone will use your code and will make it easier for future users to understand your project.\nRemember to document anything that you tried that did not work. This is good practice so that someone picking up your work in the future can avoid running into the same issues. The documentation can be included on the SharePoint but one of the best places would be the DALL One Note Wiki."
   },
   {
-    "objectID": "guidance/Section04_Initiative_Review/Steps/document_future_work.html",
-    "href": "guidance/Section04_Initiative_Review/Steps/document_future_work.html",
-    "title": "Make repository public",
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/02-step.html",
+    "href": "guidance/04-wrap-up/wrap-up-steps/02-step.html",
+    "title": "Wrap up and clean up",
     "section": "",
-    "text": "Now that the project has ended you may have explored or wanted to explore areas that were beyond the scope of the initiative. Be sure to add these ideas to the DALL ideas register located on the SharePoint. If there is not enough for a full initiative the ideas can always be undertaken as a three week exploratory project."
+    "text": "Cleaning your project is an equally important step as the modelling and analysis. Leaving a messy project folder and code can lead to difficulties later down the line. It is important that you dedicate enough time to completing this step. Also, remember to treat it as a serious and worthwhile endeavour as it can come in handy in the future."
   },
   {
-    "objectID": "guidance/Section04_Initiative_Review/Steps/make_repo_public.html",
-    "href": "guidance/Section04_Initiative_Review/Steps/make_repo_public.html",
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/02-step.html#general-tips-for-cleaning-your-project",
+    "href": "guidance/04-wrap-up/wrap-up-steps/02-step.html#general-tips-for-cleaning-your-project",
+    "title": "Wrap up and clean up",
+    "section": "General tips for cleaning your project",
+    "text": "General tips for cleaning your project\nIf you are using Git remember to work with the mindset that everything committed could be made public. Small and precise commits will make the project clean up easier to complete.\nEven if the code base will not be made public, take the time to clean it up and make sure all development branches are committed to main or deleted. Streamlining the codebase is crucial. Be sure to archive old scripts that are no longer required. For the remaining scripts take the time to simplify and document the code. If you create a shiny dashboard as part of the project then your code should already be structured well. If it isn’t consider separating data, scripts and output into separate sub-directories. Remember to check the DALL GitHub page to look up other projects for inspiration.\nIf you have written custom functions it is a good idea to place these into a separate functions script which can then be called later in the project. Be sure to document the functions making it clear what the expected input structure should look like and what each of the parameters correspond to. It is also important to state what the output corresponds to. Including a simple example of how the function works can also be useful but is not mandatory.\nIf you intend to re-run the code in the future, consider creating a config or preamble script. The config script should contain all the key parameters and filters used in the project. For example, if you are filtering by a date range you can define this in the config file and reference it throughout the project. This will speed up future work as only a single value needs editing before the code needs re running.\nCleaning code can be a subjective process. Remember to ask your critical friend for advice if you aren’t sure. When writing code in R a lot of DALL users like to use tidyverse packages. These packages offer direct querying with the database whilst offering a degree of readability. We should always try and find a balance between performance and readability. Code should perform well and run quickly but also be understood by colleagues. It should be noted that you are not constrained to use tidyverse packages. But keeping in mind readability with well commented code will improve your project.\nIf you have key base tables created within DALP make sure these are made available to the wider team. That way if you are away on annual leave or unavailable they are not lost. Often the key tables are moved to the DALL_REF schema. At the end of the project make sure to remove any tables that you have created. This includes permanent and temporary tables. Once a project concludes you shouldn’t have access to the data anymore, especially if it has personal information included."
+  },
+  {
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/03-step.html",
+    "href": "guidance/04-wrap-up/wrap-up-steps/03-step.html",
+    "title": "Write Documentation",
+    "section": "",
+    "text": "Documenting code is another crucial step that should not be ignored. Without good documentation it is difficult for future projects to leverage our work. Make sure that all the custom functions are described in detail. Consider replicating a similar structure to an R package with each parameter explained, and examples of how to run the function.\nIf you have a Github repository remember to update the README file. The README file should contain as a minimum the project name, and a quick overview of the project’s purpose. It can also be valuable to include a summary of the project structure, steps to reproduce your code locally and a description of the key technologies and methods used. A clean and informative README will make it more likely someone will use your code and will make it easier for future users to understand your project.\nRemember to document anything that you tried that did not work. This is good practice so that someone picking up your work in the future can avoid running into the same issues. The documentation can be included on the SharePoint but one of the best places would be the DALL One Note Wiki."
+  },
+  {
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/04-step.html",
+    "href": "guidance/04-wrap-up/wrap-up-steps/04-step.html",
+    "title": "Update the Wiki",
+    "section": "",
+    "text": "Throughout the initiative you will have interrogated some data and maybe learnt some new skills in the process. If there is anything you found particularly useful or that could be beneficial for others within the team then add it to the DALL Wiki. Within the team we are promoting knowledge sharing. The DALL Wiki has been set up for all team members to update. The wiki should be the first place you look when you have questions on a particular dataset or piece of software. If you are struggling with something there is a chance that someone else has too and recorded this."
+  },
+  {
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/05-step.html",
+    "href": "guidance/04-wrap-up/wrap-up-steps/05-step.html",
     "title": "Make repository public",
     "section": "",
     "text": "Not all Github repositories will be made public. But if you need to make it public then there are a few things you should consider:\n\nYour git commit history will be made public. Although commit messages can be changed it is advised that you adopt a good commit practice throughout. Try to limit each commit to a single change and not large chunks of code.\nMake sure that you never push data or PID to the GitHub repository. An easy example of something that could be overlooked is an NHS number. If you test a chunk of code by looking at a single individual it is easy for the NHS number to be forgotten about. It’s even easier to miss if the PID is part of some test code that has been commented out. Using something like Git Leaks is a useful tool to help capture some of these subtle examples and minimise the risk of uploading personal information to GitHub.\n\nMore information on creating a public Github repository can be found on the DALL Wiki (Coding & Dashboards &gt; GitHub &gt; DALL standard practice)."
+  },
+  {
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/06-step.html",
+    "href": "guidance/04-wrap-up/wrap-up-steps/06-step.html",
+    "title": "Document Future Work",
+    "section": "",
+    "text": "Now that the project has ended you may have explored or wanted to explore areas that were beyond the scope of the initiative. Be sure to add these ideas to the DALL ideas register located on the SharePoint. If there is not enough for a full initiative the ideas can always be undertaken as a three week exploratory project."
   }
 ]
