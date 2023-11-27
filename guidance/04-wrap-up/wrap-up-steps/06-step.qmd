@@ -1,6 +1,6 @@
 ---
 title: "Document Future Work"
-description: "Take the opportunity to document any interesting areas for future analysis by members of the DALL team."
+description: "Interesting research avenues or quirks in the data beyond the scope of the current initiative should be added to the ideas register for future analysis by members of the DALL team."
 image: 06-future-work.jpg
 image-alt: Photo by Brands&People on Unsplash
 ---

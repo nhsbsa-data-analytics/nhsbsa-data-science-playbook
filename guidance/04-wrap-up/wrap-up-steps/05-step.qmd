@@ -1,6 +1,6 @@
 ---
 title: "Make repository public"
-description: "General tips to tidying your GitHub repository for public release."
+description: "Things to consider when tidying your GitHub repository for public release."
 image: 05-public-repository.jpg
 image-alt: Photo by Markus Winkler on Unsplash
 ---
