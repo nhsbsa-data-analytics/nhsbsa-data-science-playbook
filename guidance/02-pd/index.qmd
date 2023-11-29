@@ -17,41 +17,6 @@ toc: false
 
 ## Overview
 
-```{mermaid}
-%%| label: fig-1
-%%| fig-cap: Placeholder Diagram
-%%| fig-align: center
-%%{
-  init: {
-    'theme': 'neutral',
-    'themeVariables': {
-      'primaryColor': '#BB2528',
-      'primaryTextColor': '#fff',
-      'primaryBorderColor': '#7C0000',
-      'lineColor': '#F8B229',
-      'secondaryColor': '#006100',
-      'tertiaryColor': '#fff',
-      'fontSize': '16px'
-    }
-  }
-}%%
-
-flowchart LR
-  2A["Write Problem 
-    Definition"]
-  2B["Estimate
-  Timescales"] 
-  2C["Data and 
-    Business 
-    Understanding"] 
-  2D["Meet with the
-    Customer"]
-  
-  subgraph pd_loop["02: Problem Definition"]
-  direction LR
-    2A --> 2B --> 2C --> 2D --> 2A
-  end
-
-```
+![](section_2_diagram.png){width=100%}
 
 ## Sections

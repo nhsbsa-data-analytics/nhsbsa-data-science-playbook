@@ -11,4 +11,6 @@ listing:
   sort: "filename"
 ---
 
+![](section_4_diagram.png){width=100%}
+
 ## Sections
