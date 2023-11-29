@@ -1,9 +1,10 @@
 ---
-title: "Wrap-up"
-description: "Wrap-up"
+title: "Initiative Wrap up"
+description: "Complete the final steps of the pipeline to clean up and publish the output of the project."
 title-block-banner: true
 image: wrap-up.jpg
 image-alt: Photo by Sigmund on Unsplash
+toc: false
 listing: 
   type: grid
   contents: wrap-up-steps

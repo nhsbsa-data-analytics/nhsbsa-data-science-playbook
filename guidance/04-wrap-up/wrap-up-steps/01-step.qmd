@@ -1,6 +1,6 @@
 ---
 title: "Final Meeting with the Customer"
-description: "Use this as an oppourtunity to finalise the output and check that the objectives have been met."
+description: "Finalise the output and check with customer that all of the agreed objectives have been met."
 image: 01-final-meeting.jpg
 image-alt: Photo by CoWomen on Unsplash
 ---
