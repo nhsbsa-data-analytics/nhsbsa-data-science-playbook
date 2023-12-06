@@ -1,24 +1,16 @@
 ---
-title: "Analysis and modelling"
-description: "Analyse data and create models to support the expected outputs"
+title: "Analysis and Modelling"
+description: "Analyse the data and create models to support the expected outputs."
 image: 02-analysis-modelling.jpg
 image-alt: Photo by Shubham Dhage on Unsplash
 ---
 
-In this step we turn data into insights. This could involve a plethora of data science techniques from statistics to machine learning. The choice of which techniques to use will depend on the desired outputs of the initiative and what the data available allows. The problem definition should be used to steer the analysis towards delivery of the agreed outputs.
+In this step, we turn our data into insights. The work done here can vary. It can include small data extraction jobs, creating reports and dashboards, and deploying machine learning models. The analysis or modelling you conduct is also heavily reliant on the outputs you agreed with the customer. Also, the way in which the initiative is carried out will naturally vary from person to person, depending on your preferences of programming languages and output style.
 
-NOTE: What to write for this? There is no way to cover all possible techniques, and other than the below points that also applied to the data prep, I am finding it hard to think of anything else that would apply in general...
+## Conducting the Work
+The 'typical' DALL initiative usually involves some initial data preparation in the previous step, done in SQL. Then, the output base table(s) are loaded into R or Python. Good coding practices, like using GitHub issues and branches and Object-Oriented Programming (OOP), are followed to conduct the work. Please see the DALL OneNote Wiki for more information on these [INSERT LINK].
 
-## RAP considerations
+For some very small initiatives, it may be appropriate to extract some summary figures and use Excel to plot some simple graphs for the customer. R is often used for analytical reports that are run infrequently. This is because it has advanced visualisation features and can easily show results using R markdown and Shiny. Python is often used for machine learning because it has many libraries and works well with cloud-based products. Finally, visualisation products such as Power BI may be appropriate, given the customer has access. Dashboards are great when data needs to be frequently updated, and customers want to analyse the data themselves. These choices are personal preference, and you may use whichever you think is appropriate. For tips on each of these tools, please see the DALL OneNote Wiki [INSERT LINK].
 
-Don't repeat yourself is a well known adage in software development. While we are not writing software, it still applies and is a core principle of RAP. Pull out repeated code into functions; this allows for good tests to be written, another core principle of RAP. Variables should not be spread throughout a script, but instead gathered together into a config file or single block at the top of a script. 
-
-## Note keeping
-
-Throughout the analysis, ensure to make notes (saved in the initiative folder) of any potential or realised issues, caveats to be included in final outputs and decisions made with their reasoning. This will help in writing the supporting text in the main outputs.
-
-## Validation
-
-Some thought should be given to how to validate the results of the analysis. Some data may be checked against other data sources, such ePACT2. In addition, adding tests is a worthwhile investment. With tests you can be more confident that any future change that introduces an error will be caught quickly.
-
-If the data is something that you would expect personal details to appear in, you can also confirm you see what you would expect for yourself.
+## Check the Quality
+Just like before, it's important to test and validate your results. Use previous DALL initiatives, MI dashboards, and ePACT2 for prescription-based outputs, if available. You will talk about your results with your colleagues and the customer during the review section. Finally, do not include sensitive information in your results or code unless asked for. A good tip here is to always assume that your code will be made publicly available.

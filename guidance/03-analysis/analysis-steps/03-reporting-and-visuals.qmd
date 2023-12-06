@@ -1,0 +1,26 @@
+---
+title: "Reporting and Visuals"
+description: "Draft reports, slide decks, data sets, applications and any other agreed outputs."
+image: 03-reporting-and-visuals.jpg
+image-alt: Photo by Stephen Dawson on Unsplash
+---
+
+Within the DALL team, the work that we conduct aims to tell a 'story' to the customer, providing them with the insight to be able to make accurate business decisions.
+
+## Producing the Output
+As discussed in the previous section, it may be appropriate to simply display your statistics in Excel if it is a small ask. Typical DALL initiatives show outputs in PowerPoint slides or a Markdown or Shiny report. With PowerPoint slides, it is advisable to create two versions of your output. One for the customer to read and one for you to show. The second one should have animation, fewer words, and pictures. It should ideally take no more than 10 minutes, giving time for questions. Also, if the customer can access it, they may find a Power BI dashboard helpful. The dashboard lets them analyse the data and gain insights themselves. Though, it would still be advisable to generate a set of slides, to talk the customer through the story of the initiative. A good tip for these tools is to include your graphs first and have then reviewed, before adding the text to save unnecessary work.
+
+## Output Format
+For any reporting method you choose, it is recommended to have the following structure:
+
+* Introduction,
+* Contents,
+* Key findings (since some may not have time to read the whole content),
+* Assumptions and limitations,
+* Your findings,
+* Recommendations and next steps and 
+* Appendices (if applicable).
+
+For the content of your outputs, you should always aim to make them understandable to anyone and make them accessible to view. Please keep your sentences under 20 words. Use bold and italics when necessary and write numbers under 10 using words. Ideally, one person would write and present the document, to keep it unified. If different writers use different styles in the same document, it will become disjointed and hard to present.
+
+To learn more about improving initiative outcomes and getting specific software advice, visit the DALL OneNote Wiki pages [INSERT LINK].
