@@ -1,7 +1,7 @@
 ---
 title: "Update the Wiki"
 description: "Take the oppourtunity to share any knowledge with the wider team."
-image: 04-update-wiki.jpg
+image: 03-update-wiki.jpg
 image-alt: Photo by Joshua Hoehne on Unsplash
 ---
   

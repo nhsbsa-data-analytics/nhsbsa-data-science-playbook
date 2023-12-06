@@ -1,7 +1,7 @@
 ---
 title: "Wrap Up and Clean Your Code"
 description: "What needs to be done as the project draws to a close."
-image: 02-clean-up.jpg
+image: 01-clean-up.jpg
 image-alt: Photo by Alexander Grey on Unsplash
 ---
   

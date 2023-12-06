@@ -1,7 +1,7 @@
 ---
 title: "Document Any Future Work"
 description: "Add Interesting research avenues or quirks in the data beyond the scope of the current initiative to the ideas register for future analysis by members of the DALL team."
-image: 06-future-work.jpg
+image: 05-future-work.jpg
 image-alt: Photo by Brands&People on Unsplash
 ---
   

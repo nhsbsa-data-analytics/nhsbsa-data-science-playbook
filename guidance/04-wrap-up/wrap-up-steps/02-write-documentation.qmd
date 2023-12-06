@@ -1,7 +1,7 @@
 ---
 title: "Write Documentation"
 description: "General considerations on how to document your code before archiving it."
-image: 03-write-documentation.jpg
+image: 02-write-documentation.jpg
 image-alt: Photo by Unseen Studio on Unsplash
 ---
  
