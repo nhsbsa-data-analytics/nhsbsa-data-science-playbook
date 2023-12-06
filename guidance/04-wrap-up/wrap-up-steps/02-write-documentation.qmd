@@ -1,5 +1,5 @@
 ---
-title: "Write Documentation"
+title: "Write the Documentation"
 description: "Document your code before archiving it."
 image: 02-write-documentation.jpg
 image-alt: Photo by Unseen Studio on Unsplash

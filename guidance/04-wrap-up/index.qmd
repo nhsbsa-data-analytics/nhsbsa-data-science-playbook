@@ -1,5 +1,5 @@
 ---
-title: "Initiative Wrap up"
+title: "Initiative Wrap Up"
 description: "Complete the final steps of the pipeline to clean up and publish the output of the project."
 title-block-banner: true
 image: wrap-up.jpg
