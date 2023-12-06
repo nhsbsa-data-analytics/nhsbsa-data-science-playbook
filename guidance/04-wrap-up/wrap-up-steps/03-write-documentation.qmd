@@ -4,10 +4,11 @@ description: "General considerations on how to document your code before archivi
 image: 03-write-documentation.jpg
 image-alt: Photo by Unseen Studio on Unsplash
 ---
-  
-  
-Documenting code is another crucial step that should not be ignored. Without good documentation it is difficult for future projects to leverage our work. Make sure that all the custom functions are described in detail. Consider replicating a similar structure to an R package with each parameter explained, and examples of how to run the function.
+ 
+Documenting code is another crucial step that should not be ignored. Without good documentation, it is difficult for future projects to leverage our work. Make sure that all of your custom functions are described in detail. Consider replicating a similar structure to an R or Python package with each parameter explained, and examples of how to run the function.
 
-If you have a Github repository remember to update the README file. The README file should contain as a minimum the project name, and a quick overview of the project’s purpose. It can also be valuable to include a summary of the project structure, steps to reproduce your code locally and a description of the key technologies and methods used. A clean and informative README will make it more likely someone will use your code and will make it easier for future users to understand your project. 
+If you have a GitHub repository, remember to update the README file. The README file should contain as a minimum the project name, and a quick overview of the project’s purpose. It can also be valuable to include a summary of the project structure, steps to reproduce your code locally and a description of the key technologies and methods used. A clean and informative README will make it more likely someone will use your code and will make it easier for future users to understand your project. 
 
-Remember to document anything that you tried that did not work. This is good practice so that someone picking up your work in the future can avoid running into the same issues. The documentation can be included on the SharePoint but one of the best places would be the DALL One Note Wiki.
+Remember to document anything that you tried that did not work. This is good practice so that someone picking up your work in the future can avoid running into the same issues. The documentation can be included on SharePoint, the Git repository README file, and the DALL One Note Wiki.
+
+Please see the DALL OneNote Wiki for more information on how to write effective documentation [INSERT LINK].

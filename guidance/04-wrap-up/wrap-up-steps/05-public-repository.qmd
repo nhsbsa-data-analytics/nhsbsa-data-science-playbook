@@ -1,14 +1,14 @@
 ---
-title: "Make repository public"
+title: "Make the Repository Public (If Applicable)"
 description: "Things to consider when tidying your GitHub repository for public release."
 image: 05-public-repository.jpg
 image-alt: Photo by Markus Winkler on Unsplash
 ---
   
-Within the team we aim to generate reporducible analyses with code being made open source. Not all Github repositories will be made public. This is inline with guidance outlined in the [government service manual](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open) Before making a repository public there are some things to consider:
+Where applicable, we aim to generate reproducible code that is made open source. This is in line with guidance outlined in the [government service manual](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open). Before making a repository public, please consider the following:
 
-1.	Your git commit history will be made public. Although commit messages can be changed it is advised that you adopt a good commit practice throughout. Each commit message should be limited to a single change and not large chunks of code. Whilst it is possible to recreate the repository without a commit history this should not be used in place of a good commit history.   
+1. Your git commit history will be made public. Although commit messages can be changed, it is advised that you adopt a good commit practice throughout. Each commit message should be limited to a single change and not large chunks of code. Whilst it is possible to recreate the repository without a commit history this should not be used in place of a good commit history.
 
-2.	Make sure that you never push data or PID to the GitHub repository. An easy example of something that could be overlooked is an NHS number. If you test a chunk of code by looking at a single individual it is easy for the NHS number to be forgotten about. It’s even easier to miss if the PID is part of some test code that has been commented out. Using something like Git Leaks is a useful tool to help capture some of these subtle examples and minimise the risk of uploading personal information to GitHub.
+2. Make sure that you never push data or Personally Identifiable Information (PII) to the GitHub repository. An easy example of something that could be overlooked is an NHS number. If you test a chunk of code by looking at a single individual it is easy for the NHS number to be forgotten about. It’s even easier to miss if the PII is part of some test code that has been commented out. Using something like Git Leaks is a useful tool to help capture some of these subtle examples and minimise the risk of uploading personal information to GitHub.
 
-More information on creating a public Github repository can be found on the DALL Wiki (Coding & Dashboards > GitHub > DALL standard practice).
+For more information on creating a public Github repository, please see the following page within the DALL OneNote Wiki (Coding & Dashboards > GitHub > DALL standard practice) [INSERT LINK].
