@@ -1,7 +1,7 @@
 ---
 title: "Customer review"
 description: "Customer reviews and either agrees outputs match expectations or provides detailed feedback to guide the next iteration."
-image: customer-review.jpg
+image: 06-customer-review.jpg
 image-alt: Photo by Tim Marshall on Unsplash
 ---
 

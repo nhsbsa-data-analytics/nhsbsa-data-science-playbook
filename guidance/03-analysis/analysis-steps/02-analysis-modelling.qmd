@@ -1,7 +1,7 @@
 ---
 title: "Analysis and modelling"
 description: "Analyse data and create models to support the expected outputs"
-image: analysis-modelling.jpg
+image: 02-analysis-modelling.jpg
 image-alt: Photo by Shubham Dhage on Unsplash
 ---
 

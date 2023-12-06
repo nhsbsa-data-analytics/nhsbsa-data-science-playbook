@@ -1,7 +1,7 @@
 ---
 title: "Output artifacts"
 description: "Draft reports, slide decks, data sets, applications and any other agreed outputs"
-image: output-artifacts.jpg
+image: 03-output-artifacts.jpg
 image-alt: Photo by Stephen Dawson on Unsplash
 ---
 

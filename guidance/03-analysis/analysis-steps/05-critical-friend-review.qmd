@@ -1,7 +1,7 @@
 ---
 title: "Critical friend review"
 description: "Critical friend reviews in detail and provides feedback"
-image: critical-friend-review.jpg
+image: 05-critical-friend-review.jpg
 image-alt: Photo by Taylor Smith on Unsplash
 ---
 
