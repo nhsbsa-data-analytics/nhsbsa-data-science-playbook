@@ -4,11 +4,11 @@ description: "Complete the final steps of the pipeline to clean up and publish t
 title-block-banner: true
 image: wrap-up.jpg
 image-alt: Photo by Sigmund on Unsplash
-toc: false
 listing: 
   type: grid
   contents: wrap-up-steps
   sort: "filename"
+toc: false
 ---
 
 ![](section_4_diagram.png){width=100%}

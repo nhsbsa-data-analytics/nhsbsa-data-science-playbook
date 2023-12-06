@@ -1,12 +1,13 @@
 ---
 title: "Wrap Up and Clean Your Code"
-description: "What needs to be done as the project draws to a close."
+description: "Clean your code and base table(s) to make it more accessible."
 image: 01-clean-up.jpg
 image-alt: Photo by Alexander Grey on Unsplash
 ---
   
 Cleaning your project is an equally important step as the modelling and analysis. Leaving a messy project folder and code can lead to difficulties later down the line. It is important that you dedicate enough time to completing this step. Also, remember to treat it as a serious and worthwhile endeavour, as it can come in handy in the future.
 
+## Tips for Clean Up of the Code
 If you are using Git, remember to work with the mindset that everything committed could be made public. Small and precise commits will make the project clean up easier to complete.
 
 Even if the code base will not be made public, you should take the time to clean it up and make sure all development branches are committed to main or deleted. Streamlining the codebase is crucial, as it makes it much easier to return to the work in the future. Additionally, it allows for other colleagues to follow the code more easily.
@@ -19,6 +20,7 @@ If you intend to re-run the code in the future, consider creating a config or pr
 
 Cleaning code can be a subjective process. Remember to ask your critical friend for advice if you aren’t sure. When writing code, we should always try to make the code readable, which some R and Python packages can assist with. Additionally, the code should be optimised so that it can run as fast as possible. Therefore, we should always try and find a balance between performance and readability. Code should perform well and run quickly but also be understood by colleagues.
 
+## Tips for Data Clean Up
 If you have key base tables created within DALP, make sure these are made available to the wider team. That way if you are away on annual leave or unavailable, other colleagues can access them. Often the key tables are moved to the DALL_REF schema at the end of the project make sure to remove any tables that you have created. Additionally, make sure temporary tables are deleted. Once a project concludes you shouldn’t have access to the data anymore, especially if it has personal information included.
 
 Please see the DALL OneNote Wiki for more information on checking cleaning your code [INSERT LINK].
