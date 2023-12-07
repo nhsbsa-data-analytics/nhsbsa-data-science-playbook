@@ -5,7 +5,7 @@ image: 03-update-wiki.jpg
 image-alt: Photo by Joshua Hoehne on Unsplash
 ---
   
-Throughout the initiative you will have interrogated some data and potentially picked up some new skills in the process. If there is anything you found particularly useful or that could be beneficial for others, please add it to the DALL OneNote Wiki.
+Throughout the initiative you will have interrogated some data and potentially picked up some new skills in the process. If there is anything you found particularly useful or that could be beneficial for others, please add it to the DALL OneNote Wiki [INSERT LINK].
 
-Within the team, we promote knowledge sharing. The DALL Wiki has been set up for all team members to update. The wiki should be the first place you look when you have questions on a particular dataset, piece of software, or type of analysis. If you are struggling with something, there is a chance that someone else has too and recorded this. If it doesn't exist, you should incorporate it into the wiki for other team members after you discover the answer. 
+Within the team, we promote knowledge sharing. The DALL Wiki has been set up for all team members to update. The Wiki should be the first place you look when you have questions on a particular dataset, piece of software, or type of analysis. If you are struggling with something, there is a chance that someone else has too and recorded this. If it doesn't exist, you should incorporate it into the Wiki for other team members after you discover the answer. 
 
