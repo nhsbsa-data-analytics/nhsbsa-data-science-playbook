@@ -1,7 +1,7 @@
 ---
 title: "Estimate the Timescales"
 description: "Create a Gannt chart or equivalent to plan the initiative's timescales."
-image: 02-estimate-timescales.jpg
+image: 04-estimate-timescales.jpg
 image-alt: Photo by Emily Morter on Unsplash
 ---
 

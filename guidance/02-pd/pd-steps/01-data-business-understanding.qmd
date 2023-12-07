@@ -1,7 +1,7 @@
 ---
 title: "Data and Business Understanding"
 description: "Further your business knowledge and understanding of the data, to update the problem definition."
-image: 03-data-business-understanding.jpg
+image: 01-data-business-understanding.jpg
 image-alt: Photo by Emily Morter on Unsplash
 ---
 

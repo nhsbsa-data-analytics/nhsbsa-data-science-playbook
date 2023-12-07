@@ -1,7 +1,7 @@
 ---
-title: "Write the Problem Definition"
+title: "Refine the Problem Definition"
 description: "Begin to write a draft of your problem definition by including a range of information about the problem."
-image: 01-write-pd.jpg
+image: 03-refine-pd.jpg
 image-alt: Photo by Emily Morter on Unsplash
 ---
 
