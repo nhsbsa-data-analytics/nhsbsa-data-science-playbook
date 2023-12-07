@@ -6,9 +6,13 @@ listing:
   type: grid
   contents: "guidance/*/index.qmd"
   sort: "path"
+format:
+  html:
+    html-math-method: katex
+    css: styles.css
 toc: false
 ---
 
-![](playbook_diagram.png){width=100%}
+![](guidance/playbook_diagram.png){width=100%}
 
 ## Sections
