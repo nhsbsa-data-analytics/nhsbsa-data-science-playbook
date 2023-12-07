@@ -6,14 +6,8 @@ listing:
   type: grid
   contents: "guidance/*/index.qmd"
   sort: "path"
-format:
-  html:
-    mermaid:
-      theme: neutral
 toc: false
 ---
-
-## Overview
 
 ![](playbook_diagram.png){width=100%}
 
