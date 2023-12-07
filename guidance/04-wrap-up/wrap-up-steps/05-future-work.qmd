@@ -1,0 +1,8 @@
+---
+title: "Document Any Future Work"
+description: "Add interesting research avenues, beyond the scope of the initiative, to the ideas register for future analysis by members of the DALL team."
+image: 05-future-work.jpg
+image-alt: Photo by Brands&People on Unsplash
+---
+  
+After the project ended, you might have wanted to explore areas outside the project's scope. Be sure to add these ideas to the DALL ideas register located on SharePoint [INSERT LINK]. If there isn't enough for a full initiative, the ideas could be done as a three-week exploratory project.
