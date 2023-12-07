@@ -1,79 +1,28 @@
 ---
-title: "Data preparation"
-description: "Prepare data and create base table(s)"
-image: data-prep.jpg
+title: "Data Preparation"
+description: "Prepare and clean the data to create the base table(s)."
+image: 01-data-prep.jpg
 image-alt: Photo by Claudio Schwarz on Unsplash
 ---
 
-## Data quality
+Given you have written your problem definition and the customer has signed off on it, it is time to start preparing your data. The aim of this step is to create a base table or multiple tables that feed into your analysis or modelling in the next stage. The base tables should include only data relevant to the initiative. Some tables can have hundreds of columns, so reducing the footprint in your base tables is recommended. Data preparation may be iterative, as the analysis or modelling in the next step becomes refined with frequent feedback from stakeholders.
 
-The goal of this step is to end up with one or more base tables on which analysis is then conducted. The base tables should include __only__ data relevant, or possibly relevant, to the initiative. Some tables can have hundreds of columns, so reducing the footprint in your base tables is a recommended. Data preparation may be iterative, as the analysis becomes refined with frequent feedback from stakeholders.
+This can be achieved using any data manipulation tool such as SQL, R or Python. However, given a large dataset over one million rows, it may be advisable to use SQL, given its ability to handle this. Then, once you have a smaller base table(s), you could switch to R or Python for the analysis and modelling in the next section.
 
-The tables relevant to the initiative will have been identified in the process of writing the problem definition. Before using them it is important to get an idea of the data quality. This consists of summary statistics including at least 
+## Check the Data Quality
+The tables relevant to the initiative will have been identified in the process of writing the problem definition. Before using them, it is important to get an idea of the data quality. To do this, it is advisable to keep a log, saved in the initiative folder, for each table that you have access to. This could be done in Excel, R Markdown, PowerPoint, or any other software you see fit.
 
-- Data type
-- Most common values for categorical fields, or minima/maxima and median for numeric
-- Completeness
-- Cross-correlation
+Within the log, you can track the number of populated values, missing values, and data errors per column. Also, it is useful to extract some summary statistics for each table such as the min, max, and median of each numerical column, and distributions of categorical columns. It is also beneficial to have a notes tab to remind yourself what each column does and any things to watch out for. Finally, you can use the additional tabs to paste in data results from SQL, R or Python to highlight issues or findings within the data. Keep a list of these so you can show them to the customer and your critical friend. This will make them aware and help find solutions together. Please see the DALL OneNote Wiki for more information on checking data quality [INSERT LINK].
 
-There is the possibility of creating a SQL macro or stored procedure to generate the summary statistics in Oracle itself. This will streamline the process and is reproducible and promotes a consistent treatment of data quality.
+Throughout this process, it is crucial to test and validate your results where possible. A good tip is to search for yourself in the datasets, if you know your NHS or NI number, to check if your data is represented correctly. With the data and business knowledge from earlier, you can search for specific scenarios to test. With specific datasets, you can check previous DALL initiatives or MI dashboards to compare you figures. Finally, for prescriptions data specifically, you can compare your results to ePACT2. For more information on testing, please see this page within the DALL OneNote Wiki [INSERT LINK].
 
-### Data type
+## Create the Base Table(s)
+Once you have completed the data log, you will be in the position to transform your data into a base table or series of tables. Within this step, based on the results of your exploration, you will:
 
-This is the data type _as stored_. This may or may not be the same as what you expect. For example, it is common to use a numeric key in a fact table that represents a categorical value found in a dimension table. See the Wiki for more on [fact and dimension tables (TODO: check if already exists, if not add  + use actual link)](https://nhsbsauk.sharepoint.com/sites/InsightTeam-DataAnalyticsLearningLabDALL/_layouts/15/Doc.aspx).
+* decide to keep or discard fields based on what is relevant to the initiative,
+* fix or remove columns that contain data errors or missing entries,
+* create new columns based on the existing ones,
+* change the data types of the columns to a more appropriate format and
+* save the output of your transformations as a table or a series of tables. 
 
-### Common values
-
-For categorical fields, it is useful to have an idea of the distribution of values. For example, if considering use of machine learning techniques that are sensitive to imbalanced data. Even when considering techniques that handle imbalanced data well keeping the distribution in mind is useful when interpreting and reporting on the the results.
-
-### Minima/maxima/median
-
-For numeric fields, this is the analogue to common values for categorical data. The values will give you an idea of how the data is distributed. You could go further and plot a histogram for better visualisation of this. NOTE: Consider adding to Rmarkdown example
-
-### Completeness
-
-Many techniques are sensitive to missing data. Extreme cases of this can even prevent any useful analysis, so needs to be mitigated in some way. How it is mitigated will depend on the techniques employed. One thing to look out for is cases where a field has values only after, or before, a certain time. When this occurs it may limit some specific analysis to the time period for which values exist.
-
-### Cross-correlation
-
-Some techniques are resistant to correlation between explanatory variables, while others require all but one such correlated variable to be removed. In either case it is useful to understand what, if any, correlation between variables exists. The correlations can be computed with R, python or directly in Oracle. See these guides for more info
-
-[R](http://www.sthda.com/english/wiki/correlation-matrix-a-quick-start-guide-to-analyze-format-and-visualize-a-correlation-matrix-using-r-software)
-[Python](https://datatofish.com/correlation-matrix-pandas/)
-[Oracle](https://www.pythian.com/blog/multi-column-correlation-and-extended-stats-in-oracle-11g)
-
-### Examples
-
-The template initiative `Data` folder contains a Rmarkdown, `data_summary.Rmd`, which can be used as an example or starting point for data quality checking. When using it make sure to add notes of the findings for future reference.
-
-An alternative would be to do it directly in the database, such as suggested on this [github issue](https://github.com/nhsbsa-data-analytics/dall-playbook/issues/5).
-
-In addition to any Rmarkdown used, you may find it helpful to keep a record of specific counts found during initial EDA and during any further EDA performed while preparing the base tables. An example Excel file is in the template initiative `Data` folder, `EDA figures.xlsx`.
-
-## Data cleansing
-
-### Missingness
-
-The data may have some degree of missingness. How it is handled will depend on the both the data and the techniques to be employed in the analysis. There are many techniques to handle this. Sometimes the best method is obvious, sometimes you will have to choose between several potentially viable methods.
-
-### Data types
-
-From the data summary generated you may find some fields that are better expressed in a different data type.
-
-### Keep or discard fields
-
-In the first iteration it is best to keep any and all fields that may be useful in the analysis. As the analysis is refined through exploration and feedback, you can discard fields no longer deemed relevant. By the end, only fields which are used in the analysis should remain in the base tables. An exception to this is when a future phase of work is planned. In such cases it may make sense to keep some fields not immediately useful available.
-
-## RAP considerations
-
-Don't repeat yourself is a well known adage in software development. While we are not writing software, it still applies and is a core principle of RAP. Pull out repeated code into functions; this allows for good tests to be written, another core principle of RAP. Variables should not be spread throughout a script, but instead gathered together into a config file or single block at the top of a script. 
-
-## Note keeping
-
-Throughout data preparation, ensure to make notes (saved in the initiative folder) of any potential or realised issues, caveats to be included in final outputs and decisions made with their reasoning. This will help in writing the supporting text in the main outputs.
-
-## Validation
-
-Some thought should be given to how to validate the base tables are a true reflection of what is intended. Some data may be checked against other data sources, such ePACT2. In addition, adding tests is a worthwhile investment. With tests you can be more confident that any future change that introduces an error will be caught quickly.
-
-If the data is something that you would expect personal details to appear in, you can also confirm you see what you would expect for yourself.
+For the final step, this can be as simple as saving your results as CSV files or creating SQL tables, depending on the size of your data. As a final step, you must remove all sensitive info from the base table(s) where possible to avoid data leakage. Finally, you can use cloud software to schedule data preparation and rerun it automatically. For further guidance on these steps, including how to tackle missing and erroneous data, please see the DALL OneNote Wiki [INSERT LINK].
