@@ -4,7 +4,6 @@ description: "Meet with the customer to understand their expectations for the in
 image: 05-initial-meeting-with-customer.jpg
 ---
 
-## Tips for Setting Up and Conducting the Meeting
 It is important to setup a first meeting with the customer once you have an initial understanding of initiative. If you are unsure who to invite to the meeting, you can ask your critical friend, the DALL team manager, or other colleagues. During this meeting, you can identify:
 
 * what they are looking to do within the initiative,

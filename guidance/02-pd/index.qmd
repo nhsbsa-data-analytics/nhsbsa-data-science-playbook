@@ -8,14 +8,8 @@ listing:
   type: grid
   contents: pd-steps
   sort: "filename"
-format:
-  html:
-    mermaid:
-      theme: neutral
 toc: false
 ---
-
-## Overview
 
 ![](section_2_diagram.png){width=100%}
 

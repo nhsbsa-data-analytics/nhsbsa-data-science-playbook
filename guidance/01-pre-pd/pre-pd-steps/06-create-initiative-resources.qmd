@@ -4,7 +4,6 @@ description: "Create resources such as JIRA, GitHub, Sharepoint and others."
 image: 06-create-initiative-resources.jpg
 ---
 
-## What to Setup
 Before beginning to work on your problem definition, you will need to setup the initiative resources. Currently, these include:
 
 * a JIRA ticket to track progress on the work,

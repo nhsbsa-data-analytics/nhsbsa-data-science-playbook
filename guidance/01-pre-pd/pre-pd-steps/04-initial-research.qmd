@@ -4,7 +4,6 @@ description: "Look at previous work conducted by the team to gain inspiration."
 image: 04-initial-research.jpg
 ---
 
-## Resources You Can Use
 If you have the data, analysing it for insights and limitations will help you understand what is possible for the initiative.
 As an aside, look at previous initiatives conducted in the team, these can be identified using JIRA and by asking around within the team. Your critical friend and the DALL team manager may be able to assist here too. This is especially helpful for understanding the business in the area you're focused on and the data you'll be using.
 

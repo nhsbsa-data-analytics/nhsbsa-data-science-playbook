@@ -4,7 +4,6 @@ description: "Investigate an initiative to work on for internal NHSBSA customer,
 image: 01-problem-identified.jpg
 ---
 
-## Identify a Problem
 This could be identified by the DALL team, an internal NHSBSA customer, or an external customer.
 
 For NHSBSA and external customers, you should log each initiative request through Nhsbsa.dall@nhs.net before starting the work. The DALL team manager normally assigns these initiatives.
