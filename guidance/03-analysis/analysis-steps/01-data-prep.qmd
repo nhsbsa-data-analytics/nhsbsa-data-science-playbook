@@ -5,9 +5,9 @@ image: 01-data-prep.jpg
 image-alt: Photo by Claudio Schwarz on Unsplash
 ---
 
-Given you have wrote your problem definition and the customer has signed off on it, it is time to start preparing your data. The aim of this step is to create a base table or multiple tables that feed into your analysis or modelling in the next stage. The base tables should include only data relevant to the initiative. Some tables can have hundreds of columns, so reducing the footprint in your base tables is recommended. Data preparation may be iterative, as the analysis or modelling in the next step becomes refined with frequent feedback from stakeholders.
+Given you have written your problem definition and the customer has signed off on it, it is time to start preparing your data. The aim of this step is to create a base table or multiple tables that feed into your analysis or modelling in the next stage. The base tables should include only data relevant to the initiative. Some tables can have hundreds of columns, so reducing the footprint in your base tables is recommended. Data preparation may be iterative, as the analysis or modelling in the next step becomes refined with frequent feedback from stakeholders.
 
-This can be achieved using any data manipulation tool such as SQL, R and Python. However, given a large dataset over one million rows, it may be advisable to use SQL, given its ability to handle this. Then, once you have a smaller base table(s), you could switch to R or Python for the analysis and modelling in the next section.
+This can be achieved using any data manipulation tool such as SQL, R or Python. However, given a large dataset over one million rows, it may be advisable to use SQL, given its ability to handle this. Then, once you have a smaller base table(s), you could switch to R or Python for the analysis and modelling in the next section.
 
 ## Check the Data Quality
 The tables relevant to the initiative will have been identified in the process of writing the problem definition. Before using them, it is important to get an idea of the data quality. To do this, it is advisable to keep a log, saved in the initiative folder, for each table that you have access to. This could be done in Excel, R Markdown, PowerPoint, or any other software you see fit.
