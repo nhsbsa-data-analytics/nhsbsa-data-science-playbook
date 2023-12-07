@@ -13,8 +13,6 @@ format:
 toc: false
 ---
 
-## Overview
-
 ```{mermaid}
 %%| label: fig-1
 %%| fig-cap: Placeholder Diagram

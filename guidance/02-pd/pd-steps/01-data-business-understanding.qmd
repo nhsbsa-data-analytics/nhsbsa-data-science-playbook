@@ -1,11 +1,10 @@
 ---
 title: "Data and Business Understanding"
 description: "Further your business knowledge and understanding of the data, to update the problem definition."
-image: 03-data-business-understanding.jpg
+image: 01-data-business-understanding.jpg
 image-alt: Photo by Emily Morter on Unsplash
 ---
 
-## Conducting Further Research
 Given you have access to the data you need, you should start to interrogate it. During this process, you should keep a spreadsheet to document all anomalies, caveats, and quality issues so that you can communicate these to the customer. A good tip is to document for each column:
 
 * what it shows,
