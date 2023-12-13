@@ -5,36 +5,56 @@ image: 04-review.jpg
 image-alt: Photo by Clay Banks on Unsplash
 ---
 
+Reviewing work and outputs frequently should be done throughout the initiative life cycle. There are multiple layers of review.
+
+- Self Review
+- Team Review
+- Critical Friend Review
+- Customer Review
+
+In response to any one of these reviews, it may be deemed necessary to go back to data prep, analysis or drafting of outputs.
+
 ## Self Review
-Frequent reviews of the work give a chance to pick up on any issues. An important component of this is the code review. With the mindset that the code may become public, you should write your code in a way that anyone can both understand it and then reuse it. This includes the frequent use of comments and writing documentation wherever possible.
 
-If your output is to be available online, it must be tested for accessibility. Full details are on the DALL OneNote Wiki [INSERT LINK].
+Review your own work as you go, but especially before requesting anyone else to review it.
 
-Keep in mind that testing accessibility too early can result in wasted time, as aspects of the app can and do change. So, in general, you should leave the testing until you are confident that only minor adjustments and text agreement remain to be done.
+- Check for errors
+- Run code with a 'clean slate' to ensure there are no dependencies in your local environment that will not be there later
+- If you are testing adhoc, save your effort by writing a repeatable test
+- Document your code
+- Once happy with your code create a pull request (PR) on Github
+- Check the code diff on Github and add comments to explain to a code reviewer any decisions you made that are not obvious
+- Checking the diff often highlights something you missed; in these cases make further changes and push them
+- Once happy with your PR, request that someone code review it
+- Prefer smaller pull requests to huge ones
+- Remember that your colleagues have other work; give them enough time to review your work properly
 
 ## Team Review
-The first layer of the review process is to have your code and outputs checked by a member of the DALL team. You may be working on the initiative with them or asking for an outside perspective. As suggested in the analysis and modelling section, use of GitHub issues and branches are an excellent tool for this. To keep your work organised, create a new branch for each task. When you're done, submit a Pull Request to merge your work with the main branch. At this stage, your colleague(s) can review the branch before it is merged, adding comments and corrections to be made. You should make sure that each PR that you create is small, so that it is not overwhelming for your colleagues to review. If it is on the larger side, it is suggested to put in a meeting with them to explain the code.
 
-For each colleague reviewing your work, at a minimum they should be:
+One or more other members of the initiative team should review all code and outputs before it is merged into the main branch.
 
-* pulling code to their local environment and running it,
-* reading supporting text and commenting where they are unsure of something or have a suggestion and
-* checking the outputs against the problem definition and pointing out any discrepancies.
-
-Finally, remember that your colleagues have other work. Try to send your work as early as possible for them to review.
+- Reviewer should pull the code into their local environment, and run it from a 'blank slate' state
+- Reviewer should add comments and suggestions to the PR
+- Reviewer should check any outputs match what was agreed in the problem definition
+- If something does not make sense, ask the code author to clarify
+- If reviewer has more than a few questions, organise a call with the code author and work through the PR together
 
 ## Critical Friend Review
-As discussed in section one, your critical friend is an integral part of the initiative. They can help with ideas, give advice, and notice things the team might miss. To keep them informed, ask for their input before presenting anything to the customer.
 
-The critical friend should review the process, code, and outputs of the team, in the same way as above in the team member section. If you can, let your critical friend know in advance that you will be ready for their review soon.
+The initiative critical friend (CF) should be asked for feedback on work in progress at frequent intervals, and always before asking a customer to look at it.
+
+- The CF should put themselves in the shoes of the customer when reviewing outputs
+- The CF should put themselves in the shoes of someone tasked with using the code base when reviewing code
+- Depending on the amount or complexity of any feedback, CF should arrange a call with the initiative team to discuss
 
 ## Customer Review
-To finish the review, it's helpful to meet with the customer. Show them your progress and ask for their feedback. Using this time, you can ask questions and gain further understanding to help you meet the set objectives.
 
-If you can, make sure to send them any output ahead of a scheduled meeting so that they can review it before. In rare cases, the customer may request additional work. If the DALL team manager allows it, make sure to update the timelines from section one. Also, let the customer know that more time is needed.
+The customer should be given frequent opportunities to see work in progress.
 
-After the project is finished and everyone agrees on the final product, it's good to meet with the customer again. This final meeting can be useful to make sure that all the objectives have been met. The meeting can also be used to make sure that the customer is happy with the output.
-
-At this point, the customer should know exactly what has been done but it can be useful to prepare a presentation. You can then use the presentation to summarise what you have done for other colleagues too. In some cases, it might be appropriate to handover to the customer. You can show them the steps they need to take to find the information themselves. This includes teaching them how to use a dashboard or run the code.
-
-The meeting should end with an agreement between the customer and the assigned DALL members. It is at this stage the customer should agree that the project can be wrapped up and that no more analysis is required. If there are any recommendations from the project, it's helpful to tell the customer. This way, you can talk about doing them in a future initiative.
+- Send them drafts of the outputs to review in their own time, rather than only sharing your screen in a call
+- Be open to having calls once they have reviewed the work
+- Discuss any questions or suggestions they have
+- You will (hopefully!) have a call where the customer agrees that everything in scope, as per the problem definition, is done
+- Arrange a final call with the customer to present the work
+- Ensure the customer is happy they understand how to use any interactive elements, such as dashboards
+- Can discuss any potential for future related work

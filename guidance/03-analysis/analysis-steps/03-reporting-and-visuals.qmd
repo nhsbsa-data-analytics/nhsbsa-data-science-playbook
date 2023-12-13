@@ -5,22 +5,82 @@ image: 03-reporting-and-visuals.jpg
 image-alt: Photo by Stephen Dawson on Unsplash
 ---
 
-Within the DALL team, the work that we conduct aims to tell a 'story' to the customer, providing them with the insight to be able to make accurate business decisions.
+Within the DALL team, the work that we conduct aims to tell a 'story' to the customer, providing them with the insights that the raw data alone would not.
 
-## Producing the Output
-As discussed in the previous section, it may be appropriate to simply display your statistics in Excel if it is a small ask. Typical DALL initiatives show outputs in PowerPoint slides or a Markdown or Shiny report. With PowerPoint slides, it is advisable to create two versions of your output. One for the customer to read and one for you to show. The second one should have animation, fewer words, and pictures. It should ideally take no more than 10 minutes, giving time for questions. Also, if the customer can access it, they may find a Power BI dashboard helpful. The dashboard lets them analyse the data and gain insights themselves. Though, it would still be advisable to generate a set of slides, to talk the customer through the story of the initiative. A good tip for these tools is to include your graphs first and have then reviewed, before adding the text to save unnecessary work.
+## Output Formats
 
-## Output Format
-For any reporting method you choose, it is recommended to have the following structure:
+There are a range of expected outputs that may have been agreed on in the problem definition.
 
-* Introduction,
-* Contents,
-* Key findings (since some may not have time to read the whole content),
-* Assumptions and limitations,
-* Your findings,
-* Recommendations and next steps and 
-* Appendices (if applicable).
+- Written reports
+- Data sets
+- Dashboards
+- Interactive reports
+- Slide decks (always required)
 
-For the content of your outputs, you should always aim to make them understandable to anyone and make them accessible to view. Please keep your sentences under 20 words. Use bold and italics when necessary and write numbers under 10 using words. Ideally, one person would write and present the document, to keep it unified. If different writers use different styles in the same document, it will become disjointed and hard to present.
+## Output Structure
 
-To learn more about improving initiative outcomes and getting specific software advice, visit the DALL OneNote Wiki pages [INSERT LINK].
+For most outputs there is a recommended structure.
+
+- Introduction
+- Contents
+- Key findings (since some may not have time to read the whole content)
+- Assumptions and limitations
+- Your findings
+- Recommendations and next steps
+- Appendices (if applicable)
+
+## Supporting text
+
+Most outputs will feature at least some text.
+
+- Key findings at the front as people won't read the whole thing
+- Include caveats and assumptions, and for particularly important ones mention them up front
+- Numbers under 10 are in words, over 10 in digits (but use common sense!)
+- Use bold tag lines for emphasis of important points
+- Sometimes difficult to do, but try to have a story
+- If appropriate, include recommendations and ideas for further exploration
+- Sentences shorter than 20 words
+- Write it so that a 12 year old would be able to understand it, assume readers are non-technical
+- If multiple people have contributed text, one person should, in the final stages, act as editor and rewrite in a single style
+- A very useful tool for written output is [Hemingway Editor](https://hemingwayapp.com/). If you can get your text to mostly have no issues in this, you know it is readable!
+- Leave writing any text supporting visuals such as charts or tables until the team is almost certain they are finalised
+- There are pages on initiative outputs with specific format advice in the internal DALL Wiki
+
+## Slide decks
+
+All initiatives should have at least two slide decks as an agreed output. One of these is for the customer, the other is designed to be quickly presented to interested parties.
+
+### Customer Summary
+
+This is to give the customer an easily shared and concise report on the outcomes of an initiative.
+
+- State the problems or questions the initiative looked at, with examples
+- Give the most important assumptions or caveats, and if appropriate issues encountered
+- Summarise the most important findings
+- Give brief recommendations and next steps
+- Likely a mix of visual and text is best, with more text
+- Can use technical language, if you think customer is familiar with it
+
+### Short Presentation
+
+This is intended to be used by the DALL team to present to others. It also serves as a quick reference of the outcome of an initiative, helpful to people looking back at it in future.
+
+- Show examples of the why the initiative was done
+- Give assumptions and caveats only if absolutely necessary to prevent a major misunderstanding
+- Summarise the most important findings
+- Give brief recommendations and next steps
+- Most of the content should be visual, with limited amounts of explanatory text
+- Use animations
+- Aim to have it presentable in around 10 minutes
+- Assume audience is non-technical
+- For initiatives with a large amount of findings or components, focus on up to three that you would like the audience to remember
+- A good presentation style is the [newsreader style](https://www.revolutionlearning.co.uk/article/newsreader-style-presentation-structure/)
+- As you get feedback on the initiative and how the outputs are being used, add this to the end of the slides
+- If you are not getting feedback 'organically', reach out to get enough for at least one slide!
+
+## Accessibility Concerns
+
+If your output is to be available online, it must be tested for accessibility and include (or link to) an Accessibility Statement. Full details are in the DALL Wiki.
+
+- Try to create outputs with accessibility in mind; for example using the `{shiny}` [template](https://github.com/nhsbsa-data-analytics/nhsbsaShinyR)
+- Don't test for accessibility too early; do it only once reasonably confident the non-text output is finalised

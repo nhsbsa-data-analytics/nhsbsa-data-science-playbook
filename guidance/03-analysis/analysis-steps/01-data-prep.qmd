@@ -5,24 +5,57 @@ image: 01-data-prep.jpg
 image-alt: Photo by Claudio Schwarz on Unsplash
 ---
 
-Given you have written your problem definition and the customer has signed off on it, it is time to start preparing your data. The aim of this step is to create a base table or multiple tables that feed into your analysis or modelling in the next stage. The base tables should include only data relevant to the initiative. Some tables can have hundreds of columns, so reducing the footprint in your base tables is recommended. Data preparation may be iterative, as the analysis or modelling in the next step becomes refined with frequent feedback from stakeholders.
+Given you have written your problem definition and the customer has signed off on it, it is time to start preparing your data. The aim of this step is to create a base table or multiple tables that feed into your analysis or modelling in the next stage. Data preparation may be iterative, as the analysis or modelling in the next step becomes refined with frequent feedback from stakeholders.
 
-This can be achieved using any data manipulation tool such as SQL, R or Python. However, given a large dataset over one million rows, it may be advisable to use SQL, given its ability to handle this. Then, once you have a smaller base table(s), you could switch to R or Python for the analysis and modelling in the next section.
+## Data Preparation
 
-## Check the Data Quality
-The tables relevant to the initiative will have been identified in the process of writing the problem definition. Before using them, it is important to get an idea of the data quality. To do this, it is advisable to keep a log, saved in the initiative folder, for each table that you have access to. This could be done in Excel, R Markdown, PowerPoint, or any other software you see fit.
+Data preparation can be done with any data manipulation tool such as SQL, R or Python.
 
-Within the log, you can track the number of populated values, missing values, and data errors per column. Also, it is useful to extract some summary statistics for each table such as the min, max, and median of each numerical column, and distributions of categorical columns. It is also beneficial to have a notes tab to remind yourself what each column does and any things to watch out for. Finally, you can use the additional tabs to paste in data results from SQL, R or Python to highlight issues or findings within the data. Keep a list of these so you can show them to the customer and your critical friend. This will make them aware and help find solutions together. Please see the DALL OneNote Wiki for more information on checking data quality [INSERT LINK].
+- Large datasets with millions of rows may require use of SQL initially
+- SQL can be used via libraries, such as `{dplyr}` in R
+- Once data has been aggregated, switch to your tool of choice for analysis and modelling
 
-Throughout this process, it is crucial to test and validate your results where possible. A good tip is to search for yourself in the datasets, if you know your NHS or NI number, to check if your data is represented correctly. With the data and business knowledge from earlier, you can search for specific scenarios to test. With specific datasets, you can check previous DALL initiatives or MI dashboards to compare you figures. Finally, for prescriptions data specifically, you can compare your results to ePACT2. For more information on testing, please see this page within the DALL OneNote Wiki [INSERT LINK].
+When preparing data there are some considerations that always apply
 
-## Create the Base Table(s)
-Once you have completed the data log, you will be in the position to transform your data into a base table or series of tables. Within this step, based on the results of your exploration, you will:
+- Data quality
+  - How are values distributed? In particular are there any unbalanced data fields?
+  - Summary statistics such as mean, median, mode, minima and maxima
+  - How complete is the data? Any nulls or otherwise unknown values?
+  - Are any fields strongly correlated?
+  - Discuss any data quality issues with the critical friend and/or customer
+  - There is a page on data quality in the internal DALL Wiki
+- Data cleansing
+  - Handling missing values
+  - Using appropriate data types
+  - Which fields to keep?
+  - There is a page on data cleansing in the internal DALL Wiki
+- RAP considerations (LINK?)
+  - The time to make the preparation easy to repeat is worth it
+  - Rather than just doing adhoc testing, create tests that can be repeated
+  - There is a page on testing in the internal DALL Wiki
+  - Working in a RAP-ful way is especially important when the output of an initiative is to be refreshed periodically, such as monthly or annually
+- Note keeping
+  - Save the results of data quality checking
+  - Save examples of queries that highlight any issues
+  - `data_summary.Rmd` and `EDA figures.xlsx` can be used, found in template initiative `Data` folder
+- Validation
+  - Where possible, check that results using your base tables and other sources match
+  - Other sources could be data from previous initiatives, Management Information dashboards or ePACT2
+  - You can check the results for yourself if the dataset supports it, since you will know if something is wrong
 
-* decide to keep or discard fields based on what is relevant to the initiative,
-* fix or remove columns that contain data errors or missing entries,
-* create new columns based on the existing ones,
-* change the data types of the columns to a more appropriate format and
-* save the output of your transformations as a table or a series of tables. 
+## Creating Base Tables
 
-For the final step, this can be as simple as saving your results as CSV files or creating SQL tables, depending on the size of your data. As a final step, you must remove all sensitive info from the base table(s) where possible to avoid data leakage. Finally, you can use cloud software to schedule data preparation and rerun it automatically. For further guidance on these steps, including how to tackle missing and erroneous data, please see the DALL OneNote Wiki [INSERT LINK].
+After checking and preparing the data, you should have enough knowledge to create one or more base tables.
+
+- Decide to keep or discard fields based on what is relevant to the initiative
+- Fix or remove columns that contain data errors or missing entries
+- Create new columns based on the existing ones,
+- Change the data types of the columns to a more appropriate format
+- Save the output of your transformations 
+- Use any format that makes sense considering the size and how it is used; formats include CSV, SQL, and Rda
+
+## Sensitive Data
+
+- Wherever base tables are saved, it must be in a secure location as per data security policy (LINK?)
+- Sensitive data should be removed or obfuscated unless it is absolutely necessary to retain it; bear in mind the data governance policies (LINK?)
+- For certain usage of sensitive data, the Caldicott Guardians (LINK?) should be consulted
