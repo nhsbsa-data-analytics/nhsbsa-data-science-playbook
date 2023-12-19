@@ -17,8 +17,7 @@ Cleaning your project is an equally important step as the modelling and analysis
   - Move custom functions into their own script.
   
 - Delete stale git branches or merge them into main.
-- Streamline the codebase
-  - Archive old scripts that are no longer required.
+- Streamline the codebase.
 - Create a config file with key parameters and filters that are reference throughout the project.
 - Identify bottlenecks and optimise the code.
 - Ensure key tables within the database are available to the wider team.
@@ -27,4 +26,4 @@ Cleaning your project is an equally important step as the modelling and analysis
   - This is especially important for person identifiable data.
 
 
-Please see the DALL OneNote Wiki for more information on checking cleaning your code [INSERT LINK].
+Please refer to the DALL OneNote Wiki for more information on cleaning your code.
