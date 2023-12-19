@@ -12,5 +12,6 @@ toc: false
 ---
 
 ![](section_3_diagram.png){width=100%}
+In this stage we prepare data, analyse it and review until outputs as specified in the problem definition are finalised. It is sometimes necessary to go back and refine the problem definition as a result of discoveries or issues found during these tasks.
 
 ## Sections
