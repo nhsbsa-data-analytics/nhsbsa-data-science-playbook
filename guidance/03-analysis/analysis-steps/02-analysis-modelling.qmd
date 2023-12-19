@@ -32,7 +32,6 @@ As with data preparation, it's important to test and validate your results.
 
 - Where possible, check results against other sources
 - Other sources could be data from previous initiatives, Management Information dashboards or ePACT2
-- If the data includes records for you personally, check they are what you would expect NOTE: may not include this if deemed sensitive
 
 ## Sensitive Data
 

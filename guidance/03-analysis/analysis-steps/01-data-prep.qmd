@@ -41,7 +41,6 @@ When preparing data there are some considerations that always apply
 - Validation
   - Where possible, check that results using your base tables and other sources match
   - Other sources could be data from previous initiatives, Management Information dashboards or ePACT2
-  - If the data includes records for you personally, check they are what you would expect NOTE: may not include this if deemed sensitive
 
 ## Creating Base Tables
 
