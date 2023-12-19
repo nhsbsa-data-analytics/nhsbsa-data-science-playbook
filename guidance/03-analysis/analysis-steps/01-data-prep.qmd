@@ -18,6 +18,7 @@ Data preparation can be done with any data manipulation tool such as SQL, R or P
 When preparing data there are some considerations that always apply
 
 - Data quality
+  - Check the Data Quality profiles, if they exist for the data
   - How are values distributed? In particular are there any unbalanced data fields?
   - Summary statistics such as mean, median, mode, minima and maxima
   - How complete is the data? Any nulls or otherwise unknown values?
@@ -27,7 +28,8 @@ When preparing data there are some considerations that always apply
 - Data cleansing
   - Handling missing values
   - Using appropriate data types
-  - Which fields to keep?
+  - Following the [data minimisation principle](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/the-principles/data-minimisation/)
+Principle (c): Data minimisation | ICO
   - There is a page on data cleansing in the internal DALL Wiki
 - RAP considerations (LINK?)
   - It is worth spending time on making the data preparation easy to repeat
@@ -40,7 +42,8 @@ When preparing data there are some considerations that always apply
   - `data_summary.Rmd` and `EDA figures.xlsx` can be used, found in template initiative `Data` folder
 - Validation
   - Where possible, check that results using your base tables and other sources match
-  - Other sources could be data from previous initiatives, Management Information dashboards or ePACT2
+  - Internal sources include data from previous initiatives, Management Information dashboards or ePACT2
+  - External sources include Official Statistics and third-party datasets
 
 ## Creating Base Tables
 
