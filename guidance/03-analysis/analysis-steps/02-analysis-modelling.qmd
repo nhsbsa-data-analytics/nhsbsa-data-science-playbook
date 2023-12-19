@@ -17,7 +17,7 @@ Starting from the base tables, we want to create the agreed outputs. Typically w
 - Start small, such as limiting data to some subset when developing metrics; this makes it easier to spot issues and allows for faster iteration of code
 - Check the data looks correct at each step of transforming it; better still, know what it _should_ be before writing and applying the step (the principle behind test driven development, TDD)
 - Work on one component of output at a time, for example using `{shiny}` modules as in our [template](https://github.com/nhsbsa-data-analytics/nhsbsaShinyR)
-- Frequently run code as you write it, so any issues are encountered early and the source is obvious
+- Frequently run code as you write it, so any issues are encountered early and their source is clearer
 - The final code should use RAP principles [LINK?]
 - If it is appropriate, such as needing to show simple summary statistics, just use Excel
 - R is especially suited to use for data analysis and visualisation, via Rmarkdown and Shiny
@@ -32,7 +32,7 @@ As with data preparation, it's important to test and validate your results.
 
 - Where possible, check results against other sources
 - Other sources could be data from previous initiatives, Management Information dashboards or ePACT2
-- You can check the results for yourself if the dataset supports it, since you will know if something is wrong
+- If the data includes records for you personally, check they are what you would expect NOTE: may not include this if deemed sensitive
 
 ## Sensitive Data
 

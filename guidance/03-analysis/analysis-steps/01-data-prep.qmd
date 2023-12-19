@@ -12,7 +12,7 @@ Given you have written your problem definition and the customer has signed off o
 Data preparation can be done with any data manipulation tool such as SQL, R or Python.
 
 - Large datasets with millions of rows may require use of SQL initially
-- SQL can be used via libraries, such as `{dplyr}` in R
+- SQL can be used via libraries, such as `{dplyr}` and the database back-end `{dbplyr}` in R
 - Once data has been aggregated, switch to your tool of choice for analysis and modelling
 
 When preparing data there are some considerations that always apply
@@ -30,8 +30,8 @@ When preparing data there are some considerations that always apply
   - Which fields to keep?
   - There is a page on data cleansing in the internal DALL Wiki
 - RAP considerations (LINK?)
-  - The time to make the preparation easy to repeat is worth it
-  - Rather than just doing adhoc testing, create tests that can be repeated
+  - It is worth spending time on making the data preparation easy to repeat
+  - Rather than just doing adhoc testing, write formal tests that can be repeated
   - There is a page on testing in the internal DALL Wiki
   - Working in a RAP-ful way is especially important when the output of an initiative is to be refreshed periodically, such as monthly or annually
 - Note keeping
@@ -41,7 +41,7 @@ When preparing data there are some considerations that always apply
 - Validation
   - Where possible, check that results using your base tables and other sources match
   - Other sources could be data from previous initiatives, Management Information dashboards or ePACT2
-  - You can check the results for yourself if the dataset supports it, since you will know if something is wrong
+  - If the data includes records for you personally, check they are what you would expect NOTE: may not include this if deemed sensitive
 
 ## Creating Base Tables
 
@@ -49,7 +49,7 @@ After checking and preparing the data, you should have enough knowledge to creat
 
 - Decide to keep or discard fields based on what is relevant to the initiative
 - Fix or remove columns that contain data errors or missing entries
-- Create new columns based on the existing ones,
+- Create new columns based on the existing ones
 - Change the data types of the columns to a more appropriate format
 - Save the output of your transformations 
 - Use any format that makes sense considering the size and how it is used; formats include CSV, SQL, and Rda
