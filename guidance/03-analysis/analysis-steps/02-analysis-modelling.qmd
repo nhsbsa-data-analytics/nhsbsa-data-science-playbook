@@ -5,12 +5,36 @@ image: 02-analysis-modelling.jpg
 image-alt: Photo by Shubham Dhage on Unsplash
 ---
 
-In this step, we turn our data into insights. The work done here can vary. It can include small data extraction jobs, creating reports and dashboards, and deploying machine learning models. The analysis or modelling you conduct is also heavily reliant on the outputs you agreed with the customer. Also, the way in which the initiative is carried out will naturally vary from person to person, depending on your preferences of programming languages and output style.
+In this step, we turn our data into insights. The work done here can vary. It can include small data extraction jobs, creating reports and dashboards, and deploying machine learning models. The analysis or modelling you conduct is also heavily reliant on the outputs you agreed with the customer.
 
 ## Conducting the Work
-The 'typical' DALL initiative usually involves some initial data preparation in the previous step, done in SQL. Then, the output base table(s) are loaded into R or Python. Good coding practices, like using GitHub issues and branches and Object-Oriented Programming (OOP), are followed to conduct the work. Please see the DALL OneNote Wiki for more information on these [INSERT LINK].
 
-For some very small initiatives, it may be appropriate to extract some summary figures and use Excel to plot some simple graphs for the customer. R is often used for analytical reports that are run infrequently. This is because it has advanced visualisation features and can easily show results using R markdown and Shiny. Python is often used for machine learning because it has many libraries and works well with cloud-based products. Finally, visualisation products such as Power BI may be appropriate, given the customer has access. Dashboards are great when data needs to be frequently updated, and customers want to analyse the data themselves. These choices are personal preference, and you may use whichever you think is appropriate. For tips on each of these tools, please see the DALL OneNote Wiki [INSERT LINK].
+Starting from the base tables, we want to create the agreed outputs. Typically we use R or Python to do this.
+
+- Use Github to handle version control, issues and code reviews
+- In Python, use object-oriented programming (OOP); although R does have support for OOP, it is not a big paradigm like in Python
+- Be careful of premature optimisation (called out by computer scientist Donald Knuth as 'the root of all evil' in software development)
+- Start small, such as limiting data to some subset when developing metrics; this makes it easier to spot issues and allows for faster iteration of code
+- Check the data looks correct at each step of transforming it; better still, know what it _should_ be before writing and applying the step (the principle behind test driven development, TDD)
+- Work on one component of output at a time, for example using `{shiny}` modules as in our [template](https://github.com/nhsbsa-data-analytics/nhsbsaShinyR)
+- Frequently run code as you write it, so any issues are encountered early and their source is clearer
+- The final code should use RAP principles [LINK?]
+- If it is appropriate, such as needing to show simple summary statistics, just use Excel
+- R is especially suited to use for data analysis and visualisation, via Rmarkdown and Shiny
+- Python has most widespread support for machine learning and is more widely integrated with cloud based platforms
+- Power BI is a possible alternative to R for creating dashboards, but due to licensing may not be suitable for certain end users
+- You may produce multiple smaller data sets to be used in your outputs; the considerations applying to base tables apply equally to these
+- There are pages on coding with R and Python in the internal DALL Wiki
 
 ## Check the Quality
-Just like before, it's important to test and validate your results. Use previous DALL initiatives, MI dashboards, and ePACT2 for prescription-based outputs, if available. You will talk about your results with your colleagues and the customer during the review section. Finally, do not include sensitive information in your results or code unless asked for. A good tip here is to always assume that your code will be made publicly available.
+
+As with data preparation, it's important to test and validate your results. 
+
+- Where possible, check results against other sources
+- Other sources could be data from previous initiatives, Management Information dashboards or ePACT2
+
+## Sensitive Data
+
+- Wherever data is saved, it must be in a secure location as per data security policy (LINK?)
+- Sensitive data should be removed or obfuscated unless it is absolutely necessary to retain it; bear in mind the data governance policies (LINK?)
+- For certain usage of sensitive data, the Caldicott Guardians (LINK?) should be consulted
