@@ -6,13 +6,22 @@ image: 06-create-initiative-resources.jpg
 
 Before beginning to work on your problem definition, you will need to setup the initiative resources. Currently, these include:
 
-* a JIRA ticket to track progress on the work,
-* sharePoint folder to store documents and data and
-* a GitHub repository to store and monitor code.
+* A JIRA ticket to track progress on the work.
+* SharePoint folder to store documents and data.
+* A GitHub repository to store and monitor code.
 
 ## Tips for Setting Up the Resources
-Before creating these, you will need to identify the DALL number of the initiative. To do this, and for guidance on how to setup the above, please see the DALL OneNote Wiki page [here](https://nhsbsauk.sharepoint.com/sites/InsightTeam-DataAnalyticsLearningLabDALL/_layouts/OneNote.aspx?id=%2Fsites%2FInsightTeam-DataAnalyticsLearningLabDALL%2FShared%20Documents%2FData%20Analytics%20Learning%20Lab%20%28DALL%29%2FDALL%2FDALL%20-%20Knowledge%20Share%2FDALL%20Wiki&wd=target%28Project%20setup.one%7CA67782A4-EFB2-4B50-8584-6A2B8101E998%2FSet-up%20Process%7C4462877D-A630-4688-B4BB-22E364E1CC7B%2F%29onenote:https://nhsbsauk.sharepoint.com/sites/InsightTeam-DataAnalyticsLearningLabDALL/Shared%20Documents/Data%20Analytics%20Learning%20Lab%20(DALL)/DALL/DALL%20-%20Knowledge%20Share/DALL%20Wiki/Project%20setup.one#Set-up%20Process&section-id={A67782A4-EFB2-4B50-8584-6A2B8101E998}&page-id={4462877D-A630-4688-B4BB-22E364E1CC7B}&end).
 
-When setting up a Github repository, remember to set it to private and invite the DALL team to the project so everyone can make changes. You should write your code with the intention of the repo going public in the future. Therefore, you must be careful not to include PII information within your code, such as NHS numbers.
+Before creating resources, you will need to identify the DALL initiative number.
 
-After creating all resources, remember to provide regular updates to the ticket and repository. This allows the DALL team manager to track progress.
+- Guidance on setting these up can be found on the DALL OneNote Wiki.
+
+- Remember to set the new GitHub repository to private.
+- Invite all DALL team members as collaborators.
+- Code should be written with the intention that it will be made public.
+- Be careful not to include PII information within the code, examples include NHS numbers.
+
+After creating all resources, remember to:
+
+- Provide regular updates to the JIRA ticket.
+- Regularly push code additions and alterations to the GitHub repository.

@@ -6,9 +6,18 @@ image: 03-get-access-to-data.jpg
 
 If you don’t have access to the data already, you will need request access. To access the data you need for initiatives, email the DALL data holder and team manager. They will confirm and provide the data from the DALP Oracle database.
 
-If the data is not in DALP or not what you need, you can submit a service request to access to the required data in the DWCP Oracle database. Advice on how to request data from both sources can be found within the DALL OneNote Wiki [INSERT LINK]. Additionally, tips on how to connect to and use both sources are included here within the [DALL OneNote Wiki](https://nhsbsauk.sharepoint.com/sites/InsightTeam-DataAnalyticsLearningLabDALL/_layouts/OneNote.aspx?id=%2Fsites%2FInsightTeam-DataAnalyticsLearningLabDALL%2FShared%20Documents%2FData%20Analytics%20Learning%20Lab%20%28DALL%29%2FDALL%2FDALL%20-%20Knowledge%20Share%2FDALL%20Wiki&wd=target%28Coding%20and%20Dashboards%2FDatabases.one%7C25F114EE-BC3E-4011-9D41-E56687950354%2FDatabase%20connections%7CB58CCC12-83F6-4643-896C-206477DC24FC%2F%29onenote:https://nhsbsauk.sharepoint.com/sites/InsightTeam-DataAnalyticsLearningLabDALL/Shared%20Documents/Data%20Analytics%20Learning%20Lab%20(DALL)/DALL/DALL%20-%20Knowledge%20Share/DALL%20Wiki/Coding%20and%20Dashboards/Databases.one#Database%20connections&section-id={25F114EE-BC3E-4011-9D41-E56687950354}&page-id={B58CCC12-83F6-4643-896C-206477DC24FC}&end).
+- You can submit a service request to access data not stored within the DALP database.
+- Advice on how to request data from both sources can be found within the DALL OneNote Wiki.
 
 ## Usage
-To note, the data stored within DALP is typically static, while it is updated on a regular basis within DWCP. Depending on your use case, you may opt to use the data in DWCP instead, if the work needs to be repeated on a regular basis. **You must be careful when using DWCP data. Running SQL queries may slow down production systems**.
 
-Finally, on occasion, data may come from additional locations such as internal spreadsheets. **You must store the data securely in SharePoint and never access it on your personal laptop**.
+- Data stored within DALP is typically static.
+- Data stored within DWCP is updated on a regular basis.
+- If repeating work on a regular basis data stored within DWCP is usually more suitable.
+- Take care using DWCP as SQL queries may slow down production systems.
+
+- If data is stored outside of the database it must be stored securely.
+  - Never store data locally on a laptop.
+  - Storing data securely in SharePoint is acceptable.
+  
+  
