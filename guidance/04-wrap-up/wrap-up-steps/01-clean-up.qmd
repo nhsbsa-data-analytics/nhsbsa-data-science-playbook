@@ -5,25 +5,26 @@ image: 01-clean-up.jpg
 image-alt: Photo by Alexander Grey on Unsplash
 ---
   
-Cleaning your project is an equally important step as the modelling and analysis. Leaving a messy project folder and code can lead to difficulties later down the line. It is important that you dedicate enough time to completing this step. Also, remember to treat it as a serious and worthwhile endeavour, as it can come in handy in the future.
+- Cleaning your project is an equally important step as the modelling and analysis
+- Leaving a messy project folder and code can lead to difficulties later down the line
+- It is important that you dedicate enough time to completing this step.
+- Approach the project clean up as a serious and worthwhile endeavour- it can be useful for future project.
 
 ## General Considerations
 
 - Work with the mindset that all work could be make public.
-  - Small and precise commits are better than large ones.
-  
+- Small and precise commits are better than large ones.
 - Maintain a clear project structure with clean scripts.
-  - Separate data, scripts and output into their own sub-directories.
-  - Move custom functions into their own script.
-  
+- Separate data, scripts and output into their own sub-directories.
+- Move custom functions into their own script.
 - Delete stale git branches or merge them into main.
 - Streamline the codebase.
 - Create a config file with key parameters and filters that are reference throughout the project.
 - Identify bottlenecks and optimise the code.
 - Ensure key tables within the database are available to the wider team.
-  - A common location to store the tables is the DALL_REF schema.
+- A common location to store the tables is the DALL_REF schema.
 - Remove personal tables from your own database schema after the project has concluded.
-  - This is especially important for person identifiable data.
+- This is especially important for person identifiable information.
 
 
 Please refer to the DALL OneNote Wiki for more information on cleaning your code.

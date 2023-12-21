@@ -5,7 +5,9 @@ image: 04-public-repository.jpg
 image-alt: Photo by Markus Winkler on Unsplash
 ---
   
-Where applicable, we aim to generate reproducible code that is made open source. This is in line with guidance outlined in the [government service manual](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open). Before making a repository public, please consider the following:
+Where applicable, we aim to generate reproducible code that is made open source. This is in line with guidance outlined in the [government service manual](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open).
+
+Before making a repository public, please consider the following:
 
 1. Your git commit history will be made public.
   - Git messages can be changed but it is advised that you follow good commit practice.
@@ -15,5 +17,5 @@ Where applicable, we aim to generate reproducible code that is made open source.
 2. Make sure that you never push data or Personally Identifiable Information (PII) to the GitHub repository.
   - Use Git Leaks to reduce the risk of pushing PII to Git.
   - Never write PII directly in R scripts.
-    - Always reference PII from the database.
+  - Always reference PII from the database.
     

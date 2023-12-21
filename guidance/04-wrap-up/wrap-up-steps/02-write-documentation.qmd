@@ -5,16 +5,18 @@ image: 02-write-documentation.jpg
 image-alt: Photo by Unseen Studio on Unsplash
 ---
  
-Documenting code is another crucial step that should not be ignored. Without good documentation, it is difficult for future projects to leverage our work.
+Without good documentation, it is difficult for future projects to leverage our work.
 
 - Make sure that all of your custom functions are described in detail.
-  - Consider replicating a similar structure to an R or Python package with each parameter explained, and examples of how to run the function.
+- Consider replicating a similar structure to an R or Python package with each parameter explained, and examples of how to run the function.
 - If using GitHub remember to update the README file.
-  - At a minimum it should contain:
-    - The project name
-    - A quick overview of the project’s purpose.
-  - Also consider including:
-    - A summary of the project structure.
-    - Steps to reproduce your code
-    - Key technologies and methods used in the project.
-- Remember to document anything that you tried that did not work.
+
+At a minimum the GitHub README file should contain:
+    - the project name
+    - a quick overview of the project’s purpose
+Also consider including:
+    - a summary of the project structure
+    - steps to reproduce your code
+    - key technologies and methods used in the project
+    
+Remember to document anything that you tried that did not work.
