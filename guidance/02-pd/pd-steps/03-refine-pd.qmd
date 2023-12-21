@@ -6,18 +6,35 @@ image-alt: Photo by Emily Morter on Unsplash
 ---
 
 ## What is a Problem Definition?
-The Problem Definition is like a contract between the assignees and the customer(s). It defines a set of goals that everyone agrees on **before** starting the work. This should be saved in the SharePoint folder you setup in the previous section. As part of writing the PD, you will need to include:
 
-* some background information about the area,
-* what it is that needs to be solved,
-* how we intend to solve the problem,
-* any limitations and caveats if they exist,
-* what tools and data we will use and
-* any data governance considerations if they are applicable.
+- An agreement between the assignees and the customer(s).
+- It defines a set of goals that everyone agrees on **before** work begins.
+- It protects both parties further down the line.
+- It should be stored within the SharePoint for reference.
+
+As part of writing the PD, you will need to include:
+
+- some background information about the area
+- what it is that needs to be solved
+- how we intend to solve the problem
+- any limitations and caveats- if they exist
+- what tools and data we will use
+- any data governance considerations- if they are applicable
 
 ## Tips For Writing a PD
-For sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team **before** you start the work. During this process, you will need to tell them what sensitive data you are using and how you intend to use it. Your critical friend and DALL team manager can assist with this process. For more information, please see the following page within the wiki [INSERT LINK].
 
-For tips on writing the content of the PD, please see the DALL OneNote Wiki [INSERT LINK]. To make sure customers understand our plan, it's best to include a lot of details in the PD. If any further caveats are discovered during the work, it is important to add these to the PD and make the customer aware. If you need to do more work after starting the initiative, update the plan and tell the customer about the extra time needed. If you are unsure about any terms agreed within the PD, you can reach out to your critical friend or the DALL team manager for advice.
+- During this process, you will need to tell them what sensitive data you are using.
+- Explain how you intend to use the data.
+- For sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team **before** you start the work.
+- Ensure the customer understands the aim by providing plenty of detail.
+- Honestly assess time frames and relay these to the customer.
+- Your critical friend and DALL team manager can assist with this process.
+- For more information, please see the following page within the DALL OneNote Wiki.
 
-Throughout the process, your critical friend will review the PD to check if you understood the customer's request correctly, and if your plans to solve the problems are appropriate. Also, make sure to share the PD with the customer(s) to get their feedback, understand their business needs, and make sure you have addressed all their requests.
+
+Throughout the process, your critical friend will review the PD to check:
+
+- if you understood the customer's request correctly
+- if your plans to solve the problems are appropriate
+
+Also, make sure to share the PD with the customer(s) to get their feedback, understand their business needs, and make sure you have addressed all their requests.

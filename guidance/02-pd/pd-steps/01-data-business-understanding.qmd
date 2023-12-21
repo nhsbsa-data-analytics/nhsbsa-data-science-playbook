@@ -5,16 +5,33 @@ image: 01-data-business-understanding.jpg
 image-alt: Photo by Emily Morter on Unsplash
 ---
 
-Given you have access to the data you need, you should start to interrogate it. During this process, you should keep a spreadsheet to document all anomalies, caveats, and quality issues so that you can communicate these to the customer. A good tip is to document for each column:
+Provided that you have access to the data you need, you should start to interrogate it by:
 
-* what it shows,
-* how many missing records,
-* any errors it includes and
-* how it is calculated if applicable.
+  - using a spreadsheet to document all anomalies, caveats, and quality issues
+  - communicating data quality issues with the customer
 
-You can update the limitations section of the Problem Definition (PD). This will inform the customer of what is possible and not possible to achieve during the initiative. You might find other interesting avenues or datasets to explore that the customer didn't think about. In this case, it is important to discuss your ideas with them and see if they are worth pursuing.
+Good data documentation could include:
+
+  - a summary of what each column represents
+  - the number of missing records
+  - the number of errors
+  - if applicable, the logic used to calculate the column
+
+After interrogating the data you should:
+
+- update the limitations section of the Problem Definition (PD)
+- inform the customer of what is possible and not possible to achieve during the initiative
+- discuss other interesting research questions with the customer- explore whether these are worth pursuing
+
 
 ## Tips for Gaining Understanding
-It is a good idea to keep a list of all questions you have with the data, so that you can ask the customer about these to improve your knowledge. You can check JIRA and ask around to see if anyone has covered this data before to gain insights from them. Also, your critical friend or team manager can also assist you in understanding the data. If it is a new dataset, it is up to you explore and understand the dataset, with help from the customer who works within this area every day.
 
-Finally, it is possible that other analytical teams within the BSA have worked with the data before and may be able to offer insight. The Management Information (MI) team produce a range of dashboards in a variety of areas. Also, the External Reporting team manage the ePACT2, eDEN and eOPS systems, which can be used to validate any findings you have in the prescriptions, dental or ophthalmic space respectively.
+- It is a good idea to keep a list of all questions you have with the data.
+- For further insight check JIRA and ask around to see if anyone has explored this data before.
+- The Critical friend and team manager can also provide assistance.
+
+
+Finally, it is possible that other analytical teams within the BSA have worked with the data before and may be able to offer insight.
+
+  - the Management Information (MI) team produce a range of dashboards in a variety of areas
+  - the External Reporting team manage the ePACT2 (prescriptions), eDEN (dental) and eOPS (ophthalmic) systems
