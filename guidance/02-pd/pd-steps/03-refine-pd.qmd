@@ -7,31 +7,29 @@ image-alt: Photo by Emily Morter on Unsplash
 
 ## What is a Problem Definition?
 
-- an agreement between the assignees and the customer(s)
-- it defines a set of goals that everyone agrees on **before** work begins
-- it protects both parties further down the line 
-- it should be stored within the SharePoint for reference.
+- An agreement between the assignees and the customer(s).
+- It defines a set of goals that everyone agrees on **before** work begins.
+- It protects both parties further down the line.
+- It should be stored within the SharePoint for reference.
 
 As part of writing the PD, you will need to include:
 
 - some background information about the area
 - what it is that needs to be solved
 - how we intend to solve the problem
-- any limitations and caveats if they exist
+- any limitations and caveats- if they exist
 - what tools and data we will use
-- any data governance considerations if they are applicable
+- any data governance considerations- if they are applicable
 
 ## Tips For Writing a PD
 
-- during this process, you will need to tell them what sensitive data you are using
-- how you intend to use it
-
-- for sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team **before** you start the work.
-- ensure the customer understands the aim by providing plenty of detail
-- honestly assess timeframes and relay these to the customer
-- your critical friend and DALL team manager can assist with this process
-- for more information, please see the following page within the DALL OneNote Wiki
-
+- During this process, you will need to tell them what sensitive data you are using.
+- Explain how you intend to use the data.
+- For sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team **before** you start the work.
+- Ensure the customer understands the aim by providing plenty of detail.
+- Honestly assess time frames and relay these to the customer.
+- Your critical friend and DALL team manager can assist with this process.
+- For more information, please see the following page within the DALL OneNote Wiki.
 
 
 Throughout the process, your critical friend will review the PD to check:
