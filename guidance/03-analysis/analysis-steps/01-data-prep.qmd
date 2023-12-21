@@ -11,53 +11,60 @@ Given you have written your problem definition and the customer has signed off o
 
 Data preparation can be done with any data manipulation tool such as SQL, R or Python.
 
-- Large datasets with millions of rows may require use of SQL initially
-- SQL can be used via libraries, such as `{dplyr}` and the database back-end `{dbplyr}` in R
-- Once data has been aggregated, switch to your tool of choice for analysis and modelling
+- Large datasets with millions of rows may require use of SQL initially.
+- SQL can be used via libraries, such as `{dplyr}` and the database back-end `{dbplyr}` in R.
+- Once data has been aggregated, switch to your tool of choice for analysis and modelling.
 
 When preparing data there are some considerations that always apply
 
-- Data quality
-  - Check the Data Quality profiles, if they exist for the data
+Data quality
+
+  - Check the Data Quality profiles, if they exist for the data.
   - How are values distributed? In particular are there any unbalanced data fields?
-  - Summary statistics such as mean, median, mode, minima and maxima
+  - Summary statistics such as mean, median, mode, minima and maxima.
   - How complete is the data? Any nulls or otherwise unknown values?
   - Are any fields strongly correlated?
-  - Discuss any data quality issues with the critical friend and/or customer
-  - There is a page on data quality in the internal DALL Wiki
-- Data cleansing
-  - Handling missing values
-  - Using appropriate data types
+  - Discuss any data quality issues with the critical friend and/or customer.
+  - There is a page on data quality in the internal DALL Wiki.
+
+Data cleansing
+
+  - Handling missing values.
+  - Using appropriate data types.
   - Following the [data minimisation principle](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/the-principles/data-minimisation/)
-Principle (c): Data minimisation | ICO
+Principle (c): Data minimisation | ICO.
   - There is a page on data cleansing in the internal DALL Wiki
-- RAP considerations (LINK?)
-  - It is worth spending time on making the data preparation easy to repeat
-  - Rather than just doing adhoc testing, write formal tests that can be repeated
-  - There is a page on testing in the internal DALL Wiki
-  - Working in a RAP-ful way is especially important when the output of an initiative is to be refreshed periodically, such as monthly or annually
-- Note keeping
-  - Save the results of data quality checking
-  - Save examples of queries that highlight any issues
-  - `data_summary.Rmd` and `EDA figures.xlsx` can be used, found in template initiative `Data` folder
-- Validation
-  - Where possible, check that results using your base tables and other sources match
-  - Internal sources include data from previous initiatives, Management Information dashboards or ePACT2
-  - External sources include Official Statistics and third-party datasets
+  
+  
+RAP considerations (LINK?)
+
+  - It is worth spending time on making the data preparation easy to repeat.
+  - Rather than just doing adhoc testing, write formal tests that can be repeated.
+  - Working in a RAP-ful way is especially important when the output of an initiative is to be refreshed periodically, such as monthly or annually.
+  - There is a page on testing in the internal DALL Wiki.
+  
+Note keeping
+  - Save the results of data quality checking.
+  - Save examples of queries that highlight any issues.
+  - `data_summary.Rmd` and `EDA figures.xlsx` can be used, found in template initiative `Data` folder.
+Validation
+  - Where possible, check that results using your base tables and other sources match.
+  - Internal sources include data from previous initiatives, Management Information dashboards or ePACT2.
+  - External sources include Official Statistics and third-party datasets.
 
 ## Creating Base Tables
 
 After checking and preparing the data, you should have enough knowledge to create one or more base tables.
 
-- Decide to keep or discard fields based on what is relevant to the initiative
-- Fix or remove columns that contain data errors or missing entries
-- Create new columns based on the existing ones
-- Change the data types of the columns to a more appropriate format
-- Save the output of your transformations 
-- Use any format that makes sense considering the size and how it is used; formats include CSV, SQL, and Rda
+- Decide to keep or discard fields based on what is relevant to the initiative.
+- Fix or remove columns that contain data errors or missing entries.
+- Create new columns based on the existing ones.
+- Change the data types of the columns to a more appropriate format.
+- Save the output of your transformations.
+- Use any format that makes sense considering the size and how it is used; formats include CSV, SQL, and Rda.
 
 ## Sensitive Data
 
-- Wherever base tables are saved, it must be in a secure location as per data security policy (LINK?)
-- Sensitive data should be removed or obfuscated unless it is absolutely necessary to retain it; bear in mind the data governance policies (LINK?)
-- For certain usage of sensitive data, the Caldicott Guardians (LINK?) should be consulted
+- Wherever base tables are saved, it must be in a secure location as per data security policy (LINK?).
+- Sensitive data should be removed or obfuscated unless it is absolutely necessary to retain it; bear in mind the data governance policies (LINK?).
+- For certain usage of sensitive data, the Caldicott Guardians (LINK?) should be consulted.
