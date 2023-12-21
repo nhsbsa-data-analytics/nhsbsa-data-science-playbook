@@ -4,17 +4,21 @@ description: "Meet with the customer to understand their expectations for the in
 image: 05-initial-meeting-with-customer.jpg
 ---
 
-It is important to setup a first meeting with the customer once you have an initial understanding of initiative. If you are unsure who to invite to the meeting, you can ask your critical friend, the DALL team manager, or other colleagues. During this meeting, you can identify:
+It is important to setup a first meeting with the customer once you have an initial understanding of initiative. During this meeting, you can identify:
 
-* what they are looking to do within the initiative,
-* what outputs they are expecting to see, in which format,
-* any business knowledge or insights they can provide to aid your work,
-* any data limitations and possible solutions,
-* if there are any additional data sources to be considered and
-* the required timescales if applicable.
+- what they are looking to do within the initiative
+- what outputs they are expecting to see, in which format
+- any business knowledge or insights they can provide to aid your work
+- any data limitations and possible solutions
+- if there are any additional data sources to be considered
+- the required timescales if applicable
 
-This meeting is important, as it can help to inform the problem definition within section 2. If the work is particularly urgent, more colleagues and resource can be assigned to the initiative accordingly.
+This meeting is important, as it can help to inform the problem definition within section 2.
 
-Note that some customers will have busy schedules so it is important to setup the meeting in advance so the project can progress. You should invite your critical friend to the meeting, so they can provide additional insight from prior work and understand the ask.
+## General considerations
 
-Following this meeting, it may be useful to setup a reoccurring follow up meeting to keep in touch regularly. If you feel like you have questions unanswered following the meeting, make sure to follow on team or email to ask additional questions.
+- If the work is particularly urgent, more colleagues and resource can be assigned accordingly.
+- Some customers will have busy schedules so it is important to setup the meeting in advance so the project can progress.
+- The critical friend should attend the meeting to share knowledge and be clear on the scope of the project.
+- Set up recurring follow up meetings at regular intervals.
+- Any open questions following the meeting should be chased using either Teams or Email.

@@ -5,8 +5,14 @@ image: 04-initial-research.jpg
 ---
 
 If you have the data, analysing it for insights and limitations will help you understand what is possible for the initiative.
-As an aside, look at previous initiatives conducted in the team, these can be identified using JIRA and by asking around within the team. Your critical friend and the DALL team manager may be able to assist here too. This is especially helpful for understanding the business in the area you're focused on and the data you'll be using.
 
-Additionally, online resources may help here such as Stack Overflow, Medium and other websites. There is also the NHS-R and government slack channels that you can use to message other data scientists and statisticians for advice. It is likely that your initiative has been conducted by another individual or company.
+To assist your work you could use:
 
-For technical projects such as machine learning based initiatives, research papers may assist. These can guide what is possible and what is not, given the data you have available.  If you're trying something new, consider taking a course from Data Camp to learn before starting.
+- previous initiatives for inspiration
+- JIRA as a source of information on previous initiatives
+- other team members and your critical friend to help develop business knowledge
+- online resources like Stack Overflow and Medium for further inspiration
+- research papers can be beneficial for technical and machine learning projects
+- DataCamp to complete relevant courses
+
+This is a guide of what is possible and is dependent on the current project's requirements.
