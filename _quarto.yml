@@ -28,6 +28,41 @@ website:
         href: https://github.com/nhsbsa-data-analytics
       - icon: twitter
         href: https://twitter.com/nhsbsa
+  sidebar:
+    style: "docked"
+    collapse-level: 1
+    contents:
+      - section: "Before the Problem Definition"
+        contents:
+          - guidance/01-pre-pd/index.qmd
+          - guidance/01-pre-pd/pre-pd-steps/01-problem-identified.qmd
+          - guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.qmd
+          - guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.qmd
+          - guidance/01-pre-pd/pre-pd-steps/04-initial-research.qmd
+          - guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.qmd
+          - guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.qmd
+      - section: "Problem Definition"
+        contents:
+          - guidance/02-pd/index.qmd
+          - guidance/02-pd/pd-steps/01-data-business-understanding.qmd
+          - guidance/02-pd/pd-steps/02-customer-feedback.qmd
+          - guidance/02-pd/pd-steps/03-refine-pd.qmd
+          - guidance/02-pd/pd-steps/04-estimate-timescales.qmd
+      - section: "Analysis"
+        contents:
+          - guidance/03-analysis/index.qmd
+          - guidance/03-analysis/analysis-steps/01-data-prep.qmd
+          - guidance/03-analysis/analysis-steps/02-analysis-modelling.qmd
+          - guidance/03-analysis/analysis-steps/03-reporting-and-visuals.qmd
+          - guidance/03-analysis/analysis-steps/04-review.qmd
+      - section: "Initiative Wrap Up"
+        contents:
+          - guidance/04-wrap-up/index.qmd
+          - guidance/04-wrap-up/wrap-up-steps/01-clean-up.qmd
+          - guidance/04-wrap-up/wrap-up-steps/02-write-documentation.qmd
+          - guidance/04-wrap-up/wrap-up-steps/03-update-wiki.qmd
+          - guidance/04-wrap-up/wrap-up-steps/04-public-repository.qmd
+          - guidance/04-wrap-up/wrap-up-steps/05-future-work.qmd
 
 format:
   html:
