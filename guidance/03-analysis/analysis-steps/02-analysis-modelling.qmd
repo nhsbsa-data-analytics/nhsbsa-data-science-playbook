@@ -19,7 +19,7 @@ Starting from the base tables, we want to create the agreed outputs. Typically w
 - Work on one component of output at a time, for example using `{shiny}` modules as in our [template](https://github.com/nhsbsa-data-analytics/nhsbsaShinyR).
 - Frequently run code as you write it, so any issues are encountered early and their source is clearer.
 - The final code should use RAP principles [LINK?].
-- If it is appropriate, such as needing to show simple summary statistics, just use Excel.
+- If it is appropriate, such as needing to show simple summary statistics, Excel can be used.
 - R is especially suited to use for data analysis and visualisation, via Rmarkdown and Shiny.
 - Python has most widespread support for machine learning and is more widely integrated with cloud based platforms.
 - Power BI is a possible alternative to R for creating dashboards, but due to licensing may not be suitable for certain end users.

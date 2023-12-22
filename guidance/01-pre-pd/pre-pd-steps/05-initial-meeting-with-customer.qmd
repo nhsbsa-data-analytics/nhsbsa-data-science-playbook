@@ -4,7 +4,7 @@ description: "Meet with the customer to understand their expectations for the in
 image: 05-initial-meeting-with-customer.jpg
 ---
 
-It is important to setup a first meeting with the customer once you have an initial understanding of initiative. During this meeting, you can identify:
+It is important to setup a first meeting with the customer once you have developed an initial understanding. During this meeting, you can identify:
 
 - what they are looking to do within the initiative
 - what outputs they are expecting to see, in which format
@@ -13,7 +13,7 @@ It is important to setup a first meeting with the customer once you have an init
 - if there are any additional data sources to be considered
 - the required timescales if applicable
 
-This meeting is important, as it can help to inform the problem definition within section 2.
+This meeting is important, as it can help to refine the problem definition within section 2.
 
 ## General considerations
 

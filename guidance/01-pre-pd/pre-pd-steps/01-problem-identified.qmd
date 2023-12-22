@@ -6,7 +6,7 @@ image: 01-problem-identified.jpg
 
 - This could be identified by the DALL team, an internal NHSBSA customer, or an external customer.
 
-- For NHSBSA and external customers, initiatives are logged through nhsbsa.dall@nhs.net before work begins.
+- For NHSBSA and external customers, initiatives are logged through [nhsbsa.dall@nhs.net](mailto:nhsbsa.dall@nhs.net) before work begins. 
 
 - The DALL team manager normally assigns initiatives to team members.
 

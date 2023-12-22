@@ -7,8 +7,8 @@ image-alt: Photo by Emily Morter on Unsplash
 
 After finishing your draft of the Problem Definition (PD), meet with the customer(s) to go through it together and:
 
-- talk about any limitations or questions found during the data exploration
-- set the agreed outputs
+- discuss any limitations or questions found during the data exploration
+- set the agreed outputs of the initiative
 
 Be sure to:
 

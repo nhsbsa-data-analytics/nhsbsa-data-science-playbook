@@ -4,8 +4,9 @@ description: "Identify and gain access to the data required for the initiatve."
 image: 03-get-access-to-data.jpg
 ---
 
-- If you don’t have access to the data already, you will need request access.
-- To access the data you need for initiatives, email the DALL data holder and team manager. - - They will confirm and provide the data from the DALP Oracle database.
+- If you don’t have access to the data already, you will need request access by email.
+- Access to the data needed for each initiative is issued the DALL data holder and team manager.
+- They will confirm and provide the data from the DALP Oracle database.
 - You can submit a service request to access data not stored within the DALP database.
 - Advice on how to request data from both sources can be found within the DALL OneNote Wiki.
 

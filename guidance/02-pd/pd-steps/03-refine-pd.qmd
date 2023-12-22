@@ -10,9 +10,9 @@ image-alt: Photo by Emily Morter on Unsplash
 - An agreement between the assignees and the customer(s).
 - It defines a set of goals that everyone agrees on **before** work begins.
 - It protects both parties further down the line.
-- It should be stored within the SharePoint for reference.
+- It should be stored within the SharePoint folder for reference.
 
-As part of writing the PD, you will need to include:
+As part of writing the problem definition, you will need to include:
 
 - some background information about the area
 - what it is that needs to be solved
@@ -21,7 +21,7 @@ As part of writing the PD, you will need to include:
 - what tools and data we will use
 - any data governance considerations- if they are applicable
 
-## Tips For Writing a PD
+## Tips For Writing a Problem Definition
 
 - During this process, you will need to tell them what sensitive data you are using.
 - Explain how you intend to use the data.
@@ -32,9 +32,9 @@ As part of writing the PD, you will need to include:
 - For more information, please see the following page within the DALL OneNote Wiki.
 
 
-Throughout the process, your critical friend will review the PD to check:
+Throughout the process, your critical friend will review the problem definition to check:
 
 - if you understood the customer's request correctly
 - if your plans to solve the problems are appropriate
 
-Also, make sure to share the PD with the customer(s) to get their feedback, understand their business needs, and make sure you have addressed all their requests.
+Also, make sure to share the problem definition with the customer(s) to get their feedback, understand their business needs, and make sure you have addressed all their requests.
