@@ -20,7 +20,7 @@ Review your own work as you go, but especially before requesting anyone else to 
 
 - Check for errors.
 - Run code with a 'clean slate' to ensure there are no dependencies in your local environment that will not be there later.
-- If you are testing adhoc, save your effort by writing a repeatable test
+- If you are testing adhoc, save your effort by writing a repeatable test.
 - Document your code.
 - Once happy with your code create a pull request (PR) on Github.
 - Check the code diff (difference) on Github and add comments to explain to a code. reviewer any decisions you made that are not obvious.
@@ -54,7 +54,7 @@ The customer should be given frequent opportunities to see work in progress.
 - Send them drafts of the outputs to review in their own time, rather than only sharing your screen in a call.
 - Be open to having calls once they have reviewed the work.
 - Discuss any questions or suggestions they have.
-- You will (hopefully!) have a call where the customer agrees that. everything in scope, as per the problem definition, has been completed
+- You will (hopefully!) have a call where the customer agrees that. everything in scope, as per the problem definition, has been completed.
 - Arrange a final call with the customer to present the work.
 - Ensure the customer is happy they understand how to use any interactive elements, such as dashboards.
 - Discuss any potential for future related work.

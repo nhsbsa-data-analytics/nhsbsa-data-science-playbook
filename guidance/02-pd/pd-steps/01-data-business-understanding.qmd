@@ -7,22 +7,21 @@ image-alt: Photo by Emily Morter on Unsplash
 
 Provided that you have access to the data you need, you should start to interrogate it by:
 
-  - using a spreadsheet to document all anomalies, caveats, and quality issues
-  - communicating data quality issues with the customer
+  - Using a spreadsheet to document all anomalies, caveats, and quality issues.
+  - Communicating data quality issues with the customer.
 
 Good data documentation could include:
 
-  - a summary of what each column represents
-  - the number of missing records
-  - the number of errors
-  - if applicable, the logic used to calculate the column
+  - A summary of what each column represents.
+  - The number of missing records.
+  - The number of errors.
+  - If applicable, the logic used to calculate the column.
 
 After interrogating the data you should:
 
-- update the limitations section of the Problem Definition (PD)
-- inform the customer of what is possible and not possible to achieve during the initiative
-- discuss other interesting research questions with the customer- explore whether these are worth pursuing
-
+- Update the limitations section of the Problem Definition (PD).
+- Inform the customer of what is possible and not possible to achieve during the initiative.
+- Discuss other interesting research questions with the customer- explore whether these are worth pursuing.
 
 ## Tips for Gaining Understanding
 
@@ -30,8 +29,7 @@ After interrogating the data you should:
 - For further insight check JIRA and ask around to see if anyone has explored this data before.
 - The Critical friend and team manager can also provide assistance.
 
-
 Finally, it is possible that other analytical teams within the BSA have worked with the data before and may be able to offer insight.
 
-  - the Management Information (MI) team produce a range of dashboards in a variety of areas
-  - the External Reporting team manage the ePACT2 (prescriptions), eDEN (dental) and eOPS (ophthalmic) systems
+- The Management Information (MI) team produce a range of dashboards in a variety of areas.
+- The External Reporting team manage the ePACT2 (prescriptions), eDEN (dental) and eOPS (ophthalmic) systems.

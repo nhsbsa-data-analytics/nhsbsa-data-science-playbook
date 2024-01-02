@@ -5,8 +5,8 @@ image: 01-clean-up.jpg
 image-alt: Photo by Alexander Grey on Unsplash
 ---
   
-- Cleaning your project is an equally important step as the modelling and analysis
-- Leaving a messy project folder and code can lead to difficulties later down the line
+- Cleaning your project is an equally important step as the modelling and analysis.
+- Leaving a messy project folder and code can lead to difficulties later down the line.
 - It is important that you dedicate enough time to completing this step.
 - Approach the project clean up as a serious and worthwhile endeavour- it can be useful for future project.
 

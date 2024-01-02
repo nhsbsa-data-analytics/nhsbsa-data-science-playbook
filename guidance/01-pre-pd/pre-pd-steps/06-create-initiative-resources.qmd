@@ -6,9 +6,9 @@ image: 06-create-initiative-resources.jpg
 
 Before beginning to work on your problem definition, you will need to setup the initiative resources. Currently, these include:
 
-- a JIRA ticket to track progress on the work
-- a SharePoint folder to store documents and data
-- a GitHub repository to store and monitor code
+- A JIRA ticket to track progress on the work.
+- A SharePoint folder to store documents and data.
+- A GitHub repository to store and monitor code.
 
 ## Tips for Setting Up the Resources
 
@@ -21,5 +21,5 @@ Before beginning to work on your problem definition, you will need to setup the 
 
 After creating all resources, remember to:
 
-- provide regular updates to the JIRA ticket
-- regularly push code additions and alterations to the GitHub repository
+- Provide regular updates to the JIRA ticket.
+- Regularly push code additions and alterations to the GitHub repository.

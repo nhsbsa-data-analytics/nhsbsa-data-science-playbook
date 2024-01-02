@@ -9,8 +9,7 @@ Where applicable, we aim to generate reproducible code that is made open source.
 
 Before making a repository public, please consider the following:
 
-**Your git commit history will be made public.**
-
+  - **Your git commit history will be made public.**
   - Git messages can be changed but it is advised that you follow good commit practice.
   - Each commit should be limited to a single change.
   - Commit history can be removed but it is not recommended as we strive to be transparent. 

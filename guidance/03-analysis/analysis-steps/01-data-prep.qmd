@@ -15,7 +15,7 @@ Data preparation can be done with any data manipulation tool such as SQL, R or P
 - SQL can be used via libraries, such as `{dplyr}` and the database back-end `{dbplyr}` in R.
 - Once data has been aggregated, switch to your tool of choice for analysis and modelling.
 
-When preparing data there are some considerations that always apply
+When preparing data there are some considerations that always apply:
 
 **Data quality**
 
@@ -33,7 +33,7 @@ When preparing data there are some considerations that always apply
   - Using appropriate data types.
   - Following the [data minimisation principle](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/the-principles/data-minimisation/)
 Principle (c): Data minimisation | ICO.
-  - There is a page on data cleansing in the internal DALL Wiki
+  - There is a page on data cleansing in the internal DALL Wiki.
   
   
 **RAP considerations (LINK?)**

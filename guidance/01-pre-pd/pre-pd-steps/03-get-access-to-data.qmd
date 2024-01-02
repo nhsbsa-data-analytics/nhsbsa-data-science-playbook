@@ -16,7 +16,6 @@ image: 03-get-access-to-data.jpg
 - Data stored within DWCP is updated on a regular basis.
 - If repeating work on a regular basis data stored within DWCP is usually more suitable.
 - Take care using DWCP as SQL queries may slow down production systems.
-
 - If data is stored outside of the database it must be stored securely.
 - Never store data locally on a laptop.
 - Storing data securely in SharePoint is acceptable.

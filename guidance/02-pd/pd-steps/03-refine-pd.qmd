@@ -14,12 +14,12 @@ image-alt: Photo by Emily Morter on Unsplash
 
 As part of writing the problem definition, you will need to include:
 
-- some background information about the area
-- what it is that needs to be solved
-- how we intend to solve the problem
-- any limitations and caveats- if they exist
-- what tools and data we will use
-- any data governance considerations- if they are applicable
+- some background information about the area,
+- what it is that needs to be solved,
+- how we intend to solve the problem,
+- any limitations and caveats- if they exist,
+- what tools and data we will use and
+- any data governance considerations- if they are applicable.
 
 ## Tips For Writing a Problem Definition
 
@@ -31,10 +31,9 @@ As part of writing the problem definition, you will need to include:
 - Your critical friend and DALL team manager can assist with this process.
 - For more information, please see the following page within the DALL OneNote Wiki.
 
-
 Throughout the process, your critical friend will review the problem definition to check:
 
-- if you understood the customer's request correctly
-- if your plans to solve the problems are appropriate
+- If you understood the customer's request correctly.
+- If your plans to solve the problems are appropriate.
 
 Also, make sure to share the problem definition with the customer(s) to get their feedback, understand their business needs, and make sure you have addressed all their requests.

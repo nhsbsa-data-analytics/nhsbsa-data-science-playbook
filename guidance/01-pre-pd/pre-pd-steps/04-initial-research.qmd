@@ -8,11 +8,11 @@ If you have the data, analysing it for insights and limitations will help you un
 
 To assist your work you could use:
 
-- previous initiatives for inspiration
-- JIRA as a source of information on previous initiatives
-- other team members and your critical friend to help develop business knowledge
-- online resources like Stack Overflow and Medium for further inspiration
-- research papers for technical and machine learning projects
-- DataCamp to complete relevant courses
+- Previous initiatives for inspiration.
+- JIRA as a source of information on previous initiatives.
+- Other team members and your critical friend to help develop business knowledge.
+- Online resources like Stack Overflow and Medium for further inspiration.
+- Research papers for technical and machine learning projects.
+- DataCamp to complete relevant courses.
 
 This is a guide of what is possible and is dependent on the current project's requirements.
