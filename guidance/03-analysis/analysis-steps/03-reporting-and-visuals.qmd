@@ -29,11 +29,11 @@ For most outputs there is a recommended structure:
 6. Recommendations and next steps.
 7. Appendices (if applicable).
 
-## Supporting text
+## Supporting Text
 
 Most outputs will feature at least some text.
 
-- Key findings at the front as people won't read the whole thing.
+- Put the key findings at the front as people won't read the whole thing.
 - Include caveats and assumptions, and for particularly important ones mention them up front.
 - Numbers under 10 are written in words, over 10 in digits (but use common sense!).
 - Use bold tag lines for emphasis of important points.
@@ -42,9 +42,9 @@ Most outputs will feature at least some text.
 - Sentences shorter than 20 words.
 - Write it so that a 12 year old would be able to understand it, assume readers are non-technical.
 - If multiple people have contributed text, one person should, in the final stages, act as editor and rewrite in a single style.
-- A very useful tool for written output is [Hemingway Editor](https://hemingwayapp.com/). If you can get your text to mostly have no issues in this, you know it is readable!
 - Leave writing any text supporting visuals such as charts or tables until the team is almost certain they are finalised.
-- There are pages on initiative outputs with specific format advice in the internal DALL Wiki.
+
+There are pages on initiative outputs with specific format advice in the internal DALL Wiki. A very useful tool for written output is [Hemingway Editor](https://hemingwayapp.com/). If you can get your text to mostly have no issues in this, you know it is readable!
 
 ## Slide decks
 

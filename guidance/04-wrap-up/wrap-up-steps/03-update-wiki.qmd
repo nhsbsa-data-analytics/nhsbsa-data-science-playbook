@@ -5,7 +5,7 @@ image: 03-update-wiki.jpg
 image-alt: Photo by Joshua Hoehne on Unsplash
 ---
   
-Throughout the initiative you will have interrogated some data and potentially picked up some new skills in the process.
+Throughout the initiative, you will have interrogated some data and potentially picked up some new skills in the process.
 
 - If there is anything you found particularly useful or that could be beneficial for others- please add it to the DALL OneNote Wiki.
 - If a question you have isn't already on the Wiki you should find the answer and incorporate it.

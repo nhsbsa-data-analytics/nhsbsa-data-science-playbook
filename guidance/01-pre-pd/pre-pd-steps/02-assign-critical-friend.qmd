@@ -5,20 +5,20 @@ image: 02-assign-critical-friend.jpg
 ---
 
 ## What is a Critical Friend?
-
 - Typical DALL initiatives involve 1-2 people working on the project.
 - For each project a "critical friend" is assigned.
 - A critical friend reviews the code and/or business understanding.
 - They can also attend meetings, check documents and provide extra support and guidance throughout the initiative.
+
+## Assigning a Critical Friend
+- Assign a critical friend **as early as possible**.
 - Critical friends are assigned by the project members and the DALL team manager.
 - The DALL manager knows who is available and has valuable knowledge related to the upcoming project.
-
-## Tips for Working With Your Critical Friend
-
-- Assign a critical friend **as early as possible**.
 - Ideally, a critical friend should have prior experience with similar data or techniques.
-- The critical friend will help by offering more insight and reviewing the project.
 - If you are an area expert, you can choose a new team member as the critical friend so they can gain experience.
+
+## Working With Your Critical Friend
+- The critical friend will help by offering more insight and reviewing the project.
 - Regularly meet with the critical friend to keep them updated.
 - Assign work to review in small increments rather than all at once.
 - Respect the critical friend's diary and provide plenty of notice for work to be completed.

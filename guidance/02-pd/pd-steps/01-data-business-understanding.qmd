@@ -21,12 +21,12 @@ After interrogating the data you should:
 
 - Update the limitations section of the Problem Definition (PD).
 - Inform the customer of what is possible and not possible to achieve during the initiative.
-- Discuss other interesting research questions with the customer- explore whether these are worth pursuing.
+- Discuss other interesting research questions with the customer and explore if these are worth pursuing.
 
 ## Tips for Gaining Understanding
 
 - It is a good idea to keep a list of all questions you have with the data.
-- For further insight check JIRA and ask around to see if anyone has explored this data before.
+- For further insight, check JIRA and ask around to see if anyone has explored this data before.
 - The Critical friend and team manager can also provide assistance.
 
 Finally, it is possible that other analytical teams within the BSA have worked with the data before and may be able to offer insight.

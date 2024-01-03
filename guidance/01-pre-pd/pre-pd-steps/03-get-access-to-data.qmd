@@ -4,14 +4,15 @@ description: "Identify and gain access to the data required for the initiatve."
 image: 03-get-access-to-data.jpg
 ---
 
+## Getting Access
 - If you don’t have access to the data already, you will need request access by email.
 - Access to the data needed for each initiative is issued the DALL data holder and team manager.
 - They will confirm and provide the data from the DALP Oracle database.
 - You can submit a service request to access data not stored within the DALP database.
-- Advice on how to request data from both sources can be found within the DALL OneNote Wiki.
+
+Advice on how to request data from both sources can be found within the DALL OneNote Wiki.
 
 ## Usage
-
 - Data stored within DALP is typically static.
 - Data stored within DWCP is updated on a regular basis.
 - If repeating work on a regular basis data stored within DWCP is usually more suitable.
@@ -19,5 +20,8 @@ image: 03-get-access-to-data.jpg
 - If data is stored outside of the database it must be stored securely.
 - Never store data locally on a laptop.
 - Storing data securely in SharePoint is acceptable.
+
+Further advice on usage of DALP and DWCP can be found within the DALL OneNote Wiki.
+
   
   

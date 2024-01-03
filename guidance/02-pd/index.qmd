@@ -13,4 +13,6 @@ toc: false
 
 ![](section_2_diagram.png){width=100%}
 
+In this section, we aim to write and refine the problem definition until we have fully understood the problem we are trying to solve. The terms of the problem definition are agreed with the customer before moving onto the analysis section.
+
 ## Sections

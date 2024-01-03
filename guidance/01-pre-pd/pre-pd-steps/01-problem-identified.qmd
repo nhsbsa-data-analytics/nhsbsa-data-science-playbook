@@ -4,15 +4,11 @@ description: "Investigate an initiative to work on for internal NHSBSA customer,
 image: 01-problem-identified.jpg
 ---
 
+## Identifying a Problem
 - This could be identified by the DALL team, an internal NHSBSA customer, or an external customer.
-
 - For NHSBSA and external customers, initiatives are logged through [nhsbsa.dall@nhs.net](mailto:nhsbsa.dall@nhs.net) before work begins. 
-
 - The DALL team manager normally assigns initiatives to team members.
-
 - Internal ideas can come from the ideas register, exploratory project, or another source.
-
 - For internal projects the DALL manager acts as the customer.
-
 - External or other internal NHSBSA customers can be assigned if it is within the scope of their role.  
 

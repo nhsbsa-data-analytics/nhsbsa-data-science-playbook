@@ -54,7 +54,8 @@ The customer should be given frequent opportunities to see work in progress.
 - Send them drafts of the outputs to review in their own time, rather than only sharing your screen in a call.
 - Be open to having calls once they have reviewed the work.
 - Discuss any questions or suggestions they have.
-- You will (hopefully!) have a call where the customer agrees that. everything in scope, as per the problem definition, has been completed.
-- Arrange a final call with the customer to present the work.
+
+When you feel the initiative is completed, you should have a call with the customer to present your findings. 
+
 - Ensure the customer is happy they understand how to use any interactive elements, such as dashboards.
 - Discuss any potential for future related work.
