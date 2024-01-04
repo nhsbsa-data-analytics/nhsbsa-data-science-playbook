@@ -7,20 +7,20 @@ image-alt: Photo by Shubham Dhage on Unsplash
 
 In this step, we turn our data into insights. The work done here can vary. It can include small data extraction jobs, creating reports and dashboards, and deploying machine learning models. The analysis or modelling you conduct is also heavily reliant on the outputs you agreed with the customer.
 
-## Conducting the Work
-
+## Conducting the work
 Starting from the base tables, we want to create the agreed outputs. Depending on the work, there are many tools we can use to do this. 
 
-- R is especially suited to use for data analysis and visualisation, via Rmarkdown and Shiny.
-- Python has most widespread support for machine learning and is more widely integrated with cloud based platforms.
-- Power BI is a possible alternative to R for creating dashboards, but due to licensing may not be suitable for certain end users.
-- If it is appropriate, such as needing to show simple summary statistics, Excel and/or SQL can be used.
+- R is especially suited to use for data analysis and visualisation, via Rmarkdown and Shiny
+- Python has most widespread support for machine learning and is more widely integrated with cloud based platforms
+- Power BI is a possible alternative to R for creating dashboards, but due to licensing may not be suitable for certain end users
+- if it is appropriate, such as needing to show simple summary statistics, Excel and/or SQL can be used
 
 Please see the DALL wiki for tips on how to use all of these tools.
 
-## Tips for Effective Analysis
+## Tips for effective analysis
 - Use Github to handle version control, issues and code reviews.
-- In Python, use object-oriented programming (OOP) if you can. Although R does have support for OOP, it is not a big paradigm like in Python.
+- In Python, use object-oriented programming (OOP) if you can. 
+- Although R does have support for OOP, it is not a big paradigm like in Python.
 - Be careful of premature optimisation (called out by computer scientist Donald Knuth as 'the root of all evil' in software development).
 - Start small, such as limiting data to some subset when developing metrics; this makes it easier to spot issues and allows for faster iteration of code.
 - Check the data looks correct at each step of transforming it; better still, know what it _should_ be before writing and applying the step (the principle behind test driven development, TDD).
@@ -29,13 +29,10 @@ Please see the DALL wiki for tips on how to use all of these tools.
 - You may produce multiple smaller data sets to be used in your outputs; the considerations applying to base tables apply equally to these.
 - The final code should use RAP principles [LINK?].
 
-
-
-## Check the Quality
-
+## Check the quality
 As with data preparation, it's important to test and validate your results. 
 
-- Where possible, check results against other sources.
-- Other sources could be data from previous initiatives, Management Information dashboards or ePACT2.
+- where possible, check results against other sources
+- other sources could be data from previous initiatives, Management Information dashboards or ePACT2
 
 Additionally, you must be careful about visualising sensitive results. Please contact your critical friend or the DALL team manager if you are unsure.

@@ -6,7 +6,6 @@ image-alt: Photo by Emily Morter on Unsplash
 ---
 
 ## What is a Problem Definition?
-
 - An agreement between the assignees and the customer(s).
 - It defines a set of goals that everyone agrees on **before** work begins.
 - It protects both parties further down the line.
@@ -14,15 +13,14 @@ image-alt: Photo by Emily Morter on Unsplash
 
 As part of writing the problem definition, you will need to include:
 
-- Some background information about the area.
-- What it is that needs to be solved.
-- How we intend to solve the problem.
-- Any limitations and caveats, if they exist.
-- What tools and data we will use.
-- Any data governance considerations, if they are applicable.
+- some background information about the area
+- what it is that needs to be solved
+- how we intend to solve the problem
+- any limitations and caveats, if they exist
+- what tools and data we will use
+- any data governance considerations, if they are applicable
 
 ## Tips For Writing a Problem Definition
-
 - During this process, you will need to tell them what sensitive data you are using.
 - Explain how you intend to use the data.
 - For sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team **before** you start the work.
@@ -34,7 +32,7 @@ For more information, please see the following page within the DALL OneNote Wiki
 
 Throughout the process, your critical friend will review the problem definition to check:
 
-- If you understood the customer's request correctly.
-- If your plans to solve the problems are appropriate.
+- if you understood the customer's request correctly
+- if your plans to solve the problems are appropriate
 
 Also, make sure to share the problem definition with the customer(s) to get their feedback, understand their business needs, and make sure you have addressed all their requests.

@@ -9,9 +9,9 @@ During the planning stages of the initiative, it is a good idea to plan the time
 
 To plan effectively:
 
-- Create a Gantt chart.
-- List the items and their completion times.
-- Estimate when each element will be finished.
+- create a Gantt chart
+- list the items and their completion times
+- estimate when each element will be finished
 
 Please see the Gantt chart template within the templates folder on SharePoint.
 
@@ -19,12 +19,12 @@ When planning any project, it is easy to underestimate the time required to comp
 
 You should always account for:
 
-- Commitments in other projects.
-- Upcoming planned leave.
-- Time spent in meetings per week.
-- The hours you work per week.
-- Time spent learning about the project.
-- Time required to get access to tools and data.
-- Any other commitments.
+- commitments in other projects
+- upcoming planned leave
+- time spent in meetings per week
+- the hours you work per week
+- time spent learning about the project
+- time required to get access to tools and data
+- any other commitments
 
 If you add more tasks to the project, make sure to update the Gantt chart and inform the customer of the new deadlines. Your planned deadlines are usually just estimates and can be extended if underestimated.

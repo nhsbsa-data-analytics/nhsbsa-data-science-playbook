@@ -6,12 +6,11 @@ image: 06-create-initiative-resources.jpg
 
 Before beginning to work on your problem definition, you will need to setup the initiative resources. Currently, these include:
 
-- A JIRA ticket to track progress on the work.
-- A SharePoint folder to store documents and data.
-- A GitHub repository to store and monitor code.
+- a JIRA ticket to track progress on the work
+- a SharePoint folder to store documents and data
+- a GitHub repository to store and monitor code
 
-## Setting Up the Resources
-
+## Setting Up the resources
 - Identify the DALL initiative number using JIRA.
 - Remember to set the new GitHub repository to private.
 - Invite all DALL team members as collaborators.
@@ -22,5 +21,5 @@ Further guidance on setting up resources can be found on the DALL OneNote Wiki.
 
 After creating all resources, remember to:
 
-- Provide regular updates to the JIRA ticket.
-- Regularly push code additions and alterations to the GitHub repository.
+- provide regular updates to the JIRA ticket
+- regularly push code additions and alterations to the GitHub repository

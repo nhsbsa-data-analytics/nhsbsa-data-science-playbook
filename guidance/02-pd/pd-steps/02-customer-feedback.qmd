@@ -7,18 +7,17 @@ image-alt: Photo by Emily Morter on Unsplash
 
 After finishing your draft of the Problem Definition (PD), meet with the customer(s) to go through it together and:
 
-- Discuss any limitations or questions found during the data exploration.
-- Set the agreed outputs of the initiative.
+- discuss any limitations or questions found during the data exploration
+- set the agreed outputs of the initiative
 
 Be sure to:
 
-- Organise this meeting ahead of time as some people have busy schedules.
-- Send your PD before the meeting so they can review it ahead of time.
+- organise this meeting ahead of time as some people have busy schedules
+- send your PD before the meeting so they can review it ahead of time
 
 As an outcome of the meeting, there may be additional things to explore or add to the PD before the customer can sign off.
 
 ## Refining the Problem Definition
-
 - It is important to repeat the problem definition loop again until the customer is happy to proceed.
 - In rare cases, this meeting may highlight that the initiative may not be possible in the way that the customer initially intended.
 - Unless any suitable alternatives are identified, we may need to give up on the project.

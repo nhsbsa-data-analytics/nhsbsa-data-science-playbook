@@ -8,10 +8,10 @@ image-alt: Photo by Alexander Grey on Unsplash
 - Cleaning your project is an equally important step as the modelling and analysis.
 - Leaving a messy project folder and code can lead to difficulties later down the line.
 - It is important that you dedicate enough time to completing this step.
-- Approach the project clean up as a serious and worthwhile endeavour. It can be useful for a future project.
+- Approach the project clean up as a serious and worthwhile endeavour. 
+- It can be useful for a future project.
 
-## General Considerations
-
+## General considerations
 - Work with the mindset that all work could be make public.
 - Small and precise commits are better than large ones.
 - Maintain a clear project structure with clean scripts.
@@ -25,6 +25,5 @@ image-alt: Photo by Alexander Grey on Unsplash
 - A common location to store the tables is the DALL_REF schema.
 - Remove personal tables from your own database schema after the project has concluded.
 - This is especially important for person identifiable information.
-
 
 Please refer to the DALL OneNote Wiki for more information on cleaning your code.
