@@ -10,9 +10,9 @@ Given you have written your problem definition and the customer has signed off o
 ## Data preparation
 Data preparation can be done with any data manipulation tool such as SQL, R or Python.
 
-- large datasets with millions of rows may require use of SQL initially
+- Large datasets with millions of rows may require use of SQL initially.
 - SQL can be used via libraries, such as `{dplyr}` and the database back-end `{dbplyr}` in R
-- once data has been aggregated, switch to your tool of choice for analysis and modelling
+- Once data has been aggregated, switch to your tool of choice for analysis and modelling.
 
 When preparing data there are some considerations that always apply.
 
@@ -53,12 +53,12 @@ There is a page on data cleansing in the internal DALL Wiki.
 ## Creating base tables
 After checking and preparing the data, you should have enough knowledge to create one or more base tables.
 
-- decide to keep or discard fields based on what is relevant to the initiative
-- fix or remove columns that contain data errors or missing entries
-- create new columns based on the existing ones
-- change the data types of the columns to a more appropriate format
-- save the output of your transformations
-- use any format that makes sense considering the size and how it is used; formats include CSV, SQL, and Rda
+- Decide to keep or discard fields based on what is relevant to the initiative.
+- Fix or remove columns that contain data errors or missing entries.
+- Create new columns based on the existing ones.
+- Change the data types of the columns to a more appropriate format.
+- Save the output of your transformations.
+- Use any format that makes sense considering the size and how it is used; formats include CSV, SQL, and Rda.
 
 ## Sensitive data
 - Wherever base tables are saved, it must be in a secure location as per data security policy (LINK?).

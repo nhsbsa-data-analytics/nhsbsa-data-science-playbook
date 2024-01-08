@@ -20,7 +20,7 @@ As part of writing the problem definition, you will need to include:
 - what tools and data we will use
 - any data governance considerations, if they are applicable
 
-## Tips For Writing a Problem Definition
+## Tips for writing a Problem Definition
 - During this process, you will need to tell them what sensitive data you are using.
 - Explain how you intend to use the data.
 - For sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team **before** you start the work.

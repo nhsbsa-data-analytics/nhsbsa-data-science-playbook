@@ -15,43 +15,53 @@ Reviewing work and outputs frequently should be done throughout the initiative l
 In response to any one of these reviews, it may be deemed necessary to go back to data preparation, analysis or drafting of outputs.
 
 ## Self review
-Review your own work as you go, but especially before requesting anyone else to review it.
+Review your own work as you go, but especially before requesting anyone else to review it. Before submitting for review you should:
 
 - check for errors
 - run code with a 'clean slate' to ensure there are no dependencies in your local environment that will not be there later
-- if you are testing adhoc, save your effort by writing a repeatable test
+- consider writing repeatable tests rather than adhoc testing
 - document your code
-- once happy with your code create a pull request (PR) on Github
-- check the code diff (difference) on Github and add comments to explain to a code. reviewer any decisions you made that are not obvious
-- checking the code diff often highlights something you missed; in these cases make further changes and push them
-- once happy with your PR, request that someone code review it
-- prefer smaller pull requests to larger ones
-- remember that your colleagues have other work; give them enough time to review your work properly
+- create a pull request (PR) on Github once happy with the code
+- check the code diff (difference) on Github and add comments to explain to a code reviewer any decisions you made that are not obvious
+- check the code diff as it may highlight something you missed; in these cases make further changes and push them
+- make sure each PR contains only small changes
+
+Once happy with your PR, request that someone code review it.
+
+::: {.callout-important title="Give colleagues sufficient time"}
+<div>
+  <p> Remember that your colleagues have other work; give them enough time to review your work properly.</p>
+
+</div>
+:::
 
 ## Team review
 One or more other members of the initiative team should review all code and outputs before it is merged into the main branch.
 
-- reviewer should pull the code into their local environment, and run it from a 'blank slate' state
-- reviewer should add comments and suggestions to the PR
-- reviewer should check any outputs match what was agreed in the problem definition
-- if something does not make sense, ask the code author to clarify
-- if reviewer has more than a few questions, organise a call with the code author and work through the PR together
+The reviewers should:
+
+- pull the code into their local environment, and run it from a 'blank slate' state
+- add comments and suggestions to the PR
+- check any outputs match what was agreed in the problem definition
+- ask the code author to clarify if something does not make sense
+- organise a call with the code author and work through the PR together if several questions arise
 
 ## Critical friend review
-The initiative critical friend (CF) should be asked for feedback on work in progress at frequent intervals, and always before asking a customer to look at it.
+The initiative critical friend (CF) should:
 
-- the CF should put themselves in the shoes of the customer when reviewing outputs
-- the CF should put themselves in the shoes of someone tasked with using the code base when reviewing code
-- depending on the amount or complexity of any feedback, CF should arrange a call with the initiative team to discuss
+- be asked for feedback on work in progress at frequent intervals, and always before asking a customer to look at it
+- put themselves in the shoes of the customer when reviewing outputs
+- put themselves in the shoes of someone tasked with using the code base when reviewing code
+- arrange a call with the initiative team to discuss if the feedback is complex or if there is lots of it
 
 ## Customer review
-The customer should be given frequent opportunities to see work in progress.
+The customer should be given frequent opportunities to see work in progress. To do this you should:
 
 - send them drafts of the outputs to review in their own time, rather than only sharing your screen in a call
 - be open to having calls once they have reviewed the work
 - discuss any questions or suggestions they have
 
-When you feel the initiative is completed, you should have a call with the customer to present your findings. 
+When you feel the initiative is completed, you should have a call with the customer to present your findings and:
 
 - ensure the customer is happy they understand how to use any interactive elements, such as dashboards
 - discuss any potential for future related work

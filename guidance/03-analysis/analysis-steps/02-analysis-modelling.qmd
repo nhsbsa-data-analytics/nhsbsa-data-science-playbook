@@ -10,10 +10,10 @@ In this step, we turn our data into insights. The work done here can vary. It ca
 ## Conducting the work
 Starting from the base tables, we want to create the agreed outputs. Depending on the work, there are many tools we can use to do this. 
 
-- R is especially suited to use for data analysis and visualisation, via Rmarkdown and Shiny
-- Python has most widespread support for machine learning and is more widely integrated with cloud based platforms
-- Power BI is a possible alternative to R for creating dashboards, but due to licensing may not be suitable for certain end users
-- if it is appropriate, such as needing to show simple summary statistics, Excel and/or SQL can be used
+- R is especially suited to use for data analysis and visualisation, via Rmarkdown and Shiny.
+- Python has most widespread support for machine learning and is more widely integrated with cloud based platforms.
+- Power BI is a possible alternative to R for creating dashboards, but due to licensing may not be suitable for certain end users.
+- If it is appropriate, such as needing to show simple summary statistics, Excel and/or SQL can be used.
 
 Please see the DALL wiki for tips on how to use all of these tools.
 
@@ -32,7 +32,7 @@ Please see the DALL wiki for tips on how to use all of these tools.
 ## Check the quality
 As with data preparation, it's important to test and validate your results. 
 
-- where possible, check results against other sources
-- other sources could be data from previous initiatives, Management Information dashboards or ePACT2
+- Where possible, check results against other sources.
+- Other sources could be data from previous initiatives, Management Information dashboards or ePACT2.
 
 Additionally, you must be careful about visualising sensitive results. Please contact your critical friend or the DALL team manager if you are unsure.

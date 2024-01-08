@@ -8,7 +8,7 @@ image-alt: Photo by Stephen Dawson on Unsplash
 Within the DALL team, the work that we conduct aims to tell a 'story' to the customer, providing them with the insights that the raw data alone would not.
 
 ## Output formats
-There are a range of expected outputs that may have been agreed on in the problem definition.
+There are a range of expected outputs that may have been agreed on in the problem definition which can include:
 
 - written reports
 - data sets
@@ -28,18 +28,18 @@ For most outputs there is a recommended structure:
 7. Appendices (if applicable).
 
 ## Supporting text
-Most outputs will feature at least some text.
+Most outputs will feature at least some text. General tips for writing includes:
 
-- put the key findings at the front as people won't read the whole thing
-- include caveats and assumptions, and for particularly important ones mention them up front
-- numbers under 10 are written in words, over 10 in digits (but use common sense!)
-- use bold tag lines for emphasis of important points
-- sometimes difficult to do, but try to have a story
-- if appropriate, include recommendations and ideas for further exploration
-- sentences shorter than 20 words
-- write it so that a 12 year old would be able to understand it, assume readers are non-technical
-- if multiple people have contributed text, one person should, in the final stages, act as editor and rewrite in a single style
-- leave writing any text supporting visuals such as charts or tables until the team is almost certain they are finalised
+- putting the key findings at the front as people won't read the whole thing
+- including caveats and assumptions, and for particularly important ones mention them up front
+- writing numbers under 10 as words, over 10 in digits (but use common sense!)
+- using bold tag lines for emphasis of important points
+- developing an interesting narrative (sometimes difficult to do)
+- if appropriate, including recommendations and ideas for further exploration
+- writing sentences shorter than 20 words
+- writing so that a 12 year old would be able to understand it, assume readers are non-technical
+- if multiple people have contributed text, assigning one person in the final stages to act as an editor and rewrite in a single style
+- leaving the writing of any text that supports visuals such as charts or tables until the team is almost certain they are finalised
 
 There are pages on initiative outputs with specific format advice in the internal DALL Wiki. A very useful tool for written output is [Hemingway Editor](https://hemingwayapp.com/). If you can get your text to mostly have no issues in this, you know it is readable!
 
@@ -47,33 +47,35 @@ There are pages on initiative outputs with specific format advice in the interna
 All initiatives should have at least two slide decks as an agreed output. One of these is for the customer, the other is designed to be quickly presented to interested parties.
 
 ### Customer summary
-This is to give the customer an easily shared and concise report on the outcomes of an initiative.
+This is to give the customer an easily shared and concise report on the outcomes of an initiative. The summary should:
 
 - state the problems or questions the initiative looked at, with examples
 - give the most important assumptions or caveats, and if appropriate issues encountered
 - summarise the most important findings
 - give brief recommendations and next steps
-- likely a mix of visual and text is best, with more text
-- can use technical language, if you think customer is familiar with it
+- provide a mix of visuals and text, with more text preferred.
+- use technical language, if you think the customer is familiar with it
 
 ### Short presentation
 This is intended to be used by the DALL team to present to others. It also serves as a quick reference of the outcome of an initiative, helpful to people looking back at it in future.
+
+A good presentation will:
 
 - show examples of the why the initiative was done
 - give assumptions and caveats only if absolutely necessary to prevent a major misunderstanding
 - summarise the most important findings
 - give brief recommendations and next steps
-- most of the content should be visual, with limited amounts of explanatory text
+- limit the amounts of explanatory text and make the most of visuals
 - use animations
-- the slides should take around 10 minutes to present
+- take around 10 minutes to present (depending on situation)
 - assume audience is non-technical
-- for initiatives with a large amount of findings or components, focus on up to three that you would like the audience to remember
-- a good presentation style is the [newsreader style](https://www.revolutionlearning.co.uk/article/newsreader-style-presentation-structure/)
-- as you get feedback on the initiative and how the outputs are being used, add this to the end of the slides
-- if you are not getting feedback 'organically', reach out to get enough for at least one slide!
+- focus on up to three findings that you would like the audience to remember (applicable for large initiatives with lots of components and findings)
+- use a good presentation style such as the [newsreader style](https://www.revolutionlearning.co.uk/article/newsreader-style-presentation-structure/)
+- have an up to date final slide containing feedback and use cases
+- give people the opportunity to provide feedback- if you are not getting feedback 'organically', reach out to get enough for at least one slide!
 
 ## Accessibility concerns
 If your output is to be available online, it must be tested for accessibility and include (or link to) an Accessibility Statement. Full details are in the DALL Wiki.
 
-- try to create outputs with accessibility in mind; for example using the `{shiny}` [template](https://github.com/nhsbsa-data-analytics/nhsbsaShinyR)
-- don't test for accessibility too early; do it only once reasonably confident the non-text output is finalised
+- Try to create outputs with accessibility in mind; for example using the `{shiny}` [template](https://github.com/nhsbsa-data-analytics/nhsbsaShinyR).
+- Don't test for accessibility too early; do it only once reasonably confident the non-text output is finalised.
