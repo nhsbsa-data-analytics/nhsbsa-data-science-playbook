@@ -11,7 +11,7 @@ It is important to setup a first meeting with the customer once you have develop
 - any business knowledge or insights they can provide to aid your work
 - any data limitations and possible solutions
 - if there are any additional data sources to be considered
-- the required timescales if applicable
+- the required timescales (if applicable)
 
 This meeting is important, as it can help to refine the problem definition within section 2.
 
