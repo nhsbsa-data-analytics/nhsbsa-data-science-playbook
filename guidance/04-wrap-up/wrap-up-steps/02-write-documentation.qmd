@@ -7,9 +7,9 @@ image-alt: Photo by Unseen Studio on Unsplash
  
 Without good documentation, it is difficult for future projects to leverage our work.
 
-- make sure that all of your custom functions are described in detail
-- consider replicating a similar structure to an R or Python package with each parameter explained, and examples of how to run the function
-- if using GitHub remember to update the README file
+- Make sure that all of your custom functions are described in detail.
+- Consider replicating a similar structure to an R or Python package with each parameter explained, and examples of how to run the function.
+- If using GitHub remember to update the README file.
 
 At a minimum the GitHub README file should contain:
 
