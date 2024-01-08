@@ -1,5 +1,5 @@
 ---
-title: "Data and Business Understanding"
+title: "Data and business understanding"
 description: "Further your business knowledge and understanding of the data, to update the problem definition."
 image: 01-data-business-understanding.jpg
 image-alt: Photo by Emily Morter on Unsplash

@@ -1,5 +1,5 @@
 ---
-title: "Wrap Up and Clean Your Code"
+title: "Wrap up and clean your code"
 description: "Clean your code and base table(s) to make it more accessible."
 image: 01-clean-up.jpg
 image-alt: Photo by Alexander Grey on Unsplash

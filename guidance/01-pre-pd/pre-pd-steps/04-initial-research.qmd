@@ -1,5 +1,5 @@
 ---
-title: "Initial Research and Look at Previous Iterations"
+title: "Initial research and look at previous iterations"
 description: "Look at previous work conducted by the team to gain inspiration."
 image: 04-initial-research.jpg
 ---

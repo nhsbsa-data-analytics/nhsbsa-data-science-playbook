@@ -1,5 +1,5 @@
 ---
-title: "Customer Feedback"
+title: "Customer feedback"
 description: "Check in with the customer to agree the terms of the problem definition and gain further understanding of the problem."
 image: 02-customer-feedback.jpg
 image-alt: Photo by Emily Morter on Unsplash

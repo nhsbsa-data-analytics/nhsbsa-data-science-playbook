@@ -1,5 +1,5 @@
 ---
-title: "Data Preparation"
+title: "Data preparation"
 description: "Prepare and clean the data to create the base table(s)."
 image: 01-data-prep.jpg
 image-alt: Photo by Claudio Schwarz on Unsplash
@@ -11,7 +11,7 @@ Given you have written your problem definition and the customer has signed off o
 Data preparation can be done with any data manipulation tool such as SQL, R or Python.
 
 - Large datasets with millions of rows may require use of SQL initially.
-- SQL can be used via libraries, such as `{dplyr}` and the database back-end `{dbplyr}` in R
+- SQL can be used via libraries, such as `{dplyr}` and the database back-end `{dbplyr}` in R.
 - Once data has been aggregated, switch to your tool of choice for analysis and modelling.
 
 When preparing data there are some considerations that always apply.

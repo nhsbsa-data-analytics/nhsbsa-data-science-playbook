@@ -1,5 +1,5 @@
 ---
-title: "Reporting and Visuals"
+title: "Reporting and visuals"
 description: "Draft reports, slide decks, data sets, applications and any other agreed outputs."
 image: 03-reporting-and-visuals.jpg
 image-alt: Photo by Stephen Dawson on Unsplash
