@@ -1,5 +1,5 @@
 ---
-title: "Make the repository public (if applicable) - Alternate Page"
+title: "Make the repository public (if applicable)"
 description: "If Applicable, make the GitHub repository ready for public release."
 image: 04-public-repository.jpg
 image-alt: Photo by Markus Winkler on Unsplash
