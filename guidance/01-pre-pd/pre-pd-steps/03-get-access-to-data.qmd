@@ -11,14 +11,14 @@ If you don’t have access to the data already, you will need to request access.
 For the DALP database:
 
 - access to the data needed for each initiative is issued by the DALL data holder and team manager
-- send an email to the data holder team manager, specifiying the tables that you need access to
+- send an email to the data holder (copying in the team manager) specifiying the tables that you need access to
 - they will confirm and provide the data from the DALP Oracle database
 
 For the DWCP database:
 
 - you must submit a service request to access the data that you require
-- The data may be provided direct from its source (if possible)
-- If the data is in DWCP and you think it is worthwhile to have it in DALP, you can request this
+- the data may be provided direct from its source (if possible)
+- if the data is in DWCP and you think it is worthwhile to have it in DALP, you can request this
 
 Advice on how to request data from both sources can be found within the DALL OneNote Wiki.
 
