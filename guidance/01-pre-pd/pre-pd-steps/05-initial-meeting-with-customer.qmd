@@ -20,4 +20,4 @@ This meeting is important, as it can help to refine the problem definition withi
 - Some customers will have busy schedules so it is important to setup the meeting in advance so the project can progress.
 - The critical friend should attend the meeting to share knowledge and be clear on the scope of the project.
 - Set up recurring follow up meetings at regular intervals.
-- Any open questions following the meeting should be chased using either Teams or Email.
+- Any open questions following the meeting should be chased using either Teams or email.
