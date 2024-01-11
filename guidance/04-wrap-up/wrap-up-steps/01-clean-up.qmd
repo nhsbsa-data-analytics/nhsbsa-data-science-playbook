@@ -19,11 +19,11 @@ image-alt: Photo by Alexander Grey on Unsplash
 - Move custom functions into their own script.
 - Delete stale git branches or merge them into main.
 - Streamline the codebase.
-- Create a config file with key parameters and filters that are reference throughout the project.
+- Create a config file with key parameters and filters that are referenced throughout the project.
 - Identify bottlenecks and optimise the code.
 - Ensure key tables within the database are available to the wider team.
 - A common location to store the tables is the DALL_REF schema.
 - Remove personal tables from your own database schema after the project has concluded.
-- This is especially important for person identifiable information.
+- This is especially important for personally identifiable information.
 
 Please refer to the DALL OneNote Wiki for more information on cleaning your code.
