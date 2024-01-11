@@ -28,7 +28,7 @@ As part of writing the problem definition, you will need to include:
 - Honestly assess time frames and relay these to the customer.
 - Your critical friend and DALL team manager can assist with this process.
 
-For more information, please see the following page within the DALL OneNote Wiki.
+For more information, please see the DALL Wiki.
 
 Throughout the process, your critical friend will review the problem definition to check:
 
