@@ -2,11 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
-*.html
 *.csv
 *.xlsx
 *.docx
 *.pdf
 *.pptx
-
-/.quarto/
