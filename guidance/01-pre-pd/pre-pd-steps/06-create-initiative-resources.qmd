@@ -10,14 +10,14 @@ Before beginning to work on your problem definition, you will need to setup the 
 - a SharePoint folder to store documents and data
 - a GitHub repository to store and monitor code
 
-## Tips for Setting Up the Resources
-
+## Setting up the resources
 - Identify the DALL initiative number using JIRA.
-- Guidance on setting up resources can be found on the DALL OneNote Wiki.
 - Remember to set the new GitHub repository to private.
 - Invite all DALL team members as collaborators.
 - Code should be written with the intention that it will be made public.
-- Be careful not to include PII information within the code- examples include NHS numbers.
+- Be careful not to include PII information within the code, such as NHS numbers.
+
+Further guidance on setting up resources can be found on the DALL OneNote Wiki. 
 
 After creating all resources, remember to:
 

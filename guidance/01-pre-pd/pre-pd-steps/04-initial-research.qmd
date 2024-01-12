@@ -1,5 +1,5 @@
 ---
-title: "Initial Research and Look at Previous Iterations"
+title: "Initial research and look at previous iterations"
 description: "Look at previous work conducted by the team to gain inspiration."
 image: 04-initial-research.jpg
 ---
@@ -12,7 +12,7 @@ To assist your work you could use:
 - JIRA as a source of information on previous initiatives
 - other team members and your critical friend to help develop business knowledge
 - online resources like Stack Overflow and Medium for further inspiration
-- research papers can be beneficial for technical and machine learning projects
+- research papers for technical and machine learning projects
 - DataCamp to complete relevant courses
 
 This is a guide of what is possible and is dependent on the current project's requirements.

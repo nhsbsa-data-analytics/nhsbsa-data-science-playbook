@@ -1,14 +1,14 @@
 ---
-title: "Customer Feedback"
+title: "Customer feedback"
 description: "Check in with the customer to agree the terms of the problem definition and gain further understanding of the problem."
 image: 02-customer-feedback.jpg
 image-alt: Photo by Emily Morter on Unsplash
 ---
 
-After finishing your draft of the Problem Definition (PD), meet with the customer(s) to go through it together and:
+After finishing your draft of the problem definition (PD), meet with the customer(s) to go through it together and:
 
-- talk about any limitations or questions found during the data exploration
-- set the agreed outputs
+- discuss any limitations or questions found during the data exploration
+- set the agreed outputs of the initiative
 
 Be sure to:
 
@@ -17,9 +17,8 @@ Be sure to:
 
 As an outcome of the meeting, there may be additional things to explore or add to the PD before the customer can sign off.
 
-## Refining the Problem Definition
-
-- It is important to repeat section 2 again until the customer is happy to proceed.
+## Refining the problem definition
+- It is important to repeat the problem definition loop again until the customer is happy to proceed.
 - In rare cases, this meeting may highlight that the initiative may not be possible in the way that the customer initially intended.
 - Unless any suitable alternatives are identified, we may need to give up on the project.
 - In this case, you **must** discuss your concerns with the DALL team manager before communicating this with the customer.

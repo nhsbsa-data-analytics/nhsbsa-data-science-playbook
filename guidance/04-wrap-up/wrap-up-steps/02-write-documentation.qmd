@@ -1,5 +1,5 @@
 ---
-title: "Write the Documentation"
+title: "Write the documentation"
 description: "Document your code before archiving it."
 image: 02-write-documentation.jpg
 image-alt: Photo by Unseen Studio on Unsplash
@@ -12,11 +12,14 @@ Without good documentation, it is difficult for future projects to leverage our 
 - If using GitHub remember to update the README file.
 
 At a minimum the GitHub README file should contain:
-    - the project name
-    - a quick overview of the project’s purpose
+
+- the project name
+- a quick overview of the project’s purpose
+
 Also consider including:
-    - a summary of the project structure
-    - steps to reproduce your code
-    - key technologies and methods used in the project
+
+- a summary of the project structure
+- steps to reproduce your code
+- key technologies and methods used in the project
     
 Remember to document anything that you tried that did not work.
