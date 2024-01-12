@@ -32,7 +32,7 @@ website:
     style: "docked"
     collapse-level: 1
     contents:
-      - section: "Before the Problem Definition"
+      - section: "Before the problem definition"
         contents:
           - guidance/01-pre-pd/index.qmd
           - guidance/01-pre-pd/pre-pd-steps/01-problem-identified.qmd
@@ -41,7 +41,7 @@ website:
           - guidance/01-pre-pd/pre-pd-steps/04-initial-research.qmd
           - guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.qmd
           - guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.qmd
-      - section: "Problem Definition"
+      - section: "Problem definition"
         contents:
           - guidance/02-pd/index.qmd
           - guidance/02-pd/pd-steps/01-data-business-understanding.qmd
@@ -55,7 +55,7 @@ website:
           - guidance/03-analysis/analysis-steps/02-analysis-modelling.qmd
           - guidance/03-analysis/analysis-steps/03-reporting-and-visuals.qmd
           - guidance/03-analysis/analysis-steps/04-review.qmd
-      - section: "Initiative Wrap Up"
+      - section: "Initiative wrap up"
         contents:
           - guidance/04-wrap-up/index.qmd
           - guidance/04-wrap-up/wrap-up-steps/01-clean-up.qmd

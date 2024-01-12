@@ -19,7 +19,7 @@ Good data documentation could include:
 
 After interrogating the data you should:
 
-- update the limitations section of the Problem Definition (PD)
+- update the limitations section of the problem definition (PD)
 - inform the customer of what is possible and not possible to achieve during the initiative
 - discuss other interesting research questions with the customer and explore if these are worth pursuing
 

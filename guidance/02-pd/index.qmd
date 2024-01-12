@@ -1,5 +1,5 @@
 ---
-title: "Problem Definition"
+title: "Problem definition"
 description: "Gain further understanding through research and talking with the customer, to complete your problem definition."
 title-block-banner: true
 image: pd.jpg
