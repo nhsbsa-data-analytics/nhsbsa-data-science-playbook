@@ -1,0 +1,143 @@
+{
+  "index.qmd": {
+    "index.html": "5a6ca187"
+  },
+  "about.qmd": {
+    "about.html": "36bc5e50"
+  },
+  "diagrams/option1.qmd": {
+    "option1.html": "aa610098"
+  },
+  "diagrams/option2.qmd": {
+    "option2.html": "9a6d96eb"
+  },
+  "diagrams/option3.qmd": {
+    "option3.html": "0ca639ac"
+  },
+  "guidance/analysis/index.qmd": {
+    "index.html": "da50e939"
+  },
+  "guidance/analysis/analysis-steps/01-data-prep.qmd": {
+    "01-data-prep.html": "80f0e4c7"
+  },
+  "guidance/analysis/analysis-steps/02-analysis-modelling.qmd": {
+    "02-analysis-modelling.html": "0aaa1bf4"
+  },
+  "guidance/analysis/analysis-steps/03-reporting-visuals.qmd": {
+    "03-reporting-visuals.html": "54c0b78b"
+  },
+  "guidance/analysis/analysis-steps/04-team-review-test.qmd": {
+    "04-team-review-test.html": "4ab0f4e6"
+  },
+  "guidance/analysis/analysis-steps/05-critical-friend-review.qmd": {
+    "05-critical-friend-review.html": "f82eb006"
+  },
+  "guidance/analysis/analysis-steps/06-customer-review.qmd": {
+    "06-customer-review.html": "fdc5a49a"
+  },
+  "guidance/analysis/analysis-steps/03-output_artifacts.qmd": {
+    "03-output_artifacts.html": "e20420f7"
+  },
+  "guidance/01-pre-pd/index.qmd": {
+    "index.html": "dbddf0aa"
+  },
+  "guidance/02-pd/index.qmd": {
+    "index.html": "aeeabd7d"
+  },
+  "guidance/03-analysis/analysis-steps/01-data-prep.qmd": {
+    "01-data-prep.html": "27c8744f"
+  },
+  "guidance/03-analysis/analysis-steps/02-analysis-modelling.qmd": {
+    "02-analysis-modelling.html": "a59931e1"
+  },
+  "guidance/03-analysis/analysis-steps/03-output_artifacts.qmd": {
+    "03-output_artifacts.html": "8b1fcbe1"
+  },
+  "guidance/03-analysis/analysis-steps/04-team-review-test.qmd": {
+    "04-team-review-test.html": "aa62c42e"
+  },
+  "guidance/03-analysis/analysis-steps/05-critical-friend-review.qmd": {
+    "05-critical-friend-review.html": "23d0212e"
+  },
+  "guidance/03-analysis/analysis-steps/06-customer-review.qmd": {
+    "06-customer-review.html": "2032cca8"
+  },
+  "guidance/03-analysis/index.qmd": {
+    "index.html": "1e0578eb"
+  },
+  "guidance/04-wrap-up/index.qmd": {
+    "index.html": "19bc68b0"
+  },
+  "guidance/index.qmd": {
+    "index.html": "972dc7d7"
+  },
+  "guidance/01-pre-pd/pre-pd-steps/01-step.qmd": {
+    "01-step.html": "bac3d24a"
+  },
+  "guidance/02-pd/pd-steps/01-step.qmd": {
+    "01-step.html": "3b3574a9"
+  },
+  "guidance/04-wrap-up/wrap-up-steps/01-step.qmd": {
+    "01-step.html": "3c3f878f"
+  },
+  "guidance/03-analysis/analysis-steps/03-output-artifacts.qmd": {
+    "03-output-artifacts.html": "ef8cb5a4"
+  },
+  "guidance/03-analysis/analysis-steps/04-team-review.qmd": {
+    "04-team-review.html": "aca03cb3"
+  },
+  "guidance/01-pre-pd/pre-pd-steps/01-problem-identified.qmd": {
+    "01-problem-identified.html": "e344a4b4"
+  },
+  "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.qmd": {
+    "02-assign-critical-friend.html": "4d6a6e0c"
+  },
+  "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.qmd": {
+    "03-get-access-to-data.html": "74e3fb7c"
+  },
+  "guidance/01-pre-pd/pre-pd-steps/04-initial-research.qmd": {
+    "04-initial-research.html": "97f02663"
+  },
+  "guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.qmd": {
+    "05-initial-meeting-with-customer.html": "1b6c1eb2"
+  },
+  "guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.qmd": {
+    "06-create-initiative-resources.html": "13f166c5"
+  },
+  "guidance/02-pd/pd-steps/01-data-business-understanding.qmd": {
+    "01-data-business-understanding.html": "f034eb5a"
+  },
+  "guidance/02-pd/pd-steps/02-customer-feedback.qmd": {
+    "02-customer-feedback.html": "c6368aec"
+  },
+  "guidance/02-pd/pd-steps/03-refine-pd.qmd": {
+    "03-refine-pd.html": "247e85da"
+  },
+  "guidance/02-pd/pd-steps/04-estimate-timescales.qmd": {
+    "04-estimate-timescales.html": "37516f52"
+  },
+  "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.qmd": {
+    "03-reporting-and-visuals.html": "1e8cbee0"
+  },
+  "guidance/03-analysis/analysis-steps/04-review.qmd": {
+    "04-review.html": "9777c87f"
+  },
+  "guidance/04-wrap-up/wrap-up-steps/01-clean-up.qmd": {
+    "01-clean-up.html": "4b72f0e8"
+  },
+  "guidance/04-wrap-up/wrap-up-steps/02-write-documentation.qmd": {
+    "02-write-documentation.html": "006dbb9d"
+  },
+  "guidance/04-wrap-up/wrap-up-steps/03-update-wiki.qmd": {
+    "03-update-wiki.html": "ca506c49"
+  },
+  "guidance/04-wrap-up/wrap-up-steps/04-public-repository.qmd": {
+    "04-public-repository.html": "4e949f40"
+  },
+  "guidance/04-wrap-up/wrap-up-steps/05-future-work.qmd": {
+    "05-future-work.html": "f61454a5"
+  },
+  "guidance/04-wrap-up/wrap-up-steps/04-public-repository-alt-callouts.qmd": {
+    "04-public-repository-alt-callouts.html": "81b9efd4"
+  }
+}
