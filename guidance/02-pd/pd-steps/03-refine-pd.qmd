@@ -5,7 +5,7 @@ image: 03-refine-pd.jpg
 image-alt: Photo by Emily Morter on Unsplash
 ---
 
-## What is a Problem Definition?
+## What is a problem definition?
 - An agreement between the assignees and the customer(s).
 - It defines a set of goals that everyone agrees on **before** work begins.
 - It protects both parties further down the line.
