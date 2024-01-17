@@ -2,6 +2,8 @@
 
 This repository contains the framework for writing and deploying the DALL Playbook. The playbook is used to give detailed guidance on the typical workflow for DALL initiatives.
 
+The playbook can be found [here](https://nhsbsa-data-analytics.github.io/dall-playbook/).
+
 ## Requirements
 
 To run the document, open `index.qmd`, within the root folder, using either Rstudio or VS Code and click 'Compile' or 'Preview' respectively. For Rstudio usage, you must also load the `dall-playbook.Rproj` project to be able to compile the document. 
