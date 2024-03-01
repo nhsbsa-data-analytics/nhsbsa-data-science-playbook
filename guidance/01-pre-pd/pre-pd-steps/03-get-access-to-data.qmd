@@ -1,37 +1,38 @@
 ---
-title: "Get access to the data"
+title: "Get access to the data and undertake initial understanding"
 description: "Identify and gain access to the data required for the initiatve."
 image: 03-get-access-to-data.jpg
 ---
 
-## Getting access
+## Accessing data
 
-If you don’t have access to the data already, you will need to request access.
+-	Temporary access must be requested via email or a service request and is subject to approval from the Data Science Lead, Database administrators and/or Data Asset Owner.
+-	Should sensitive data be needed, there may also be a requirement to engage with the Caldicott Guardian and/or Information Governance.
+-	All data must be accessed and processed through the Data Science secure data environment.
+-	Also request any relevant metadata, data dictionaries and data quality profiles.
 
-For the DALP database:
 
-- access to the data needed for each initiative is issued by the DALL data holder and team manager
-- send an email to the data holder (copying in the team manager) specifiying the tables that you need access to
-- they will confirm and provide the data from the DALP Oracle database
+## Initial data understanding
 
-For the DWCP database:
+Initial data understanding will help you to understand what is possible with the data including any anomalies, caveats, and quality issues.
 
-- you must submit a service request to access the data that you require
-- the data may be provided direct from its source (if possible)
-- if the data is in DWCP and you think it is worthwhile to have it in DALP, you can request this
+-	Use data documentation and identify data SMEs (within the services and/or central MI or Data Services) who will support you to understand what fields are available and their suitability.
+-	Initial exploratory data analysis will also help you to get a better feel for the data in terms of its quality and suitability and what data preparation might be required.
+- Should documentation not exist, you may wish to record:
+  -	a summary of what each column represents
+  -	the number of missing records
+  -	the number of errors
+  -	if applicable, the logic used to calculate the column 
 
-Advice on how to request data from both sources can be found within the DALL OneNote Wiki.
+
+ Combined with business understanding, this initial analysis will help to:
+
+-	inform the problem definition (PD)
+-	inform conversations with the customer of what is possible and not possible to achieve during the initiative
+-	identify other interesting research questions with the customer and explore if these are worth pursuing
+
 
 ## Usage
-- Data stored within DALP is typically static.
-- Data stored within DWCP is updated on a regular basis.
-- If repeating work on a regular basis data stored within DWCP is usually more suitable.
-- Take care using DWCP as SQL queries may slow down production systems.
-- If data is stored outside of the database it must be stored securely.
-- Never store data locally on a laptop.
-- Storing data securely in SharePoint is acceptable.
 
-Further advice on usage of DALP and DWCP can be found within the DALL OneNote Wiki.
 
-  
-  
+Further advice on usage of specific databases can be found within the internal Data Science OneNote Wiki.

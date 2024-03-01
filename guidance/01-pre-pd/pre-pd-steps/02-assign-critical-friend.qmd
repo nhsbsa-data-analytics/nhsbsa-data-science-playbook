@@ -5,15 +5,15 @@ image: 02-assign-critical-friend.jpg
 ---
 
 ## What is a critical friend?
-- Typical DALL initiatives involve 1-2 people working on the project.
+- Typical Data Science initiatives involve 1-2 people working on the project.
 - For each project a "critical friend" is assigned.
 - A critical friend reviews the code and/or business understanding.
 - They can also attend meetings, check documents and provide extra support and guidance throughout the initiative.
 
 ## Assigning a critical friend
 - Assign a critical friend **as early as possible**.
-- Critical friends are assigned by the project members or the DALL team manager.
-- The DALL manager knows who is available and has valuable knowledge related to the upcoming project.
+- Critical friends are assigned by the project members or the Data Science Lead.
+- The Data Science Lead knows who is available and has valuable knowledge related to the upcoming project.
 - Ideally, a critical friend should have prior experience with similar data or techniques.
 - If you are an area expert, you can choose a new team member as the critical friend so they can gain experience.
 

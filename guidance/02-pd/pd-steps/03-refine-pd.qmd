@@ -5,34 +5,7 @@ image: 03-refine-pd.jpg
 image-alt: Photo by Emily Morter on Unsplash
 ---
 
-## What is a problem definition?
-- An agreement between the assignees and the customer(s).
-- It defines a set of goals that everyone agrees on **before** work begins.
-- It protects both parties further down the line.
-- It should be stored within the SharePoint folder for reference.
-
-As part of writing the problem definition, you will need to include:
-
-- some background information about the area
-- what it is that needs to be solved
-- how we intend to solve the problem
-- any limitations and caveats, if they exist
-- what tools and data we will use
-- any data governance considerations, if they are applicable
-
-## Tips for writing a problem definition
-- During this process, you will need to tell them what sensitive data you are using.
-- Explain how you intend to use the data.
-- For sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team **before** you start the work.
-- Ensure the customer understands the aim by providing plenty of detail.
-- Honestly assess time frames and relay these to the customer.
-- Your critical friend and DALL team manager can assist with this process.
-
-For more information, please see the DALL Wiki.
-
-Throughout the process, your critical friend will review the problem definition to check:
-
-- if you understood the customer's request correctly
-- if your plans to solve the problems are appropriate
-
-Also, make sure to share the problem definition with the customer(s) to get their feedback, understand their business needs, and make sure you have addressed all their requests.
+-	It is important to repeat the problem definition loop again until the customer is happy to proceed.
+-	In rare cases, this meeting may highlight that the initiative may not be possible in the way that the customer initially intended.
+-	Unless any suitable alternatives are identified, we may need to give up on the project.
+-	In this case, you **must** discuss your concerns with the Data Science Lead before communicating this with the customer.

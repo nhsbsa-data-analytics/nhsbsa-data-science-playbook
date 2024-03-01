@@ -1,18 +1,19 @@
 ---
-title: "Initial research and look at previous iterations"
+title: "Desk Research and Business Understanding"
 description: "Look at previous work conducted by the team to gain inspiration."
 image: 04-initial-research.jpg
 ---
 
-If you have the data, analysing it for insights and limitations will help you understand what is possible for the initiative.
+Desk research and business understanding will help you understand what is possible for the initiative and ensure the work is not duplicated.
 
 To assist your work you could use:
 
-- previous initiatives for inspiration
-- JIRA as a source of information on previous initiatives
-- other team members and your critical friend to help develop business knowledge
-- online resources like Stack Overflow and Medium for further inspiration
-- research papers for technical and machine learning projects
-- DataCamp to complete relevant courses
+-	JIRA as a reference to previous initiatives
+-	reports and other outputs from previous initiatives in the project folders 
+-	other team members, business SMEs and your critical friend to help develop business knowledge
+-	internal and external online resources which may describe the service, policy or other aspects relevant to understanding context
+-	externally or internal published statistics, data or dashboards relevant to the subject. They may also later be a source for validation and ensuring coherence.
+-	resources to support with methodology such as Github repositories,  Stack Overflow, Medium and research papers 
+-	DataCamp to complete relevant courses
 
-This is a guide of what is possible and is dependent on the current project's requirements.
+This is a guide of what is possible and is dependent on the current project’s requirements.

@@ -1,34 +1,41 @@
 ---
-title: "Data and business understanding"
-description: "Further your business knowledge and understanding of the data, to update the problem definition."
+title: "Writing the Problem Definition"
+description: "Begin to write a draft of your problem definition by including a range of information about the problem."
 image: 01-data-business-understanding.jpg
 image-alt: Photo by Emily Morter on Unsplash
 ---
 
-Provided that you have access to the data you need, you should start to interrogate it by:
+## What is a problem definition?
 
-  - using a spreadsheet to document all anomalies, caveats, and quality issues
-  - communicating data quality issues with the customer
+-	An agreement between the Data Scientists and the customer(s).
+-	It defines a set of goals that everyone agrees on before work begins.
+-	It ensures there is a common understanding.
+-	It should be stored within the SharePoint folder for reference.
 
-Good data documentation could include:
+As part of writing the problem definition, you will need to include:
 
-  - a summary of what each column represents
-  - the number of missing records
-  - the number of errors
-  - if applicable, the logic used to calculate the column
+-	some background information about the area
+-	what it is that needs to be solved
+-	how we intend to solve the problem
+-	any limitations and caveats, if they exist
+-	what tools and data we will use
+-	any information governance and ethical considerations, if they are applicable
 
-After interrogating the data you should:
+## Tips for writing a problem definition
 
-- update the limitations section of the problem definition (PD)
-- inform the customer of what is possible and not possible to achieve during the initiative
-- discuss other interesting research questions with the customer and explore if these are worth pursuing
+-	During this process, you will need to tell them what sensitive data you are using.
+-	Explain how you intend to use the data.
+-	For sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team **before** you start the work. 
+-	Ensure the customer understands the aim by providing plenty of detail.
+-	Honestly assess time frames and relay these to the customer.
+-	Your critical friend and DALL team manager can assist with this process.
 
-## Tips for gaining understanding
-- It is a good idea to keep a list of all questions you have with the data.
-- For further insight, check JIRA and ask around to see if anyone has explored this data before.
-- The Critical friend and team manager can also provide assistance.
 
-Finally, it is possible that other analytical teams within the BSA have worked with the data before and may be able to offer insight.
+For more information, please see the internal Data Science One Note Wiki.
 
-- The Management Information (MI) team produce a range of dashboards in a variety of areas.
-- The External Reporting team manage the ePACT2 (prescriptions), eDEN (dental) and eOPS (ophthalmic) systems.
+Throughout the process, your critical friend will review the problem definition to check:
+
+-	if you understood the customer’s request correctly
+-	if your plans to solve the problems are appropriate
+
+Also, make sure to share the problem definition with the customer(s) to get their feedback, understand their business needs, and make sure you have addressed all their requests.
