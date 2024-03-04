@@ -22,7 +22,6 @@ image-alt: Photo by Alexander Grey on Unsplash
 - Create a config file with key parameters and filters that are referenced throughout the project.
 - Identify bottlenecks and optimise the code.
 - Ensure key tables within the database are available to the wider team.
-- A common location to store the tables is the DALL_REF schema.
 - Remove personal tables from your own database schema after the project has concluded.
 - This is especially important for personally identifiable information.
 

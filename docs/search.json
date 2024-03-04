@@ -380,7 +380,7 @@
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html",
     "href": "guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html",
-    "title": "Meeting with the customer",
+    "title": "Meeting with the Customer",
     "section": "",
     "text": "It is important to meet with the customer to discuss requirements. This may happen before and/or after you develop initial business and data understanding. During this meeting, you can identify:"
   },
@@ -667,7 +667,7 @@
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html#general-considerations",
     "href": "guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html#general-considerations",
-    "title": "Meeting with the customer",
+    "title": "Meeting with the Customer",
     "section": "General considerations",
     "text": "General considerations\n\nIf you have any questions for the customer send them prior to the meeting. If you encountered any data issues, some examples could also help them prepare answers.\nIf the work is particularly urgent, more colleagues and resource can be assigned accordingly.\nSome customers will have busy schedules so it is important to setup the meeting in advance so the project can progress.\nYour critical friend should attend the meeting to share knowledge and be clear on the scope of the project.\nDocument any actions agreed at the meeting.\nSet up recurring follow up meetings at regular intervals.\nAny open questions following the meeting should be chased using either Teams or email."
   },
@@ -690,7 +690,7 @@
     "href": "guidance/04-wrap-up/wrap-up-steps/01-clean-up.html#general-considerations",
     "title": "Wrap up and clean your code",
     "section": "General considerations",
-    "text": "General considerations\n\nWork with the mindset that all work could be make public.\nSmall and precise commits are better than large ones.\nMaintain a clear project structure with clean scripts.\nSeparate data, scripts and output into their own sub-directories.\nMove custom functions into their own script.\nDelete stale git branches or merge them into main.\nStreamline the codebase.\nCreate a config file with key parameters and filters that are referenced throughout the project.\nIdentify bottlenecks and optimise the code.\nEnsure key tables within the database are available to the wider team.\nA common location to store the tables is the DALL_REF schema.\nRemove personal tables from your own database schema after the project has concluded.\nThis is especially important for personally identifiable information.\n\nPlease refer to the DALL OneNote Wiki for more information on cleaning your code."
+    "text": "General considerations\n\nWork with the mindset that all work could be make public.\nSmall and precise commits are better than large ones.\nMaintain a clear project structure with clean scripts.\nSeparate data, scripts and output into their own sub-directories.\nMove custom functions into their own script.\nDelete stale git branches or merge them into main.\nStreamline the codebase.\nCreate a config file with key parameters and filters that are referenced throughout the project.\nIdentify bottlenecks and optimise the code.\nEnsure key tables within the database are available to the wider team.\nRemove personal tables from your own database schema after the project has concluded.\nThis is especially important for personally identifiable information.\n\nPlease refer to the DALL OneNote Wiki for more information on cleaning your code."
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/01-problem-identified.html#identifying-a-problem",
@@ -725,7 +725,7 @@
     "href": "guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.html#setting-up-the-resources",
     "title": "Create Initiative Resources",
     "section": "Setting up the resources",
-    "text": "Setting up the resources\n\nIdentify the DALL initiative number using JIRA.\nRemember to set the new GitHub repository to private.\nInvite all DALL team members as collaborators.\nCode should be written with the intention that it will be made public.\nBe careful not to include PII information within the code, such as NHS numbers.\n\nFurther guidance on setting up resources can be found on the DALL OneNote Wiki.\nAfter creating all resources, remember to:\n\nprovide regular updates to the JIRA ticket\nregularly push code additions and alterations to the GitHub repository"
+    "text": "Setting up the resources\n\nIdentify the Data Science initiative number using JIRA.\nRemember to set the new GitHub repository to private.\nInvite all relevant Data Science team members as collaborators.\nCode should be written with the intention that it will be made public.\n\nFurther guidance on setting up resources can be found on the internal Data Science OneNote Wiki.\nAfter creating all resources, remember to:\n\nprovide regular updates to the JIRA ticket\nregularly push code additions and alterations to the GitHub repository"
   },
   {
     "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#tips-for-effective-analysis",
