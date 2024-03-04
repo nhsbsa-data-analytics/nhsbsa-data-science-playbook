@@ -775,5 +775,47 @@
     "title": "Writing the Problem Definition",
     "section": "Tips for writing a problem definition",
     "text": "Tips for writing a problem definition\n\nDuring this process, you will need to tell them what sensitive data you are using.\nExplain how you intend to use the data.\nFor sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team before you start the work.\nEnsure the customer understands the aim by providing plenty of detail.\nHonestly assess time frames and relay these to the customer.\nYour critical friend and DALL team manager can assist with this process.\n\nFor more information, please see the internal Data Science One Note Wiki.\nThroughout the process, your critical friend will review the problem definition to check:\n\nif you understood the customer’s request correctly\nif your plans to solve the problems are appropriate\n\nAlso, make sure to share the problem definition with the customer(s) to get their feedback, understand their business needs, and make sure you have addressed all their requests."
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html",
+    "title": "Hypothesis identified",
+    "section": "",
+    "text": "The Data Science team deliver actionable insights from data through innovation, experimentation and collaboration. The insights drive policy, decision making and efficiencies across the NHSBSA and wider health and social care system. Projects typically align to the following areas:"
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html#identifying-a-problem",
+    "href": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html#identifying-a-problem",
+    "title": "Hypothesis identified",
+    "section": "Identifying a problem",
+    "text": "Identifying a problem\n\nProjects can be identified by Data Science team members, an internal NHSBSA customer, an external customer or recommendations from previous work.\nThey may also be identified through collaborative ideas sessions we run with other teams.\nCustomers can request work through nhsbsa.dall@nhs.net.\nThe Data Science Lead reviews projects for suitability in terms of scope and appropriateness, as well as any ethical implications. Projects may be triaged to other teams if not suitable.\nThe Data Science Lead normally assigns initiatives to team members.\nThe Data Science team can log ideas for projects on the ideas register."
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/04-desk-research.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/04-desk-research.html",
+    "title": "Desk Research and Business Understanding",
+    "section": "",
+    "text": "Desk research and business understanding will help you understand what is possible for the initiative and ensure the work is not duplicated.\nTo assist your work you could use:\n\nJIRA as a reference to previous initiatives\nreports and other outputs from previous initiatives in the project folders\nother team members, business SMEs and your critical friend to help develop business knowledge\ninternal and external online resources which may describe the service, policy or other aspects relevant to understanding context\nexternally or internal published statistics, data or dashboards relevant to the subject. They may also later be a source for validation and ensuring coherence.\nresources to support with methodology such as Github repositories, Stack Overflow, Medium and research papers\nDataCamp to complete relevant courses\n\nThis is a guide of what is possible and is dependent on the current project’s requirements."
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-writing-problem-definition.html",
+    "href": "guidance/02-pd/pd-steps/01-writing-problem-definition.html",
+    "title": "Writing the Problem Definition",
+    "section": "",
+    "text": "An agreement between the Data Scientists and the customer(s).\nIt defines a set of goals that everyone agrees on before work begins.\nIt ensures there is a common understanding.\nIt should be stored within the SharePoint folder for reference.\n\nAs part of writing the problem definition, you will need to include:\n\nsome background information about the area\nwhat it is that needs to be solved\nhow we intend to solve the problem\nany limitations and caveats, if they exist\nwhat tools and data we will use\nany information governance and ethical considerations, if they are applicable"
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#what-is-a-problem-definition",
+    "href": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#what-is-a-problem-definition",
+    "title": "Writing the Problem Definition",
+    "section": "",
+    "text": "An agreement between the Data Scientists and the customer(s).\nIt defines a set of goals that everyone agrees on before work begins.\nIt ensures there is a common understanding.\nIt should be stored within the SharePoint folder for reference.\n\nAs part of writing the problem definition, you will need to include:\n\nsome background information about the area\nwhat it is that needs to be solved\nhow we intend to solve the problem\nany limitations and caveats, if they exist\nwhat tools and data we will use\nany information governance and ethical considerations, if they are applicable"
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#tips-for-writing-a-problem-definition",
+    "href": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#tips-for-writing-a-problem-definition",
+    "title": "Writing the Problem Definition",
+    "section": "Tips for writing a problem definition",
+    "text": "Tips for writing a problem definition\n\nDuring this process, you will need to tell them what sensitive data you are using.\nExplain how you intend to use the data.\nFor sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team before you start the work.\nEnsure the customer understands the aim by providing plenty of detail.\nHonestly assess time frames and relay these to the customer.\nYour critical friend and DALL team manager can assist with this process.\n\nFor more information, please see the internal Data Science One Note Wiki.\nThroughout the process, your critical friend will review the problem definition to check:\n\nif you understood the customer’s request correctly\nif your plans to solve the problems are appropriate\n\nAlso, make sure to share the problem definition with the customer(s) to get their feedback, understand their business needs, and make sure you have addressed all their requests."
   }
 ]

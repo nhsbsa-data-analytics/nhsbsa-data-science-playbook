@@ -1,7 +1,7 @@
 ---
 title: "Desk Research and Business Understanding"
 description: "Look at previous work conducted by the team to gain inspiration."
-image: 04-initial-research.jpg
+image: 04-desk-research.jpg
 ---
 
 Desk research and business understanding will help you understand what is possible for the initiative and ensure the work is not duplicated.

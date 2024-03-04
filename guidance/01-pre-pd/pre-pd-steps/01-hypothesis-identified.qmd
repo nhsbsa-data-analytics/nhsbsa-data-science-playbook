@@ -1,7 +1,7 @@
 ---
 title: "Hypothesis identified"
 description: "Investigate an initiative to work on for internal NHSBSA customer, or an external customer."
-image: 01-problem-identified.jpg
+image: 01-hypothesis-identified.jpg
 ---
 
 The Data Science team deliver [actionable insights](https://www.nhsbsa.nhs.uk/data-science-projects) from data through **innovation**, **experimentation** and **collaboration**. The insights drive policy, decision making and efficiencies across the NHSBSA and wider health and social care system. Projects typically align to the following areas:
