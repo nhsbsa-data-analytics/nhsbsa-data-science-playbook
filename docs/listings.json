@@ -11,10 +11,10 @@
   {
     "listing": "/guidance/01-pre-pd/index.html",
     "items": [
-      "/guidance/01-pre-pd/pre-pd-steps/01-problem-identified.html",
+      "/guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html",
       "/guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html",
       "/guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html",
-      "/guidance/01-pre-pd/pre-pd-steps/04-initial-research.html",
+      "/guidance/01-pre-pd/pre-pd-steps/04-desk-research.html",
       "/guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html",
       "/guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.html"
     ]
@@ -22,7 +22,7 @@
   {
     "listing": "/guidance/02-pd/index.html",
     "items": [
-      "/guidance/02-pd/pd-steps/01-data-business-understanding.html",
+      "/guidance/02-pd/pd-steps/01-writing-problem-definition.html",
       "/guidance/02-pd/pd-steps/02-customer-feedback.html",
       "/guidance/02-pd/pd-steps/03-refine-pd.html",
       "/guidance/02-pd/pd-steps/04-estimate-timescales.html"

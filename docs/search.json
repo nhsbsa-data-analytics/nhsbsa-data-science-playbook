@@ -331,23 +331,23 @@
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/01-problem-identified.html",
     "href": "guidance/01-pre-pd/pre-pd-steps/01-problem-identified.html",
-    "title": "Problem identified",
+    "title": "Hypothesis identified",
     "section": "",
-    "text": "This could be identified by the DALL team, an internal NHSBSA customer, or an external customer.\nFor NHSBSA and external customers, initiatives are logged through nhsbsa.dall@nhs.net before work begins.\nThe DALL team manager normally assigns initiatives to team members.\nInternal ideas can come from the ideas register, exploratory project, or another source.\nFor internal projects the DALL manager acts as the customer.\nExternal or other internal NHSBSA customers can be assigned if it is within the scope of their role."
+    "text": "The Data Science team deliver actionable insights from data through innovation, experimentation and collaboration. The insights drive policy, decision making and efficiencies across the NHSBSA and wider health and social care system. Projects typically align to the following areas:"
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html",
     "href": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html",
     "title": "Assign a critical friend",
     "section": "",
-    "text": "Typical DALL initiatives involve 1-2 people working on the project.\nFor each project a “critical friend” is assigned.\nA critical friend reviews the code and/or business understanding.\nThey can also attend meetings, check documents and provide extra support and guidance throughout the initiative."
+    "text": "Typical Data Science initiatives involve 1-2 people working on the project.\nFor each project a “critical friend” is assigned.\nA critical friend reviews the code and/or business understanding.\nThey can also attend meetings, check documents and provide extra support and guidance throughout the initiative."
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#what-is-a-critical-friend",
     "href": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#what-is-a-critical-friend",
     "title": "Assign a critical friend",
     "section": "",
-    "text": "Typical DALL initiatives involve 1-2 people working on the project.\nFor each project a “critical friend” is assigned.\nA critical friend reviews the code and/or business understanding.\nThey can also attend meetings, check documents and provide extra support and guidance throughout the initiative."
+    "text": "Typical Data Science initiatives involve 1-2 people working on the project.\nFor each project a “critical friend” is assigned.\nA critical friend reviews the code and/or business understanding.\nThey can also attend meetings, check documents and provide extra support and guidance throughout the initiative."
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#tips-for-working-with-your-critical-friend",
@@ -359,30 +359,30 @@
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html",
     "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html",
-    "title": "Get access to the data",
+    "title": "Get access to the data and undertake initial understanding",
     "section": "",
-    "text": "If you don’t have access to the data already, you will need to request access.\nFor the DALP database:\n\naccess to the data needed for each initiative is issued by the DALL data holder and team manager\nsend an email to the data holder (copying in the team manager) specifiying the tables that you need access to\nthey will confirm and provide the data from the DALP Oracle database\n\nFor the DWCP database:\n\nyou must submit a service request to access the data that you require\nthe data may be provided direct from its source (if possible)\nif the data is in DWCP and you think it is worthwhile to have it in DALP, you can request this\n\nAdvice on how to request data from both sources can be found within the DALL OneNote Wiki."
+    "text": "Temporary access must be requested via email or a service request and is subject to approval from the Data Science Lead, Database administrators and/or Data Asset Owner.\nShould sensitive data be needed, there may also be a requirement to engage with the Caldicott Guardian and/or Information Governance.\nAll data must be accessed and processed through the Data Science secure data environment.\nAlso request any relevant metadata, data dictionaries and data quality profiles."
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#usage",
     "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#usage",
-    "title": "Get access to the data",
+    "title": "Get access to the data and undertake initial understanding",
     "section": "Usage",
-    "text": "Usage\n\nData stored within DALP is typically static.\nData stored within DWCP is updated on a regular basis.\nIf repeating work on a regular basis data stored within DWCP is usually more suitable.\nTake care using DWCP as SQL queries may slow down production systems.\nIf data is stored outside of the database it must be stored securely.\nNever store data locally on a laptop.\nStoring data securely in SharePoint is acceptable.\n\nFurther advice on usage of DALP and DWCP can be found within the DALL OneNote Wiki."
+    "text": "Usage\nFurther advice on usage of specific databases can be found within the internal Data Science OneNote Wiki."
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/04-initial-research.html",
     "href": "guidance/01-pre-pd/pre-pd-steps/04-initial-research.html",
-    "title": "Initial research and look at previous iterations",
+    "title": "Desk Research and Business Understanding",
     "section": "",
-    "text": "If you have the data, analysing it for insights and limitations will help you understand what is possible for the initiative.\nTo assist your work you could use:\n\nprevious initiatives for inspiration\nJIRA as a source of information on previous initiatives\nother team members and your critical friend to help develop business knowledge\nonline resources like Stack Overflow and Medium for further inspiration\nresearch papers for technical and machine learning projects\nDataCamp to complete relevant courses\n\nThis is a guide of what is possible and is dependent on the current project’s requirements."
+    "text": "Desk research and business understanding will help you understand what is possible for the initiative and ensure the work is not duplicated.\nTo assist your work you could use:\n\nJIRA as a reference to previous initiatives\nreports and other outputs from previous initiatives in the project folders\nother team members, business SMEs and your critical friend to help develop business knowledge\ninternal and external online resources which may describe the service, policy or other aspects relevant to understanding context\nexternally or internal published statistics, data or dashboards relevant to the subject. They may also later be a source for validation and ensuring coherence.\nresources to support with methodology such as Github repositories, Stack Overflow, Medium and research papers\nDataCamp to complete relevant courses\n\nThis is a guide of what is possible and is dependent on the current project’s requirements."
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html",
     "href": "guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html",
-    "title": "Meeting with the customer",
+    "title": "Meeting with the Customer",
     "section": "",
-    "text": "It is important to meet with the customer once you have developed an initial understanding of the data. During this meeting, you can identify:\nThis meeting is important, as it can help to refine the problem definition within section 2."
+    "text": "It is important to meet with the customer to discuss requirements. This may happen before and/or after you develop initial business and data understanding. During this meeting, you can identify:"
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.html",
@@ -408,9 +408,9 @@
   {
     "objectID": "guidance/02-pd/pd-steps/01-data-business-understanding.html",
     "href": "guidance/02-pd/pd-steps/01-data-business-understanding.html",
-    "title": "Data and business understanding",
+    "title": "Writing the Problem Definition",
     "section": "",
-    "text": "Provided that you have access to the data you need, you should start to interrogate it by:\nGood data documentation could include:\nAfter interrogating the data you should:"
+    "text": "An agreement between the Data Scientists and the customer(s).\nIt defines a set of goals that everyone agrees on before work begins.\nIt ensures there is a common understanding.\nIt should be stored within the SharePoint folder for reference.\n\nAs part of writing the problem definition, you will need to include:\n\nsome background information about the area\nwhat it is that needs to be solved\nhow we intend to solve the problem\nany limitations and caveats, if they exist\nwhat tools and data we will use\nany information governance and ethical considerations, if they are applicable"
   },
   {
     "objectID": "guidance/02-pd/pd-steps/01-data-business-understanding.html#tips-for-gaining-understanding",
@@ -431,7 +431,7 @@
     "href": "guidance/02-pd/pd-steps/03-refine-pd.html",
     "title": "Refine the problem definition",
     "section": "",
-    "text": "An agreement between the assignees and the customer(s).\nIt defines a set of goals that everyone agrees on before work begins.\nIt protects both parties further down the line.\nIt should be stored within the SharePoint folder for reference.\n\nAs part of writing the problem definition, you will need to include:\n\nsome background information about the area\nwhat it is that needs to be solved\nhow we intend to solve the problem\nany limitations and caveats, if they exist\nwhat tools and data we will use\nany data governance considerations, if they are applicable"
+    "text": "It is important to repeat the problem definition loop again until the customer is happy to proceed.\nIn rare cases, this meeting may highlight that the initiative may not be possible in the way that the customer initially intended.\nUnless any suitable alternatives are identified, we may need to give up on the project.\nIn this case, you must discuss your concerns with the Data Science Lead before communicating this with the customer."
   },
   {
     "objectID": "guidance/02-pd/pd-steps/03-refine-pd.html#what-is-a-problem-definition",
@@ -667,9 +667,9 @@
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html#general-considerations",
     "href": "guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html#general-considerations",
-    "title": "Meeting with the customer",
+    "title": "Meeting with the Customer",
     "section": "General considerations",
-    "text": "General considerations\n\nIf you have any questions for the customer send them prior to the meeting. If you encountered any data issues, some examples could also help them prepare answers.\nIf the work is particularly urgent, more colleagues and resource can be assigned accordingly.\nSome customers will have busy schedules so it is important to setup the meeting in advance so the project can progress.\nThe critical friend should attend the meeting to share knowledge and be clear on the scope of the project.\nSet up recurring follow up meetings at regular intervals.\nAny open questions following the meeting should be chased using either Teams or email."
+    "text": "General considerations\n\nIf you have any questions for the customer send them prior to the meeting. If you encountered any data issues, some examples could also help them prepare answers.\nIf the work is particularly urgent, more colleagues and resource can be assigned accordingly.\nSome customers will have busy schedules so it is important to setup the meeting in advance so the project can progress.\nYour critical friend should attend the meeting to share knowledge and be clear on the scope of the project.\nDocument any actions agreed at the meeting.\nSet up recurring follow up meetings at regular intervals.\nAny open questions following the meeting should be chased using either Teams or email."
   },
   {
     "objectID": "guidance/02-pd/pd-steps/02-customer-feedback.html#refining-the-problem-definition",
@@ -690,21 +690,21 @@
     "href": "guidance/04-wrap-up/wrap-up-steps/01-clean-up.html#general-considerations",
     "title": "Wrap up and clean your code",
     "section": "General considerations",
-    "text": "General considerations\n\nWork with the mindset that all work could be make public.\nSmall and precise commits are better than large ones.\nMaintain a clear project structure with clean scripts.\nSeparate data, scripts and output into their own sub-directories.\nMove custom functions into their own script.\nDelete stale git branches or merge them into main.\nStreamline the codebase.\nCreate a config file with key parameters and filters that are referenced throughout the project.\nIdentify bottlenecks and optimise the code.\nEnsure key tables within the database are available to the wider team.\nA common location to store the tables is the DALL_REF schema.\nRemove personal tables from your own database schema after the project has concluded.\nThis is especially important for personally identifiable information.\n\nPlease refer to the DALL OneNote Wiki for more information on cleaning your code."
+    "text": "General considerations\n\nWork with the mindset that all work could be make public.\nSmall and precise commits are better than large ones.\nMaintain a clear project structure with clean scripts.\nSeparate data, scripts and output into their own sub-directories.\nMove custom functions into their own script.\nDelete stale git branches or merge them into main.\nStreamline the codebase.\nCreate a config file with key parameters and filters that are referenced throughout the project.\nIdentify bottlenecks and optimise the code.\nEnsure key tables within the database are available to the wider team.\nRemove personal tables from your own database schema after the project has concluded.\nThis is especially important for personally identifiable information.\n\nPlease refer to the DALL OneNote Wiki for more information on cleaning your code."
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/01-problem-identified.html#identifying-a-problem",
     "href": "guidance/01-pre-pd/pre-pd-steps/01-problem-identified.html#identifying-a-problem",
-    "title": "Problem identified",
-    "section": "",
-    "text": "This could be identified by the DALL team, an internal NHSBSA customer, or an external customer.\nFor NHSBSA and external customers, initiatives are logged through nhsbsa.dall@nhs.net before work begins.\nThe DALL team manager normally assigns initiatives to team members.\nInternal ideas can come from the ideas register, exploratory project, or another source.\nFor internal projects the DALL manager acts as the customer.\nExternal or other internal NHSBSA customers can be assigned if it is within the scope of their role."
+    "title": "Hypothesis identified",
+    "section": "Identifying a problem",
+    "text": "Identifying a problem\n\nProjects can be identified by Data Science team members, an internal NHSBSA customer, an external customer or recommendations from previous work.\nThey may also be identified through collaborative ideas sessions we run with other teams.\nCustomers can request work through nhsbsa.dall@nhs.net.\nThe Data Science Lead reviews projects for suitability in terms of scope and appropriateness, as well as any ethical implications. Projects may be triaged to other teams if not suitable.\nThe Data Science Lead normally assigns initiatives to team members.\nThe Data Science team can log ideas for projects on the ideas register."
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#assigning-a-critical-friend",
     "href": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#assigning-a-critical-friend",
     "title": "Assign a critical friend",
     "section": "Assigning a critical friend",
-    "text": "Assigning a critical friend\n\nAssign a critical friend as early as possible.\nCritical friends are assigned by the project members or the DALL team manager.\nThe DALL manager knows who is available and has valuable knowledge related to the upcoming project.\nIdeally, a critical friend should have prior experience with similar data or techniques.\nIf you are an area expert, you can choose a new team member as the critical friend so they can gain experience."
+    "text": "Assigning a critical friend\n\nAssign a critical friend as early as possible.\nCritical friends are assigned by the project members or the Data Science Lead.\nThe Data Science Lead knows who is available and has valuable knowledge related to the upcoming project.\nIdeally, a critical friend should have prior experience with similar data or techniques.\nIf you are an area expert, you can choose a new team member as the critical friend so they can gain experience."
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#working-with-your-critical-friend",
@@ -725,7 +725,7 @@
     "href": "guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.html#setting-up-the-resources",
     "title": "Create Initiative Resources",
     "section": "Setting up the resources",
-    "text": "Setting up the resources\n\nIdentify the DALL initiative number using JIRA.\nRemember to set the new GitHub repository to private.\nInvite all DALL team members as collaborators.\nCode should be written with the intention that it will be made public.\nBe careful not to include PII information within the code, such as NHS numbers.\n\nFurther guidance on setting up resources can be found on the DALL OneNote Wiki.\nAfter creating all resources, remember to:\n\nprovide regular updates to the JIRA ticket\nregularly push code additions and alterations to the GitHub repository"
+    "text": "Setting up the resources\n\nIdentify the Data Science initiative number using JIRA.\nRemember to set the new GitHub repository to private.\nInvite all relevant Data Science team members as collaborators.\nCode should be written with the intention that it will be made public.\n\nFurther guidance on setting up resources can be found on the internal Data Science OneNote Wiki.\nAfter creating all resources, remember to:\n\nprovide regular updates to the JIRA ticket\nregularly push code additions and alterations to the GitHub repository"
   },
   {
     "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#tips-for-effective-analysis",
@@ -740,5 +740,82 @@
     "title": "Make the Repository Public (If Applicable) - Alternate Page",
     "section": "",
     "text": "Where applicable, we aim to generate reproducible code that is made open source. This is in line with guidance outlined in the government service manual.\nBefore making a repository public, please consider the risks.\nYou must check the repository does not compromise data security before making it public.\n\n\n\n\n\n\nGit commit history\n\n\n\n\n\nYour git commit history will be made public.\n\n\n\nGit messages can be changed but it is advised that you follow good commit practice.\n\n\nEach commit should be limited to a single change.\n\n\nCommit history can be removed but it is not recommended as we strive to be transparent.\n\n\n\n\n\n\n\n\n\n\n\nNever expose Personally Identifiable Information (PII) on GitHub\n\n\n\n\n\nMake sure that you never push Personally Identifiable Information (PII) to the GitHub repository.\n\n\n\nUse Git Leaks to reduce the risk of pushing PII to Git.\n\n\nNever write PII directly in R scripts.\n\n\nAlways reference PII from the database."
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#accessing-data",
+    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#accessing-data",
+    "title": "Get access to the data and undertake initial understanding",
+    "section": "",
+    "text": "Temporary access must be requested via email or a service request and is subject to approval from the Data Science Lead, Database administrators and/or Data Asset Owner.\nShould sensitive data be needed, there may also be a requirement to engage with the Caldicott Guardian and/or Information Governance.\nAll data must be accessed and processed through the Data Science secure data environment.\nAlso request any relevant metadata, data dictionaries and data quality profiles."
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#initial-data-understanding",
+    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#initial-data-understanding",
+    "title": "Get access to the data and undertake initial understanding",
+    "section": "Initial data understanding",
+    "text": "Initial data understanding\nInitial data understanding will help you to understand what is possible with the data including any anomalies, caveats, and quality issues.\n\nUse data documentation and identify data SMEs (within the services and/or central MI or Data Services) who will support you to understand what fields are available and their suitability.\nInitial exploratory data analysis will also help you to get a better feel for the data in terms of its quality and suitability and what data preparation might be required.\nShould documentation not exist, you may wish to record:\n\na summary of what each column represents\nthe number of missing records\nthe number of errors\nif applicable, the logic used to calculate the column\n\n\nCombined with business understanding, this initial analysis will help to:\n\ninform the problem definition (PD)\ninform conversations with the customer of what is possible and not possible to achieve during the initiative\nidentify other interesting research questions with the customer and explore if these are worth pursuing"
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#tips-for-gaining-understanding",
+    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#tips-for-gaining-understanding",
+    "title": "Get access to the data and undertake initial understanding",
+    "section": "Tips for gaining understanding",
+    "text": "Tips for gaining understanding\n\nIt is a good idea to keep a list of all questions you have with the data.\nFor further insight, check JIRA and ask around to see if anyone has explored this data before.\nThe Critical friend and team manager can also provide assistance.\n\nFinally, it is possible that other analytical teams within the BSA have worked with the data before and may be able to offer insight.\n\nThe Management Information (MI) team produce a range of dashboards in a variety of areas.\nThe External Reporting team manage the ePACT2 (prescriptions), eDEN (dental) and eOPS (ophthalmic) systems."
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-data-business-understanding.html#what-is-a-problem-definition",
+    "href": "guidance/02-pd/pd-steps/01-data-business-understanding.html#what-is-a-problem-definition",
+    "title": "Writing the Problem Definition",
+    "section": "",
+    "text": "An agreement between the Data Scientists and the customer(s).\nIt defines a set of goals that everyone agrees on before work begins.\nIt ensures there is a common understanding.\nIt should be stored within the SharePoint folder for reference.\n\nAs part of writing the problem definition, you will need to include:\n\nsome background information about the area\nwhat it is that needs to be solved\nhow we intend to solve the problem\nany limitations and caveats, if they exist\nwhat tools and data we will use\nany information governance and ethical considerations, if they are applicable"
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-data-business-understanding.html#tips-for-writing-a-problem-definition",
+    "href": "guidance/02-pd/pd-steps/01-data-business-understanding.html#tips-for-writing-a-problem-definition",
+    "title": "Writing the Problem Definition",
+    "section": "Tips for writing a problem definition",
+    "text": "Tips for writing a problem definition\n\nDuring this process, you will need to tell them what sensitive data you are using.\nExplain how you intend to use the data.\nFor sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team before you start the work.\nEnsure the customer understands the aim by providing plenty of detail.\nHonestly assess time frames and relay these to the customer.\nYour critical friend and DALL team manager can assist with this process.\n\nFor more information, please see the internal Data Science One Note Wiki.\nThroughout the process, your critical friend will review the problem definition to check:\n\nif you understood the customer’s request correctly\nif your plans to solve the problems are appropriate\n\nAlso, make sure to share the problem definition with the customer(s) to get their feedback, understand their business needs, and make sure you have addressed all their requests."
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html",
+    "title": "Hypothesis identified",
+    "section": "",
+    "text": "The Data Science team deliver actionable insights from data through innovation, experimentation and collaboration. The insights drive policy, decision making and efficiencies across the NHSBSA and wider health and social care system. Projects typically align to the following areas:"
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html#identifying-a-problem",
+    "href": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html#identifying-a-problem",
+    "title": "Hypothesis identified",
+    "section": "Identifying a problem",
+    "text": "Identifying a problem\n\nProjects can be identified by Data Science team members, an internal NHSBSA customer, an external customer or recommendations from previous work.\nThey may also be identified through collaborative ideas sessions we run with other teams.\nCustomers can request work through nhsbsa.dall@nhs.net.\nThe Data Science Lead reviews projects for suitability in terms of scope and appropriateness, as well as any ethical implications. Projects may be triaged to other teams if not suitable.\nThe Data Science Lead normally assigns initiatives to team members.\nThe Data Science team can log ideas for projects on the ideas register."
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/04-desk-research.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/04-desk-research.html",
+    "title": "Desk Research and Business Understanding",
+    "section": "",
+    "text": "Desk research and business understanding will help you understand what is possible for the initiative and ensure the work is not duplicated.\nTo assist your work you could use:\n\nJIRA as a reference to previous initiatives\nreports and other outputs from previous initiatives in the project folders\nother team members, business SMEs and your critical friend to help develop business knowledge\ninternal and external online resources which may describe the service, policy or other aspects relevant to understanding context\nexternally or internal published statistics, data or dashboards relevant to the subject. They may also later be a source for validation and ensuring coherence.\nresources to support with methodology such as Github repositories, Stack Overflow, Medium and research papers\nDataCamp to complete relevant courses\n\nThis is a guide of what is possible and is dependent on the current project’s requirements."
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-writing-problem-definition.html",
+    "href": "guidance/02-pd/pd-steps/01-writing-problem-definition.html",
+    "title": "Writing the problem definition",
+    "section": "",
+    "text": "An agreement between the Data Scientists and the customer(s).\nIt defines a set of goals that everyone agrees on before work begins.\nIt ensures there is a common understanding.\nIt should be stored within the SharePoint folder for reference.\n\nAs part of writing the problem definition, you will need to include:\n\nsome background information about the area\nwhat it is that needs to be solved\nhow we intend to solve the problem\nany limitations and caveats, if they exist\nwhat tools and data we will use\nany information governance and ethical considerations, if they are applicable"
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#what-is-a-problem-definition",
+    "href": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#what-is-a-problem-definition",
+    "title": "Writing the problem definition",
+    "section": "",
+    "text": "An agreement between the Data Scientists and the customer(s).\nIt defines a set of goals that everyone agrees on before work begins.\nIt ensures there is a common understanding.\nIt should be stored within the SharePoint folder for reference.\n\nAs part of writing the problem definition, you will need to include:\n\nsome background information about the area\nwhat it is that needs to be solved\nhow we intend to solve the problem\nany limitations and caveats, if they exist\nwhat tools and data we will use\nany information governance and ethical considerations, if they are applicable"
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#tips-for-writing-a-problem-definition",
+    "href": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#tips-for-writing-a-problem-definition",
+    "title": "Writing the problem definition",
+    "section": "Tips for writing a problem definition",
+    "text": "Tips for writing a problem definition\n\nDuring this process, you will need to tell them what sensitive data you are using.\nExplain how you intend to use the data.\nFor sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team before you start the work.\nEnsure the customer understands the aim by providing plenty of detail.\nHonestly assess time frames and relay these to the customer.\nYour critical friend and DALL team manager can assist with this process.\n\nFor more information, please see the internal Data Science One Note Wiki.\nThroughout the process, your critical friend will review the problem definition to check:\n\nif you understood the customer’s request correctly\nif your plans to solve the problems are appropriate\n\nAlso, make sure to share the problem definition with the customer(s) to get their feedback, understand their business needs, and make sure you have addressed all their requests."
   }
 ]

@@ -139,5 +139,14 @@
   },
   "guidance/04-wrap-up/wrap-up-steps/04-public-repository-alt-callouts.qmd": {
     "04-public-repository-alt-callouts.html": "81b9efd4"
+  },
+  "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.qmd": {
+    "01-hypothesis-identified.html": "2c658cff"
+  },
+  "guidance/01-pre-pd/pre-pd-steps/04-desk-research.qmd": {
+    "04-desk-research.html": "cfc3578d"
+  },
+  "guidance/02-pd/pd-steps/01-writing-problem-definition.qmd": {
+    "01-writing-problem-definition.html": "13499485"
   }
 }

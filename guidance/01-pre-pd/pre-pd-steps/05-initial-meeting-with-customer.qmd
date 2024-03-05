@@ -4,21 +4,24 @@ description: "Meet with the customer to understand their expectations for the in
 image: 05-initial-meeting-with-customer.jpg
 ---
 
-It is important to meet with the customer once you have developed an initial understanding of the data. During this meeting, you can identify:
+It is important to meet with the customer to discuss requirements. This may happen before and/or after you develop initial business and data understanding. During this meeting, you can identify:
 
-- what they are looking to do within the initiative
-- what outputs they are expecting to see, in which format
-- any business knowledge or insights they can provide to aid your work
-- any data limitations and possible solutions
-- if there are any additional data sources to be considered
-- the required timescales (if applicable)
-
+-	what they are looking to do within the initiative
+-	what outputs they are expecting to see, in which format
+-	any business knowledge or insights they can provide to aid your work
+-	any data limitations and possible solutions
+-	if there are any additional data sources to be considered
+-	the required timescales 
 This meeting is important, as it can help to refine the problem definition within section 2.
 
+
 ## General considerations
-- If you have any questions for the customer send them prior to the meeting. If you encountered any data issues, some examples could also help them prepare answers.
-- If the work is particularly urgent, more colleagues and resource can be assigned accordingly.
-- Some customers will have busy schedules so it is important to setup the meeting in advance so the project can progress.
-- The critical friend should attend the meeting to share knowledge and be clear on the scope of the project.
-- Set up recurring follow up meetings at regular intervals.
-- Any open questions following the meeting should be chased using either Teams or email.
+
+-	If you have any questions for the customer send them prior to the meeting. If you encountered any data issues, some examples could also help them prepare answers.
+-	If the work is particularly urgent, more colleagues and resource can be assigned accordingly.
+-	Some customers will have busy schedules so it is important to setup the meeting in advance so the project can progress.
+-	Your critical friend should attend the meeting to share knowledge and be clear on the scope of the project.
+-	Document any actions agreed at the meeting.
+-	Set up recurring follow up meetings at regular intervals.
+-	Any open questions following the meeting should be chased using either Teams or email.
+
