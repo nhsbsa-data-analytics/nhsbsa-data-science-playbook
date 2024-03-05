@@ -1,5 +1,5 @@
 ---
-title: "Meeting with the Customer"
+title: "Meeting with the customer"
 description: "Meet with the customer to understand their expectations for the initiative."
 image: 05-initial-meeting-with-customer.jpg
 ---

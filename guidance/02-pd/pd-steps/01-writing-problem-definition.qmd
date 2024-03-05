@@ -1,5 +1,5 @@
 ---
-title: "Writing the Problem Definition"
+title: "Writing the problem definition"
 description: "Begin to write a draft of your problem definition by including a range of information about the problem."
 image: 01-writing-problem-definition.jpg
 image-alt: Photo by Emily Morter on Unsplash

@@ -800,21 +800,21 @@
   {
     "objectID": "guidance/02-pd/pd-steps/01-writing-problem-definition.html",
     "href": "guidance/02-pd/pd-steps/01-writing-problem-definition.html",
-    "title": "Writing the Problem Definition",
+    "title": "Writing the problem definition",
     "section": "",
     "text": "An agreement between the Data Scientists and the customer(s).\nIt defines a set of goals that everyone agrees on before work begins.\nIt ensures there is a common understanding.\nIt should be stored within the SharePoint folder for reference.\n\nAs part of writing the problem definition, you will need to include:\n\nsome background information about the area\nwhat it is that needs to be solved\nhow we intend to solve the problem\nany limitations and caveats, if they exist\nwhat tools and data we will use\nany information governance and ethical considerations, if they are applicable"
   },
   {
     "objectID": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#what-is-a-problem-definition",
     "href": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#what-is-a-problem-definition",
-    "title": "Writing the Problem Definition",
+    "title": "Writing the problem definition",
     "section": "",
     "text": "An agreement between the Data Scientists and the customer(s).\nIt defines a set of goals that everyone agrees on before work begins.\nIt ensures there is a common understanding.\nIt should be stored within the SharePoint folder for reference.\n\nAs part of writing the problem definition, you will need to include:\n\nsome background information about the area\nwhat it is that needs to be solved\nhow we intend to solve the problem\nany limitations and caveats, if they exist\nwhat tools and data we will use\nany information governance and ethical considerations, if they are applicable"
   },
   {
     "objectID": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#tips-for-writing-a-problem-definition",
     "href": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#tips-for-writing-a-problem-definition",
-    "title": "Writing the Problem Definition",
+    "title": "Writing the problem definition",
     "section": "Tips for writing a problem definition",
     "text": "Tips for writing a problem definition\n\nDuring this process, you will need to tell them what sensitive data you are using.\nExplain how you intend to use the data.\nFor sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team before you start the work.\nEnsure the customer understands the aim by providing plenty of detail.\nHonestly assess time frames and relay these to the customer.\nYour critical friend and DALL team manager can assist with this process.\n\nFor more information, please see the internal Data Science One Note Wiki.\nThroughout the process, your critical friend will review the problem definition to check:\n\nif you understood the customer’s request correctly\nif your plans to solve the problems are appropriate\n\nAlso, make sure to share the problem definition with the customer(s) to get their feedback, understand their business needs, and make sure you have addressed all their requests."
   }
