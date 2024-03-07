@@ -14,10 +14,10 @@ The Data Science team deliver [actionable insights](https://www.nhsbsa.nhs.uk/da
 
 ## Identifying a problem
 
--	Projects can be identified by Data Science team members, an internal NHSBSA customer, an external customer or recommendations from previous work. 
+-	Projects can be identified by Data Science team members, an internal NHSBSA customer, an external customer or recommendations from previous work.
 -	They may also be identified through collaborative ideas sessions we run with other teams.
-- Customers  can request work through [nhsbsa.dall@nhs.net](mailto:nhsbsa.dall@nhs.net).
--	The  Data Science Lead reviews projects for suitability in terms of scope and appropriateness, as well as any ethical implications. Projects may be triaged to other teams if not suitable.
+- Customers can request work through [nhsbsa.dall@nhs.net](mailto:nhsbsa.dall@nhs.net).
+- The Data Science Lead reviews projects for suitability in terms of scope and appropriateness, as well as any ethical implications. Projects may be triaged to other teams if not suitable.
 -	The Data Science Lead normally assigns initiatives to team members.
 -	The Data Science team can log ideas for projects on the ideas register.
 

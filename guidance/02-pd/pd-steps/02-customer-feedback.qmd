@@ -17,8 +17,3 @@ Be sure to:
 
 As an outcome of the meeting, there may be additional things to explore or add to the PD before the customer can sign off.
 
-## Refining the problem definition
-- It is important to repeat the problem definition loop again until the customer is happy to proceed.
-- In rare cases, this meeting may highlight that the initiative may not be possible in the way that the customer initially intended.
-- Unless any suitable alternatives are identified, we may need to give up on the project.
-- In this case, you **must** discuss your concerns with the DALL team manager before communicating this with the customer.
