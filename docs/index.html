@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -18,7 +18,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -58,7 +58,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -122,34 +123,35 @@ ul.task-list li input[type="checkbox"] {
     <img src="./static/logo-nhs.svg" alt="NHS logo" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-guidance" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-guidance" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Guidance</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-guidance">    
         <li>
-    <a class="dropdown-item" href="./guidance/01-pre-pd/index.html">
+    <a class="dropdown-item" href="./guidance/01-pre-pd/index.html" rel="" target="">
  <span class="dropdown-text">Before the problem definition</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./guidance/02-pd/index.html">
+    <a class="dropdown-item" href="./guidance/02-pd/index.html" rel="" target="">
  <span class="dropdown-text">Problem definition</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./guidance/03-analysis/index.html">
+    <a class="dropdown-item" href="./guidance/03-analysis/index.html" rel="" target="">
  <span class="dropdown-text">Analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./guidance/04-wrap-up/index.html">
+    <a class="dropdown-item" href="./guidance/04-wrap-up/index.html" rel="" target="">
  <span class="dropdown-text">Initiative wrap up</span></a>
   </li>  
     </ul>
@@ -157,35 +159,38 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.nhsbsa.nhs.uk/nhsbsa-statistics-and-data-science"><i class="bi bi-globe" role="img">
+    <a class="nav-link" href="https://www.nhsbsa.nhs.uk/nhsbsa-statistics-and-data-science" rel="" target=""><i class="bi bi-globe" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/nhsbsa-data-analytics"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/nhsbsa-data-analytics" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/nhsbsa"><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/nhsbsa" rel="" target=""><i class="bi bi-twitter" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">NHSBSA DALL Playbook</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">NHSBSA DALL Playbook</li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
     </div>
   </nav>
 </header>
@@ -193,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-right">
-      <h1 class="title d-none d-lg-block">NHSBSA DALL Playbook</h1>
+      <h1 class="title">NHSBSA DALL Playbook</h1>
                   <div>
         <div class="description">
           Detailed guidance on the typical workflow for DALL initiatives.
@@ -213,160 +218,187 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">Before the problem definition</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+ <span class="menu-text">Before the problem definition</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/01-pre-pd/index.html" class="sidebar-item-text sidebar-link">Before the problem definition</a>
+  <a href="./guidance/01-pre-pd/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Before the problem definition</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html" class="sidebar-item-text sidebar-link">Hypothesis identified</a>
+  <a href="./guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hypothesis identified</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html" class="sidebar-item-text sidebar-link">Assign a critical friend</a>
+  <a href="./guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Assign a critical friend</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html" class="sidebar-item-text sidebar-link">Get access to the data and undertake initial understanding</a>
+  <a href="./guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Get access to the data and undertake initial understanding</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/01-pre-pd/pre-pd-steps/04-desk-research.html" class="sidebar-item-text sidebar-link">Desk research and business understanding</a>
+  <a href="./guidance/01-pre-pd/pre-pd-steps/04-desk-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Desk research and business understanding</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html" class="sidebar-item-text sidebar-link">Meeting with the customer</a>
+  <a href="./guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Meeting with the customer</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.html" class="sidebar-item-text sidebar-link">Create initiative resources</a>
+  <a href="./guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Create initiative resources</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">Problem definition</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+ <span class="menu-text">Problem definition</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/02-pd/index.html" class="sidebar-item-text sidebar-link">Problem definition</a>
+  <a href="./guidance/02-pd/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Problem definition</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/02-pd/pd-steps/01-writing-problem-definition.html" class="sidebar-item-text sidebar-link">Writing the problem definition</a>
+  <a href="./guidance/02-pd/pd-steps/01-writing-problem-definition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Writing the problem definition</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/02-pd/pd-steps/02-customer-feedback.html" class="sidebar-item-text sidebar-link">Customer feedback</a>
+  <a href="./guidance/02-pd/pd-steps/02-customer-feedback.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Customer feedback</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/02-pd/pd-steps/03-refine-pd.html" class="sidebar-item-text sidebar-link">Refine the problem definition</a>
+  <a href="./guidance/02-pd/pd-steps/03-refine-pd.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Refine the problem definition</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/02-pd/pd-steps/04-estimate-timescales.html" class="sidebar-item-text sidebar-link">Estimate the timescales</a>
+  <a href="./guidance/02-pd/pd-steps/04-estimate-timescales.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Estimate the timescales</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Analysis</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+ <span class="menu-text">Analysis</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/03-analysis/index.html" class="sidebar-item-text sidebar-link">Analysis</a>
+  <a href="./guidance/03-analysis/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Analysis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/03-analysis/analysis-steps/01-data-prep.html" class="sidebar-item-text sidebar-link">Data preparation</a>
+  <a href="./guidance/03-analysis/analysis-steps/01-data-prep.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data preparation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/03-analysis/analysis-steps/02-analysis-modelling.html" class="sidebar-item-text sidebar-link">Analysis and modelling</a>
+  <a href="./guidance/03-analysis/analysis-steps/02-analysis-modelling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Analysis and modelling</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html" class="sidebar-item-text sidebar-link">Reporting and visuals</a>
+  <a href="./guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reporting and visuals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/03-analysis/analysis-steps/04-review.html" class="sidebar-item-text sidebar-link">Review</a>
+  <a href="./guidance/03-analysis/analysis-steps/04-review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Review</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">Initiative wrap up</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+ <span class="menu-text">Initiative wrap up</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/04-wrap-up/index.html" class="sidebar-item-text sidebar-link">Initiative wrap up</a>
+  <a href="./guidance/04-wrap-up/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Initiative wrap up</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/04-wrap-up/wrap-up-steps/01-clean-up.html" class="sidebar-item-text sidebar-link">Wrap up and clean your code</a>
+  <a href="./guidance/04-wrap-up/wrap-up-steps/01-clean-up.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Wrap up and clean your code</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/04-wrap-up/wrap-up-steps/02-write-documentation.html" class="sidebar-item-text sidebar-link">Write the documentation</a>
+  <a href="./guidance/04-wrap-up/wrap-up-steps/02-write-documentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Write the documentation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/04-wrap-up/wrap-up-steps/03-update-wiki.html" class="sidebar-item-text sidebar-link">Update the Wiki</a>
+  <a href="./guidance/04-wrap-up/wrap-up-steps/03-update-wiki.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Update the Wiki</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/04-wrap-up/wrap-up-steps/04-public-repository.html" class="sidebar-item-text sidebar-link">Make the repository public (if applicable)</a>
+  <a href="./guidance/04-wrap-up/wrap-up-steps/04-public-repository.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Make the repository public (if applicable)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./guidance/04-wrap-up/wrap-up-steps/05-future-work.html" class="sidebar-item-text sidebar-link">Document any future work</a>
+  <a href="./guidance/04-wrap-up/wrap-up-steps/05-future-work.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Document any future work</span></a>
   </div>
 </li>
       </ul>
@@ -374,6 +406,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
@@ -392,7 +425,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1705064239992" data-listing-reading-time-sort="0.005">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1705068758539" data-listing-reading-time-sort="1">
 <a href="./guidance/01-pre-pd/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -414,7 +447,7 @@ Setup the initiative by identifying a problem, understanding the customer’s ex
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1705064449271" data-listing-reading-time-sort="0.205">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1705068758568" data-listing-reading-time-sort="1">
 <a href="./guidance/02-pd/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -436,7 +469,7 @@ Gain further understanding through research and talking with the customer, to co
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1704709702672" data-listing-reading-time-sort="0.215">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1705068758684" data-listing-reading-time-sort="1">
 <a href="./guidance/03-analysis/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -458,7 +491,7 @@ Prepare the data, analyse or model it and review until the agreed outputs in pro
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1705058866502" data-listing-reading-time-sort="0.005">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1705068758739" data-listing-reading-time-sort="1">
 <a href="./guidance/04-wrap-up/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -512,9 +545,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -579,6 +626,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
