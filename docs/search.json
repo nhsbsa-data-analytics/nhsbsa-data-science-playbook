@@ -340,14 +340,14 @@
     "href": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html",
     "title": "Assign a critical friend",
     "section": "",
-    "text": "Typical Data Science initiatives involve 1-2 people working on the project.\nFor each project a “critical friend” is assigned.\nA critical friend reviews the code and/or business understanding.\nThey can also attend meetings, check documents and provide extra support and guidance throughout the initiative."
+    "text": "Typical Data Science initiatives involve 1-2 people working on the project.\nFor each project undertaken by a single team member a critical friend is assigned.\nFor group projects a critical friend is not mandatory but is advised. Where not allocated, group members must inherit the responsibilities of a critical friend through peer review .\nA critical friend reviews the problem definition, business understanding and outputs.\n\nThe critical friend provides a fresh perspective and offers the opportunity to catch issues that are overlooked by the team.\n\nThey can also attend meetings, check documents and provide extra support and guidance throughout the initiative.\n\nTowards the end of an initiative ask other team members to review the output."
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#what-is-a-critical-friend",
     "href": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#what-is-a-critical-friend",
     "title": "Assign a critical friend",
     "section": "",
-    "text": "Typical Data Science initiatives involve 1-2 people working on the project.\nFor each project a “critical friend” is assigned.\nA critical friend reviews the code and/or business understanding.\nThey can also attend meetings, check documents and provide extra support and guidance throughout the initiative."
+    "text": "Typical Data Science initiatives involve 1-2 people working on the project.\nFor each project undertaken by a single team member a critical friend is assigned.\nFor group projects a critical friend is not mandatory but is advised. Where not allocated, group members must inherit the responsibilities of a critical friend through peer review .\nA critical friend reviews the problem definition, business understanding and outputs.\n\nThe critical friend provides a fresh perspective and offers the opportunity to catch issues that are overlooked by the team.\n\nThey can also attend meetings, check documents and provide extra support and guidance throughout the initiative.\n\nTowards the end of an initiative ask other team members to review the output."
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#tips-for-working-with-your-critical-friend",
@@ -359,16 +359,16 @@
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html",
     "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html",
-    "title": "Get access to the data and undertake initial understanding",
+    "title": "Develop understanding",
     "section": "",
-    "text": "Temporary access must be requested via email or a service request and is subject to approval from the Data Science Lead, Database administrators and/or Data Asset Owner.\nShould sensitive data be needed, there may also be a requirement to engage with the Caldicott Guardian and/or Information Governance.\nAll data must be accessed and processed through the Data Science secure data environment.\nAlso request any relevant metadata, data dictionaries and data quality profiles."
+    "text": "Temporary access must be requested via email or a service request and is subject to approval from the Data Science Lead, Database administrators and/or Data Asset Owner.\nShould sensitive data be needed, there may also be a requirement to engage with the Caldicott Guardian and/or Information Governance.\nAll non-public domain data must be accessed and processed within the Data Science secure data environment.\nAlso request any relevant metadata, data dictionaries and data quality profiles. See the internal Data Science Wiki for more information."
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#usage",
     "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#usage",
-    "title": "Get access to the data and undertake initial understanding",
+    "title": "Develop understanding",
     "section": "Usage",
-    "text": "Usage\nFurther advice on usage of specific databases can be found within the internal Data Science OneNote Wiki."
+    "text": "Usage\nFurther advice on usage of specific databases can be found within the internal Data Science Wiki."
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/04-initial-research.html",
@@ -744,16 +744,16 @@
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#accessing-data",
     "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#accessing-data",
-    "title": "Get access to the data and undertake initial understanding",
+    "title": "Develop understanding",
     "section": "",
-    "text": "Temporary access must be requested via email or a service request and is subject to approval from the Data Science Lead, Database administrators and/or Data Asset Owner.\nShould sensitive data be needed, there may also be a requirement to engage with the Caldicott Guardian and/or Information Governance.\nAll data must be accessed and processed through the Data Science secure data environment.\nAlso request any relevant metadata, data dictionaries and data quality profiles."
+    "text": "Temporary access must be requested via email or a service request and is subject to approval from the Data Science Lead, Database administrators and/or Data Asset Owner.\nShould sensitive data be needed, there may also be a requirement to engage with the Caldicott Guardian and/or Information Governance.\nAll non-public domain data must be accessed and processed within the Data Science secure data environment.\nAlso request any relevant metadata, data dictionaries and data quality profiles. See the internal Data Science Wiki for more information."
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#initial-data-understanding",
     "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#initial-data-understanding",
-    "title": "Get access to the data and undertake initial understanding",
+    "title": "Develop understanding",
     "section": "Initial data understanding",
-    "text": "Initial data understanding\nInitial data understanding will help you to understand what is possible with the data including any anomalies, caveats, and quality issues.\n\nUse data documentation and identify data SMEs (within the services and/or central MI or Data Services) who will support you to understand what fields are available and their suitability.\nInitial exploratory data analysis will also help you to get a better feel for the data in terms of its quality and suitability and what data preparation might be required.\nShould documentation not exist, you may wish to record:\n\na summary of what each column represents\nthe number of missing records\nthe number of errors\nif applicable, the logic used to calculate the column\n\n\nCombined with business understanding, this initial analysis will help to:\n\ninform the problem definition (PD)\ninform conversations with the customer of what is possible and not possible to achieve during the initiative\nidentify other interesting research questions with the customer and explore if these are worth pursuing"
+    "text": "Initial data understanding\nInitial data understanding will help you to understand what is possible with the data including any anomalies, caveats, and quality issues. Further information can be found in Section X of the playbook.\n\nUse data documentation and identify data subject matter expert (SMEs) (within the services and/or central MI or Data Services) who will support you to understand what fields are available and their suitability.\nInitial exploratory data analysis will also help you to get a better feel for the data in terms of its quality and suitability and what data preparation might be required.\nShould documentation not exist, you may wish to record:\na summary of what each column represents\nthe number of missing records\nthe number of errors\nif applicable, the logic used to calculate the column\n\nCombined with business understanding, this initial analysis will help to: - inform the problem definition (PD) - inform conversations with the customer of what is possible and not possible to achieve during the initiative - identify other interesting research questions with the customer and explore if these are worth pursuing"
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#tips-for-gaining-understanding",
@@ -779,9 +779,9 @@
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html",
     "href": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html",
-    "title": "Hypothesis identified",
+    "title": "Question identified",
     "section": "",
-    "text": "The Data Science team deliver actionable insights from data through innovation, experimentation and collaboration. The insights drive policy, decision making and efficiencies across the NHSBSA and wider health and social care system. Projects typically align to the following areas:"
+    "text": "The Data Science team deliver actionable insights from data through innovation, experimentation and collaboration. This drives policy, decision making and efficiencies across the NHSBSA and wider health and social care system. Projects typically align to the following areas:\n\nhelp identify health and care disparities\nimprove patient and customer outcomes\nimprove employee outcomes\nreduce loss in the system\n\n\nProjects can be identified by Data Science team members, an internal NHSBSA customer, an external customer, user research or recommendations from previous work.\nThey may also be identified through collaborative ideas sessions we run with other teams.\nCustomers can request work through dall@nhsbsa.nhs.uk.\nThe Data Science team and internal customers can also log ideas for future projects on the ideas register.\nThe Data Science Lead reviews projects for suitability in terms of scope and appropriateness, as well as any ethical implications. Projects may be triaged to other teams if not suitable.\nThe Data Science Lead coordinates the assignment of initiatives to team members as well as critical friends .\nOnce a project is accepted, it is initially created in JIRA, with initiative number and basic project information including project lead, team members and critical friend . The Data Science initiative number is identified using JIRA.\nA SharePoint folder is created to store documents and data using the template provided. The initiative number is included in the name."
   },
   {
     "objectID": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html#identifying-a-problem",
@@ -817,5 +817,47 @@
     "title": "Writing the problem definition",
     "section": "Tips for writing a problem definition",
     "text": "Tips for writing a problem definition\n\nDuring this process, you will need to tell them what sensitive data you are using.\nExplain how you intend to use the data.\nFor sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team before you start the work.\nEnsure the customer understands the aim by providing plenty of detail.\nHonestly assess time frames and relay these to the customer.\nYour critical friend and DALL team manager can assist with this process.\n\nFor more information, please see the internal Data Science One Note Wiki.\nThroughout the process, your critical friend will review the problem definition to check:\n\nif you understood the customer’s request correctly\nif your plans to solve the problems are appropriate\n\nAlso, make sure to share the problem definition with the customer(s) to get their feedback, understand their business needs, and make sure you have addressed all their requests."
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/04-customer-engagement.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/04-customer-engagement.html",
+    "title": "Customer engagement",
+    "section": "",
+    "text": "It is important to meet with the customer to discuss requirements. This may happen before and/or after you develop initial business and data understanding. During this meeting, you can identify:\nThis meeting is important, as it can help to refine the problem definition within section 2."
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/04-customer-engagement.html#general-considerations",
+    "href": "guidance/01-pre-pd/pre-pd-steps/04-customer-engagement.html#general-considerations",
+    "title": "Customer engagement",
+    "section": "General considerations",
+    "text": "General considerations\n\nIf you have any questions for the customer send them prior to the meeting. If you encountered any data issues, some examples could also help them prepare answers.\nIf the work is particularly urgent, more colleagues and resource can be assigned accordingly.\nSome customers will have busy schedules so it is important to setup the meeting in advance so the project can progress.\nYour critical friend should attend the meeting to share knowledge and be clear on the scope of the project.\nDocument any actions agreed at the meeting.\nSet up recurring follow up meetings at regular intervals.\nAny open questions following the meeting should be chased using either Teams or email."
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#desk-research-and-business-understanding",
+    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#desk-research-and-business-understanding",
+    "title": "Develop understanding",
+    "section": "Desk research and business understanding",
+    "text": "Desk research and business understanding\nDesk research and business understanding will help you understand what is possible for the initiative and ensure the work is not duplicated.\nTo assist your work you could use: - JIRA as a reference to previous initiatives - reports and other outputs from previous initiatives in the project folders - other team members, business SMEs and your critical friend to help develop business knowledge - user research where applicable - internal and external online resources which may describe the service, policy or other aspects relevant to understanding context - externally or internal published statistics, data or dashboards relevant to the subject. They may also later be a source for validation and ensuring coherence. - resources to support with methodology such as Github repositories, Stack Overflow, Medium and research papers - DataCamp to complete relevant courses\nThis is a guide of what is possible and is dependent on the current project’s requirements."
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#user-research",
+    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#user-research",
+    "title": "Develop understanding",
+    "section": "User research",
+    "text": "User research"
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/05-create-update-initative-resources.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/05-create-update-initative-resources.html",
+    "title": "Create/update initative resources",
+    "section": "",
+    "text": "Before beginning to work on your problem definition, you will need to update JIRA and setup a GitHub repository to store and monitor code.\n\nSetting up the resources\n\nRemember to set the new GitHub repository to private.\nInvite relevant Data Science team members as collaborators and grant the wider team read access.\n\nCode should be written to a professional standard under the proviso it could be made public.\n\nYou must check the repository does not compromise data security before making it public\n\n\n\n\n\n\nGit commit history\n\n\n\n\n\nYour git commit history will be made public.\n\n\n\nGit messages can be changed but it is advised that you follow good commit practice.\n\n\nEach commit should be limited to a single change.\n\n\nCommit history can be removed but it is not recommended as we strive to be transparent.\n\n\n\n\n\n\n\n\n\n\n\nNever expose Personally Identifiable Information (PII) on GitHub\n\n\n\n\n\nMake sure that you never push Personally Identifiable Information (PII) to the GitHub repository.\n\n\n\nUse Git Leaks to reduce the risk of pushing PII to Git.\n\n\nNever write PII directly in R scripts.\n\n\nAlways reference PII from the database.\n\n\n\n\n\nFurther guidance on setting up resources can be found on the internal Data Science Wiki. After creating all resources, remember to: - provide regular updates to the JIRA ticket - regularly push code additions and alterations to the GitHub repository"
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/05-create-update-initiative-resources.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/05-create-update-initiative-resources.html",
+    "title": "Create/update initative resources",
+    "section": "",
+    "text": "Before beginning to work on your problem definition, you will need to update JIRA and setup a GitHub repository to store and monitor code.\n\nSetting up the resources\n\nRemember to set the new GitHub repository to private.\nInvite relevant Data Science team members as collaborators and grant the wider team read access.\n\nCode should be written to a professional standard under the proviso it could be made public.\n\nYou must check the repository does not compromise data security before making it public\n\n\n\n\n\n\nGit commit history\n\n\n\n\n\nYour git commit history will be made public.\n\n\n\nGit messages can be changed but it is advised that you follow good commit practice.\n\n\nEach commit should be limited to a single change.\n\n\nCommit history can be removed but it is not recommended as we strive to be transparent.\n\n\n\n\n\n\n\n\n\n\n\nNever expose Personally Identifiable Information (PII) on GitHub\n\n\n\n\n\nMake sure that you never push Personally Identifiable Information (PII) to the GitHub repository.\n\n\n\nUse Git Leaks to reduce the risk of pushing PII to Git.\n\n\nNever write PII directly in R scripts.\n\n\nAlways reference PII from the database.\n\n\n\n\n\nFurther guidance on setting up resources can be found on the internal Data Science Wiki. After creating all resources, remember to: - provide regular updates to the JIRA ticket - regularly push code additions and alterations to the GitHub repository"
   }
 ]

@@ -9,3 +9,5 @@
 *.pptx
 
 .quarto/
+
+/.quarto/

@@ -1,0 +1,43 @@
+---
+title: "Create/update initative resources"
+description: ""
+image: 05-initial-meeting-with-customer.jpg
+---
+
+Before beginning to work on your problem definition, you will need to update JIRA and setup a GitHub repository to store and monitor code. 
+
+# Setting up the resources
+
+-	Remember to set the new GitHub repository to private.
+-	Invite relevant Data Science team members as collaborators and grant the wider team read access.  
+-	Code should be written to a professional standard under the proviso it could be made public.
+
+**You must check the repository does not compromise data security before making it public**
+
+::: {.callout-warning title="Git commit history"}
+<div>
+  <p>Your git commit history will be made public.</p>
+  <ul>
+    <li>Git messages can be changed but it is advised that you follow good commit practice.</li>
+    <li>Each commit should be limited to a single change.</li>
+    <li>Commit history can be removed but it is not recommended as we strive to be transparent.</li>
+  </ul>
+</div>
+:::
+
+::: {.callout-important title="Never expose Personally Identifiable Information (PII) on GitHub"}
+<div>
+  <p>Make sure that you never push Personally Identifiable Information (PII) to the GitHub repository.</p>
+  <ul>
+    <li>Use Git Leaks to reduce the risk of pushing PII to Git.</li>
+    <li>Never write PII directly in R scripts.</li>
+    <li>Always reference PII from the database.</li>
+  </ul>
+</div>
+:::
+
+
+Further guidance on setting up resources can be found on the internal Data Science Wiki.
+After creating all resources, remember to:
+-	provide regular updates to the JIRA ticket
+-	regularly push code additions and alterations to the GitHub repository

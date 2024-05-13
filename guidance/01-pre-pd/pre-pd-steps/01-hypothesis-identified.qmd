@@ -1,10 +1,10 @@
 ---
-title: "Hypothesis identified"
+title: "Question identified"
 description: "Investigate an initiative to work on for internal NHSBSA customer, or an external customer."
 image: 01-hypothesis-identified.jpg
 ---
 
-The Data Science team deliver [actionable insights](https://www.nhsbsa.nhs.uk/data-science-projects) from data through **innovation**, **experimentation** and **collaboration**. The insights drive policy, decision making and efficiencies across the NHSBSA and wider health and social care system. Projects typically align to the following areas:
+The Data Science team deliver [actionable insights](https://www.nhsbsa.nhs.uk/data-science-projects) from data through **innovation**, **experimentation** and **collaboration**. This drives policy, decision making and efficiencies across the NHSBSA and wider health and social care system. Projects typically align to the following areas:
 
 -	help identify health and care disparities
 -	improve patient and customer outcomes 
@@ -12,14 +12,15 @@ The Data Science team deliver [actionable insights](https://www.nhsbsa.nhs.uk/da
 -	reduce loss in the system
 
 
-## Identifying a problem
+1. Projects can be identified by Data Science  team members, an internal NHSBSA customer, an external customer, user research or recommendations from previous work. 
+2.	They may also be identified through collaborative ideas sessions we run with other teams.
+3. Customers can request work through [dall@nhsbsa.nhs.uk](mailto:dall@nhsbsa.nhs.uk).
+4.	The Data Science team and internal customers can also log ideas for future projects on the ideas register.
+5.	The Data Science Lead reviews projects for suitability in terms of scope and appropriateness, as well as any ethical implications. Projects may be triaged to other teams if not suitable.
+6.	The Data Science Lead coordinates the assignment of initiatives to team members as well as critical friends .
+7.	Once a project is accepted, it is initially created in JIRA, with initiative number and basic project information including project lead, team members and critical friend . The Data Science   initiative number is identified using JIRA. 
+8.	A SharePoint folder is created to store documents and data  using the template provided. The initiative number is included in the name. 
 
--	Projects can be identified by Data Science team members, an internal NHSBSA customer, an external customer or recommendations from previous work.
--	They may also be identified through collaborative ideas sessions we run with other teams.
-- Customers can request work through [nhsbsa.dall@nhs.net](mailto:nhsbsa.dall@nhs.net).
-- The Data Science Lead reviews projects for suitability in terms of scope and appropriateness, as well as any ethical implications. Projects may be triaged to other teams if not suitable.
--	The Data Science Lead normally assigns initiatives to team members.
--	The Data Science team can log ideas for projects on the ideas register.
 
 
 
