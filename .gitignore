@@ -9,3 +9,6 @@
 *.pptx
 
 .quarto/
+_site
+
+/.quarto/

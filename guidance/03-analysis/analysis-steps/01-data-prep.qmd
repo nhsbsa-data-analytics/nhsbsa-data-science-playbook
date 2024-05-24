@@ -27,14 +27,14 @@ There is a page on data quality in the internal Data Science Wiki.
 ### Data cleansing
 * Handling missing values.
 * Using appropriate data types.
-* Following the data minimisation principle Principle (c): Data minimisation | ICO.
+* Following the [data minimisation principle](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/the-principles/data-minimisation/) Principle (c): Data minimisation | ICO.
 
 There is a page on data cleansing in the internal Data Science Wiki.
 
 ### Note keeping
 * Save the results of data quality checking.
 * Save examples of queries that highlight any issues.
-* data_summary.Rmd and EDA figures.xlsx can be used, found in template initiative Data folder.
+* `data_summary.Rmd` and `EDA figures.xlsx` can be used, found in template initiative Data folder.
 
 ### Validation
 * Where possible, check results using your base tables and other sources match.
@@ -51,7 +51,7 @@ After checking and preparing the data, you should have enough knowledge to creat
 * Save the output of your transformations.
 * Use any format that makes sense considering the size and how it is used; formats include CSV, SQL, and Rda.
 
-Once the tables have been created they should be sense checked and code reviewed as outlined in the Review section of the playbook [LINK].
+Once the tables have been created they should be sense checked and code reviewed as outlined in the [Review section](04-review.qmd) of the playbook.
 
 ## Sensitive data
 * Wherever base tables are saved, it must be in a secure location as per data security policy (LINK?).

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -56,7 +56,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -190,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guidance/01-pre-pd/pre-pd-steps/01-problem-identified.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Hypothesis identified</span></a>
   </div>
 </li>
@@ -208,20 +209,20 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guidance/01-pre-pd/pre-pd-steps/04-initial-research.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Desk Research and Business Understanding</span></a>
+  <a href="../../../guidance/01-pre-pd/pre-pd-steps/04-desk-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Desk research and business understanding</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Meeting with the Customer</span></a>
+ <span class="menu-text">Meeting with the customer</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Create Initiative Resources</span></a>
+ <span class="menu-text">Create initiative resources</span></a>
   </div>
 </li>
       </ul>
@@ -243,8 +244,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guidance/02-pd/pd-steps/01-data-business-understanding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Writing the Problem Definition</span></a>
+  <a href="../../../guidance/02-pd/pd-steps/01-writing-problem-definition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Writing the problem definition</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -366,8 +367,11 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#conducting-the-work" id="toc-conducting-the-work" class="nav-link active" data-scroll-target="#conducting-the-work">Conducting the work</a></li>
-  <li><a href="#tips-for-effective-analysis" id="toc-tips-for-effective-analysis" class="nav-link" data-scroll-target="#tips-for-effective-analysis">Tips for effective analysis</a></li>
-  <li><a href="#check-the-quality" id="toc-check-the-quality" class="nav-link" data-scroll-target="#check-the-quality">Check the quality</a></li>
+  <li><a href="#tips-for-effective-analysis-and-programming" id="toc-tips-for-effective-analysis-and-programming" class="nav-link" data-scroll-target="#tips-for-effective-analysis-and-programming">Tips for effective analysis and programming</a></li>
+  <li><a href="#check-the-quality" id="toc-check-the-quality" class="nav-link" data-scroll-target="#check-the-quality">Check the quality</a>
+  <ul class="collapse">
+  <li><a href="#rap-considerations-link" id="toc-rap-considerations-link" class="nav-link" data-scroll-target="#rap-considerations-link">RAP considerations (LINK?)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -377,43 +381,62 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>In this step, we turn our data into insights. The work done here can vary. It can include small data extraction jobs, creating reports and dashboards, and deploying machine learning models. The analysis or modelling you conduct is also heavily reliant on the outputs you agreed with the customer.</p>
+<p>Analyse the data and create models to support the expected outputs.</p>
+<p>In this step, we turn our data into insights. The work done here can vary. It can include statistical analysis, both modelled and descriptive, as well as more sophisticated Machine Learning (AI) – the choice being dependent on the output requirements of the customer. The output can be presented in the form of a report, a dashboard, or a slide deck.</p>
 <section id="conducting-the-work" class="level2">
 <h2 class="anchored" data-anchor-id="conducting-the-work">Conducting the work</h2>
-<p>Starting from the base tables, we want to create the agreed outputs. Depending on the work, there are many tools we can use to do this.</p>
+<p>Starting from the source tables, we want to create the agreed outputs. Depending on the work, there are many approaches and tools we can use to do this.</p>
 <ul>
-<li>R is especially suited to use for data analysis and visualisation, via Rmarkdown and Shiny.</li>
-<li>Python has most widespread support for machine learning and is more widely integrated with cloud based platforms.</li>
-<li>Power BI is a possible alternative to R for creating dashboards, but due to licensing may not be suitable for certain end users.</li>
-<li>If it is appropriate, such as needing to show simple summary statistics, Excel and/or SQL can be used.</li>
+<li>R is especially suited to use for statistical analysis and visualisation and supports reproducible (Rmarkdown) and interactive (R Shiny) reports.</li>
+<li>Python has most widespread support for training Artificial Intelligence Models and is more widely integrated with cloud-based platforms.</li>
+<li>Power BI is a possible alternative to R Shiny for creating dashboards, but due to licensing may not be suitable for certain end users.</li>
+<li>If it is appropriate, Excel and/or SQL can be used for generating simple summary statistics.</li>
 </ul>
-<p>Please see the DALL wiki for tips on how to use all of these tools.</p>
+<p>Please see the internal Data Science Wiki for tips on how to use all of these tools.</p>
 </section>
-<section id="tips-for-effective-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="tips-for-effective-analysis">Tips for effective analysis</h2>
+<section id="tips-for-effective-analysis-and-programming" class="level2">
+<h2 class="anchored" data-anchor-id="tips-for-effective-analysis-and-programming">Tips for effective analysis and programming</h2>
 <ul>
+<li>Select the most appropriate model or approach for the problem. Useful guidance can be found at
+<ul>
+<li><a href="https://www.nao.org.uk/wp-content/uploads/2016/03/11018-002-Framework-to-review-models_External_4DP.pdf">Good practice guidance: Framework to review models (nao.org.uk)</a></li>
+<li><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/878616/Principles_of_QA_for_analysis.pdf">Principles of quality assurance for modelling and data analysis (publishing.service.gov.uk)</a></li>
+<li><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/878616/Principles_of_QA_for_analysis.pdf">The Aqua Book: guidance on producing quality analysis - GOV.UK (www.gov.uk)</a></li>
+</ul></li>
 <li>Use Github to handle version control, issues and code reviews.</li>
-<li>In Python, use object-oriented programming (OOP) if you can.</li>
+<li>In Python, use object-oriented programming (OOP ) if you can. Please see the internal Data Science Wiki for information.</li>
 <li>Although R does have support for OOP, it is not a big paradigm like in Python.</li>
 <li>Be careful of premature optimisation (called out by computer scientist Donald Knuth as ‘the root of all evil’ in software development).</li>
-<li>Start small, such as limiting data to some subset when developing metrics; this makes it easier to spot issues and allows for faster iteration of code.</li>
-<li>Check the data looks correct at each step of transforming it; better still, know what it <em>should</em> be before writing and applying the step (the principle behind test driven development, TDD).</li>
-<li>Work on one component of output at a time, for example using <code>{shiny}</code> modules as in our <a href="https://github.com/nhsbsa-data-analytics/nhsbsaShinyR">template</a>.</li>
+<li>Start small, such as limiting data to a manageable subset when developing the analysis; this makes it easier to spot issues and allows for faster iteration of code.</li>
+<li>Check the data looks correct at each step of reshaping and transforming it; better still, know what it should be before writing and applying the step (the principle behind test driven development, TDD).</li>
+<li>Work on one component of output at a time, for example using <code>shiny</code> with the modular <code>golem</code> framework, as in our <a href="https://github.com/nhsbsa-data-analytics/nhsbsaShinyR">template</a>.</li>
 <li>Frequently run code as you write it, so any issues are encountered early and their source is clearer.</li>
 <li>You may produce multiple smaller data sets to be used in your outputs; the considerations applying to base tables apply equally to these.</li>
-<li>The final code should use RAP principles [LINK?].</li>
+<li>Where appropriate, the final code should use RAP principles [LINK?].</li>
 </ul>
 </section>
 <section id="check-the-quality" class="level2">
 <h2 class="anchored" data-anchor-id="check-the-quality">Check the quality</h2>
-<p>As with data preparation, it’s important to test and validate your results.</p>
+<p>As with data preparation, it is important to test and validate your results.</p>
 <ul>
 <li>Where possible, check results against other sources.</li>
 <li>Other sources could be data from previous initiatives, Management Information dashboards or ePACT2.</li>
 </ul>
-<p>Additionally, you must be careful about visualising sensitive results. Please contact your critical friend or the DALL team manager if you are unsure.</p>
+<p>Additionally, you must be careful about visualising sensitive results. Please contact your critical friend or the Data Science Lead if you are unsure. Results for external audience or general public must be subjected to Statistical Disclosure Control [LINK] before release. Before pushing the code to GitHub, it’s essential to ensure that the output is cleared, and that no sensitive information remains within it.</p>
+<section id="rap-considerations-link" class="level3">
+<h3 class="anchored" data-anchor-id="rap-considerations-link">RAP considerations (LINK?)</h3>
+<ul>
+<li>It is worth spending time on making the data preparation easy to repeat.</li>
+<li>Make sure the code is easy to maintain, read and re-run when required.</li>
+<li>Rather than just doing adhoc testing, write formal tests that can be repeated.</li>
+<li>Working in a RAP-ful way is especially important when the output of an initiative is to be refreshed periodically, such as monthly or annually. Document your code as you go. Maintain a clear project structure with clean scripts.</li>
+<li>Separate data, scripts and output into their own sub-directories.</li>
+<li>Move custom functions into their own script.</li>
+<li>Document your custom functions.</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
