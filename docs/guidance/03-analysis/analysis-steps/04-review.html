@@ -379,7 +379,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Reviews of the code and outputs by yourself, the team, critical friend and customer before wrapping up the initiative.</p>
 <p>Reviewing work and outputs frequently should be done throughout the initiative life cycle. There are multiple layers of review:</p>
 <ul>
 <li>Self Review</li>
@@ -397,6 +396,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="self-review">Self review</h2>
 <p>Review your own work as you go, but especially before requesting anyone else to review it. Before submitting for review you should:</p>
 <ul>
+<li>sense check reporting outputs to avoid giving naïve conclusions</li>
 <li>run code with a ‘clean slate’ to ensure there are no dependencies in your local environment that will not be there later</li>
 <li>consider writing repeatable tests rather than adhoc testing</li>
 <li>document your code</li>
@@ -428,9 +428,9 @@ Remember that your colleagues have other work; give them enough time to review y
 <p>One or more other members of the initiative team should review all code and outputs before it is merged into the main branch.</p>
 <p>The reviewers should:</p>
 <ul>
+<li>sense check any outputs match what was agreed in the problem definition</li>
 <li>pull the code into their local environment, and run it from a ‘blank slate’ state</li>
 <li>add comments and suggestions to the PR</li>
-<li>check any outputs match what was agreed in the problem definition</li>
 <li>ask the code author to clarify if something does not make sense</li>
 <li>organise a call with the code author and work through the PR together if several questions arise</li>
 </ul>

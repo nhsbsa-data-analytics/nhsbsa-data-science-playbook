@@ -144,7 +144,7 @@
     "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html",
     "title": "Analysis and modelling",
     "section": "",
-    "text": "Analyse the data and create models to support the expected outputs.\nIn this step, we turn our data into insights. The work done here can vary. It can include statistical analysis, both modelled and descriptive, as well as more sophisticated Machine Learning (AI) – the choice being dependent on the output requirements of the customer. The output can be presented in the form of a report, a dashboard, or a slide deck."
+    "text": "In this step, we turn our data into insights. The work done here can vary. It can include statistical analysis, both modelled and descriptive, as well as more sophisticated Machine Learning (AI) – the choice being dependent on the output requirements of the customer. The output can be presented in the form of a report, a dashboard, or a slide deck."
   },
   {
     "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#rap-considerations",
@@ -487,7 +487,7 @@
     "href": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html",
     "title": "Reporting and visuals",
     "section": "",
-    "text": "Draft reports, slide decks, data sets, applications and any other agreed outputs.\nWithin the Data Science team, the work that we conduct aims to tell a ‘story’ to the customer, providing them with the insights that the raw data alone would not."
+    "text": "Within the Data Science team, the work that we conduct aims to tell a ‘story’ to the customer, providing them with the insights that the raw data alone would not."
   },
   {
     "objectID": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#producing-the-output",
@@ -508,21 +508,21 @@
     "href": "guidance/03-analysis/analysis-steps/04-review.html",
     "title": "Review",
     "section": "",
-    "text": "Reviews of the code and outputs by yourself, the team, critical friend and customer before wrapping up the initiative.\nReviewing work and outputs frequently should be done throughout the initiative life cycle. There are multiple layers of review:\nIn response to any one of these reviews, it may be deemed necessary to go back to data preparation, analysis or drafting of outputs.\nDuring all review stages prior to the customer review the:"
+    "text": "Reviewing work and outputs frequently should be done throughout the initiative life cycle. There are multiple layers of review:\nIn response to any one of these reviews, it may be deemed necessary to go back to data preparation, analysis or drafting of outputs.\nDuring all review stages prior to the customer review the:"
   },
   {
     "objectID": "guidance/03-analysis/analysis-steps/04-review.html#self-review",
     "href": "guidance/03-analysis/analysis-steps/04-review.html#self-review",
     "title": "Review",
     "section": "Self review",
-    "text": "Self review\nReview your own work as you go, but especially before requesting anyone else to review it. Before submitting for review you should:\n\nrun code with a ‘clean slate’ to ensure there are no dependencies in your local environment that will not be there later\nconsider writing repeatable tests rather than adhoc testing\ndocument your code\ncreate a pull request (PR) on Github once happy with the code\nif you are building on an already-established draft, check the code diff (difference) on Github and add comments to explain to a code reviewer any decisions you made that are not obvious\ncheck the code diff as it may highlight something you missed; in these cases make further changes and push them\nif appropriate, try to include only a small amount of change in a single PR Once happy with your PR, request that someone code review it.\n\n\n\n\n\n\n\nGive colleagues sufficient time\n\n\n\n\n\nRemember that your colleagues have other work; give them enough time to review your work properly."
+    "text": "Self review\nReview your own work as you go, but especially before requesting anyone else to review it. Before submitting for review you should:\n\nsense check reporting outputs to avoid giving naïve conclusions\nrun code with a ‘clean slate’ to ensure there are no dependencies in your local environment that will not be there later\nconsider writing repeatable tests rather than adhoc testing\ndocument your code\ncreate a pull request (PR) on Github once happy with the code\nif you are building on an already-established draft, check the code diff (difference) on Github and add comments to explain to a code reviewer any decisions you made that are not obvious\ncheck the code diff as it may highlight something you missed; in these cases make further changes and push them\nif appropriate, try to include only a small amount of change in a single PR Once happy with your PR, request that someone code review it.\n\n\n\n\n\n\n\nGive colleagues sufficient time\n\n\n\n\n\nRemember that your colleagues have other work; give them enough time to review your work properly."
   },
   {
     "objectID": "guidance/03-analysis/analysis-steps/04-review.html#team-review",
     "href": "guidance/03-analysis/analysis-steps/04-review.html#team-review",
     "title": "Review",
     "section": "Team review",
-    "text": "Team review\nOne or more other members of the initiative team should review all code and outputs before it is merged into the main branch.\nThe reviewers should:\n\npull the code into their local environment, and run it from a ‘blank slate’ state\nadd comments and suggestions to the PR\ncheck any outputs match what was agreed in the problem definition\nask the code author to clarify if something does not make sense\norganise a call with the code author and work through the PR together if several questions arise"
+    "text": "Team review\nOne or more other members of the initiative team should review all code and outputs before it is merged into the main branch.\nThe reviewers should:\n\nsense check any outputs match what was agreed in the problem definition\npull the code into their local environment, and run it from a ‘blank slate’ state\nadd comments and suggestions to the PR\nask the code author to clarify if something does not make sense\norganise a call with the code author and work through the PR together if several questions arise"
   },
   {
     "objectID": "guidance/03-analysis/analysis-steps/04-review.html#critical-friend-review",
@@ -732,7 +732,7 @@
     "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#tips-for-effective-analysis",
     "title": "Analysis and modelling",
     "section": "Tips for effective analysis",
-    "text": "Tips for effective analysis\n\nUse Github to handle version control, issues and code reviews.\nIn Python, use object-oriented programming (OOP) if you can.\nAlthough R does have support for OOP, it is not a big paradigm like in Python.\nBe careful of premature optimisation (called out by computer scientist Donald Knuth as ‘the root of all evil’ in software development).\nStart small, such as limiting data to some subset when developing metrics; this makes it easier to spot issues and allows for faster iteration of code.\nCheck the data looks correct at each step of transforming it; better still, know what it should be before writing and applying the step (the principle behind test driven development, TDD).\nWork on one component of output at a time, for example using {shiny} modules as in our template.\nFrequently run code as you write it, so any issues are encountered early and their source is clearer.\nYou may produce multiple smaller data sets to be used in your outputs; the considerations applying to base tables apply equally to these.\nThe final code should use RAP principles [LINK?]."
+    "text": "Tips for effective analysis\n\nSelect the most appropriate model or approach for the problem. Useful guidance can be found at:\n\nGood practice guidance: Framework to review models (nao.org.uk)\nPrinciples of quality assurance for modelling and data analysis (publishing.service.gov.uk)\nThe Aqua Book: guidance on producing quality analysis - GOV.UK (www.gov.uk)\nGovernment Functional Standard (publishing.service.gov.uk)"
   },
   {
     "objectID": "guidance/04-wrap-up/wrap-up-steps/04-public-repository-alt-callouts.html",
@@ -831,5 +831,12 @@
     "title": "Analysis and modelling",
     "section": "Tips for effective analysis and programming",
     "text": "Tips for effective analysis and programming\n\nSelect the most appropriate model or approach for the problem. Useful guidance can be found at\n\nGood practice guidance: Framework to review models (nao.org.uk)\nPrinciples of quality assurance for modelling and data analysis (publishing.service.gov.uk)\nThe Aqua Book: guidance on producing quality analysis - GOV.UK (www.gov.uk)\n\nUse Github to handle version control, issues and code reviews.\nIn Python, use object-oriented programming (OOP ) if you can. Please see the internal Data Science Wiki for information.\nAlthough R does have support for OOP, it is not a big paradigm like in Python.\nBe careful of premature optimisation (called out by computer scientist Donald Knuth as ‘the root of all evil’ in software development).\nStart small, such as limiting data to a manageable subset when developing the analysis; this makes it easier to spot issues and allows for faster iteration of code.\nCheck the data looks correct at each step of reshaping and transforming it; better still, know what it should be before writing and applying the step (the principle behind test driven development, TDD).\nWork on one component of output at a time, for example using shiny with the modular golem framework, as in our template.\nFrequently run code as you write it, so any issues are encountered early and their source is clearer.\nYou may produce multiple smaller data sets to be used in your outputs; the considerations applying to base tables apply equally to these.\nWhere appropriate, the final code should use RAP principles [LINK?]."
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#tips-for-effective-programming",
+    "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#tips-for-effective-programming",
+    "title": "Analysis and modelling",
+    "section": "Tips for effective programming",
+    "text": "Tips for effective programming\n\nUse Github to handle version control, issues and code reviews.\nIn Python, use object-oriented programming (OOP) if you can. Please see the internal Data Science Wiki for information.\nAlthough R does have support for OOP, it is not a big paradigm like in Python.\nBe careful of premature optimisation (called out by computer scientist Donald Knuth as ‘the root of all evil’ in software development).\nStart small, such as limiting data to a manageable subset when developing the analysis; this makes it easier to spot issues and allows for faster iteration of code.\nCheck the data looks correct at each step of reshaping and transforming it; better still, know what it should be before writing and applying the step (the principle behind test driven development, TDD).\nWork on one component of output at a time, for example using shiny with the modular golem framework, as in our template.\nFrequently run code as you write it, so any issues are encountered early and their source is clearer.\nYou may produce multiple smaller data sets to be used in your outputs; the considerations applying to base tables apply equally to these.\nWhere appropriate, the final code should use RAP principles [LINK?]."
   }
 ]

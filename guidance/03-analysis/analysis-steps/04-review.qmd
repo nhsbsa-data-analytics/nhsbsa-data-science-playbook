@@ -22,6 +22,7 @@ During all review stages prior to the customer review the:
 ## Self review
 Review your own work as you go, but especially before requesting anyone else to review it. Before submitting for review you should:
 
+* sense check reporting outputs to avoid giving naïve conclusions
 * run code with a ‘clean slate’ to ensure there are no dependencies in your local environment that will not be there later
 * consider writing repeatable tests rather than adhoc testing
 * document your code
@@ -43,9 +44,9 @@ One or more other members of the initiative team should review all code and outp
 
 The reviewers should:
 
+* sense check any outputs match what was agreed in the problem definition
 * pull the code into their local environment, and run it from a ‘blank slate’ state
 * add comments and suggestions to the PR
-* check any outputs match what was agreed in the problem definition
 * ask the code author to clarify if something does not make sense
 * organise a call with the code author and work through the PR together if several questions arise
 

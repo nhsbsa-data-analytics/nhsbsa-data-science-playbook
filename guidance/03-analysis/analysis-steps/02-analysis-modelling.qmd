@@ -17,13 +17,16 @@ Starting from the source tables, we want to create the agreed outputs. Depending
 
 Please see the internal Data Science Wiki for tips on how to use all of these tools.
 
-## Tips for effective analysis and programming
+## Tips for effective analysis
 * Select the most appropriate model or approach for the problem. Useful guidance can be found at:
     * [Good practice guidance: Framework to review models (nao.org.uk)](https://www.nao.org.uk/wp-content/uploads/2016/03/11018-002-Framework-to-review-models_External_4DP.pdf)
     * [Principles of quality assurance for modelling and data analysis (publishing.service.gov.uk)](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/878616/Principles_of_QA_for_analysis.pdf)
     * [The Aqua Book: guidance on producing quality analysis - GOV.UK (www.gov.uk)](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/878616/Principles_of_QA_for_analysis.pdf)
+    * [Government Functional Standard (publishing.service.gov.uk)](https://assets.publishing.service.gov.uk/media/64e4cf0a4002ee000d560d5f/2023.02_GovS_010_Analysis_v2.1.pdf)
+
+## Tips for effective programming
 * Use Github to handle version control, issues and code reviews.
-* In Python, use object-oriented programming (OOP ) if you can. Please see the internal Data Science Wiki for information.
+* In Python, use object-oriented programming (OOP) if you can. Please see the internal Data Science Wiki for information.
 * Although R does have support for OOP, it is not a big paradigm like in Python.
 * Be careful of premature optimisation (called out by computer scientist Donald Knuth as ‘the root of all evil’ in software development).
 * Start small, such as limiting data to a manageable subset when developing the analysis; this makes it easier to spot issues and allows for faster iteration of code.
