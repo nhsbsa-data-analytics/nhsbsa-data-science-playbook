@@ -7,7 +7,7 @@ image: 02-assign-critical-friend.jpg
 ## What is a critical friend?
 - Typical Data Science initiatives involve 1-2 people working on the project.
 - For each project undertaken by a single team member a critical friend is assigned.
-- For group projects a critical friend is not mandatory but is advised. Where not allocated, group members must inherit the responsibilities of a critical friend through peer review  .
+- For group projects a critical friend is not mandatory but is advised. Where not allocated, group members must inherit the responsibilities of a critical friend through peer review.
 - A critical friend reviews the problem definition, business understanding and outputs.
     - The critical friend provides a fresh perspective and offers the opportunity to catch issues that are overlooked by the team. 
 - They can also attend meetings, check documents and provide extra support and guidance throughout the initiative.

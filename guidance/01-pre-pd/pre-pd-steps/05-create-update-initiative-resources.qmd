@@ -39,5 +39,6 @@ Before beginning to work on your problem definition, you will need to update JIR
 
 Further guidance on setting up resources can be found on the internal Data Science Wiki.
 After creating all resources, remember to:
+
 -	provide regular updates to the JIRA ticket
 -	regularly push code additions and alterations to the GitHub repository

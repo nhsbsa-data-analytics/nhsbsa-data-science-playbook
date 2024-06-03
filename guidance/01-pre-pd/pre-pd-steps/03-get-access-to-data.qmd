@@ -15,17 +15,18 @@ image: 03-get-access-to-data.jpg
 
 ## Initial data understanding
 
-Initial data understanding will help you to understand what is possible with the data including any anomalies, caveats, and quality issues. Further information can be found in Section X of the playbook.  
+Initial data understanding will help you to gauge what is possible with the data including any anomalies, caveats, and quality issues. Further information can be found in Section X of the playbook.  
 
 -	Use data documentation and identify data subject matter expert (SMEs)  (within the services and/or central MI or Data Services) who will support you to understand what fields are available and their suitability.
 -	Initial exploratory data analysis will also help you to get a better feel for the data in terms of its quality and suitability and what data preparation might be required.
 -	Should documentation not exist, you may wish to record:
-  -	a summary of what each column represents
-  -	the number of missing records
-  -	the number of errors
-  -	if applicable, the logic used to calculate the column
+    - a summary of what each column represents
+    -	the number of missing records
+    -	the number of errors
+    -	if applicable, the logic used to calculate the column
 
 Combined with business understanding, this initial analysis will help to:
+
 -	inform the problem definition (PD)
 -	inform conversations with the customer of what is possible and not possible to achieve during the initiative
 -	identify other interesting research questions with the customer and explore if these are worth pursuing
@@ -40,6 +41,7 @@ Further advice on usage of specific databases can be found within the internal D
 Desk research and business understanding will help you understand what is possible for the initiative and ensure the work is not duplicated.
 
 To assist your work you could use:
+
 -	JIRA as a reference to previous initiatives
 -	reports and other outputs from previous initiatives in the project folders
 -	other team members, business SMEs and your critical friend to help develop business knowledge
