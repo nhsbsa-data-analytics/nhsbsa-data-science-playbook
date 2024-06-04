@@ -15,7 +15,7 @@ image: 03-get-access-to-data.jpg
 
 ## Initial data understanding
 
-Initial data understanding will help you to gauge what is possible with the data including any anomalies, caveats, and quality issues. Further information can be found in Section X of the playbook.  
+Initial data understanding will help you to gauge what is possible with the data including any anomalies, caveats, and quality issues. Further information can be found in [section 3](../../03-analysis/index.qmd) of the playbook.  
 
 -	Use data documentation and identify data subject matter expert (SMEs)  (within the services and/or central MI or Data Services) who will support you to understand what fields are available and their suitability.
 -	Initial exploratory data analysis will also help you to get a better feel for the data in terms of its quality and suitability and what data preparation might be required.
