@@ -9,5 +9,9 @@
 *.pptx
 
 .quarto/
+<<<<<<< HEAD
+=======
+_site
+>>>>>>> origin/41-section-3-review
 
 /.quarto/

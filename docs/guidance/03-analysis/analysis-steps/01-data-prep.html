@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -56,7 +56,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -190,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guidance/01-pre-pd/pre-pd-steps/01-problem-identified.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Hypothesis identified</span></a>
   </div>
 </li>
@@ -208,20 +209,20 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guidance/01-pre-pd/pre-pd-steps/04-initial-research.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Desk Research and Business Understanding</span></a>
+  <a href="../../../guidance/01-pre-pd/pre-pd-steps/04-desk-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Desk research and business understanding</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../guidance/01-pre-pd/pre-pd-steps/05-initial-meeting-with-customer.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Meeting with the Customer</span></a>
+ <span class="menu-text">Meeting with the customer</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../guidance/01-pre-pd/pre-pd-steps/06-create-initiative-resources.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Create Initiative Resources</span></a>
+ <span class="menu-text">Create initiative resources</span></a>
   </div>
 </li>
       </ul>
@@ -243,8 +244,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guidance/02-pd/pd-steps/01-data-business-understanding.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Writing the Problem Definition</span></a>
+  <a href="../../../guidance/02-pd/pd-steps/01-writing-problem-definition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Writing the problem definition</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -369,7 +370,6 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#data-quality" id="toc-data-quality" class="nav-link" data-scroll-target="#data-quality">Data quality</a></li>
   <li><a href="#data-cleansing" id="toc-data-cleansing" class="nav-link" data-scroll-target="#data-cleansing">Data cleansing</a></li>
-  <li><a href="#rap-considerations-link" id="toc-rap-considerations-link" class="nav-link" data-scroll-target="#rap-considerations-link">RAP considerations (LINK?)</a></li>
   <li><a href="#note-keeping" id="toc-note-keeping" class="nav-link" data-scroll-target="#note-keeping">Note keeping</a></li>
   <li><a href="#validation" id="toc-validation" class="nav-link" data-scroll-target="#validation">Validation</a></li>
   </ul></li>
@@ -384,13 +384,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Given you have written your problem definition and the customer has signed off on it, it is time to start preparing your data. The aim of this step is to create one or more base tables that feed into your analysis or modelling. Data preparation may be iterative, as the analysis or modelling in the next step becomes refined with frequent feedback from stakeholders.</p>
 <section id="data-preparation" class="level2">
 <h2 class="anchored" data-anchor-id="data-preparation">Data preparation</h2>
 <p>Data preparation can be done with any data manipulation tool such as SQL, R or Python.</p>
 <ul>
 <li>Large datasets with millions of rows may require use of SQL initially.</li>
-<li>SQL can be used via libraries, such as <code>{dplyr}</code> and the database back-end <code>{dbplyr}</code> in R.</li>
+<li>SQL can be used via libraries, such as <code>dplyr</code> and the database back-end <code>dbplyr</code> in R.</li>
 <li>Once data has been aggregated, switch to your tool of choice for analysis and modelling.</li>
 </ul>
 <p>When preparing data there are some considerations that always apply.</p>
@@ -404,7 +403,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Are any fields strongly correlated?</li>
 <li>Discuss any data quality issues with the critical friend and/or customer.</li>
 </ul>
-<p>There is a page on data quality in the internal DALL Wiki.</p>
+<p>There is a page on data quality in the internal Data Science Wiki.</p>
 </section>
 <section id="data-cleansing" class="level3">
 <h3 class="anchored" data-anchor-id="data-cleansing">Data cleansing</h3>
@@ -413,29 +412,20 @@ ul.task-list li input[type="checkbox"] {
 <li>Using appropriate data types.</li>
 <li>Following the <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/the-principles/data-minimisation/">data minimisation principle</a> Principle (c): Data minimisation | ICO.</li>
 </ul>
-<p>There is a page on data cleansing in the internal DALL Wiki.</p>
-</section>
-<section id="rap-considerations-link" class="level3">
-<h3 class="anchored" data-anchor-id="rap-considerations-link">RAP considerations (LINK?)</h3>
-<ul>
-<li>It is worth spending time on making the data preparation easy to repeat.</li>
-<li>Rather than just doing adhoc testing, write formal tests that can be repeated.</li>
-<li>Working in a RAP-ful way is especially important when the output of an initiative is to be refreshed periodically, such as monthly or annually.</li>
-<li>There is a page on testing in the internal DALL Wiki.</li>
-</ul>
+<p>There is a page on data cleansing in the internal Data Science Wiki.</p>
 </section>
 <section id="note-keeping" class="level3">
 <h3 class="anchored" data-anchor-id="note-keeping">Note keeping</h3>
 <ul>
 <li>Save the results of data quality checking.</li>
 <li>Save examples of queries that highlight any issues.</li>
-<li><code>data_summary.Rmd</code> and <code>EDA figures.xlsx</code> can be used, found in template initiative <code>Data</code> folder.</li>
+<li><code>data_summary.Rmd</code> and <code>EDA figures.xlsx</code> can be used, found in template initiative Data folder.</li>
 </ul>
 </section>
 <section id="validation" class="level3">
 <h3 class="anchored" data-anchor-id="validation">Validation</h3>
 <ul>
-<li>Where possible, check that results using your base tables and other sources match.</li>
+<li>Where possible, check results using your base tables and other sources match.</li>
 <li>Internal sources include data from previous initiatives, Management Information dashboards or ePACT2.</li>
 <li>External sources include Official Statistics and third-party datasets.</li>
 </ul>
@@ -452,12 +442,13 @@ ul.task-list li input[type="checkbox"] {
 <li>Save the output of your transformations.</li>
 <li>Use any format that makes sense considering the size and how it is used; formats include CSV, SQL, and Rda.</li>
 </ul>
+<p>Once the tables have been created they should be sense checked and code reviewed as outlined in the <a href="../../../guidance/03-analysis/analysis-steps/04-review.html">Review section</a> of the playbook.</p>
 </section>
 <section id="sensitive-data" class="level2">
 <h2 class="anchored" data-anchor-id="sensitive-data">Sensitive data</h2>
 <ul>
 <li>Wherever base tables are saved, it must be in a secure location as per data security policy (LINK?).</li>
-<li>Sensitive data should be removed or obfuscated unless it is absolutely necessary to retain it; bear in mind the data governance policies (LINK?).</li>
+<li>Sensitive data should be removed or obscured unless it is absolutely necessary to retain it; bear in mind the data governance policies (LINK?).</li>
 <li>For certain usage of sensitive data, the Caldicott Guardians (LINK?) should be consulted.</li>
 </ul>
 

@@ -8,7 +8,7 @@ The playbook can be found [here](https://nhsbsa-data-analytics.github.io/dall-pl
 
 To run the document, open `index.qmd`, within the root folder, using either Rstudio or VS Code and click 'Compile' or 'Preview' respectively. For Rstudio usage, you must also load the `dall-playbook.Rproj` project to be able to compile the document. 
 
-For Rstudio usage, you simply require the latest version of Rstudio. For VS Code, you must install the Quarto extension and install the Quarto CLI. When running Quarto for the first time, you will be prompted with instructions on how to install this. Please note this is not currently possible with the Azure Virtual Desktop (AVD).
+For Rstudio usage, you simply require the latest version of Rstudio. For VS Code, you must install the Quarto extension and install the Quarto CLI. When running Quarto for the first time, you will be prompted with instructions on how to install this. **Please note this is not currently possible with the Azure Virtual Desktop (AVD)**.
 
 ## Folder Structure
 
