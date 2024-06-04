@@ -1,6 +1,6 @@
 ---
 title: "Problem definition sign-off"
-description: "Create a Gantt chart or equivalent to plan the initiative's timescales."
+description: "Ensure customer is happy before finalising the problem definition"
 image: 05-problem-definition-sign-off.jpg
 image-alt: Photo by Edar on Pixabay
 ---
