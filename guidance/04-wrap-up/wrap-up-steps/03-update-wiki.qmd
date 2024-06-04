@@ -7,11 +7,11 @@ image-alt: Photo by Joshua Hoehne on Unsplash
   
 Throughout the initiative, you will have interrogated some data and potentially picked up some new skills in the process.
 
-- If there is anything you found particularly useful or that could be beneficial for others, please add it to the DALL OneNote Wiki.
-- If a question you have isn't already on the Wiki you should find the answer and incorporate it.
+- If there is anything you found particularly useful or that could be beneficial for others, please add it to the internal Data Science Wiki.
+- If a question you have isn't already on the internal Data Science Wiki you should find the answer and incorporate it.
 
 The Wiki should be the first place you look when you have questions on a:
 
-- particular dataset
+- dataset
 - piece of software
 - type of analysis

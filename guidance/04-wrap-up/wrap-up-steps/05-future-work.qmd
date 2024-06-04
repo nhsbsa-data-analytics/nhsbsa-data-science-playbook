@@ -1,5 +1,5 @@
 ---
-title: "Document any future work"
+title: "Consider potential future work"
 description: "Add interesting research avenues, beyond the scope of the initiative, to the ideas register for future analysis by members of the DALL team."
 image: 05-future-work.jpg
 image-alt: Photo by Brands&People on Unsplash

@@ -7,22 +7,16 @@ image-alt: Photo by Alexander Grey on Unsplash
   
 - Cleaning your project is an equally important step as the modelling and analysis.
 - Leaving a messy project folder and code can lead to difficulties later down the line.
+  - Delete old files that are no longer needed for the project.
+  - Delete data tables from personal schemas when no longer required.
 - It is important that you dedicate enough time to completing this step.
 - Approach the project clean up as a serious and worthwhile endeavour. 
 - It can be useful for a future project.
 
 ## General considerations
-- Work with the mindset that all work could be make public.
-- Small and precise commits are better than large ones.
-- Maintain a clear project structure with clean scripts.
-- Separate data, scripts and output into their own sub-directories.
-- Move custom functions into their own script.
-- Delete stale git branches or merge them into main.
-- Streamline the codebase.
-- Create a config file with key parameters and filters that are referenced throughout the project.
-- Identify bottlenecks and optimise the code.
-- Ensure key tables within the database are available to the wider team.
-- Remove personal tables from your own database schema after the project has concluded.
-- This is especially important for personally identifiable information.
 
-Please refer to the DALL OneNote Wiki for more information on cleaning your code.
+- Delete stale git branches or merge them into main.
+- Create a config file with key parameters and filters that are referenced throughout the project.
+- Ensure key tables within the database are available to the wider team, if applicable.
+
+Please refer to the internal Data Science Wiki for more information on cleaning your code.
