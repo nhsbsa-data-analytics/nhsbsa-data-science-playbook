@@ -1,6 +1,6 @@
 ---
 title: "Problem definition sign-off"
-description: "Ensure customer is happy before finalising the problem definition"
+description: "Ensure customer is happy before finalising the problem definition."
 image: 05-problem-definition-sign-off.jpg
 image-alt: Photo by Edar on Pixabay
 ---
