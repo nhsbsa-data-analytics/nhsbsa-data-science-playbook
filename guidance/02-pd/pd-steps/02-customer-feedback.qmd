@@ -2,18 +2,12 @@
 title: "Customer feedback"
 description: "Check in with the customer to agree the terms of the problem definition and gain further understanding of the problem."
 image: 02-customer-feedback.jpg
-image-alt: Photo by Emily Morter on Unsplash
+image-alt: Photo by Ronald Carre??o on Pixabay
 ---
 
-After finishing your draft of the problem definition (PD), meet with the customer(s) to go through it together and:
+After finishing your draft of the problem definition communicate with the customer to receive their feedback. How you get the feedback will depend on customer; it may be via Teams call, chat, or email.
 
-- discuss any limitations or questions found during the data exploration
-- set the agreed outputs of the initiative
+- Make sure the customer is aware of any limitations.
+- Get an agreement on the proposed output or any changes that are needed.
 
-Be sure to:
-
-- organise this meeting ahead of time as some people have busy schedules
-- send your PD before the meeting so they can review it ahead of time
-
-As an outcome of the meeting, there may be additional things to explore or add to the PD before the customer can sign off.
-
+However you get the feedback, keep a record of what was discussed and any agreements and update JIRA.
