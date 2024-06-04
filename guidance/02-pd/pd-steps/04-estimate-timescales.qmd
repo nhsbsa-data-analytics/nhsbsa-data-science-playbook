@@ -2,7 +2,7 @@
 title: "Estimate the timescales"
 description: "Create a Gantt chart or equivalent to plan the initiative's timescales."
 image: 04-estimate-timescales.jpg
-image-alt: Photo by Emily Morter on Unsplash
+image-alt: Photo by tigerlily713 on Pixabay
 ---
 
 During the planning stages of the initiative, it is a good idea to plan the timescales of the project.
@@ -13,9 +13,7 @@ To plan effectively:
 - list the items and their completion times
 - estimate when each element will be finished
 
-Please see the Gantt chart template within the templates folder on SharePoint.
-
-When planning any project, it is easy to underestimate the time required to complete it.
+Please see the Gantt chart template within the initiatives folder on SharePoint.
 
 You should always account for:
 

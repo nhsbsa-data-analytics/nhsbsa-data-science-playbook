@@ -48,6 +48,7 @@ website:
           - guidance/02-pd/pd-steps/02-customer-feedback.qmd
           - guidance/02-pd/pd-steps/03-refine-pd.qmd
           - guidance/02-pd/pd-steps/04-estimate-timescales.qmd
+          - guidance/02-pd/pd-steps/05-problem-definition-sign-off.qmd
       - section: "Analysis"
         contents:
           - guidance/03-analysis/index.qmd

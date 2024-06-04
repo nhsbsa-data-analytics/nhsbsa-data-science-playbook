@@ -2,10 +2,12 @@
 title: "Refine the problem definition"
 description: "Begin to write a draft of your problem definition by including a range of information about the problem."
 image: 03-refine-pd.jpg
-image-alt: Photo by Emily Morter on Unsplash
+image-alt: Photo by Jessica Lewis on Unsplash
 ---
 
+Customer feedback may highlight different angles to explore or amendments to the PD before the customer can sign off.
+
 -	It is important to repeat the problem definition loop again until the customer is happy to proceed.
--	In rare cases, this meeting may highlight that the initiative may not be possible in the way that the customer initially intended.
--	Unless any suitable alternatives are identified, we may need to give up on the project.
+-	In rare cases, feedback may highlight that the initiative may not be possible in the way that the customer initially intended.
+-	Unless any suitable alternatives are identified, the project may not be feasible.
 -	In this case, you **must** discuss your concerns with the Data Science Lead before communicating this with the customer.

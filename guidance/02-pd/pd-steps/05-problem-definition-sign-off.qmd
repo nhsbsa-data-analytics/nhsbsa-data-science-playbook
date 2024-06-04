@@ -1,0 +1,12 @@
+---
+title: "Problem definition sign-off"
+description: "Ensure customer is happy before finalising the problem definition."
+image: 05-problem-definition-sign-off.jpg
+image-alt: Photo by Edar on Pixabay
+---
+
+The customer should sign-off the problem definition before the initiative can be continued. In some cases however, preliminary work can be continued prior to sign-off.
+
+Optionally, a final meeting can be held with the customer to agree the direction of research.
+
+Ensure there is a record of the problem definition being signed-off, such as in a follow-up email after the final meeting or in a Teams message.
