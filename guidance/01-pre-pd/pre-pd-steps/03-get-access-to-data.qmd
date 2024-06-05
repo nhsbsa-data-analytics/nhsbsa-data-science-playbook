@@ -54,3 +54,27 @@ To assist your work you could use:
 This is a guide of what is possible and is dependent on the current project’s requirements.
 
 ## User research
+
+
+Incorporating user research into data science projects allows the team to provide actionable insights through advanced analytics, improve patient and customer outcomes, and reduce system loss. By collaborating with the wider NHSBSA, NHS England, and external organisations, we ensure our solutions meet user needs and drive innovation.
+
+User research is integrated into the data science projects by:
+
+- **using qualitative research methods** such as surveys, focus groups, and interviews to understand user problems and pain points when using NHS services
+
+- **using user insights** to determine important features, enhancing model accuracy and relevance
+
+- **establishing user-defined success metrics** to measure the effectiveness of our models and analytics
+
+- **designing models based on real-world use cases**, ensuring they meet user expectations and improve outcomes
+
+- **enhancing usability and accessibility** of tools like NHSBSA branded R Shiny and Power BI dashboards based on user feedback
+
+- **conducting usability testing** to refine models and solutions using user feedback based on prototypes
+
+- **building personalised recommendations and insights** that adapt to user preferences
+
+- **facilitating better communication** by bridging the gap between data scientists and end-users
+
+- **identifying impactful projects** that should be prioritised and allocated the appropriate resources 
+
