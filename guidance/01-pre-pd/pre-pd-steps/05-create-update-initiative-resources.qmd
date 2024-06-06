@@ -1,7 +1,7 @@
 ---
 title: "Create/update initative resources"
 description: ""
-image: 05-initial-meeting-with-customer.jpg
+image: 05-create-update-initiative-resources.jpg
 ---
 
 Before beginning to work on your problem definition, you will need to update JIRA and setup a GitHub repository to store and monitor code. 
