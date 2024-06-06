@@ -22,4 +22,3 @@ The Data Science team deliver [actionable insights](https://www.nhsbsa.nhs.uk/da
 -	Once a project is accepted, it is initially created in JIRA, with initiative number and basic project information including project lead, team members and critical friend. The Data Science initiative number is identified using JIRA. 
 -	A SharePoint folder is created to store documents and data  using the template provided. The initiative number is included in the name. 
 
-
