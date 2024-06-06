@@ -18,7 +18,7 @@ There are a range of outputs that may be agreed with the customer:
 * code/models
 
 ## Output structure
-For most outputs the below sections are typically used:
+A typical example of how a report could be structured is:
 
 1.	Introduction.
 2.	Contents.
