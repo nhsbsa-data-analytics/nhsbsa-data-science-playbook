@@ -22,7 +22,7 @@ You can find the full policies regarding data on the NHSBSA website.
 - [Records management policy (PDF)](https://www.nhsbsa.nhs.uk/sites/default/files/2023-05/NHSBSARM001%20Records%20Management%20Policy.pdf)
 - [Records management retention schedule (Excel)](https://www.nhsbsa.nhs.uk/sites/default/files/2023-05/NHSBSARM012%20Retention%20Schedule.xlsx)
 
-During an initiative, you will probably create tables in your personal schema. These could be part of the agreed outputs, or they could be adhoc tables from EDA, or tables created for testing or checking. Regularly review the tables in your schema, and keep only what is needed.
+During an initiative, you will probably create tables in your personal schema. These could be part of the agreed outputs, or they could be adhoc tables from EDA, or tables created for testing or checking. Regularly review the tables in your schema and keep only what is needed.
 
 - Adhoc tables, which are not part of the agreed outputs, should not generally be kept past your current working session.
 - Treat the code that creates tables for the purpose of testing or checking your work as part of your code base, so they can be easily recreated.
