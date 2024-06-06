@@ -2,7 +2,7 @@
 title: "NHSBSA DALL Playbook"
 description: "Detailed guidance on the typical workflow for DALL initiatives."
 title-block-banner: true
-listing: 
+listing:
   type: grid
   contents: "guidance/*/index.qmd"
   sort: "path"
