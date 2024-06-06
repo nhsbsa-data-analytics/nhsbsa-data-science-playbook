@@ -41,5 +41,6 @@ You will also have various supporting files for the initiative in the SharePoint
 - Delete stale git branches or merge them into main.
 - Create a config file with key parameters and filters that are referenced throughout the project.
 - Ensure key tables within the database are available to the wider team, if applicable.
+- If an initiative output is made publicly available, ensure an initiative summary and links to articles are added to the [NHSBSA Data Science projects page](https://www.nhsbsa.nhs.uk/data-science-projects).
 
 Please refer to the internal Data Science Wiki for more information on cleaning your code.
