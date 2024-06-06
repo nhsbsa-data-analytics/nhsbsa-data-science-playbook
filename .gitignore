@@ -7,7 +7,6 @@
 *.docx
 *.pdf
 *.pptx
-
 .quarto/
-
+_site
 /.quarto/
