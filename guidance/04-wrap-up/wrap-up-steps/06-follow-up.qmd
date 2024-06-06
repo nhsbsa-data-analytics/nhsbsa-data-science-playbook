@@ -1,0 +1,13 @@
+---
+title: "Follow-up"
+description: "Check back with customer after some time."
+image: 06-follow-up.jpg
+image-alt: Photo by Adrian on Pixabay
+---
+  
+Set a reminder to contact the customer three months after the initiative is completed.
+
+- Ask how the customer has used the outputs
+- Do they fully meet their needs? 
+- Also delete any remaining database tables from your own schema if they are no longer required.
+  

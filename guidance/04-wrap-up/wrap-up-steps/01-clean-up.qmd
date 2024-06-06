@@ -11,18 +11,36 @@ image-alt: Photo by Alexander Grey on Unsplash
 - Approach the project clean up as a serious and worthwhile endeavour. 
 - It can be useful for a future project.
 
-## General considerations
-- Work with the mindset that all work could be make public.
-- Small and precise commits are better than large ones.
-- Maintain a clear project structure with clean scripts.
-- Separate data, scripts and output into their own sub-directories.
-- Move custom functions into their own script.
-- Delete stale git branches or merge them into main.
-- Streamline the codebase.
-- Create a config file with key parameters and filters that are referenced throughout the project.
-- Identify bottlenecks and optimise the code.
-- Ensure key tables within the database are available to the wider team.
-- Remove personal tables from your own database schema after the project has concluded.
-- This is especially important for personally identifiable information.
+## Data retention
 
-Please refer to the DALL OneNote Wiki for more information on cleaning your code.
+Remember that we have a legal obligation to keep personal data only for as long as is necessary for the business purposes it is retained for.
+
+You can find the full policies regarding data on the NHSBSA website.
+
+- [Data handling and storage policy (PDF)](https://www.nhsbsa.nhs.uk/sites/default/files/2021-04/Data%20Classification%20Handling%20and%20Storage%20Policy.pdf)
+- [Data protection and confidentiality policy (PDF)](https://www.nhsbsa.nhs.uk/sites/default/files/2023-06/NHSBSADPN001d%20Data%20Protection%20and%20Confidentiality%20Policy.pdf)
+- [Records management policy (PDF)](https://www.nhsbsa.nhs.uk/sites/default/files/2023-05/NHSBSARM001%20Records%20Management%20Policy.pdf)
+- [Records management retention schedule (Excel)](https://www.nhsbsa.nhs.uk/sites/default/files/2023-05/NHSBSARM012%20Retention%20Schedule.xlsx)
+
+During an initiative, you will probably create tables in your personal schema. These could be part of the agreed outputs, or they could be adhoc tables from EDA, or tables created for testing or checking. Regularly review the tables in your schema and keep only what is needed.
+
+- Adhoc tables, which are not part of the agreed outputs, should not generally be kept past your current working session.
+- Treat the code that creates tables for the purpose of testing or checking your work as part of your code base, so they can be easily recreated.
+- Tables that are part of agreed outputs should be kept until the 3-month follow-up with the initiative customer has been done, and then dropped.
+- Any tables that need to be kept for longer time frames should be recreated in the Data Science Reference schema.
+
+You will also have various supporting files for the initiative in the SharePoint folder.
+
+- Don't delete files outright; save any files deemed not needed into an 'Archive' folder.
+- Set a reminder, 2 years after the 3-month follow-up with the customer has been completed, to delete the Archive. This is to allow for the potential of an audit.
+
+- Up-to-date guidance on data retention for miscellaneous files in SharePoint is in progress, so these guidelines may change.
+
+## General considerations
+
+- Delete stale git branches or merge them into main.
+- Create a config file with key parameters and filters that are referenced throughout the project.
+- Ensure key tables within the database are available to the wider team, if applicable.
+- If an initiative output is made publicly available, ensure an initiative summary and links to articles are added to the [NHSBSA Data Science projects page](https://www.nhsbsa.nhs.uk/data-science-projects).
+
+Please refer to the internal Data Science Wiki for more information on cleaning your code.

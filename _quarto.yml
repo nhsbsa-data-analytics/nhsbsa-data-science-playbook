@@ -64,6 +64,7 @@ website:
           - guidance/04-wrap-up/wrap-up-steps/03-update-wiki.qmd
           - guidance/04-wrap-up/wrap-up-steps/04-public-repository.qmd
           - guidance/04-wrap-up/wrap-up-steps/05-future-work.qmd
+          - guidance/04-wrap-up/wrap-up-steps/06-follow-up.qmd
 
 format:
   html:
