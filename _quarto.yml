@@ -3,6 +3,7 @@ project:
   output-dir: docs
 
 website:
+  bread-crumbs: false
   favicon: static/bsa-favicon.png
   title: "NHSBSA DALL Playbook" 
   navbar:
