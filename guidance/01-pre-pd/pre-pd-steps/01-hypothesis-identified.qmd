@@ -4,8 +4,6 @@ description: "Investigate an initiative to work on for internal NHSBSA customer,
 image: 01-hypothesis-identified.jpg
 ---
 
-TEST-COMMIT
-
 The Data Science team deliver [actionable insights](https://www.nhsbsa.nhs.uk/data-science-projects) from data through **innovation**, **experimentation** and **collaboration**. This drives policy, decision making and efficiencies across the NHSBSA and wider health and social care system. Projects typically align to the following areas:
 
 -	help identify health and care disparities
