@@ -6,7 +6,6 @@ website:
   favicon: static/bsa-favicon.png
   title: "NHSBSA DALL Playbook" 
   navbar:
-    bread-crumbs: false
     title: false
     logo: "static/logo-nhs.svg"
     logo-alt: "NHS logo"
