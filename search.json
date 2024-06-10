@@ -278,7 +278,7 @@
   {
     "objectID": "index.html#sections",
     "href": "index.html#sections",
-    "title": "NHSBSA DALL Playbook",
+    "title": "NHSBSA Data Science Playbook",
     "section": "Sections",
     "text": "Sections"
   },
@@ -630,7 +630,7 @@
     "href": "guidance/04-wrap-up/wrap-up-steps/05-future-work.html",
     "title": "Consider potential future work",
     "section": "",
-    "text": "After the project ended, you might have wanted to explore areas outside the project’s scope.\n\nAdd future project ideas to the DALL ideas register.\nShort pieces of work can be completed as a three week exploratory project.",
+    "text": "After the project ended, you might have wanted to explore areas outside the project’s scope.\n\nAdd future project ideas to the Data Science ideas register.\nShort pieces of work can be completed as a three week exploratory project.",
     "crumbs": [
       "Home",
       "Initiative wrap up",
