@@ -1,6 +1,6 @@
 ---
-title: "NHSBSA DALL Playbook"
-description: "Detailed guidance on the typical workflow for DALL initiatives."
+title: "NHSBSA Data Science Playbook"
+description: "Detailed guidance on the typical workflow for Data Science initiatives."
 title-block-banner: true
 listing:
   type: grid
