@@ -13,12 +13,12 @@ The analysis first requires an appropriate method that can provide the desired o
 
 *	Create a short-list of methods that could be applicable to the problem.
 *	Consider the pros and cons of each candidate method:
-  *	are there examples of this method being applied to the problem archetype?
-  *	will the available data support the method? If not, is it feasible to transform the data into a more suitable form?
-  *	will the tools available support the method?
+    *	are there examples of this method being applied to the problem archetype?
+    *	will the available data support the method? If not, is it feasible to transform the data into a more suitable form?
+    *	will the tools available support the method?
 *	Decide which methods are best suited to the problem:
-  *	often the best method will be clear
-  *	sometimes you may need to try a small number of methods before deciding on the overall best one
+    *	often the best method will be clear
+    *	sometimes you may need to try a small number of methods before deciding on the overall best one
 
 Keep notes of your decision-making and method trials for the final write-up of the initiative.
 
@@ -26,7 +26,7 @@ Keep notes of your decision-making and method trials for the final write-up of t
 
 Apply the selected model(s) with **RIGOUR**; it should be **R**epeatable, **I**ndependent, **G**rounded in reality, **O**bjective, **U**ncertainty-managed, and **R**obust.
 
-* **Repeatable**: For an analytical process to be considered ‘valid’ it might reasonably be expected that for the “same” inputs and constraints the analysis produces the “same” outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected.
+* **Repeatable**: For an analytical process to be considered 'valid' it might reasonably be expected that for the same inputs and constraints the analysis produces the same outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected.
 * **Independent**: To produce analysis that is free of prejudice or bias. In doing so, care should be taken to appropriately balance the views across all stakeholders and experts.
 * **Grounded in reality**: Quality analysis takes the commissioner and analyst on a journey as views and perceptions are challenged and connections are made between the analysis and its real consequences. Connecting with reality in this way guards against failing to properly grasp the context of the problem which is being analysed.
 * **Objective**: Effective engagement and suitable challenge reduces potential bias and enables the commissioner and the analyst to be clear about the interpretation of the analytical results.
@@ -38,21 +38,21 @@ Apply the selected model(s) with **RIGOUR**; it should be **R**epeatable, **I**n
 Check your analysis thoroughly and often, not as a last step before delivery.
 
 *	Documentation is important because:
-  *	it allows us to transfer knowledge about the analysis
-  *	it keeps the analysis transparent
-  *	it provides instructions on how to use any interactive output
+    *	it allows us to transfer knowledge about the analysis
+    *	it keeps the analysis transparent
+    *	it provides instructions on how to use any interactive output
 *	Good analysis structure helps:
-  *	in avoiding errors
-  *	make it easier to check
-  *	maintain ongoing workflows
-  *	to re-use or re-purpose later
+    *	in avoiding errors
+    *	make it easier to check
+    *	maintain ongoing workflows
+    *	to re-use or re-purpose later
 *	Verify the outputs by:
-  *	testing your analysis, preferably in a repeatable and automated way
-  *	asking for peer review of all aspects, including code, text and decisions made
+    *	testing your analysis, preferably in a repeatable and automated way
+    *	asking for peer review of all aspects, including code, text and decisions made
 * Validate your analysis by:
-  *	checking outputs are reasonable for a wide range of inputs
-  *	comparing to existing data
-  *	asking a subject-matter expert to review (the earlier the better)
+    *	checking outputs are reasonable for a wide range of inputs
+    *	comparing to existing data
+    *	asking a subject-matter expert to review (the earlier the better)
 *	Be open about uncertainty caused by data and assumptions and communicate this clearly to stakeholders.
 
 ## Useful QA resources
@@ -99,7 +99,7 @@ Additionally, you must be careful about visualising sensitive results. Please co
 
 Before pushing any code to GitHub, it's essential to ensure that the output is cleared, and that no sensitive information remains within it.
 
-## RAP considerations (LINK?)
+## RAP considerations
 
 * It is worth spending time on making the data preparation easy to repeat.
 * Make sure the code is easy to maintain, read and re-run when required.
@@ -110,3 +110,8 @@ Before pushing any code to GitHub, it's essential to ensure that the output is c
 * Separate data, scripts, and output into their own sub-directories.
 * Move custom functions into their own script.
 * Document your custom functions.
+
+## Useful RAP resources
+
+* [Government Analysis Function](https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/)
+* [NHS RAP Community of Practice](https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/levels_of_RAP/)
