@@ -100,7 +100,7 @@
     "href": "guidance/03-analysis/analysis-steps/04-review.html",
     "title": "Review",
     "section": "",
-    "text": "Reviewing work and outputs frequently should be done throughout the initiative life cycle. There are multiple layers of review:\nIn response to any one of these reviews, it may be deemed necessary to go back to data preparation, analysis or drafting of outputs.\nDuring all review stages prior to the customer review the:",
+    "text": "There are multiple layers of review.\nIn response to any one of these reviews, it may be deemed necessary to go back to data preparation, analysis or drafting of outputs.\nDuring all review stages prior to the customer review the:",
     "crumbs": [
       "Home",
       "Analysis",
@@ -112,7 +112,7 @@
     "href": "guidance/03-analysis/analysis-steps/04-review.html#self-review",
     "title": "Review",
     "section": "Self review",
-    "text": "Self review\nReview your own work as you go, but especially before requesting anyone else to review it. Before submitting for review you should:\n\nsense check reporting outputs to avoid giving naïve conclusions\nrun code with a ‘clean slate’ to ensure there are no dependencies in your local environment that will not be there later\nconsider writing repeatable tests rather than adhoc testing\ndocument your code\ncreate a pull request (PR) on Github once happy with the code\nif you are building on an already-established draft, check the code diff (difference) on Github and add comments to explain to a code reviewer any decisions you made that are not obvious\ncheck the code diff as it may highlight something you missed; in these cases make further changes and push them\nif appropriate, try to include only a small amount of change in a single PR Once happy with your PR, request that someone code review it.\n\n\n\n\n\n\n\nGive colleagues sufficient time\n\n\n\n\n\nRemember that your colleagues have other work; give them enough time to review your work properly.",
+    "text": "Self review\nReview your own work as you go, but especially before requesting anyone else to review it. Before submitting for review you should:\n\nensure all of the points in the QA section on the Analysis and Modelling page are considered\nsense check reporting outputs to avoid giving naïve conclusions\nrun code with a ‘clean slate’ to ensure there are no dependencies in your local environment that will not be there later\nconsider writing repeatable tests rather than adhoc testing\ndocument your code and the methodology used\ncreate a pull request (PR) on Github once happy with the code\nif you are building on an already-established draft, check the code diff (difference) on Github and add comments to explain to a code reviewer any decisions you made that are not obvious\ncheck the code diff as it may highlight something you missed; in these cases make further changes and push them\nif appropriate, try to include only a small amount of change in a single PR Once happy with your PR, request that someone code review it.\n\n\n\n\n\n\n\nGive colleagues sufficient time\n\n\n\n\n\nRemember that your colleagues have other work; give them enough time to review your work properly.",
     "crumbs": [
       "Home",
       "Analysis",
@@ -168,11 +168,11 @@
     ]
   },
   {
-    "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#conducting-the-work",
-    "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#conducting-the-work",
+    "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#selection-of-methods",
+    "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#selection-of-methods",
     "title": "Analysis and modelling",
-    "section": "Conducting the work",
-    "text": "Conducting the work\nStarting from the source tables, we want to create the agreed outputs. Depending on the work, there are many approaches and tools we can use to do this.\n\nR is especially suited to use for statistical analysis and visualisation and supports reproducible (Rmarkdown) and interactive (R Shiny) reports.\nPython has most widespread support for training Artificial Intelligence Models and is more widely integrated with cloud-based platforms.\nPower BI is a possible alternative to R Shiny for creating dashboards, but due to licensing may not be suitable for certain end users.\nIf it is appropriate, Excel and/or SQL can be used for generating simple summary statistics.\n\nPlease see the internal Data Science Wiki for tips on how to use all of these tools.",
+    "section": "Selection of methods",
+    "text": "Selection of methods\nThe analysis first requires an appropriate method that can provide the desired outputs.\n\nCreate a short-list of methods that could be applicable to the problem.\nConsider the pros and cons of each candidate method:\n\nare there examples of this method being applied to the problem archetype?\nwill the available data support the method? If not, is it feasible to transform the data into a more suitable form?\nwill the tools available support the method?\n\nDecide which methods are best suited to the problem:\n\noften the best method will be clear\nsometimes you may need to try a small number of methods before deciding on the overall best one\n\n\nKeep notes of your decision-making and method trials for the final write-up of the initiative.",
     "crumbs": [
       "Home",
       "Analysis",
@@ -180,11 +180,47 @@
     ]
   },
   {
-    "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#tips-for-effective-analysis",
-    "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#tips-for-effective-analysis",
+    "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#application-of-methods",
+    "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#application-of-methods",
     "title": "Analysis and modelling",
-    "section": "Tips for effective analysis",
-    "text": "Tips for effective analysis\n\nSelect the most appropriate model or approach for the problem. Useful guidance can be found at:\n\nGood practice guidance: Framework to review models (nao.org.uk)\nPrinciples of quality assurance for modelling and data analysis (publishing.service.gov.uk)\nThe Aqua Book: guidance on producing quality analysis - GOV.UK (www.gov.uk)\nGovernment Functional Standard (publishing.service.gov.uk)",
+    "section": "Application of methods",
+    "text": "Application of methods\nApply the selected model(s) with RIGOUR; it should be Repeatable, Independent, Grounded in reality, Objective, Uncertainty-managed, and Robust.\n\nRepeatable: For an analytical process to be considered ‘valid’ it might reasonably be expected that for the same inputs and constraints the analysis produces the same outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected.\nIndependent: To produce analysis that is free of prejudice or bias. In doing so, care should be taken to appropriately balance the views across all stakeholders and experts.\nGrounded in reality: Quality analysis takes the commissioner and analyst on a journey as views and perceptions are challenged and connections are made between the analysis and its real consequences. Connecting with reality in this way guards against failing to properly grasp the context of the problem which is being analysed.\nObjective: Effective engagement and suitable challenge reduces potential bias and enables the commissioner and the analyst to be clear about the interpretation of the analytical results.\nUncertainty-managed: Uncertainties have been identified, managed, and communicated throughout the analytical process.\nRobust: Provide the analytical result in the context of residual uncertainty and limitations to ensure it is used appropriately.",
+    "crumbs": [
+      "Home",
+      "Analysis",
+      "Analysis and modelling"
+    ]
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#quality-assurance-qa",
+    "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#quality-assurance-qa",
+    "title": "Analysis and modelling",
+    "section": "Quality Assurance (QA)",
+    "text": "Quality Assurance (QA)\nCheck your analysis thoroughly and often, not as a last step before delivery.\n\nDocumentation is important because:\n\nit allows us to transfer knowledge about the analysis\nit keeps the analysis transparent\nit provides instructions on how to use any interactive output\n\nGood analysis structure helps:\n\nin avoiding errors\nmake it easier to check\nmaintain ongoing workflows\nto re-use or re-purpose later\n\nVerify the outputs by:\n\ntesting your analysis, preferably in a repeatable and automated way\nasking for peer review of all aspects, including code, text and decisions made\n\nValidate your analysis by:\n\nchecking outputs are reasonable for a wide range of inputs\ncomparing to existing data\nasking a subject-matter expert to review (the earlier the better)\n\nBe open about uncertainty caused by data and assumptions and communicate this clearly to stakeholders.",
+    "crumbs": [
+      "Home",
+      "Analysis",
+      "Analysis and modelling"
+    ]
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#useful-qa-resources",
+    "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#useful-qa-resources",
+    "title": "Analysis and modelling",
+    "section": "Useful QA resources",
+    "text": "Useful QA resources\n\nGood practice guidance: Framework to review models (PDF)\nPrinciples of quality assurance for modelling and data analysis (PDF)\nThe Aqua Book: guidance on producing quality analysis - GOV.UK (PDF)\nGovernment Functional Standard (PDF)",
+    "crumbs": [
+      "Home",
+      "Analysis",
+      "Analysis and modelling"
+    ]
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#tools-used-in-analysis",
+    "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#tools-used-in-analysis",
+    "title": "Analysis and modelling",
+    "section": "Tools used in analysis",
+    "text": "Tools used in analysis\nStarting from the source tables, we want to create the agreed outputs. There are a range of tools we have at our disposal. Which tools are best will depend on the problem being tackled.\n\nR is especially suited to use for statistical analysis and visualisation and supports reproducible (Rmarkdown) and interactive (R Shiny) reports.\nPython has most widespread support for training Artificial Intelligence Models and is more widely integrated with cloud-based platforms.\nPower BI is a possible alternative to R Shiny for creating dashboards, but due to licensing may not be suitable for certain end users.\nIf it is appropriate, Excel and/or SQL can be used for generating simple summary statistics.\n\nPlease see the internal Data Science Wiki for tips on how to use all of these tools.",
     "crumbs": [
       "Home",
       "Analysis",
@@ -196,7 +232,7 @@
     "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#tips-for-effective-programming",
     "title": "Analysis and modelling",
     "section": "Tips for effective programming",
-    "text": "Tips for effective programming\n\nUse Github to handle version control, issues and code reviews.\nIn Python, use object-oriented programming (OOP) if you can. Please see the internal Data Science Wiki for information.\nAlthough R does have support for OOP, it is not a big paradigm like in Python.\nBe careful of premature optimisation (called out by computer scientist Donald Knuth as ‘the root of all evil’ in software development).\nStart small, such as limiting data to a manageable subset when developing the analysis; this makes it easier to spot issues and allows for faster iteration of code.\nCheck the data looks correct at each step of reshaping and transforming it; better still, know what it should be before writing and applying the step (the principle behind test driven development, TDD).\nWork on one component of output at a time, for example using shiny with the modular golem framework, as in our template.\nFrequently run code as you write it, so any issues are encountered early and their source is clearer.\nYou may produce multiple smaller data sets to be used in your outputs; the considerations applying to base tables apply equally to these.\nWhere appropriate, the final code should use RAP principles [LINK?].",
+    "text": "Tips for effective programming\nData will be a factor in all initiatives. Most initiatives will also have some element of coding involved, even when using low-or-no-code tools like Power BI.\n\nUse Github to handle version control, issues and code reviews.\nIn Python, use object-oriented programming (OOP) if you can. Please see the internal Data Science Wiki for information.\nAlthough R does have support for OOP, it is not a big paradigm like in Python.\nBe careful of premature optimisation (called out by computer scientist Donald Knuth as ‘the root of all evil’ in software development).\nStart small, such as limiting data to a manageable subset when developing the analysis; this makes it easier to spot issues and allows for faster iteration of code.\nCheck the data looks correct at each step of reshaping and transforming it; better still, know what it should be before writing and applying the step (the principle behind test driven development, TDD).\nWork on one component of output at a time, for example using shiny with the modular golem framework, as in our shiny app template.\nFrequently run code as you write it, or check the output for low-or-no-code tools, so any issues are encountered early and their source is clearer.\nYou may produce multiple smaller data sets to be used in your outputs; the considerations applying to base tables apply equally to these.\nWhere appropriate, the final code should use RAP principles [LINK?].",
     "crumbs": [
       "Home",
       "Analysis",
@@ -208,7 +244,31 @@
     "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#check-the-quality",
     "title": "Analysis and modelling",
     "section": "Check the quality",
-    "text": "Check the quality\nAs with data preparation, it is important to test and validate your results.\n\nWhere possible, check results against other sources.\nOther sources could be data from previous initiatives, Management Information dashboards or ePACT2.\n\nAdditionally, you must be careful about visualising sensitive results. Please contact your critical friend or the Data Science Lead if you are unsure. Results for external audience or general public must be subjected to Statistical Disclosure Control [LINK] before release. Before pushing the code to GitHub, it’s essential to ensure that the output is cleared, and that no sensitive information remains within it.\n\nRAP considerations (LINK?)\n\nIt is worth spending time on making the data preparation easy to repeat.\nMake sure the code is easy to maintain, read and re-run when required.\nRather than just doing adhoc testing, write formal tests that can be repeated.\nWorking in a RAP-ful way is especially important when the output of an initiative is to be refreshed periodically, such as monthly or annually. Document your code as you go. Maintain a clear project structure with clean scripts.\nSeparate data, scripts and output into their own sub-directories.\nMove custom functions into their own script.\nDocument your custom functions.",
+    "text": "Check the quality\nAs with data preparation, it is important to test and validate your results.\n\nWhere possible, check results against other sources.\nOther sources could be data from previous initiatives, Management Information dashboards or ePACT2.\n\nAdditionally, you must be careful about visualising sensitive results. Please contact your critical friend or the Data Science Lead if you are unsure. Results for external audience or general public must be subjected to Statistical Disclosure Control [LINK] before release.\nBefore pushing any code to GitHub, it’s essential to ensure that the output is cleared, and that no sensitive information remains within it.",
+    "crumbs": [
+      "Home",
+      "Analysis",
+      "Analysis and modelling"
+    ]
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#rap-considerations",
+    "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#rap-considerations",
+    "title": "Analysis and modelling",
+    "section": "RAP considerations",
+    "text": "RAP considerations\n\nIt is worth spending time on making the data preparation easy to repeat.\nMake sure the code is easy to maintain, read and re-run when required.\nRather than just doing adhoc testing, write formal tests that can be repeated.\nWorking in a RAP-ful way is especially important when the output of an initiative is to be refreshed periodically, such as monthly or annually.\nComment your code where its purpose is not obvious.\nMaintain a clear project structure with clean scripts.\nSeparate data, scripts, and output into their own sub-directories.\nMove custom functions into their own script.\nDocument your custom functions.",
+    "crumbs": [
+      "Home",
+      "Analysis",
+      "Analysis and modelling"
+    ]
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#useful-rap-resources",
+    "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#useful-rap-resources",
+    "title": "Analysis and modelling",
+    "section": "Useful RAP resources",
+    "text": "Useful RAP resources\n\nGovernment Analysis Function\nNHS RAP Community of Practice",
     "crumbs": [
       "Home",
       "Analysis",

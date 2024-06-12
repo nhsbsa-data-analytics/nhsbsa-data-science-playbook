@@ -379,13 +379,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#conducting-the-work" id="toc-conducting-the-work" class="nav-link active" data-scroll-target="#conducting-the-work">Conducting the work</a></li>
-  <li><a href="#tips-for-effective-analysis" id="toc-tips-for-effective-analysis" class="nav-link" data-scroll-target="#tips-for-effective-analysis">Tips for effective analysis</a></li>
+  <li><a href="#selection-of-methods" id="toc-selection-of-methods" class="nav-link active" data-scroll-target="#selection-of-methods">Selection of methods</a></li>
+  <li><a href="#application-of-methods" id="toc-application-of-methods" class="nav-link" data-scroll-target="#application-of-methods">Application of methods</a></li>
+  <li><a href="#quality-assurance-qa" id="toc-quality-assurance-qa" class="nav-link" data-scroll-target="#quality-assurance-qa">Quality Assurance (QA)</a></li>
+  <li><a href="#useful-qa-resources" id="toc-useful-qa-resources" class="nav-link" data-scroll-target="#useful-qa-resources">Useful QA resources</a></li>
+  <li><a href="#tools-used-in-analysis" id="toc-tools-used-in-analysis" class="nav-link" data-scroll-target="#tools-used-in-analysis">Tools used in analysis</a></li>
   <li><a href="#tips-for-effective-programming" id="toc-tips-for-effective-programming" class="nav-link" data-scroll-target="#tips-for-effective-programming">Tips for effective programming</a></li>
-  <li><a href="#check-the-quality" id="toc-check-the-quality" class="nav-link" data-scroll-target="#check-the-quality">Check the quality</a>
-  <ul class="collapse">
-  <li><a href="#rap-considerations-link" id="toc-rap-considerations-link" class="nav-link" data-scroll-target="#rap-considerations-link">RAP considerations (LINK?)</a></li>
-  </ul></li>
+  <li><a href="#check-the-quality" id="toc-check-the-quality" class="nav-link" data-scroll-target="#check-the-quality">Check the quality</a></li>
+  <li><a href="#rap-considerations" id="toc-rap-considerations" class="nav-link" data-scroll-target="#rap-considerations">RAP considerations</a></li>
+  <li><a href="#useful-rap-resources" id="toc-useful-rap-resources" class="nav-link" data-scroll-target="#useful-rap-resources">Useful RAP resources</a></li>
   </ul>
 </nav>
     </div>
@@ -397,9 +399,80 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>In this step, we turn our data into insights. The work done here can vary. It can include statistical analysis, both modelled and descriptive, as well as more sophisticated Machine Learning (AI) – the choice being dependent on the output requirements of the customer. The output can be presented in the form of a report, a dashboard, or a slide deck.</p>
-<section id="conducting-the-work" class="level2">
-<h2 class="anchored" data-anchor-id="conducting-the-work">Conducting the work</h2>
-<p>Starting from the source tables, we want to create the agreed outputs. Depending on the work, there are many approaches and tools we can use to do this.</p>
+<section id="selection-of-methods" class="level2">
+<h2 class="anchored" data-anchor-id="selection-of-methods">Selection of methods</h2>
+<p>The analysis first requires an appropriate method that can provide the desired outputs.</p>
+<ul>
+<li>Create a short-list of methods that could be applicable to the problem.</li>
+<li>Consider the pros and cons of each candidate method:
+<ul>
+<li>are there examples of this method being applied to the problem archetype?</li>
+<li>will the available data support the method? If not, is it feasible to transform the data into a more suitable form?</li>
+<li>will the tools available support the method?</li>
+</ul></li>
+<li>Decide which methods are best suited to the problem:
+<ul>
+<li>often the best method will be clear</li>
+<li>sometimes you may need to try a small number of methods before deciding on the overall best one</li>
+</ul></li>
+</ul>
+<p>Keep notes of your decision-making and method trials for the final write-up of the initiative.</p>
+</section>
+<section id="application-of-methods" class="level2">
+<h2 class="anchored" data-anchor-id="application-of-methods">Application of methods</h2>
+<p>Apply the selected model(s) with <strong>RIGOUR</strong>; it should be <strong>R</strong>epeatable, <strong>I</strong>ndependent, <strong>G</strong>rounded in reality, <strong>O</strong>bjective, <strong>U</strong>ncertainty-managed, and <strong>R</strong>obust.</p>
+<ul>
+<li><strong>Repeatable</strong>: For an analytical process to be considered ‘valid’ it might reasonably be expected that for the same inputs and constraints the analysis produces the same outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected.</li>
+<li><strong>Independent</strong>: To produce analysis that is free of prejudice or bias. In doing so, care should be taken to appropriately balance the views across all stakeholders and experts.</li>
+<li><strong>Grounded in reality</strong>: Quality analysis takes the commissioner and analyst on a journey as views and perceptions are challenged and connections are made between the analysis and its real consequences. Connecting with reality in this way guards against failing to properly grasp the context of the problem which is being analysed.</li>
+<li><strong>Objective</strong>: Effective engagement and suitable challenge reduces potential bias and enables the commissioner and the analyst to be clear about the interpretation of the analytical results.</li>
+<li><strong>Uncertainty-managed</strong>: Uncertainties have been identified, managed, and communicated throughout the analytical process.</li>
+<li><strong>Robust</strong>: Provide the analytical result in the context of residual uncertainty and limitations to ensure it is used appropriately.</li>
+</ul>
+</section>
+<section id="quality-assurance-qa" class="level2">
+<h2 class="anchored" data-anchor-id="quality-assurance-qa">Quality Assurance (QA)</h2>
+<p>Check your analysis thoroughly and often, not as a last step before delivery.</p>
+<ul>
+<li>Documentation is important because:
+<ul>
+<li>it allows us to transfer knowledge about the analysis</li>
+<li>it keeps the analysis transparent</li>
+<li>it provides instructions on how to use any interactive output</li>
+</ul></li>
+<li>Good analysis structure helps:
+<ul>
+<li>in avoiding errors</li>
+<li>make it easier to check</li>
+<li>maintain ongoing workflows</li>
+<li>to re-use or re-purpose later</li>
+</ul></li>
+<li>Verify the outputs by:
+<ul>
+<li>testing your analysis, preferably in a repeatable and automated way</li>
+<li>asking for peer review of all aspects, including code, text and decisions made</li>
+</ul></li>
+<li>Validate your analysis by:
+<ul>
+<li>checking outputs are reasonable for a wide range of inputs</li>
+<li>comparing to existing data</li>
+<li>asking a subject-matter expert to review (the earlier the better)</li>
+</ul></li>
+<li>Be open about uncertainty caused by data and assumptions and communicate this clearly to stakeholders.</li>
+</ul>
+</section>
+<section id="useful-qa-resources" class="level2">
+<h2 class="anchored" data-anchor-id="useful-qa-resources">Useful QA resources</h2>
+<ul>
+<li><a href="https://www.nao.org.uk/wp-content/uploads/2016/03/11018-002-Framework-to-review-models_External_4DP.pdf">Good practice guidance: Framework to review models (PDF)</a></li>
+<li><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/878616/Principles_of_QA_for_analysis.pdf">Principles of quality assurance for modelling and data analysis (PDF)</a></li>
+<li><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/878616/Principles_of_QA_for_analysis.pdf">The Aqua Book: guidance on producing quality analysis - GOV.UK (PDF)</a></li>
+<li><a href="https://assets.publishing.service.gov.uk/media/64e4cf0a4002ee000d560d5f/2023.02_GovS_010_Analysis_v2.1.pdf">Government Functional Standard (PDF)</a></li>
+</ul>
+</section>
+<section id="tools-used-in-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="tools-used-in-analysis">Tools used in analysis</h2>
+<p>Starting from the source tables, we want to create the agreed outputs. There are a range of tools we have at our disposal. Which tools are best will depend on the problem being tackled.</p>
 <ul>
 <li>R is especially suited to use for statistical analysis and visualisation and supports reproducible (Rmarkdown) and interactive (R Shiny) reports.</li>
 <li>Python has most widespread support for training Artificial Intelligence Models and is more widely integrated with cloud-based platforms.</li>
@@ -408,20 +481,9 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>Please see the internal Data Science Wiki for tips on how to use all of these tools.</p>
 </section>
-<section id="tips-for-effective-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="tips-for-effective-analysis">Tips for effective analysis</h2>
-<ul>
-<li>Select the most appropriate model or approach for the problem. Useful guidance can be found at:
-<ul>
-<li><a href="https://www.nao.org.uk/wp-content/uploads/2016/03/11018-002-Framework-to-review-models_External_4DP.pdf">Good practice guidance: Framework to review models (nao.org.uk)</a></li>
-<li><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/878616/Principles_of_QA_for_analysis.pdf">Principles of quality assurance for modelling and data analysis (publishing.service.gov.uk)</a></li>
-<li><a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/878616/Principles_of_QA_for_analysis.pdf">The Aqua Book: guidance on producing quality analysis - GOV.UK (www.gov.uk)</a></li>
-<li><a href="https://assets.publishing.service.gov.uk/media/64e4cf0a4002ee000d560d5f/2023.02_GovS_010_Analysis_v2.1.pdf">Government Functional Standard (publishing.service.gov.uk)</a></li>
-</ul></li>
-</ul>
-</section>
 <section id="tips-for-effective-programming" class="level2">
 <h2 class="anchored" data-anchor-id="tips-for-effective-programming">Tips for effective programming</h2>
+<p>Data will be a factor in all initiatives. Most initiatives will also have some element of coding involved, even when using low-or-no-code tools like Power BI.</p>
 <ul>
 <li>Use Github to handle version control, issues and code reviews.</li>
 <li>In Python, use object-oriented programming (OOP) if you can. Please see the internal Data Science Wiki for information.</li>
@@ -429,8 +491,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Be careful of premature optimisation (called out by computer scientist Donald Knuth as ‘the root of all evil’ in software development).</li>
 <li>Start small, such as limiting data to a manageable subset when developing the analysis; this makes it easier to spot issues and allows for faster iteration of code.</li>
 <li>Check the data looks correct at each step of reshaping and transforming it; better still, know what it should be before writing and applying the step (the principle behind test driven development, TDD).</li>
-<li>Work on one component of output at a time, for example using <code>shiny</code> with the modular <code>golem</code> framework, as in our <a href="https://github.com/nhsbsa-data-analytics/nhsbsaShinyR">template</a>.</li>
-<li>Frequently run code as you write it, so any issues are encountered early and their source is clearer.</li>
+<li>Work on one component of output at a time, for example using <code>shiny</code> with the modular <code>golem</code> framework, as in our <a href="https://github.com/nhsbsa-data-analytics/nhsbsaShinyR">shiny app template</a>.</li>
+<li>Frequently run code as you write it, or check the output for low-or-no-code tools, so any issues are encountered early and their source is clearer.</li>
 <li>You may produce multiple smaller data sets to be used in your outputs; the considerations applying to base tables apply equally to these.</li>
 <li>Where appropriate, the final code should use RAP principles [LINK?].</li>
 </ul>
@@ -442,21 +504,31 @@ ul.task-list li input[type="checkbox"] {
 <li>Where possible, check results against other sources.</li>
 <li>Other sources could be data from previous initiatives, Management Information dashboards or ePACT2.</li>
 </ul>
-<p>Additionally, you must be careful about visualising sensitive results. Please contact your critical friend or the Data Science Lead if you are unsure. Results for external audience or general public must be subjected to Statistical Disclosure Control [LINK] before release. Before pushing the code to GitHub, it’s essential to ensure that the output is cleared, and that no sensitive information remains within it.</p>
-<section id="rap-considerations-link" class="level3">
-<h3 class="anchored" data-anchor-id="rap-considerations-link">RAP considerations (LINK?)</h3>
+<p>Additionally, you must be careful about visualising sensitive results. Please contact your critical friend or the Data Science Lead if you are unsure. Results for external audience or general public must be subjected to Statistical Disclosure Control [LINK] before release.</p>
+<p>Before pushing any code to GitHub, it’s essential to ensure that the output is cleared, and that no sensitive information remains within it.</p>
+</section>
+<section id="rap-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="rap-considerations">RAP considerations</h2>
 <ul>
 <li>It is worth spending time on making the data preparation easy to repeat.</li>
 <li>Make sure the code is easy to maintain, read and re-run when required.</li>
 <li>Rather than just doing adhoc testing, write formal tests that can be repeated.</li>
-<li>Working in a RAP-ful way is especially important when the output of an initiative is to be refreshed periodically, such as monthly or annually. Document your code as you go. Maintain a clear project structure with clean scripts.</li>
-<li>Separate data, scripts and output into their own sub-directories.</li>
+<li>Working in a RAP-ful way is especially important when the output of an initiative is to be refreshed periodically, such as monthly or annually.</li>
+<li>Comment your code where its purpose is not obvious.</li>
+<li>Maintain a clear project structure with clean scripts.</li>
+<li>Separate data, scripts, and output into their own sub-directories.</li>
 <li>Move custom functions into their own script.</li>
 <li>Document your custom functions.</li>
 </ul>
-
-
 </section>
+<section id="useful-rap-resources" class="level2">
+<h2 class="anchored" data-anchor-id="useful-rap-resources">Useful RAP resources</h2>
+<ul>
+<li><a href="https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/">Government Analysis Function</a></li>
+<li><a href="https://nhsdigital.github.io/rap-community-of-practice/introduction_to_RAP/levels_of_RAP/">NHS RAP Community of Practice</a></li>
+</ul>
+
+
 </section>
 
 </main> <!-- /main -->
