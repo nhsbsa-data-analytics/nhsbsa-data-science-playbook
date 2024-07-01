@@ -32,9 +32,9 @@ A typical example of how a report could be structured is:
 ## Supporting text
 Most outputs will feature at least some text. General tips for writing includes:
 
-* putting the key findings at the front as people won’t read the whole thing
+* putting the key findings at the front as people might not read the whole thing
 * including caveats and assumptions, and for particularly important ones mention them up front
-* writing numbers under 10 as words, over 10 in digits (but use common sense!)
+* write numbers as numbers, not words
 * using bold tag lines for emphasis of important points
 * developing an interesting narrative (sometimes difficult to do)
 * if appropriate, including recommendations and ideas for further exploration
