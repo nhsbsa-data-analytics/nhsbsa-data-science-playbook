@@ -33,7 +33,6 @@ You will also have various supporting files for the initiative in the SharePoint
 
 - Don't delete files outright; save any files deemed not needed into an 'Archive' folder.
 - Set a reminder, 2 years after the 3-month follow-up with the customer has been completed, to delete the Archive. This is to allow for the potential of an audit.
-
 - Up-to-date guidance on data retention for miscellaneous files in SharePoint is in progress, so these guidelines may change.
 
 ## General considerations
