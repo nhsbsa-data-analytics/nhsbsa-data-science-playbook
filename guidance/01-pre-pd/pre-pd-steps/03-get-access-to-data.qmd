@@ -7,9 +7,9 @@ image: 03-get-access-to-data.jpg
 ## Accessing data
 
 -	Temporary access must be requested via email or a service request and is subject to approval from the Data Science Lead, Database administrators and/or Data Asset Owner.
--	Should sensitive data be needed, there may also be a requirement to engage with the Caldicott Guardian and/or Information Governance.
+-	Should sensitive data be needed, there may also be a requirement to engage with the [Caldicott Guardian](https://cfa.nhs.uk/about-nhscfa/information-hub/data-protection/caldicot-policy/caldicot-policy-apendix-a) and/or Information Governance.
 -	All non-public domain data must be accessed and processed within the Data Science secure data environment.
--	Also request any relevant metadata, data dictionaries and data quality profiles. See the internal Data Science Wiki for more information.   
+-	Also request any relevant metadata such as data dictionaries and data quality profiles. See the internal Data Science Wiki for more information.   
 
 ## Initial data understanding
 
@@ -31,7 +31,7 @@ Combined with business understanding, this initial analysis will help to:
 
 ## Usage
 
-Further advice on usage of specific databases can be found within the internal Data Science Wiki.
+Further advice on usage of specific datasets can be found within their own page in the internal Data Science Wiki.
 
 ## Desk research and business understanding
 

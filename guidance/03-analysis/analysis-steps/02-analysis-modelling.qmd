@@ -34,7 +34,9 @@ Apply the selected model(s) with **RIGOUR**; it should be **R**epeatable, **I**n
 -	**Uncertainty-managed**: Uncertainties have been identified, managed, and communicated throughout the analytical process.
 -	**Robust**: Provide the analytical result in the context of residual uncertainty and limitations to ensure it is used appropriately.
 
-## Quality Assurance (QA)
+See the internal Data Science Wiki for guides and links to resources on specific methods.
+
+## Quality assurance (QA)
 
 Check your analysis thoroughly and often, not as a last step before delivery.
 

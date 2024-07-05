@@ -46,7 +46,7 @@ Most outputs will feature at least some text. General tips for writing includes:
 - if multiple people have contributed text, assigning one person in the final stages to act as an editor and rewrite in a coherent style
 - leaving the writing of any text that supports visuals such as charts or tables until the team is almost certain they are finalised
 
-There are pages on initiative outputs with specific format advice in the internal Data Science Wiki. A very useful tool for written output is [Hemingway Editor](https://hemingwayapp.com/). If you can get your text to mostly have no issues in this, you know it is readable!
+A very useful tool for written output is [Hemingway Editor](https://hemingwayapp.com/). If you can get your text to mostly have no issues in this, you know it is readable!
 
 ## Slide decks
 
@@ -81,6 +81,8 @@ A good presentation will:
 - use a good presentation style such as the [newsreader style](https://www.revolutionlearning.co.uk/article/newsreader-style-presentation-structure/)
 - have an up to date final slide containing feedback and use cases
 - give people the opportunity to provide feedback- if you are not getting feedback ‘organically’, reach out to get enough for at least one slide!
+
+There is a course Present with Impact available for NHSBSA staff, so ask your line manager if interested.
 
 ## Accessibility
 
