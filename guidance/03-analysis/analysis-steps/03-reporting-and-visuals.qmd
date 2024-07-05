@@ -8,16 +8,18 @@ image-alt: Photo by Stephen Dawson on Unsplash
 Within the Data Science team, the work that we conduct aims to tell a ‘story’ to the customer, providing them with the insights that the raw data alone would not.
 
 ## Output formats
+
 There are a range of outputs that may be agreed with the customer:
 
-* written reports
-* data sets
-* dashboards
-* interactive reports
-* slide decks (always required)
-* code/models
+- written reports
+- data sets
+- dashboards
+- interactive reports
+- slide decks (always required)
+- code/models
 
 ## Output structure
+
 A typical example of how a report could be structured is:
 
 1.	Introduction.
@@ -30,54 +32,61 @@ A typical example of how a report could be structured is:
 8.	Appendices (if applicable).
 
 ## Supporting text
+
 Most outputs will feature at least some text. General tips for writing includes:
 
-* putting the key findings at the front as people won’t read the whole thing
-* including caveats and assumptions, and for particularly important ones mention them up front
-* writing numbers under 10 as words, over 10 in digits (but use common sense!)
-* using bold tag lines for emphasis of important points
-* developing an interesting narrative (sometimes difficult to do)
-* if appropriate, including recommendations and ideas for further exploration
-* avoiding sentences longer than 20 words
-* writing in simple terms aimed at a lay audience, such that even a 12-year-old would be able to understand
-* if multiple people have contributed text, assigning one person in the final stages to act as an editor and rewrite in a coherent style
-* leaving the writing of any text that supports visuals such as charts or tables until the team is almost certain they are finalised
+- putting the key findings at the front as people might not read the whole thing
+- including caveats and assumptions, and for particularly important ones mention them up front
+- write numbers as numbers, not words
+- using bold tag lines for emphasis of important points
+- developing an interesting narrative (sometimes difficult to do)
+- if appropriate, including recommendations and ideas for further exploration
+- avoiding sentences longer than 20 words
+- writing in simple terms aimed at a lay audience, such that even a 12-year-old would be able to understand
+- if multiple people have contributed text, assigning one person in the final stages to act as an editor and rewrite in a coherent style
+- leaving the writing of any text that supports visuals such as charts or tables until the team is almost certain they are finalised
 
-There are pages on initiative outputs with specific format advice in the internal Data Science Wiki. A very useful tool for written output is [Hemingway Editor](https://hemingwayapp.com/). If you can get your text to mostly have no issues in this, you know it is readable!
+A very useful tool for written output is [Hemingway Editor](https://hemingwayapp.com/). If you can get your text to mostly have no issues in this, you know it is readable!
 
 ## Slide decks
+
 Generally, it is recommended that most initiatives should have a report, which could be in the form of a slide deck, as well as an additional slide deck used to present the story and any other agreed outputs.
 
 ### Customer summary
+
 This is to give the customer an easily shared and concise report on the outcomes of an initiative. The summary should:
 
-* state the problems or questions the initiative looked at, with examples
-* give the most important assumptions or caveats, and if appropriate issues encountered
-* summarise the most important findings
-* give brief recommendations and next steps
-* provide a mix of visuals and text, with more text preferred
-* use technical language, if you think the customer is familiar with it
+- state the problems or questions the initiative looked at, with examples
+- give the most important assumptions or caveats, and if appropriate issues encountered
+- summarise the most important findings
+- give brief recommendations and next steps
+- provide a mix of visuals and text, with more text preferred
+- use technical language, if you think the customer is familiar with it
 
 ### Short presentation
+
 This is intended to be used by the Data Science team to present to others. It also serves as a quick reference of the outcome of an initiative, helpful to people looking back at it in future.
 
 A good presentation will:
 
-* show examples of the why the initiative was done
-* give important assumptions and caveats which are necessary to ensure understanding
-* summarise the most important findings
-* give brief recommendations and next steps
-* limit the amounts of explanatory text and make the most of visuals
-* optimal: use animations to help present the content
-* take around 10 minutes to present (depending on situation)
-* assume audience is non-technical
-* focus on up to three findings that you would like the audience to remember (applicable for large initiatives with lots of components and findings)
-* use a good presentation style such as the [newsreader style](https://www.revolutionlearning.co.uk/article/newsreader-style-presentation-structure/)
-* have an up to date final slide containing feedback and use cases
-* give people the opportunity to provide feedback- if you are not getting feedback ‘organically’, reach out to get enough for at least one slide!
+- show examples of the why the initiative was done
+- give important assumptions and caveats which are necessary to ensure understanding
+- summarise the most important findings
+- give brief recommendations and next steps
+- limit the amounts of explanatory text and make the most of visuals
+- optimal: use animations to help present the content
+- take around 10 minutes to present (depending on situation)
+- assume audience is non-technical
+- focus on up to three findings that you would like the audience to remember (applicable for large initiatives with lots of components and findings)
+- use a good presentation style such as the [newsreader style](https://www.revolutionlearning.co.uk/article/newsreader-style-presentation-structure/)
+- have an up to date final slide containing feedback and use cases
+- give people the opportunity to provide feedback- if you are not getting feedback ‘organically’, reach out to get enough for at least one slide!
+
+There is a course Present with Impact available for NHSBSA staff, so ask your line manager if interested.
 
 ## Accessibility
+
 If your output is to be available online, it must be tested for accessibility and include (or link to) an Accessibility Statement. Full details are in the internal Data Science Wiki.
 
-* Try to create outputs with accessibility in mind; for example using the `shiny` [template](https://github.com/nhsbsa-data-analytics/nhsbsaShinyR).
-* Don’t test for accessibility too early; do it only once reasonably confident the non-text output is finalised.
+- Try to create outputs with accessibility in mind; for example using the `shiny` [template](https://github.com/nhsbsa-data-analytics/nhsbsaShinyR).
+- Don’t test for accessibility too early; do it only once reasonably confident the non-text output is finalised.

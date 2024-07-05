@@ -33,7 +33,6 @@ You will also have various supporting files for the initiative in the SharePoint
 
 - Don't delete files outright; save any files deemed not needed into an 'Archive' folder.
 - Set a reminder, 2 years after the 3-month follow-up with the customer has been completed, to delete the Archive. This is to allow for the potential of an audit.
-
 - Up-to-date guidance on data retention for miscellaneous files in SharePoint is in progress, so these guidelines may change.
 
 ## General considerations
@@ -42,5 +41,3 @@ You will also have various supporting files for the initiative in the SharePoint
 - Create a config file with key parameters and filters that are referenced throughout the project.
 - Ensure key tables within the database are available to the wider team, if applicable.
 - If an initiative output is made publicly available, ensure an initiative summary and links to articles are added to the [NHSBSA Data Science projects page](https://www.nhsbsa.nhs.uk/data-science-projects).
-
-Please refer to the internal Data Science Wiki for more information on cleaning your code.

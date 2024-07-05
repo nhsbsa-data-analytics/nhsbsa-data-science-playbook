@@ -1,23 +1,21 @@
 ---
 title: "Develop understanding"
-description: "Identify and gain access to the data required for the initiatve."
+description: "Identify and gain access to the data required for the initiative."
 image: 03-get-access-to-data.jpg
 ---
 
 ## Accessing data
 
 -	Temporary access must be requested via email or a service request and is subject to approval from the Data Science Lead, Database administrators and/or Data Asset Owner.
--	Should sensitive data be needed, there may also be a requirement to engage with the Caldicott Guardian and/or Information Governance.
--	All  non-public domain data must be accessed and processed within the Data Science secure data environment.
--	Also  request any relevant metadata, data dictionaries and data quality profiles. See the internal Data Science Wiki for more information.   
-
-
+-	Should sensitive data be needed, there may also be a requirement to engage with the [Caldicott Guardian](https://cfa.nhs.uk/about-nhscfa/information-hub/data-protection/caldicot-policy/caldicot-policy-apendix-a) and/or Information Governance.
+-	All non-public domain data must be accessed and processed within the Data Science secure data environment.
+-	Also request any relevant metadata such as data dictionaries and data quality profiles. See the internal Data Science Wiki for more information.   
 
 ## Initial data understanding
 
 Initial data understanding will help you to gauge what is possible with the data including any anomalies, caveats, and quality issues. Further information can be found in [Section 3](../../03-analysis/index.qmd) of the playbook.  
 
--	Use data documentation and identify data subject matter expert (SMEs)  (within the services and/or central MI or Data Services) who will support you to understand what fields are available and their suitability.
+-	Use data documentation and identify data subject matter expert (SMEs) (within the services and/or central MI or Data Services) who will support you to understand what fields are available and their suitability.
 -	Initial exploratory data analysis will also help you to get a better feel for the data in terms of its quality and suitability and what data preparation might be required.
 -	Should documentation not exist, you may wish to record:
     - a summary of what each column represents
@@ -31,10 +29,9 @@ Combined with business understanding, this initial analysis will help to:
 -	inform conversations with the customer of what is possible and not possible to achieve during the initiative
 -	identify other interesting research questions with the customer and explore if these are worth pursuing
 
-
 ## Usage
 
-Further advice on usage of specific databases can be found within the internal Data Science Wiki.
+Further advice on usage of specific datasets can be found within their own page in the internal Data Science Wiki.
 
 ## Desk research and business understanding
 
@@ -55,26 +52,16 @@ This is a guide of what is possible and is dependent on the current project’s 
 
 ## User research
 
-
 Incorporating user research into data science projects allows the team to provide actionable insights through advanced analytics, improve patient and customer outcomes, and reduce system loss. By collaborating with the wider NHSBSA, NHS England, and external organisations, we ensure our solutions meet user needs and drive innovation.
 
 User research is integrated into the data science projects by:
 
 - **using qualitative research methods** such as surveys, focus groups, and interviews to understand user problems and pain points when using NHS services
-
 - **using user insights** to determine important features, enhancing model accuracy and relevance
-
 - **establishing user-defined success metrics** to measure the effectiveness of our models and analytics
-
 - **designing models based on real-world use cases**, ensuring they meet user expectations and improve outcomes
-
 - **enhancing usability and accessibility** of tools like NHSBSA branded R Shiny and Power BI dashboards based on user feedback
-
 - **conducting usability testing** to refine models and solutions using user feedback based on prototypes
-
 - **building personalised recommendations and insights** that adapt to user preferences
-
 - **facilitating better communication** by bridging the gap between data scientists and end-users
-
-- **identifying impactful projects** that should be prioritised and allocated the appropriate resources 
-
+- **identifying impactful projects** that should be prioritised and allocated the appropriate resources

@@ -7,31 +7,31 @@ image-alt: Photo by Clay Banks on Unsplash
 
 There are multiple layers of review.
 
-* Self Review
-* Team/Critical Friend Review
-* Data Science Lead Review
-* Customer Review
+- Self Review
+- Team/Critical Friend Review
+- Data Science Lead Review
+- Customer Review
 
 In response to any one of these reviews, it may be deemed necessary to go back to data preparation, analysis or drafting of outputs.
 
 During all review stages prior to the customer review the:
 
-* outputs should be checked for errors by sense checking the results and comparing to existing resources
-* text should be proof read to ensure that it is factually correct and tailored to the correct audience
+- outputs should be checked for errors by sense checking the results and comparing to existing resources
+- text should be proof read to ensure that it is factually correct and tailored to the correct audience
 
 ## Self review
 
 Review your own work as you go, but especially before requesting anyone else to review it. Before submitting for review you should:
 
-* ensure all of the points in the QA section on the Analysis and Modelling page are considered
-* sense check reporting outputs to avoid giving naïve conclusions
-* run code with a ‘clean slate’ to ensure there are no dependencies in your local environment that will not be there later
-* consider writing repeatable tests rather than adhoc testing
-* document your code and the methodology used
-* create a pull request (PR) on Github once happy with the code
-* if you are building on an already-established draft, check the code diff (difference) on Github and add comments to explain to a code reviewer any decisions you made that are not obvious
-* check the code diff as it may highlight something you missed; in these cases make further changes and push them
-* if appropriate, try to include only a small amount of change in a single PR
+- ensure all of the points in the QA section on the Analysis and Modelling page are considered
+- sense check reporting outputs to avoid giving naïve conclusions
+- run code with a ‘clean slate’ to ensure there are no dependencies in your local environment that will not be there later
+- consider writing repeatable tests rather than adhoc testing
+- document your code and the methodology used
+- create a pull request (PR) on Github once happy with the code
+- if you are building on an already-established draft, check the code diff (difference) on Github and add comments to explain to a code reviewer any decisions you made that are not obvious
+- check the code diff as it may highlight something you missed; in these cases make further changes and push them
+- if appropriate, try to include only a small amount of change in a single PR
 Once happy with your PR, request that someone code review it.
 
 ::: {.callout-important title="Give colleagues sufficient time"}
@@ -42,36 +42,39 @@ Once happy with your PR, request that someone code review it.
 :::
 
 ## Team review
+
 One or more other members of the initiative team should review all code and outputs before it is merged into the main branch.
 
 The reviewers should:
 
-* sense check any outputs match what was agreed in the problem definition
-* pull the code into their local environment, and run it from a ‘blank slate’ state
-* add comments and suggestions to the PR
-* ask the code author to clarify if something does not make sense
-* organise a call with the code author and work through the PR together if several questions arise
+- sense check any outputs match what was agreed in the problem definition
+- pull the code into their local environment, and run it from a ‘blank slate’ state
+- add comments and suggestions to the PR
+- ask the code author to clarify if something does not make sense
+- organise a call with the code author and work through the PR together if several questions arise
 
 ## Critical friend review
+
 Depending on the size of your initiative and number of colleagues working on it, you may want to ask the critical friend, if there is one, to review the content for a fresh perspective. If there is no critical friend assigned, you could ask the wider team to review, towards the end of the project.
 
 The initiative critical friend should:
 
-* be asked for feedback on work in progress at frequent intervals, and always before asking a customer to look at it
-* put themselves in the shoes of the customer when reviewing outputs
-* put themselves in the shoes of someone tasked with using the code base when reviewing code
-* arrange a call with the initiative team to discuss if the feedback is complex or if there is lots of it
+- be asked for feedback on work in progress at frequent intervals, and always before asking a customer to look at it
+- put themselves in the shoes of the customer when reviewing outputs
+- put themselves in the shoes of someone tasked with using the code base when reviewing code
+- arrange a call with the initiative team to discuss if the feedback is complex or if there is lots of it
 
 ## Customer review
+
 The customer should be given frequent opportunities to see the work in progress. To do this you should:
 
-* send them drafts of the outputs to review in their own time, rather than only sharing your screen in a call
-* be open to having calls once they have reviewed the work
-* discuss any questions or suggestions they have
+- send them drafts of the outputs to review in their own time, rather than only sharing your screen in a call
+- be open to having calls once they have reviewed the work
+- discuss any questions or suggestions they have
 
 When you feel the initiative is completed, you should have a call with the customer to present your findings and:
 
-* ensure the customer is happy they understand how to use any interactive elements, such as dashboards
-* discuss any potential for future related work
+- ensure the customer is happy they understand how to use any interactive elements, such as dashboards
+- discuss any potential for future related work
 
 Additionally, if appropriate, once the initiative is completed you should send a survey to the customers to ensure all of their needs have been met.

@@ -13,7 +13,7 @@ It is important to meet with the customer to discuss requirements. This may happ
 -	if there are any additional data sources to be considered
 -	the required timescales 
 
-This  meeting is important, as it can help to refine the problem definition within [section 2](../../02-pd/index.qmd).
+This meeting is important, as it can help to refine the problem definition within [section 2](../../02-pd/index.qmd).
 
 ## General considerations
 
@@ -23,5 +23,4 @@ This  meeting is important, as it can help to refine the problem definition with
 -	Your critical friend should attend the meeting to share knowledge and be clear on the scope of the project.
 -	Document any actions agreed at the meeting.
 -	Set up recurring follow up meetings at regular intervals.
--	Any open questions following the meeting should be chased using either Teams  or email.
-
+-	Any open questions following the meeting should be chased using either Teams or email.
