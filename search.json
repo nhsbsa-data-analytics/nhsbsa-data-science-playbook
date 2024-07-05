@@ -1,14 +1,201 @@
 [
   {
-    "objectID": "guidance/04-wrap-up/wrap-up-steps/04-public-repository.html",
-    "href": "guidance/04-wrap-up/wrap-up-steps/04-public-repository.html",
-    "title": "Make the repository public (if applicable)",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Where applicable, we aim to generate reproducible code that is made open source. This is in line with guidance outlined in the government service manual.\nYou must check the repository does not compromise data security before making it public.\n\n\n\n\n\n\nGit commit history\n\n\n\n\n\nYour git commit history will be made public.\n\n\n\nGit messages can be changed but it is advised that you follow good commit practice.\n\n\nEach commit should be limited to a single change.\n\n\nCommit history can be removed but it is not recommended as we strive to be transparent.\n\n\n\n\n\n\n\n\n\n\n\nNever expose Personally Identifiable Information (PII) on GitHub\n\n\n\n\n\nMake sure that you never push Personally Identifiable Information (PII) to the GitHub repository.\n\n\n\nUse Gitleaks to reduce the risk of pushing PII to Git.\n\n\nNever write PII directly in R scripts.\n\n\nAlways reference PII from the database.",
+    "text": "This website has been developed by the NHSBSA Data and Analytics Learning Laboratory (DALL) team to provide guidance and processes for producing new initiatives."
+  },
+  {
+    "objectID": "guidance/03-analysis/index.html",
+    "href": "guidance/03-analysis/index.html",
+    "title": "Analysis",
+    "section": "",
+    "text": "In this stage we prepare data, analyse it and review until outputs as specified in the problem definition are finalised. It is sometimes necessary to go back and refine the problem definition as a result of discoveries or issues found during these tasks.",
     "crumbs": [
       "Home",
-      "Initiative wrap up",
-      "Make the repository public (if applicable)"
+      "Analysis",
+      "Analysis"
+    ]
+  },
+  {
+    "objectID": "guidance/03-analysis/index.html#sections",
+    "href": "guidance/03-analysis/index.html#sections",
+    "title": "Analysis",
+    "section": "Sections",
+    "text": "Sections",
+    "crumbs": [
+      "Home",
+      "Analysis",
+      "Analysis"
+    ]
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/01-data-prep.html",
+    "href": "guidance/03-analysis/analysis-steps/01-data-prep.html",
+    "title": "Data preparation",
+    "section": "",
+    "text": "Data preparation can be done with any data manipulation tool such as SQL, R or Python.\n\nLarge datasets with millions of rows may require use of SQL initially.\nSQL can be used via libraries, such as dplyr and the database back-end dbplyr in R.\nOnce data has been aggregated, switch to your tool of choice for analysis and modelling.\n\nWhen preparing data there are some considerations that always apply.\n\n\n\nCheck the Data Quality profiles, if they exist for the data.\nHow are values distributed? In particular are there any unbalanced data fields?\nCheck summary statistics such as mean, median, mode, minima and maxima.\nHow complete is the data? Any null or otherwise unknown values?\nAre any fields strongly correlated?\nDiscuss any data quality issues with the critical friend and/or customer.\n\nThere is a page on data quality in the internal Data Science Wiki.\n\n\n\n\nHandling missing values.\nUsing appropriate data types.\nFollowing the data minimisation principle.\n\nThere is a page on data cleansing in the internal Data Science Wiki.\n\n\n\n\nSave the results of data quality checking.\nSave examples of queries that highlight any issues.\ndata_summary.Rmd and EDA figures.xlsx can be used, found in template initiative Data folder.\n\n\n\n\n\nWhere possible, check results using your base tables and other sources match.\nInternal sources include data from previous initiatives, Management Information dashboards or ePACT2.\nExternal sources include Official Statistics and third-party datasets.",
+    "crumbs": [
+      "Home",
+      "Analysis",
+      "Data preparation"
+    ]
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/01-data-prep.html#data-preparation",
+    "href": "guidance/03-analysis/analysis-steps/01-data-prep.html#data-preparation",
+    "title": "Data preparation",
+    "section": "",
+    "text": "Data preparation can be done with any data manipulation tool such as SQL, R or Python.\n\nLarge datasets with millions of rows may require use of SQL initially.\nSQL can be used via libraries, such as dplyr and the database back-end dbplyr in R.\nOnce data has been aggregated, switch to your tool of choice for analysis and modelling.\n\nWhen preparing data there are some considerations that always apply.\n\n\n\nCheck the Data Quality profiles, if they exist for the data.\nHow are values distributed? In particular are there any unbalanced data fields?\nCheck summary statistics such as mean, median, mode, minima and maxima.\nHow complete is the data? Any null or otherwise unknown values?\nAre any fields strongly correlated?\nDiscuss any data quality issues with the critical friend and/or customer.\n\nThere is a page on data quality in the internal Data Science Wiki.\n\n\n\n\nHandling missing values.\nUsing appropriate data types.\nFollowing the data minimisation principle.\n\nThere is a page on data cleansing in the internal Data Science Wiki.\n\n\n\n\nSave the results of data quality checking.\nSave examples of queries that highlight any issues.\ndata_summary.Rmd and EDA figures.xlsx can be used, found in template initiative Data folder.\n\n\n\n\n\nWhere possible, check results using your base tables and other sources match.\nInternal sources include data from previous initiatives, Management Information dashboards or ePACT2.\nExternal sources include Official Statistics and third-party datasets.",
+    "crumbs": [
+      "Home",
+      "Analysis",
+      "Data preparation"
+    ]
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/01-data-prep.html#creating-base-tables",
+    "href": "guidance/03-analysis/analysis-steps/01-data-prep.html#creating-base-tables",
+    "title": "Data preparation",
+    "section": "Creating base tables",
+    "text": "Creating base tables\nAfter checking and preparing the data, you should have enough knowledge to create one or more base tables.\n\nDecide to keep or discard fields based on what is relevant to the initiative.\nFix or remove columns that contain data errors or missing entries.\nCreate new columns based on the existing ones.\nChange the data types of the columns to a more appropriate format.\nSave the output of your transformations.\nUse any format that makes sense considering the size and how it is used; formats include CSV, SQL, and Rda.\n\nOnce the tables have been created they should be sense checked and code reviewed as outlined in the Review section of the playbook.",
+    "crumbs": [
+      "Home",
+      "Analysis",
+      "Data preparation"
+    ]
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/01-data-prep.html#sensitive-data",
+    "href": "guidance/03-analysis/analysis-steps/01-data-prep.html#sensitive-data",
+    "title": "Data preparation",
+    "section": "Sensitive data",
+    "text": "Sensitive data\n\nWherever base tables are saved, it must be in a secure location as per data security policy. This will usually mean in the Data Warehouse, and SharePoint otherwise.\nSensitive data should be removed or obscured unless it is absolutely necessary to retain it; bear in mind the data governance policies.\nFor certain usage of sensitive data, the Caldicott Guardians should be consulted.",
+    "crumbs": [
+      "Home",
+      "Analysis",
+      "Data preparation"
+    ]
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html",
+    "href": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html",
+    "title": "Reporting and visuals",
+    "section": "",
+    "text": "Within the Data Science team, the work that we conduct aims to tell a ‘story’ to the customer, providing them with the insights that the raw data alone would not.",
+    "crumbs": [
+      "Home",
+      "Analysis",
+      "Reporting and visuals"
+    ]
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#output-formats",
+    "href": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#output-formats",
+    "title": "Reporting and visuals",
+    "section": "Output formats",
+    "text": "Output formats\nThere are a range of outputs that may be agreed with the customer:\n\nwritten reports\ndata sets\ndashboards\ninteractive reports\nslide decks (always required)\ncode/models",
+    "crumbs": [
+      "Home",
+      "Analysis",
+      "Reporting and visuals"
+    ]
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#output-structure",
+    "href": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#output-structure",
+    "title": "Reporting and visuals",
+    "section": "Output structure",
+    "text": "Output structure\nA typical example of how a report could be structured is:\n\nIntroduction.\nContents.\nKey findings (since some may not have time to read the whole content).\nMethodology.\nAssumptions, limitations, definitions and uncertainty.\nResults.\nRecommendations and next steps.\nAppendices (if applicable).",
+    "crumbs": [
+      "Home",
+      "Analysis",
+      "Reporting and visuals"
+    ]
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#supporting-text",
+    "href": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#supporting-text",
+    "title": "Reporting and visuals",
+    "section": "Supporting text",
+    "text": "Supporting text\nMost outputs will feature at least some text. General tips for writing includes:\n\nputting the key findings at the front as people might not read the whole thing\nincluding caveats and assumptions, and for particularly important ones mention them up front\nwrite numbers as numbers, not words\nusing bold tag lines for emphasis of important points\ndeveloping an interesting narrative (sometimes difficult to do)\nif appropriate, including recommendations and ideas for further exploration\navoiding sentences longer than 20 words\nwriting in simple terms aimed at a lay audience, such that even a 12-year-old would be able to understand\nif multiple people have contributed text, assigning one person in the final stages to act as an editor and rewrite in a coherent style\nleaving the writing of any text that supports visuals such as charts or tables until the team is almost certain they are finalised\n\nA very useful tool for written output is Hemingway Editor. If you can get your text to mostly have no issues in this, you know it is readable!",
+    "crumbs": [
+      "Home",
+      "Analysis",
+      "Reporting and visuals"
+    ]
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#slide-decks",
+    "href": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#slide-decks",
+    "title": "Reporting and visuals",
+    "section": "Slide decks",
+    "text": "Slide decks\nGenerally, it is recommended that most initiatives should have a report, which could be in the form of a slide deck, as well as an additional slide deck used to present the story and any other agreed outputs.\n\nCustomer summary\nThis is to give the customer an easily shared and concise report on the outcomes of an initiative. The summary should:\n\nstate the problems or questions the initiative looked at, with examples\ngive the most important assumptions or caveats, and if appropriate issues encountered\nsummarise the most important findings\ngive brief recommendations and next steps\nprovide a mix of visuals and text, with more text preferred\nuse technical language, if you think the customer is familiar with it\n\n\n\nShort presentation\nThis is intended to be used by the Data Science team to present to others. It also serves as a quick reference of the outcome of an initiative, helpful to people looking back at it in future.\nA good presentation will:\n\nshow examples of the why the initiative was done\ngive important assumptions and caveats which are necessary to ensure understanding\nsummarise the most important findings\ngive brief recommendations and next steps\nlimit the amounts of explanatory text and make the most of visuals\noptimal: use animations to help present the content\ntake around 10 minutes to present (depending on situation)\nassume audience is non-technical\nfocus on up to three findings that you would like the audience to remember (applicable for large initiatives with lots of components and findings)\nuse a good presentation style such as the newsreader style\nhave an up to date final slide containing feedback and use cases\ngive people the opportunity to provide feedback- if you are not getting feedback ‘organically’, reach out to get enough for at least one slide!\n\nThere is a course Present with Impact available for NHSBSA staff, so ask your line manager if interested.",
+    "crumbs": [
+      "Home",
+      "Analysis",
+      "Reporting and visuals"
+    ]
+  },
+  {
+    "objectID": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#accessibility",
+    "href": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#accessibility",
+    "title": "Reporting and visuals",
+    "section": "Accessibility",
+    "text": "Accessibility\nIf your output is to be available online, it must be tested for accessibility and include (or link to) an Accessibility Statement. Full details are in the internal Data Science Wiki.\n\nTry to create outputs with accessibility in mind; for example using the shiny template.\nDon’t test for accessibility too early; do it only once reasonably confident the non-text output is finalised.",
+    "crumbs": [
+      "Home",
+      "Analysis",
+      "Reporting and visuals"
+    ]
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/04-estimate-timescales.html",
+    "href": "guidance/02-pd/pd-steps/04-estimate-timescales.html",
+    "title": "Estimate the timescales",
+    "section": "",
+    "text": "During the planning stages of the initiative, it is a good idea to plan the timescales of the project.\nTo plan effectively:\n\ncreate a Gantt chart\nlist the items and their completion times\nestimate when each element will be finished\n\nPlease see the Gantt chart template within the initiatives folder on SharePoint.\nYou should always account for:\n\ncommitments in other projects\nupcoming planned leave\ntime spent in meetings per week\nthe hours you work per week\ntime spent learning about the project\ntime required to get access to tools and data\nany other commitments\n\nIf you add more tasks to the project, make sure to update the Gantt chart and inform the customer of the new deadlines. Your planned deadlines are usually just estimates and can be extended if underestimated.",
+    "crumbs": [
+      "Home",
+      "Problem definition",
+      "Estimate the timescales"
+    ]
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/05-problem-definition-sign-off.html",
+    "href": "guidance/02-pd/pd-steps/05-problem-definition-sign-off.html",
+    "title": "Problem definition sign-off",
+    "section": "",
+    "text": "The customer should sign-off the problem definition before the initiative can be continued. In some cases however, preliminary work can be continued prior to sign-off.\nOptionally, a final meeting can be held with the customer to agree the direction of research.\nEnsure there is a record of the problem definition being signed-off, such as in a follow-up email after the final meeting or in a Teams message.",
+    "crumbs": [
+      "Home",
+      "Problem definition",
+      "Problem definition sign-off"
+    ]
+  },
+  {
+    "objectID": "guidance/02-pd/index.html",
+    "href": "guidance/02-pd/index.html",
+    "title": "Problem definition",
+    "section": "",
+    "text": "In this section, we aim to write and refine the problem definition until we have fully understood the problem we are trying to solve. The terms of the problem definition are agreed with the customer before moving onto the analysis section.",
+    "crumbs": [
+      "Home",
+      "Problem definition",
+      "Problem definition"
+    ]
+  },
+  {
+    "objectID": "guidance/02-pd/index.html#sections",
+    "href": "guidance/02-pd/index.html#sections",
+    "title": "Problem definition",
+    "section": "Sections",
+    "text": "Sections",
+    "crumbs": [
+      "Home",
+      "Problem definition",
+      "Problem definition"
     ]
   },
   {
@@ -24,39 +211,135 @@
     ]
   },
   {
-    "objectID": "guidance/04-wrap-up/wrap-up-steps/06-follow-up.html",
-    "href": "guidance/04-wrap-up/wrap-up-steps/06-follow-up.html",
-    "title": "Follow-up",
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/03-update-wiki.html",
+    "href": "guidance/04-wrap-up/wrap-up-steps/03-update-wiki.html",
+    "title": "Update the Wiki",
     "section": "",
-    "text": "Set a reminder to contact the customer three months after the initiative is completed.\n\nAsk how the customer has used the outputs\nDo they fully meet their needs?\nAlso delete any remaining database tables from your own schema if they are no longer required.",
+    "text": "Throughout the initiative, you will have interrogated some data and potentially picked up some new skills in the process.\n\nIf there is anything you found particularly useful or that could be beneficial for others, please add it to the internal Data Science Wiki.\nIf a question you have isn’t already on the internal Data Science Wiki you should find the answer and incorporate it.\n\nThe Wiki should be the first place you look when you have questions on a:\n\ndataset\npiece of software\ntype of analysis",
     "crumbs": [
       "Home",
       "Initiative wrap up",
-      "Follow-up"
+      "Update the Wiki"
     ]
   },
   {
-    "objectID": "guidance/04-wrap-up/index.html#sections",
-    "href": "guidance/04-wrap-up/index.html#sections",
-    "title": "Initiative wrap up",
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/01-clean-up.html",
+    "href": "guidance/04-wrap-up/wrap-up-steps/01-clean-up.html",
+    "title": "Wrap up and clean your code",
+    "section": "",
+    "text": "Cleaning your project is an equally important step as the modelling and analysis.\nLeaving a messy project folder and code can lead to difficulties later down the line.\nIt is important that you dedicate enough time to completing this step.\nApproach the project clean up as a serious and worthwhile endeavour.\nIt can be useful for a future project.",
+    "crumbs": [
+      "Home",
+      "Initiative wrap up",
+      "Wrap up and clean your code"
+    ]
+  },
+  {
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/01-clean-up.html#data-retention",
+    "href": "guidance/04-wrap-up/wrap-up-steps/01-clean-up.html#data-retention",
+    "title": "Wrap up and clean your code",
+    "section": "Data retention",
+    "text": "Data retention\nRemember that we have a legal obligation to keep personal data only for as long as is necessary for the business purposes it is retained for.\nYou can find the full policies regarding data on the NHSBSA website.\n\nData handling and storage policy (PDF)\nData protection and confidentiality policy (PDF)\nRecords management policy (PDF)\nRecords management retention schedule (Excel)\n\nDuring an initiative, you will probably create tables in your personal schema. These could be part of the agreed outputs, or they could be adhoc tables from EDA, or tables created for testing or checking. Regularly review the tables in your schema and keep only what is needed.\n\nAdhoc tables, which are not part of the agreed outputs, should not generally be kept past your current working session.\nTreat the code that creates tables for the purpose of testing or checking your work as part of your code base, so they can be easily recreated.\nTables that are part of agreed outputs should be kept until the 3-month follow-up with the initiative customer has been done, and then dropped.\nAny tables that need to be kept for longer time frames should be recreated in the Data Science Reference schema.\n\nYou will also have various supporting files for the initiative in the SharePoint folder.\n\nDon’t delete files outright; save any files deemed not needed into an ‘Archive’ folder.\nSet a reminder, 2 years after the 3-month follow-up with the customer has been completed, to delete the Archive. This is to allow for the potential of an audit.\nUp-to-date guidance on data retention for miscellaneous files in SharePoint is in progress, so these guidelines may change.",
+    "crumbs": [
+      "Home",
+      "Initiative wrap up",
+      "Wrap up and clean your code"
+    ]
+  },
+  {
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/01-clean-up.html#general-considerations",
+    "href": "guidance/04-wrap-up/wrap-up-steps/01-clean-up.html#general-considerations",
+    "title": "Wrap up and clean your code",
+    "section": "General considerations",
+    "text": "General considerations\n\nDelete stale git branches or merge them into main.\nCreate a config file with key parameters and filters that are referenced throughout the project.\nEnsure key tables within the database are available to the wider team, if applicable.\nIf an initiative output is made publicly available, ensure an initiative summary and links to articles are added to the NHSBSA Data Science projects page.",
+    "crumbs": [
+      "Home",
+      "Initiative wrap up",
+      "Wrap up and clean your code"
+    ]
+  },
+  {
+    "objectID": "guidance/01-pre-pd/index.html#sections",
+    "href": "guidance/01-pre-pd/index.html#sections",
+    "title": "Before the problem definition",
     "section": "Sections",
     "text": "Sections",
     "crumbs": [
       "Home",
-      "Initiative wrap up",
-      "Initiative wrap up"
+      "Before the problem definition",
+      "Before the problem definition"
     ]
   },
   {
-    "objectID": "guidance/01-pre-pd/pre-pd-steps/05-create-update-initiative-resources.html",
-    "href": "guidance/01-pre-pd/pre-pd-steps/05-create-update-initiative-resources.html",
-    "title": "Create/update initative resources",
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html",
+    "title": "Question identified",
     "section": "",
-    "text": "Before beginning to work on your problem definition, you will need to update JIRA and setup a GitHub repository to store and monitor code.\n\nSetting up the resources\n\nRemember to set the new GitHub repository to private.\nInvite relevant Data Science team members as collaborators and grant the wider team read access.\n\nCode should be written to a professional standard under the proviso it could be made public.\n\nYou must check the repository does not compromise data security before making it public\n\n\n\n\n\n\nGit commit history\n\n\n\n\n\nYour git commit history will be made public.\n\n\n\nGit messages can be changed but it is advised that you follow good commit practice.\n\n\nEach commit should be limited to a single change.\n\n\nCommit history can be removed but it is not recommended as we strive to be transparent.\n\n\n\n\n\n\n\n\n\n\n\nNever expose Personally Identifiable Information (PII) on GitHub\n\n\n\n\n\nMake sure that you never push Personally Identifiable Information (PII) to the GitHub repository.\n\n\n\nUse Git Leaks to reduce the risk of pushing PII to Git.\n\n\nNever write PII directly in R scripts.\n\n\nAlways reference PII from the database.\n\n\n\n\n\nFurther guidance on setting up resources can be found on the internal Data Science Wiki. After creating all resources, remember to:\n\nprovide regular updates to the JIRA ticket\nregularly push code additions and alterations to the GitHub repository",
+    "text": "The Data Science team deliver actionable insights from data through innovation, experimentation and collaboration. This drives policy, decision making and efficiencies across the NHSBSA and wider health and social care system. Projects typically align to the following areas:",
     "crumbs": [
       "Home",
       "Before the problem definition",
-      "Create/update initative resources"
+      "Question identified"
+    ]
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html#selecting-a-project",
+    "href": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html#selecting-a-project",
+    "title": "Question identified",
+    "section": "Selecting a project",
+    "text": "Selecting a project\n\nProjects can be identified by Data Science team members, an internal NHSBSA customer, an external customer, user research or recommendations from previous work.\nThey may also be identified through collaborative ideas sessions we run with other teams.\nCustomers can request work through the Data Science Lead, team members or dall@nhsbsa.nhs.uk.\nThe Data Science team and internal customers can also log ideas for future projects on the ideas register.\nThe Data Science Lead reviews projects for suitability in terms of scope and appropriateness, as well as any ethical implications. Projects may be triaged to other teams if not suitable.\nThe Data Science Lead coordinates the assignment of initiatives to team members as well as critical friends.\nOnce a project is accepted, it is initially created in JIRA, with initiative number and basic project information including project lead, team members and critical friend. The Data Science initiative number is identified using JIRA.\nA SharePoint folder is created to store documents and data using the template provided. The initiative number is included in the name.",
+    "crumbs": [
+      "Home",
+      "Before the problem definition",
+      "Question identified"
+    ]
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html",
+    "title": "Assign a critical friend",
+    "section": "",
+    "text": "Typical Data Science initiatives involve 1-2 people working on the project.\nFor each project undertaken by a single team member a critical friend is assigned.\nFor group projects a critical friend is not mandatory but is advised. Where not allocated, group members must inherit the responsibilities of a critical friend through peer review.\nA critical friend reviews the problem definition, business understanding and outputs.\nThe critical friend provides a fresh perspective and offers the opportunity to catch issues that are overlooked by the team. - They can also attend meetings, check documents and provide extra support and guidance throughout the initiative.\n\nTowards the end of an initiative ask other team members to review the output.",
+    "crumbs": [
+      "Home",
+      "Before the problem definition",
+      "Assign a critical friend"
+    ]
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#what-is-a-critical-friend",
+    "href": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#what-is-a-critical-friend",
+    "title": "Assign a critical friend",
+    "section": "",
+    "text": "Typical Data Science initiatives involve 1-2 people working on the project.\nFor each project undertaken by a single team member a critical friend is assigned.\nFor group projects a critical friend is not mandatory but is advised. Where not allocated, group members must inherit the responsibilities of a critical friend through peer review.\nA critical friend reviews the problem definition, business understanding and outputs.\nThe critical friend provides a fresh perspective and offers the opportunity to catch issues that are overlooked by the team. - They can also attend meetings, check documents and provide extra support and guidance throughout the initiative.\n\nTowards the end of an initiative ask other team members to review the output.",
+    "crumbs": [
+      "Home",
+      "Before the problem definition",
+      "Assign a critical friend"
+    ]
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#assigning-a-critical-friend",
+    "href": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#assigning-a-critical-friend",
+    "title": "Assign a critical friend",
+    "section": "Assigning a critical friend",
+    "text": "Assigning a critical friend\n\nAssign a critical friend as early as possible.\nCritical friends are assigned by the project members or the Data Science Lead.\nThe Data Science Lead knows who is available and has valuable knowledge related to the upcoming project.\nIdeally, a critical friend should have prior experience with similar data or techniques.\nIf you are an area expert, you can choose a new team member as the critical friend so they can gain experience.",
+    "crumbs": [
+      "Home",
+      "Before the problem definition",
+      "Assign a critical friend"
+    ]
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#working-with-your-critical-friend",
+    "href": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#working-with-your-critical-friend",
+    "title": "Assign a critical friend",
+    "section": "Working with your critical friend",
+    "text": "Working with your critical friend\n\nThe critical friend will help by offering more insight and reviewing the project.\nRegularly meet with the critical friend to keep them updated.\nAssign work to review in small increments rather than all at once.\nRespect the critical friend’s diary and provide plenty of notice for work to be completed.",
+    "crumbs": [
+      "Home",
+      "Before the problem definition",
+      "Assign a critical friend"
     ]
   },
   {
@@ -84,15 +367,195 @@
     ]
   },
   {
-    "objectID": "guidance/01-pre-pd/index.html#sections",
-    "href": "guidance/01-pre-pd/index.html#sections",
-    "title": "Before the problem definition",
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html",
+    "title": "Develop understanding",
+    "section": "",
+    "text": "Temporary access must be requested via email or a service request and is subject to approval from the Data Science Lead, Database administrators and/or Data Asset Owner.\nShould sensitive data be needed, there may also be a requirement to engage with the Caldicott Guardian and/or Information Governance.\nAll non-public domain data must be accessed and processed within the Data Science secure data environment.\nAlso request any relevant metadata such as data dictionaries and data quality profiles. See the internal Data Science Wiki for more information.",
+    "crumbs": [
+      "Home",
+      "Before the problem definition",
+      "Develop understanding"
+    ]
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#accessing-data",
+    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#accessing-data",
+    "title": "Develop understanding",
+    "section": "",
+    "text": "Temporary access must be requested via email or a service request and is subject to approval from the Data Science Lead, Database administrators and/or Data Asset Owner.\nShould sensitive data be needed, there may also be a requirement to engage with the Caldicott Guardian and/or Information Governance.\nAll non-public domain data must be accessed and processed within the Data Science secure data environment.\nAlso request any relevant metadata such as data dictionaries and data quality profiles. See the internal Data Science Wiki for more information.",
+    "crumbs": [
+      "Home",
+      "Before the problem definition",
+      "Develop understanding"
+    ]
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#initial-data-understanding",
+    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#initial-data-understanding",
+    "title": "Develop understanding",
+    "section": "Initial data understanding",
+    "text": "Initial data understanding\nInitial data understanding will help you to gauge what is possible with the data including any anomalies, caveats, and quality issues. Further information can be found in Section 3 of the playbook.\n\nUse data documentation and identify data subject matter expert (SMEs) (within the services and/or central MI or Data Services) who will support you to understand what fields are available and their suitability.\nInitial exploratory data analysis will also help you to get a better feel for the data in terms of its quality and suitability and what data preparation might be required.\nShould documentation not exist, you may wish to record:\n\na summary of what each column represents\nthe number of missing records\nthe number of errors\nif applicable, the logic used to calculate the column\n\n\nCombined with business understanding, this initial analysis will help to:\n\ninform the problem definition (PD)\ninform conversations with the customer of what is possible and not possible to achieve during the initiative\nidentify other interesting research questions with the customer and explore if these are worth pursuing",
+    "crumbs": [
+      "Home",
+      "Before the problem definition",
+      "Develop understanding"
+    ]
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#usage",
+    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#usage",
+    "title": "Develop understanding",
+    "section": "Usage",
+    "text": "Usage\nFurther advice on usage of specific datasets can be found within their own page in the internal Data Science Wiki.",
+    "crumbs": [
+      "Home",
+      "Before the problem definition",
+      "Develop understanding"
+    ]
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#desk-research-and-business-understanding",
+    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#desk-research-and-business-understanding",
+    "title": "Develop understanding",
+    "section": "Desk research and business understanding",
+    "text": "Desk research and business understanding\nDesk research and business understanding will help you understand what is possible for the initiative and ensure the work is not duplicated.\nTo assist your work you could use:\n\nJIRA as a reference to previous initiatives\nreports and other outputs from previous initiatives in the project folders\nother team members, business SMEs and your critical friend to help develop business knowledge\nuser research where applicable\ninternal and external online resources which may describe the service, policy or other aspects relevant to understanding context\nexternally or internal published statistics, data or dashboards relevant to the subject. They may also later be a source for validation and ensuring coherence.\nresources to support with methodology such as Github repositories, Stack Overflow, Medium and research papers\nDataCamp to complete relevant courses\n\nThis is a guide of what is possible and is dependent on the current project’s requirements.",
+    "crumbs": [
+      "Home",
+      "Before the problem definition",
+      "Develop understanding"
+    ]
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#user-research",
+    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#user-research",
+    "title": "Develop understanding",
+    "section": "User research",
+    "text": "User research\nIncorporating user research into data science projects allows the team to provide actionable insights through advanced analytics, improve patient and customer outcomes, and reduce system loss. By collaborating with the wider NHSBSA, NHS England, and external organisations, we ensure our solutions meet user needs and drive innovation.\nUser research is integrated into the data science projects by:\n\nusing qualitative research methods such as surveys, focus groups, and interviews to understand user problems and pain points when using NHS services\nusing user insights to determine important features, enhancing model accuracy and relevance\nestablishing user-defined success metrics to measure the effectiveness of our models and analytics\ndesigning models based on real-world use cases, ensuring they meet user expectations and improve outcomes\nenhancing usability and accessibility of tools like NHSBSA branded R Shiny and Power BI dashboards based on user feedback\nconducting usability testing to refine models and solutions using user feedback based on prototypes\nbuilding personalised recommendations and insights that adapt to user preferences\nfacilitating better communication by bridging the gap between data scientists and end-users\nidentifying impactful projects that should be prioritised and allocated the appropriate resources",
+    "crumbs": [
+      "Home",
+      "Before the problem definition",
+      "Develop understanding"
+    ]
+  },
+  {
+    "objectID": "guidance/01-pre-pd/pre-pd-steps/05-create-update-initiative-resources.html",
+    "href": "guidance/01-pre-pd/pre-pd-steps/05-create-update-initiative-resources.html",
+    "title": "Create/update initative resources",
+    "section": "",
+    "text": "Before beginning to work on your problem definition, you will need to update JIRA and setup a GitHub repository to store and monitor code.\n\nSetting up the resources\n\nRemember to set the new GitHub repository to private.\nInvite relevant Data Science team members as collaborators and grant the wider team read access.\n\nCode should be written to a professional standard under the proviso it could be made public.\n\nYou must check the repository does not compromise data security before making it public\n\n\n\n\n\n\nGit commit history\n\n\n\n\n\nYour git commit history will be made public.\n\n\n\nGit messages can be changed but it is advised that you follow good commit practice.\n\n\nEach commit should be limited to a single change.\n\n\nCommit history can be removed but it is not recommended as we strive to be transparent.\n\n\n\n\n\n\n\n\n\n\n\nNever expose Personally Identifiable Information (PII) on GitHub\n\n\n\n\n\nMake sure that you never push Personally Identifiable Information (PII) to the GitHub repository.\n\n\n\nUse Git Leaks to reduce the risk of pushing PII to Git.\n\n\nNever write PII directly in R scripts.\n\n\nAlways reference PII from the database.\n\n\n\n\n\nFurther guidance on setting up resources can be found on the internal Data Science Wiki. After creating all resources, remember to:\n\nprovide regular updates to the JIRA ticket\nregularly push code additions and alterations to the GitHub repository",
+    "crumbs": [
+      "Home",
+      "Before the problem definition",
+      "Create/update initative resources"
+    ]
+  },
+  {
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/05-future-work.html",
+    "href": "guidance/04-wrap-up/wrap-up-steps/05-future-work.html",
+    "title": "Consider potential future work",
+    "section": "",
+    "text": "After the project ended, you might have wanted to explore areas outside the project’s scope.\n\nAdd future project ideas to the Data Science ideas register.\nShort pieces of work can be completed as a three week exploratory project.",
+    "crumbs": [
+      "Home",
+      "Initiative wrap up",
+      "Consider potential future work"
+    ]
+  },
+  {
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/04-public-repository.html",
+    "href": "guidance/04-wrap-up/wrap-up-steps/04-public-repository.html",
+    "title": "Make the repository public (if applicable)",
+    "section": "",
+    "text": "Where applicable, we aim to generate reproducible code that is made open source. This is in line with guidance outlined in the government service manual.\nYou must check the repository does not compromise data security before making it public.\n\n\n\n\n\n\nGit commit history\n\n\n\n\n\nYour git commit history will be made public.\n\n\n\nGit messages can be changed but it is advised that you follow good commit practice.\n\n\nEach commit should be limited to a single change.\n\n\nCommit history can be removed but it is not recommended as we strive to be transparent.\n\n\n\n\n\n\n\n\n\n\n\nNever expose Personally Identifiable Information (PII) on GitHub\n\n\n\n\n\nMake sure that you never push Personally Identifiable Information (PII) to the GitHub repository.\n\n\n\nUse Gitleaks to reduce the risk of pushing PII to Git.\n\n\nNever write PII directly in R scripts.\n\n\nAlways reference PII from the database.",
+    "crumbs": [
+      "Home",
+      "Initiative wrap up",
+      "Make the repository public (if applicable)"
+    ]
+  },
+  {
+    "objectID": "guidance/04-wrap-up/wrap-up-steps/06-follow-up.html",
+    "href": "guidance/04-wrap-up/wrap-up-steps/06-follow-up.html",
+    "title": "Follow-up",
+    "section": "",
+    "text": "Set a reminder to contact the customer three months after the initiative is completed.\n\nAsk how the customer has used the outputs\nDo they fully meet their needs?\nAlso delete any remaining database tables from your own schema if they are no longer required.",
+    "crumbs": [
+      "Home",
+      "Initiative wrap up",
+      "Follow-up"
+    ]
+  },
+  {
+    "objectID": "guidance/04-wrap-up/index.html#sections",
+    "href": "guidance/04-wrap-up/index.html#sections",
+    "title": "Initiative wrap up",
     "section": "Sections",
     "text": "Sections",
     "crumbs": [
       "Home",
-      "Before the problem definition",
-      "Before the problem definition"
+      "Initiative wrap up",
+      "Initiative wrap up"
+    ]
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/02-customer-feedback.html",
+    "href": "guidance/02-pd/pd-steps/02-customer-feedback.html",
+    "title": "Customer feedback",
+    "section": "",
+    "text": "After finishing your draft of the problem definition communicate with the customer to receive their feedback. How you get the feedback will depend on customer; it may be via Teams call, chat, or email.\n\nMake sure the customer is aware of any limitations.\nGet an agreement on the proposed output or any changes that are needed.\n\nHowever you get the feedback, keep a record of what was discussed and any agreements and update JIRA.",
+    "crumbs": [
+      "Home",
+      "Problem definition",
+      "Customer feedback"
+    ]
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/03-refine-pd.html",
+    "href": "guidance/02-pd/pd-steps/03-refine-pd.html",
+    "title": "Refine the problem definition",
+    "section": "",
+    "text": "Customer feedback may highlight different angles to explore or amendments to the PD before the customer can sign off.\n\nIt is important to repeat the problem definition loop again until the customer is happy to proceed.\nIn rare cases, feedback may highlight that the initiative may not be possible in the way that the customer initially intended.\nUnless any suitable alternatives are identified, the project may not be feasible.\nIn this case, you must discuss your concerns with the Data Science Lead before communicating this with the customer.",
+    "crumbs": [
+      "Home",
+      "Problem definition",
+      "Refine the problem definition"
+    ]
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-writing-problem-definition.html",
+    "href": "guidance/02-pd/pd-steps/01-writing-problem-definition.html",
+    "title": "Writing the problem definition",
+    "section": "",
+    "text": "An agreement between the Data Scientists and the customer(s).\nIt defines a set of goals that everyone agrees on before work begins.\nIt ensures there is a common understanding.\nIt should be stored within the SharePoint folder for reference.\nA problem definition template is available in the initiatives SharePoint folder.\n\nAs part of writing the problem definition, you will need to include:\n\nsome background information about the area\nwhat it is that needs to be solved\nhow you intend to solve the problem\nany limitations and caveats if they exist\nwhat tools and data you will use\nany information governance and ethical considerations",
+    "crumbs": [
+      "Home",
+      "Problem definition",
+      "Writing the problem definition"
+    ]
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#what-is-a-problem-definition",
+    "href": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#what-is-a-problem-definition",
+    "title": "Writing the problem definition",
+    "section": "",
+    "text": "An agreement between the Data Scientists and the customer(s).\nIt defines a set of goals that everyone agrees on before work begins.\nIt ensures there is a common understanding.\nIt should be stored within the SharePoint folder for reference.\nA problem definition template is available in the initiatives SharePoint folder.\n\nAs part of writing the problem definition, you will need to include:\n\nsome background information about the area\nwhat it is that needs to be solved\nhow you intend to solve the problem\nany limitations and caveats if they exist\nwhat tools and data you will use\nany information governance and ethical considerations",
+    "crumbs": [
+      "Home",
+      "Problem definition",
+      "Writing the problem definition"
+    ]
+  },
+  {
+    "objectID": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#tips-for-writing-a-problem-definition",
+    "href": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#tips-for-writing-a-problem-definition",
+    "title": "Writing the problem definition",
+    "section": "Tips for writing a problem definition",
+    "text": "Tips for writing a problem definition\n\nFor sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team before you start the work.\nExplain how you intend to use the data.\nEnsure the customer understands the aim by providing plenty of detail.\nHonestly assess time frames and relay these to the customer.\nYour critical friend and Data Science Lead can assist with this process.\n\nFor more information, please see the internal Data Science Wiki.\nThroughout the process, your critical friend will review the problem definition to check:\n\nif you understood the customer’s request correctly\nif your plans to solve the problems are appropriate",
+    "crumbs": [
+      "Home",
+      "Problem definition",
+      "Writing the problem definition"
     ]
   },
   {
@@ -172,7 +635,7 @@
     "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#selection-of-methods",
     "title": "Analysis and modelling",
     "section": "Selection of methods",
-    "text": "Selection of methods\nThe analysis first requires an appropriate method that can provide the desired outputs.\n\nCreate a short-list of methods that could be applicable to the problem.\nConsider the pros and cons of each candidate method:\n\nare there examples of this method being applied to the problem archetype?\nwill the available data support the method? If not, is it feasible to transform the data into a more suitable form?\nwill the tools available support the method?\n\nDecide which methods are best suited to the problem:\n\noften the best method will be clear\nsometimes you may need to try a small number of methods before deciding on the overall best one\n\n\nKeep notes of your decision-making and method trials for the final write-up of the initiative.",
+    "text": "Selection of methods\nThe analysis first requires an appropriate method that can provide the desired outputs.\n\nCreate a short-list of methods that could be applicable to the problem.\nConsider the pros and cons of each candidate method:\n\nare there examples of this method being applied to the problem archetype?\nwill the available data support the method? If not, is it feasible to transform the data into a more suitable form?\nwill the tools available support the method?\n\nDecide which methods are best suited to the problem:\n\noften the best method will be clear\nsometimes you may need to try a small number of methods before deciding on the overall best one\nget the opinion of your critical friend, or other team members\n\n\nKeep notes of your decision-making and method trials for the final write-up of the initiative.",
     "crumbs": [
       "Home",
       "Analysis",
@@ -184,7 +647,7 @@
     "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#application-of-methods",
     "title": "Analysis and modelling",
     "section": "Application of methods",
-    "text": "Application of methods\nApply the selected model(s) with RIGOUR; it should be Repeatable, Independent, Grounded in reality, Objective, Uncertainty-managed, and Robust.\n\nRepeatable: For an analytical process to be considered ‘valid’ it might reasonably be expected that for the same inputs and constraints the analysis produces the same outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected.\nIndependent: To produce analysis that is free of prejudice or bias. In doing so, care should be taken to appropriately balance the views across all stakeholders and experts.\nGrounded in reality: Quality analysis takes the commissioner and analyst on a journey as views and perceptions are challenged and connections are made between the analysis and its real consequences. Connecting with reality in this way guards against failing to properly grasp the context of the problem which is being analysed.\nObjective: Effective engagement and suitable challenge reduces potential bias and enables the commissioner and the analyst to be clear about the interpretation of the analytical results.\nUncertainty-managed: Uncertainties have been identified, managed, and communicated throughout the analytical process.\nRobust: Provide the analytical result in the context of residual uncertainty and limitations to ensure it is used appropriately.",
+    "text": "Application of methods\nApply the selected model(s) with RIGOUR; it should be Repeatable, Independent, Grounded in reality, Objective, Uncertainty-managed, and Robust.\n\nRepeatable: For an analytical process to be considered ‘valid’ it might reasonably be expected that for the same inputs and constraints the analysis produces the same outputs. It is important to note that different analysts will consider the analytical problem differently, potentially resulting in differing results, however if any one approach is repeated the results should be as expected.\nIndependent: To produce analysis that is free of prejudice or bias. In doing so, care should be taken to appropriately balance the views across all stakeholders and experts.\nGrounded in reality: Quality analysis takes the commissioner and analyst on a journey as views and perceptions are challenged and connections are made between the analysis and its real consequences. Connecting with reality in this way guards against failing to properly grasp the context of the problem which is being analysed.\nObjective: Effective engagement and suitable challenge reduces potential bias and enables the commissioner and the analyst to be clear about the interpretation of the analytical results.\nUncertainty-managed: Uncertainties have been identified, managed, and communicated throughout the analytical process.\nRobust: Provide the analytical result in the context of residual uncertainty and limitations to ensure it is used appropriately.\n\nSee the internal Data Science Wiki for guides and links to resources on specific methods.",
     "crumbs": [
       "Home",
       "Analysis",
@@ -195,8 +658,8 @@
     "objectID": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#quality-assurance-qa",
     "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#quality-assurance-qa",
     "title": "Analysis and modelling",
-    "section": "Quality Assurance (QA)",
-    "text": "Quality Assurance (QA)\nCheck your analysis thoroughly and often, not as a last step before delivery.\n\nDocumentation is important because:\n\nit allows us to transfer knowledge about the analysis\nit keeps the analysis transparent\nit provides instructions on how to use any interactive output\n\nGood analysis structure helps:\n\nin avoiding errors\nmake it easier to check\nmaintain ongoing workflows\nto re-use or re-purpose later\n\nVerify the outputs by:\n\ntesting your analysis, preferably in a repeatable and automated way\nasking for peer review of all aspects, including code, text and decisions made\n\nValidate your analysis by:\n\nchecking outputs are reasonable for a wide range of inputs\ncomparing to existing data\nasking a subject-matter expert to review (the earlier the better)\n\nBe open about uncertainty caused by data and assumptions and communicate this clearly to stakeholders.",
+    "section": "Quality assurance (QA)",
+    "text": "Quality assurance (QA)\nCheck your analysis thoroughly and often, not as a last step before delivery.\n\nDocumentation is important because:\n\nit allows us to transfer knowledge about the analysis\nit keeps the analysis transparent\nit provides instructions on how to use any interactive output\n\nGood analysis structure helps:\n\nin avoiding errors\nmake it easier to check\nmaintain ongoing workflows\nto re-use or re-purpose later\n\nVerify the outputs by:\n\ntesting your analysis, preferably in a repeatable and automated way\nasking for peer review of all aspects, including code, text and decisions made\n\nValidate your analysis by:\n\nchecking outputs are reasonable for a wide range of inputs\ncomparing to existing data\nasking a subject-matter expert to review (the earlier the better)\n\nBe open about uncertainty caused by data and assumptions and communicate this clearly to stakeholders.",
     "crumbs": [
       "Home",
       "Analysis",
@@ -232,7 +695,7 @@
     "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#tips-for-effective-programming",
     "title": "Analysis and modelling",
     "section": "Tips for effective programming",
-    "text": "Tips for effective programming\nData will be a factor in all initiatives. Most initiatives will also have some element of coding involved, even when using low-or-no-code tools like Power BI.\n\nUse Github to handle version control, issues and code reviews.\nIn Python, use object-oriented programming (OOP) if you can. Please see the internal Data Science Wiki for information.\nAlthough R does have support for OOP, it is not a big paradigm like in Python.\nBe careful of premature optimisation (called out by computer scientist Donald Knuth as ‘the root of all evil’ in software development).\nStart small, such as limiting data to a manageable subset when developing the analysis; this makes it easier to spot issues and allows for faster iteration of code.\nCheck the data looks correct at each step of reshaping and transforming it; better still, know what it should be before writing and applying the step (the principle behind test driven development, TDD).\nWork on one component of output at a time, for example using shiny with the modular golem framework, as in our shiny app template.\nFrequently run code as you write it, or check the output for low-or-no-code tools, so any issues are encountered early and their source is clearer.\nYou may produce multiple smaller data sets to be used in your outputs; the considerations applying to base tables apply equally to these.\nWhere appropriate, the final code should use RAP principles [LINK?].",
+    "text": "Tips for effective programming\nData will be a factor in all initiatives. Most initiatives will also have some element of coding involved, even when using low-or-no-code tools like Power BI.\n\nUse Github to handle version control, issues and code reviews.\nIn Python, use object-oriented programming (OOP) if you can. Please see the internal Data Science Wiki for information.\nAlthough R does have support for OOP, it is not a big paradigm like in Python.\nBe careful of premature optimisation (called out by computer scientist Donald Knuth as ‘the root of all evil’ in software development).\nStart small, such as limiting data to a manageable subset when developing the analysis; this makes it easier to spot issues and allows for faster iteration of code.\nCheck the data looks correct at each step of reshaping and transforming it; better still, know what it should be before writing and applying the step (the principle behind test driven development, TDD).\nWork on one component of output at a time, for example using shiny with the modular golem framework, as in our shiny app template.\nFrequently run code as you write it, or check the output for low-or-no-code tools, so any issues are encountered early and their source is clearer.\nYou may produce multiple smaller data sets to be used in your outputs; the considerations applying to base tables apply equally to these.\nWhere appropriate, the final code should use RAP principles.",
     "crumbs": [
       "Home",
       "Analysis",
@@ -244,7 +707,7 @@
     "href": "guidance/03-analysis/analysis-steps/02-analysis-modelling.html#check-the-quality",
     "title": "Analysis and modelling",
     "section": "Check the quality",
-    "text": "Check the quality\nAs with data preparation, it is important to test and validate your results.\n\nWhere possible, check results against other sources.\nOther sources could be data from previous initiatives, Management Information dashboards or ePACT2.\n\nAdditionally, you must be careful about visualising sensitive results. Please contact your critical friend or the Data Science Lead if you are unsure. Results for external audience or general public must be subjected to Statistical Disclosure Control [LINK] before release.\nBefore pushing any code to GitHub, it’s essential to ensure that the output is cleared, and that no sensitive information remains within it.",
+    "text": "Check the quality\nAs with data preparation, it is important to test and validate your results.\n\nWhere possible, check results against other sources.\nOther sources could be data from previous initiatives, Management Information dashboards or ePACT2.\n\nAdditionally, you must be careful about visualising sensitive results. Please contact your critical friend or the Data Science Lead if you are unsure. Results for external audience or general public must be subjected to Statistical Disclosure Control before release.\nBefore pushing any code to GitHub, it’s essential to ensure that the output is cleared, and that no sensitive information remains within it.",
     "crumbs": [
       "Home",
       "Analysis",
@@ -276,473 +739,10 @@
     ]
   },
   {
-    "objectID": "guidance/02-pd/pd-steps/02-customer-feedback.html",
-    "href": "guidance/02-pd/pd-steps/02-customer-feedback.html",
-    "title": "Customer feedback",
-    "section": "",
-    "text": "After finishing your draft of the problem definition communicate with the customer to receive their feedback. How you get the feedback will depend on customer; it may be via Teams call, chat, or email.\n\nMake sure the customer is aware of any limitations.\nGet an agreement on the proposed output or any changes that are needed.\n\nHowever you get the feedback, keep a record of what was discussed and any agreements and update JIRA.",
-    "crumbs": [
-      "Home",
-      "Problem definition",
-      "Customer feedback"
-    ]
-  },
-  {
-    "objectID": "guidance/02-pd/pd-steps/01-writing-problem-definition.html",
-    "href": "guidance/02-pd/pd-steps/01-writing-problem-definition.html",
-    "title": "Writing the problem definition",
-    "section": "",
-    "text": "An agreement between the Data Scientists and the customer(s).\nIt defines a set of goals that everyone agrees on before work begins.\nIt ensures there is a common understanding.\nIt should be stored within the SharePoint folder for reference.\nA problem definition template is available in the initiatives SharePoint folder.\n\nAs part of writing the problem definition, you will need to include:\n\nsome background information about the area\nwhat it is that needs to be solved\nhow you intend to solve the problem\nany limitations and caveats if they exist\nwhat tools and data you will use\nany information governance and ethical considerations",
-    "crumbs": [
-      "Home",
-      "Problem definition",
-      "Writing the problem definition"
-    ]
-  },
-  {
-    "objectID": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#what-is-a-problem-definition",
-    "href": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#what-is-a-problem-definition",
-    "title": "Writing the problem definition",
-    "section": "",
-    "text": "An agreement between the Data Scientists and the customer(s).\nIt defines a set of goals that everyone agrees on before work begins.\nIt ensures there is a common understanding.\nIt should be stored within the SharePoint folder for reference.\nA problem definition template is available in the initiatives SharePoint folder.\n\nAs part of writing the problem definition, you will need to include:\n\nsome background information about the area\nwhat it is that needs to be solved\nhow you intend to solve the problem\nany limitations and caveats if they exist\nwhat tools and data you will use\nany information governance and ethical considerations",
-    "crumbs": [
-      "Home",
-      "Problem definition",
-      "Writing the problem definition"
-    ]
-  },
-  {
-    "objectID": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#tips-for-writing-a-problem-definition",
-    "href": "guidance/02-pd/pd-steps/01-writing-problem-definition.html#tips-for-writing-a-problem-definition",
-    "title": "Writing the problem definition",
-    "section": "Tips for writing a problem definition",
-    "text": "Tips for writing a problem definition\n\nFor sensitive data containing personally identifiable information (PII), you will need to get approval from the Information Governance (IG) team before you start the work.\nExplain how you intend to use the data.\nEnsure the customer understands the aim by providing plenty of detail.\nHonestly assess time frames and relay these to the customer.\nYour critical friend and Data Science Lead can assist with this process.\n\nFor more information, please see the internal Data Science Wiki.\nThroughout the process, your critical friend will review the problem definition to check:\n\nif you understood the customer’s request correctly\nif your plans to solve the problems are appropriate",
-    "crumbs": [
-      "Home",
-      "Problem definition",
-      "Writing the problem definition"
-    ]
-  },
-  {
-    "objectID": "guidance/02-pd/pd-steps/03-refine-pd.html",
-    "href": "guidance/02-pd/pd-steps/03-refine-pd.html",
-    "title": "Refine the problem definition",
-    "section": "",
-    "text": "Customer feedback may highlight different angles to explore or amendments to the PD before the customer can sign off.\n\nIt is important to repeat the problem definition loop again until the customer is happy to proceed.\nIn rare cases, feedback may highlight that the initiative may not be possible in the way that the customer initially intended.\nUnless any suitable alternatives are identified, the project may not be feasible.\nIn this case, you must discuss your concerns with the Data Science Lead before communicating this with the customer.",
-    "crumbs": [
-      "Home",
-      "Problem definition",
-      "Refine the problem definition"
-    ]
-  },
-  {
     "objectID": "index.html#sections",
     "href": "index.html#sections",
     "title": "NHSBSA Data Science Playbook",
     "section": "Sections",
     "text": "Sections"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This website has been developed by the NHSBSA Data and Analytics Learning Laboratory (DALL) team to provide guidance and processes for producing new initiatives."
-  },
-  {
-    "objectID": "guidance/02-pd/index.html",
-    "href": "guidance/02-pd/index.html",
-    "title": "Problem definition",
-    "section": "",
-    "text": "In this section, we aim to write and refine the problem definition until we have fully understood the problem we are trying to solve. The terms of the problem definition are agreed with the customer before moving onto the analysis section.",
-    "crumbs": [
-      "Home",
-      "Problem definition",
-      "Problem definition"
-    ]
-  },
-  {
-    "objectID": "guidance/02-pd/index.html#sections",
-    "href": "guidance/02-pd/index.html#sections",
-    "title": "Problem definition",
-    "section": "Sections",
-    "text": "Sections",
-    "crumbs": [
-      "Home",
-      "Problem definition",
-      "Problem definition"
-    ]
-  },
-  {
-    "objectID": "guidance/02-pd/pd-steps/04-estimate-timescales.html",
-    "href": "guidance/02-pd/pd-steps/04-estimate-timescales.html",
-    "title": "Estimate the timescales",
-    "section": "",
-    "text": "During the planning stages of the initiative, it is a good idea to plan the timescales of the project.\nTo plan effectively:\n\ncreate a Gantt chart\nlist the items and their completion times\nestimate when each element will be finished\n\nPlease see the Gantt chart template within the initiatives folder on SharePoint.\nYou should always account for:\n\ncommitments in other projects\nupcoming planned leave\ntime spent in meetings per week\nthe hours you work per week\ntime spent learning about the project\ntime required to get access to tools and data\nany other commitments\n\nIf you add more tasks to the project, make sure to update the Gantt chart and inform the customer of the new deadlines. Your planned deadlines are usually just estimates and can be extended if underestimated.",
-    "crumbs": [
-      "Home",
-      "Problem definition",
-      "Estimate the timescales"
-    ]
-  },
-  {
-    "objectID": "guidance/02-pd/pd-steps/05-problem-definition-sign-off.html",
-    "href": "guidance/02-pd/pd-steps/05-problem-definition-sign-off.html",
-    "title": "Problem definition sign-off",
-    "section": "",
-    "text": "The customer should sign-off the problem definition before the initiative can be continued. In some cases however, preliminary work can be continued prior to sign-off.\nOptionally, a final meeting can be held with the customer to agree the direction of research.\nEnsure there is a record of the problem definition being signed-off, such as in a follow-up email after the final meeting or in a Teams message.",
-    "crumbs": [
-      "Home",
-      "Problem definition",
-      "Problem definition sign-off"
-    ]
-  },
-  {
-    "objectID": "guidance/03-analysis/index.html",
-    "href": "guidance/03-analysis/index.html",
-    "title": "Analysis",
-    "section": "",
-    "text": "In this stage we prepare data, analyse it and review until outputs as specified in the problem definition are finalised. It is sometimes necessary to go back and refine the problem definition as a result of discoveries or issues found during these tasks.",
-    "crumbs": [
-      "Home",
-      "Analysis",
-      "Analysis"
-    ]
-  },
-  {
-    "objectID": "guidance/03-analysis/index.html#sections",
-    "href": "guidance/03-analysis/index.html#sections",
-    "title": "Analysis",
-    "section": "Sections",
-    "text": "Sections",
-    "crumbs": [
-      "Home",
-      "Analysis",
-      "Analysis"
-    ]
-  },
-  {
-    "objectID": "guidance/03-analysis/analysis-steps/01-data-prep.html",
-    "href": "guidance/03-analysis/analysis-steps/01-data-prep.html",
-    "title": "Data preparation",
-    "section": "",
-    "text": "Data preparation can be done with any data manipulation tool such as SQL, R or Python.\n\nLarge datasets with millions of rows may require use of SQL initially.\nSQL can be used via libraries, such as dplyr and the database back-end dbplyr in R.\nOnce data has been aggregated, switch to your tool of choice for analysis and modelling.\n\nWhen preparing data there are some considerations that always apply.\n\n\n\nCheck the Data Quality profiles, if they exist for the data.\nHow are values distributed? In particular are there any unbalanced data fields?\nCheck summary statistics such as mean, median, mode, minima and maxima.\nHow complete is the data? Any null or otherwise unknown values?\nAre any fields strongly correlated?\nDiscuss any data quality issues with the critical friend and/or customer.\n\nThere is a page on data quality in the internal Data Science Wiki.\n\n\n\n\nHandling missing values.\nUsing appropriate data types.\nFollowing the data minimisation principle Principle (c): Data minimisation | ICO.\n\nThere is a page on data cleansing in the internal Data Science Wiki.\n\n\n\n\nSave the results of data quality checking.\nSave examples of queries that highlight any issues.\ndata_summary.Rmd and EDA figures.xlsx can be used, found in template initiative Data folder.\n\n\n\n\n\nWhere possible, check results using your base tables and other sources match.\nInternal sources include data from previous initiatives, Management Information dashboards or ePACT2.\nExternal sources include Official Statistics and third-party datasets.",
-    "crumbs": [
-      "Home",
-      "Analysis",
-      "Data preparation"
-    ]
-  },
-  {
-    "objectID": "guidance/03-analysis/analysis-steps/01-data-prep.html#data-preparation",
-    "href": "guidance/03-analysis/analysis-steps/01-data-prep.html#data-preparation",
-    "title": "Data preparation",
-    "section": "",
-    "text": "Data preparation can be done with any data manipulation tool such as SQL, R or Python.\n\nLarge datasets with millions of rows may require use of SQL initially.\nSQL can be used via libraries, such as dplyr and the database back-end dbplyr in R.\nOnce data has been aggregated, switch to your tool of choice for analysis and modelling.\n\nWhen preparing data there are some considerations that always apply.\n\n\n\nCheck the Data Quality profiles, if they exist for the data.\nHow are values distributed? In particular are there any unbalanced data fields?\nCheck summary statistics such as mean, median, mode, minima and maxima.\nHow complete is the data? Any null or otherwise unknown values?\nAre any fields strongly correlated?\nDiscuss any data quality issues with the critical friend and/or customer.\n\nThere is a page on data quality in the internal Data Science Wiki.\n\n\n\n\nHandling missing values.\nUsing appropriate data types.\nFollowing the data minimisation principle Principle (c): Data minimisation | ICO.\n\nThere is a page on data cleansing in the internal Data Science Wiki.\n\n\n\n\nSave the results of data quality checking.\nSave examples of queries that highlight any issues.\ndata_summary.Rmd and EDA figures.xlsx can be used, found in template initiative Data folder.\n\n\n\n\n\nWhere possible, check results using your base tables and other sources match.\nInternal sources include data from previous initiatives, Management Information dashboards or ePACT2.\nExternal sources include Official Statistics and third-party datasets.",
-    "crumbs": [
-      "Home",
-      "Analysis",
-      "Data preparation"
-    ]
-  },
-  {
-    "objectID": "guidance/03-analysis/analysis-steps/01-data-prep.html#creating-base-tables",
-    "href": "guidance/03-analysis/analysis-steps/01-data-prep.html#creating-base-tables",
-    "title": "Data preparation",
-    "section": "Creating base tables",
-    "text": "Creating base tables\nAfter checking and preparing the data, you should have enough knowledge to create one or more base tables.\n\nDecide to keep or discard fields based on what is relevant to the initiative.\nFix or remove columns that contain data errors or missing entries.\nCreate new columns based on the existing ones.\nChange the data types of the columns to a more appropriate format.\nSave the output of your transformations.\nUse any format that makes sense considering the size and how it is used; formats include CSV, SQL, and Rda.\n\nOnce the tables have been created they should be sense checked and code reviewed as outlined in the Review section of the playbook.",
-    "crumbs": [
-      "Home",
-      "Analysis",
-      "Data preparation"
-    ]
-  },
-  {
-    "objectID": "guidance/03-analysis/analysis-steps/01-data-prep.html#sensitive-data",
-    "href": "guidance/03-analysis/analysis-steps/01-data-prep.html#sensitive-data",
-    "title": "Data preparation",
-    "section": "Sensitive data",
-    "text": "Sensitive data\n\nWherever base tables are saved, it must be in a secure location as per data security policy (LINK?).\nSensitive data should be removed or obscured unless it is absolutely necessary to retain it; bear in mind the data governance policies (LINK?).\nFor certain usage of sensitive data, the Caldicott Guardians (LINK?) should be consulted.",
-    "crumbs": [
-      "Home",
-      "Analysis",
-      "Data preparation"
-    ]
-  },
-  {
-    "objectID": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html",
-    "href": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html",
-    "title": "Reporting and visuals",
-    "section": "",
-    "text": "Within the Data Science team, the work that we conduct aims to tell a ‘story’ to the customer, providing them with the insights that the raw data alone would not.",
-    "crumbs": [
-      "Home",
-      "Analysis",
-      "Reporting and visuals"
-    ]
-  },
-  {
-    "objectID": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#output-formats",
-    "href": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#output-formats",
-    "title": "Reporting and visuals",
-    "section": "Output formats",
-    "text": "Output formats\nThere are a range of outputs that may be agreed with the customer:\n\nwritten reports\ndata sets\ndashboards\ninteractive reports\nslide decks (always required)\ncode/models",
-    "crumbs": [
-      "Home",
-      "Analysis",
-      "Reporting and visuals"
-    ]
-  },
-  {
-    "objectID": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#output-structure",
-    "href": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#output-structure",
-    "title": "Reporting and visuals",
-    "section": "Output structure",
-    "text": "Output structure\nA typical example of how a report could be structured is:\n\nIntroduction.\nContents.\nKey findings (since some may not have time to read the whole content).\nMethodology.\nAssumptions, limitations, definitions and uncertainty.\nResults.\nRecommendations and next steps.\nAppendices (if applicable).",
-    "crumbs": [
-      "Home",
-      "Analysis",
-      "Reporting and visuals"
-    ]
-  },
-  {
-    "objectID": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#supporting-text",
-    "href": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#supporting-text",
-    "title": "Reporting and visuals",
-    "section": "Supporting text",
-    "text": "Supporting text\nMost outputs will feature at least some text. General tips for writing includes:\n\nputting the key findings at the front as people won’t read the whole thing\nincluding caveats and assumptions, and for particularly important ones mention them up front\nwriting numbers under 10 as words, over 10 in digits (but use common sense!)\nusing bold tag lines for emphasis of important points\ndeveloping an interesting narrative (sometimes difficult to do)\nif appropriate, including recommendations and ideas for further exploration\navoiding sentences longer than 20 words\nwriting in simple terms aimed at a lay audience, such that even a 12-year-old would be able to understand\nif multiple people have contributed text, assigning one person in the final stages to act as an editor and rewrite in a coherent style\nleaving the writing of any text that supports visuals such as charts or tables until the team is almost certain they are finalised\n\nThere are pages on initiative outputs with specific format advice in the internal Data Science Wiki. A very useful tool for written output is Hemingway Editor. If you can get your text to mostly have no issues in this, you know it is readable!",
-    "crumbs": [
-      "Home",
-      "Analysis",
-      "Reporting and visuals"
-    ]
-  },
-  {
-    "objectID": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#slide-decks",
-    "href": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#slide-decks",
-    "title": "Reporting and visuals",
-    "section": "Slide decks",
-    "text": "Slide decks\nGenerally, it is recommended that most initiatives should have a report, which could be in the form of a slide deck, as well as an additional slide deck used to present the story and any other agreed outputs.\n\nCustomer summary\nThis is to give the customer an easily shared and concise report on the outcomes of an initiative. The summary should:\n\nstate the problems or questions the initiative looked at, with examples\ngive the most important assumptions or caveats, and if appropriate issues encountered\nsummarise the most important findings\ngive brief recommendations and next steps\nprovide a mix of visuals and text, with more text preferred\nuse technical language, if you think the customer is familiar with it\n\n\n\nShort presentation\nThis is intended to be used by the Data Science team to present to others. It also serves as a quick reference of the outcome of an initiative, helpful to people looking back at it in future.\nA good presentation will:\n\nshow examples of the why the initiative was done\ngive important assumptions and caveats which are necessary to ensure understanding\nsummarise the most important findings\ngive brief recommendations and next steps\nlimit the amounts of explanatory text and make the most of visuals\noptimal: use animations to help present the content\ntake around 10 minutes to present (depending on situation)\nassume audience is non-technical\nfocus on up to three findings that you would like the audience to remember (applicable for large initiatives with lots of components and findings)\nuse a good presentation style such as the newsreader style\nhave an up to date final slide containing feedback and use cases\ngive people the opportunity to provide feedback- if you are not getting feedback ‘organically’, reach out to get enough for at least one slide!",
-    "crumbs": [
-      "Home",
-      "Analysis",
-      "Reporting and visuals"
-    ]
-  },
-  {
-    "objectID": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#accessibility",
-    "href": "guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html#accessibility",
-    "title": "Reporting and visuals",
-    "section": "Accessibility",
-    "text": "Accessibility\nIf your output is to be available online, it must be tested for accessibility and include (or link to) an Accessibility Statement. Full details are in the internal Data Science Wiki.\n\nTry to create outputs with accessibility in mind; for example using the shiny template.\nDon’t test for accessibility too early; do it only once reasonably confident the non-text output is finalised.",
-    "crumbs": [
-      "Home",
-      "Analysis",
-      "Reporting and visuals"
-    ]
-  },
-  {
-    "objectID": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html",
-    "href": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html",
-    "title": "Question identified",
-    "section": "",
-    "text": "The Data Science team deliver actionable insights from data through innovation, experimentation and collaboration. This drives policy, decision making and efficiencies across the NHSBSA and wider health and social care system. Projects typically align to the following areas:",
-    "crumbs": [
-      "Home",
-      "Before the problem definition",
-      "Question identified"
-    ]
-  },
-  {
-    "objectID": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html#selecting-a-project",
-    "href": "guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html#selecting-a-project",
-    "title": "Question identified",
-    "section": "Selecting a project",
-    "text": "Selecting a project\n\nProjects can be identified by Data Science team members, an internal NHSBSA customer, an external customer, user research or recommendations from previous work.\nThey may also be identified through collaborative ideas sessions we run with other teams.\nCustomers can request work through dall@nhsbsa.nhs.uk.\nThe Data Science team and internal customers can also log ideas for future projects on the ideas register.\nThe Data Science Lead reviews projects for suitability in terms of scope and appropriateness, as well as any ethical implications. Projects may be triaged to other teams if not suitable.\nThe Data Science Lead coordinates the assignment of initiatives to team members as well as critical friends .\nOnce a project is accepted, it is initially created in JIRA, with initiative number and basic project information including project lead, team members and critical friend. The Data Science initiative number is identified using JIRA.\nA SharePoint folder is created to store documents and data using the template provided. The initiative number is included in the name.",
-    "crumbs": [
-      "Home",
-      "Before the problem definition",
-      "Question identified"
-    ]
-  },
-  {
-    "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html",
-    "href": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html",
-    "title": "Assign a critical friend",
-    "section": "",
-    "text": "Typical Data Science initiatives involve 1-2 people working on the project.\nFor each project undertaken by a single team member a critical friend is assigned.\nFor group projects a critical friend is not mandatory but is advised. Where not allocated, group members must inherit the responsibilities of a critical friend through peer review.\nA critical friend reviews the problem definition, business understanding and outputs.\n\nThe critical friend provides a fresh perspective and offers the opportunity to catch issues that are overlooked by the team.\n\nThey can also attend meetings, check documents and provide extra support and guidance throughout the initiative.\n\nTowards the end of an initiative ask other team members to review the output.",
-    "crumbs": [
-      "Home",
-      "Before the problem definition",
-      "Assign a critical friend"
-    ]
-  },
-  {
-    "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#what-is-a-critical-friend",
-    "href": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#what-is-a-critical-friend",
-    "title": "Assign a critical friend",
-    "section": "",
-    "text": "Typical Data Science initiatives involve 1-2 people working on the project.\nFor each project undertaken by a single team member a critical friend is assigned.\nFor group projects a critical friend is not mandatory but is advised. Where not allocated, group members must inherit the responsibilities of a critical friend through peer review.\nA critical friend reviews the problem definition, business understanding and outputs.\n\nThe critical friend provides a fresh perspective and offers the opportunity to catch issues that are overlooked by the team.\n\nThey can also attend meetings, check documents and provide extra support and guidance throughout the initiative.\n\nTowards the end of an initiative ask other team members to review the output.",
-    "crumbs": [
-      "Home",
-      "Before the problem definition",
-      "Assign a critical friend"
-    ]
-  },
-  {
-    "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#assigning-a-critical-friend",
-    "href": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#assigning-a-critical-friend",
-    "title": "Assign a critical friend",
-    "section": "Assigning a critical friend",
-    "text": "Assigning a critical friend\n\nAssign a critical friend as early as possible.\nCritical friends are assigned by the project members or the Data Science Lead.\nThe Data Science Lead knows who is available and has valuable knowledge related to the upcoming project.\nIdeally, a critical friend should have prior experience with similar data or techniques.\nIf you are an area expert, you can choose a new team member as the critical friend so they can gain experience.",
-    "crumbs": [
-      "Home",
-      "Before the problem definition",
-      "Assign a critical friend"
-    ]
-  },
-  {
-    "objectID": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#working-with-your-critical-friend",
-    "href": "guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html#working-with-your-critical-friend",
-    "title": "Assign a critical friend",
-    "section": "Working with your critical friend",
-    "text": "Working with your critical friend\n\nThe critical friend will help by offering more insight and reviewing the project.\nRegularly meet with the critical friend to keep them updated.\nAssign work to review in small increments rather than all at once.\nRespect the critical friend’s diary and provide plenty of notice for work to be completed.",
-    "crumbs": [
-      "Home",
-      "Before the problem definition",
-      "Assign a critical friend"
-    ]
-  },
-  {
-    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html",
-    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html",
-    "title": "Develop understanding",
-    "section": "",
-    "text": "Temporary access must be requested via email or a service request and is subject to approval from the Data Science Lead, Database administrators and/or Data Asset Owner.\nShould sensitive data be needed, there may also be a requirement to engage with the Caldicott Guardian and/or Information Governance.\nAll non-public domain data must be accessed and processed within the Data Science secure data environment.\nAlso request any relevant metadata, data dictionaries and data quality profiles. See the internal Data Science Wiki for more information.",
-    "crumbs": [
-      "Home",
-      "Before the problem definition",
-      "Develop understanding"
-    ]
-  },
-  {
-    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#accessing-data",
-    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#accessing-data",
-    "title": "Develop understanding",
-    "section": "",
-    "text": "Temporary access must be requested via email or a service request and is subject to approval from the Data Science Lead, Database administrators and/or Data Asset Owner.\nShould sensitive data be needed, there may also be a requirement to engage with the Caldicott Guardian and/or Information Governance.\nAll non-public domain data must be accessed and processed within the Data Science secure data environment.\nAlso request any relevant metadata, data dictionaries and data quality profiles. See the internal Data Science Wiki for more information.",
-    "crumbs": [
-      "Home",
-      "Before the problem definition",
-      "Develop understanding"
-    ]
-  },
-  {
-    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#initial-data-understanding",
-    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#initial-data-understanding",
-    "title": "Develop understanding",
-    "section": "Initial data understanding",
-    "text": "Initial data understanding\nInitial data understanding will help you to gauge what is possible with the data including any anomalies, caveats, and quality issues. Further information can be found in Section 3 of the playbook.\n\nUse data documentation and identify data subject matter expert (SMEs) (within the services and/or central MI or Data Services) who will support you to understand what fields are available and their suitability.\nInitial exploratory data analysis will also help you to get a better feel for the data in terms of its quality and suitability and what data preparation might be required.\nShould documentation not exist, you may wish to record:\n\na summary of what each column represents\nthe number of missing records\nthe number of errors\nif applicable, the logic used to calculate the column\n\n\nCombined with business understanding, this initial analysis will help to:\n\ninform the problem definition (PD)\ninform conversations with the customer of what is possible and not possible to achieve during the initiative\nidentify other interesting research questions with the customer and explore if these are worth pursuing",
-    "crumbs": [
-      "Home",
-      "Before the problem definition",
-      "Develop understanding"
-    ]
-  },
-  {
-    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#usage",
-    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#usage",
-    "title": "Develop understanding",
-    "section": "Usage",
-    "text": "Usage\nFurther advice on usage of specific databases can be found within the internal Data Science Wiki.",
-    "crumbs": [
-      "Home",
-      "Before the problem definition",
-      "Develop understanding"
-    ]
-  },
-  {
-    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#desk-research-and-business-understanding",
-    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#desk-research-and-business-understanding",
-    "title": "Develop understanding",
-    "section": "Desk research and business understanding",
-    "text": "Desk research and business understanding\nDesk research and business understanding will help you understand what is possible for the initiative and ensure the work is not duplicated.\nTo assist your work you could use:\n\nJIRA as a reference to previous initiatives\nreports and other outputs from previous initiatives in the project folders\nother team members, business SMEs and your critical friend to help develop business knowledge\nuser research where applicable\ninternal and external online resources which may describe the service, policy or other aspects relevant to understanding context\nexternally or internal published statistics, data or dashboards relevant to the subject. They may also later be a source for validation and ensuring coherence.\nresources to support with methodology such as Github repositories, Stack Overflow, Medium and research papers\nDataCamp to complete relevant courses\n\nThis is a guide of what is possible and is dependent on the current project’s requirements.",
-    "crumbs": [
-      "Home",
-      "Before the problem definition",
-      "Develop understanding"
-    ]
-  },
-  {
-    "objectID": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#user-research",
-    "href": "guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html#user-research",
-    "title": "Develop understanding",
-    "section": "User research",
-    "text": "User research\nIncorporating user research into data science projects allows the team to provide actionable insights through advanced analytics, improve patient and customer outcomes, and reduce system loss. By collaborating with the wider NHSBSA, NHS England, and external organisations, we ensure our solutions meet user needs and drive innovation.\nUser research is integrated into the data science projects by:\n\nusing qualitative research methods such as surveys, focus groups, and interviews to understand user problems and pain points when using NHS services\nusing user insights to determine important features, enhancing model accuracy and relevance\nestablishing user-defined success metrics to measure the effectiveness of our models and analytics\ndesigning models based on real-world use cases, ensuring they meet user expectations and improve outcomes\nenhancing usability and accessibility of tools like NHSBSA branded R Shiny and Power BI dashboards based on user feedback\nconducting usability testing to refine models and solutions using user feedback based on prototypes\nbuilding personalised recommendations and insights that adapt to user preferences\nfacilitating better communication by bridging the gap between data scientists and end-users\nidentifying impactful projects that should be prioritised and allocated the appropriate resources",
-    "crumbs": [
-      "Home",
-      "Before the problem definition",
-      "Develop understanding"
-    ]
-  },
-  {
-    "objectID": "guidance/04-wrap-up/wrap-up-steps/05-future-work.html",
-    "href": "guidance/04-wrap-up/wrap-up-steps/05-future-work.html",
-    "title": "Consider potential future work",
-    "section": "",
-    "text": "After the project ended, you might have wanted to explore areas outside the project’s scope.\n\nAdd future project ideas to the Data Science ideas register.\nShort pieces of work can be completed as a three week exploratory project.",
-    "crumbs": [
-      "Home",
-      "Initiative wrap up",
-      "Consider potential future work"
-    ]
-  },
-  {
-    "objectID": "guidance/04-wrap-up/wrap-up-steps/03-update-wiki.html",
-    "href": "guidance/04-wrap-up/wrap-up-steps/03-update-wiki.html",
-    "title": "Update the Wiki",
-    "section": "",
-    "text": "Throughout the initiative, you will have interrogated some data and potentially picked up some new skills in the process.\n\nIf there is anything you found particularly useful or that could be beneficial for others, please add it to the internal Data Science Wiki.\nIf a question you have isn’t already on the internal Data Science Wiki you should find the answer and incorporate it.\n\nThe Wiki should be the first place you look when you have questions on a:\n\ndataset\npiece of software\ntype of analysis",
-    "crumbs": [
-      "Home",
-      "Initiative wrap up",
-      "Update the Wiki"
-    ]
-  },
-  {
-    "objectID": "guidance/04-wrap-up/wrap-up-steps/01-clean-up.html",
-    "href": "guidance/04-wrap-up/wrap-up-steps/01-clean-up.html",
-    "title": "Wrap up and clean your code",
-    "section": "",
-    "text": "Cleaning your project is an equally important step as the modelling and analysis.\nLeaving a messy project folder and code can lead to difficulties later down the line.\nIt is important that you dedicate enough time to completing this step.\nApproach the project clean up as a serious and worthwhile endeavour.\nIt can be useful for a future project.",
-    "crumbs": [
-      "Home",
-      "Initiative wrap up",
-      "Wrap up and clean your code"
-    ]
-  },
-  {
-    "objectID": "guidance/04-wrap-up/wrap-up-steps/01-clean-up.html#data-retention",
-    "href": "guidance/04-wrap-up/wrap-up-steps/01-clean-up.html#data-retention",
-    "title": "Wrap up and clean your code",
-    "section": "Data retention",
-    "text": "Data retention\nRemember that we have a legal obligation to keep personal data only for as long as is necessary for the business purposes it is retained for.\nYou can find the full policies regarding data on the NHSBSA website.\n\nData handling and storage policy (PDF)\nData protection and confidentiality policy (PDF)\nRecords management policy (PDF)\nRecords management retention schedule (Excel)\n\nDuring an initiative, you will probably create tables in your personal schema. These could be part of the agreed outputs, or they could be adhoc tables from EDA, or tables created for testing or checking. Regularly review the tables in your schema and keep only what is needed.\n\nAdhoc tables, which are not part of the agreed outputs, should not generally be kept past your current working session.\nTreat the code that creates tables for the purpose of testing or checking your work as part of your code base, so they can be easily recreated.\nTables that are part of agreed outputs should be kept until the 3-month follow-up with the initiative customer has been done, and then dropped.\nAny tables that need to be kept for longer time frames should be recreated in the Data Science Reference schema.\n\nYou will also have various supporting files for the initiative in the SharePoint folder.\n\nDon’t delete files outright; save any files deemed not needed into an ‘Archive’ folder.\nSet a reminder, 2 years after the 3-month follow-up with the customer has been completed, to delete the Archive. This is to allow for the potential of an audit.\nUp-to-date guidance on data retention for miscellaneous files in SharePoint is in progress, so these guidelines may change.",
-    "crumbs": [
-      "Home",
-      "Initiative wrap up",
-      "Wrap up and clean your code"
-    ]
-  },
-  {
-    "objectID": "guidance/04-wrap-up/wrap-up-steps/01-clean-up.html#general-considerations",
-    "href": "guidance/04-wrap-up/wrap-up-steps/01-clean-up.html#general-considerations",
-    "title": "Wrap up and clean your code",
-    "section": "General considerations",
-    "text": "General considerations\n\nDelete stale git branches or merge them into main.\nCreate a config file with key parameters and filters that are referenced throughout the project.\nEnsure key tables within the database are available to the wider team, if applicable.\nIf an initiative output is made publicly available, ensure an initiative summary and links to articles are added to the NHSBSA Data Science projects page.\n\nPlease refer to the internal Data Science Wiki for more information on cleaning your code.",
-    "crumbs": [
-      "Home",
-      "Initiative wrap up",
-      "Wrap up and clean your code"
-    ]
   }
 ]
