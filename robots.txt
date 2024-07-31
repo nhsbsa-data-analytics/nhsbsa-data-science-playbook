@@ -1,1 +1,1 @@
-Sitemap: https://nhsbsa-data-analytics.github.io/dall-playbook/sitemap.xml
+Sitemap: https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/sitemap.xml
