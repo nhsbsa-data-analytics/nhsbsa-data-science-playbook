@@ -2,7 +2,7 @@
 
 This repository contains the framework for writing and deploying the DALL Playbook. The playbook is used to give detailed guidance on the typical workflow for DALL initiatives.
 
-The playbook can be found [here](https://nhsbsa-data-analytics.github.io/dall-playbook/).
+The playbook can be found [here](https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/).
 
 ## Requirements
 
