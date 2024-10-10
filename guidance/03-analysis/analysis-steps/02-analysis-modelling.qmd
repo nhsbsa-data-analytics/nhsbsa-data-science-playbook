@@ -2,7 +2,7 @@
 title: "Analysis and modelling"
 description: "Analyse the data and create models to support the expected outputs."
 image: 02-analysis-modelling.jpg
-image-alt: Photo by Shubham Dhage on Unsplash
+image-alt: Model made of multi-coloured beads
 ---
 
 In this step, we turn our data into insights. The work done here can vary. It can include statistical analysis, both modelled and descriptive, as well as more sophisticated Machine Learning (AI) – the choice being dependent on the output requirements of the customer. The output can be presented in the form of a report, a dashboard, or a slide deck.
@@ -62,7 +62,7 @@ Check your analysis thoroughly and often, not as a last step before delivery.
 
 - [Good practice guidance: Framework to review models (PDF)](https://www.nao.org.uk/wp-content/uploads/2016/03/11018-002-Framework-to-review-models_External_4DP.pdf)
 - [Principles of quality assurance for modelling and data analysis (PDF)](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/878616/Principles_of_QA_for_analysis.pdf)
-- [The Aqua Book: guidance on producing quality analysis - GOV.UK (PDF)](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/878616/Principles_of_QA_for_analysis.pdf)
+- [The Aqua Book: guidance on producing quality analysis for government (PDF)](https://assets.publishing.service.gov.uk/media/5a7f3bb8e5274a2e87db49be/aqua_book_final_web.pdf)
 - [Government Functional Standard (PDF)](https://assets.publishing.service.gov.uk/media/64e4cf0a4002ee000d560d5f/2023.02_GovS_010_Analysis_v2.1.pdf)
 
 ## Tools used in analysis

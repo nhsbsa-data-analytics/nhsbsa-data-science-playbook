@@ -2,7 +2,7 @@
 title: "Estimate the timescales"
 description: "Create a Gantt chart or equivalent to plan the initiative's timescales."
 image: 04-estimate-timescales.jpg
-image-alt: Photo by tigerlily713 on Pixabay
+image-alt: Close-up of a bingo card
 ---
 
 During the planning stages of the initiative, it is a good idea to plan the timescales of the project.

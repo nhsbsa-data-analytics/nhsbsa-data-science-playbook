@@ -2,7 +2,7 @@
 title: "Customer feedback"
 description: "Check in with the customer to agree the terms of the problem definition and gain further understanding of the problem."
 image: 02-customer-feedback.jpg
-image-alt: Photo by Ronald Carre??o on Pixabay
+image-alt: Table used for working on
 ---
 
 After finishing your draft of the problem definition communicate with the customer to receive their feedback. How you get the feedback will depend on customer; it may be via Teams call, chat, or email.

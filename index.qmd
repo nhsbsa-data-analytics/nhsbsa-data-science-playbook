@@ -10,9 +10,18 @@ format:
   html:
     html-math-method: katex
     css: styles.css
+    include-before-body: skip-link.html
 toc: false
 ---
 
-![](guidance/playbook_diagram.png){width=100%}
+## Our process
 
-## Sections
+![](guidance/playbook_diagram.png){fig-alt="Overall Data Science initiative process" width=100%}
+
+### Overview
+
+This playbook provides guidance, at a high level, of the approach to initiatives taken by the NHSBSA Data Science team.
+
+Our process involves four main steps. Each of these has multiple sub-steps. The process will usually not be fully sequential. Sometimes previous steps may be revisited, as the process is often cyclical in nature.
+
+#### Process steps

@@ -2,6 +2,7 @@
 title: "Develop understanding"
 description: "Identify and gain access to the data required for the initiative."
 image: 03-get-access-to-data.jpg
+image-alt: Interconnecting lines and points
 ---
 
 ## Accessing data

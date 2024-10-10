@@ -3,7 +3,7 @@ title: "Initiative wrap up"
 description: "Complete the final steps of the pipeline to clean up and publish the output of the project."
 title-block-banner: true
 image: wrap-up.jpg
-image-alt: Photo by Sigmund on Unsplash
+image-alt: Jigsaw with missing piece
 listing: 
   type: grid
   contents: wrap-up-steps
@@ -11,6 +11,12 @@ listing:
 toc: false
 ---
 
-![](section_4_diagram.png){width=100%}
+## Our process
 
-## Sections
+![](section_4_diagram.png){fig-alt="Step 4 of Data Science initiative process" width=100%}
+
+### Overview
+
+This is the final step. It is concerned with finalising the outputs of an initiative and then publishing or providing them to stakeholders.
+
+#### Process steps

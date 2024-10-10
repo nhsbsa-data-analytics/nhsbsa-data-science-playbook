@@ -3,7 +3,7 @@ title: "Problem definition"
 description: "Gain further understanding through research and talking with the customer, to complete your problem definition."
 title-block-banner: true
 image: pd.jpg
-image-alt: Photo by SOMEONE on Unsplash
+image-alt: A blank notebook page and pen
 listing: 
   type: grid
   contents: pd-steps
@@ -11,8 +11,12 @@ listing:
 toc: false
 ---
 
-![](section_2_diagram.png){width=100%}
+## Our process
 
-In this section, we aim to write and refine the problem definition until we have fully understood the problem we are trying to solve. The terms of the problem definition are agreed with the customer before moving onto the analysis section.
+![](section_2_diagram.png){fig-alt="Step 2 of Data Science initiative process" width=100%}
 
-## Sections
+### Overview
+
+In this step we aim to write and refine the problem definition until we have fully understood the problem we are trying to solve. The terms of the problem definition are agreed with the customer before moving onto the analysis.
+
+#### Process steps
