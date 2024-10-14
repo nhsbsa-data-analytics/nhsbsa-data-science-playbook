@@ -3,3 +3,30 @@
 .navbar-brand {
   width: 100%;
 }
+
+li.sidebar-item {
+  margin-top: 1rem;
+}
+
+a.nav-link > span.menu-text {
+  font-size: 0.8rem;
+}
+
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+h1.quarto-secondary-nav-title {
+  color: white;
+}

@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.55">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Identify and gain access to the data required for the initiative.">
+<meta name="description" content="Investigate an initiative to work on for internal NHSBSA customer, or an external customer.">
 
 <title>NHSBSA DALL Playbook</title>
 <style>
@@ -25,12 +25,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
 <link href="../../../static/bsa-favicon.png" rel="icon" type="image/png">
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -40,19 +36,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -76,22 +61,17 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../static/logo-nhs.svg" alt="NHS logo" class="navbar-logo">
+    <a href="https://www.nhsbsa.nhs.uk/" class="navbar-brand navbar-brand-logo">
+    <img src="../../../static/NHSBSA logo.png" alt="NHS Business Services Authority" class="navbar-logo">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+          <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../../index.html"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">Playbook Home Page</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-guidance" role="link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -117,29 +97,25 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+          <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://www.nhsbsa.nhs.uk/nhsbsa-statistics-and-data-science"> <i class="bi bi-globe" role="img">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.nhsbsa.nhs.uk/nhsbsa-statistics-and-data-science"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="mdi:house-outline" style="font-size: 1.5em;" aria-label="Icon house-outline from mdi Iconify.design set." title="Icon house-outline from mdi Iconify.design set."></iconify-icon> NHSBSA Data Science Home Page</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/nhsbsa-data-analytics"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/nhsbsa-data-analytics"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="mdi:github" style="font-size: 1.5em;" aria-label="Icon github from mdi Iconify.design set." title="Icon github from mdi Iconify.design set."></iconify-icon> GitHub</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/nhsbsa"> <i class="bi bi-twitter" role="img">
-</i> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="https://twitter.com/nhsbsa"> 
+<span class="menu-text"><iconify-icon role="img" inline="" icon="mdi:twitter" style="font-size: 1.5em;" aria-label="Icon twitter from mdi Iconify.design set." title="Icon twitter from mdi Iconify.design set."></iconify-icon> Twitter</span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+          <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -149,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">Develop understanding</h1>
+          <h1 class="quarto-secondary-nav-title">Question identified</h1>
         </a>     
     </div>
   </nav>
@@ -158,10 +134,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title d-none d-lg-block">Develop understanding</h1>
+      <h1 class="title d-none d-lg-block">Question identified</h1>
                   <div>
         <div class="description">
-          Identify and gain access to the data required for the initiative.
+          Investigate an initiative to work on for internal NHSBSA customer, or an external customer.
         </div>
       </div>
                 </div>
@@ -198,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../guidance/01-pre-pd/pre-pd-steps/01-question-identified.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Question identified</span></a>
   </div>
 </li>
@@ -210,7 +186,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../guidance/01-pre-pd/pre-pd-steps/03-develop-understanding.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Develop understanding</span></a>
   </div>
 </li>
@@ -379,85 +355,43 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#accessing-data" id="toc-accessing-data" class="nav-link active" data-scroll-target="#accessing-data">Accessing data</a></li>
-  <li><a href="#initial-data-understanding" id="toc-initial-data-understanding" class="nav-link" data-scroll-target="#initial-data-understanding">Initial data understanding</a></li>
-  <li><a href="#usage" id="toc-usage" class="nav-link" data-scroll-target="#usage">Usage</a></li>
-  <li><a href="#desk-research-and-business-understanding" id="toc-desk-research-and-business-understanding" class="nav-link" data-scroll-target="#desk-research-and-business-understanding">Desk research and business understanding</a></li>
-  <li><a href="#user-research" id="toc-user-research" class="nav-link" data-scroll-target="#user-research">User research</a></li>
+  <li><a href="#selecting-a-project" id="toc-selecting-a-project" class="nav-link active" data-scroll-target="#selecting-a-project">Selecting a project</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-body" id="quarto-document-content">
+<script>
+  var a = document.createElement('a');
+  var linkText = document.createTextNode("Skip to main content");
+  a.appendChild(linkText);
+  a.classList.add("skip");
+  a.href = "#quarto-content";
+  document.body.insertBefore(a, document.body.firstChild);
+</script>
 
 
 
 
 
-<section id="accessing-data" class="level2">
-<h2 class="anchored" data-anchor-id="accessing-data">Accessing data</h2>
+<p>The Data Science team deliver <a href="https://www.nhsbsa.nhs.uk/data-science-projects">actionable insights</a> from data through <strong>innovation</strong>, <strong>experimentation</strong> and <strong>collaboration</strong>. This drives policy, decision making and efficiencies across the NHSBSA and wider health and social care system. Projects typically align to the following areas:</p>
 <ul>
-<li>Temporary access must be requested via email or a service request and is subject to approval from the Data Science Lead, Database administrators and/or Data Asset Owner.</li>
-<li>Should sensitive data be needed, there may also be a requirement to engage with the <a href="https://cfa.nhs.uk/about-nhscfa/information-hub/data-protection/caldicot-policy/caldicot-policy-apendix-a">Caldicott Guardian</a> and/or Information Governance.</li>
-<li>All non-public domain data must be accessed and processed within the Data Science secure data environment.</li>
-<li>Also request any relevant metadata such as data dictionaries and data quality profiles. See the internal Data Science Wiki for more information.</li>
+<li>help identify health and care disparities</li>
+<li>improve patient and customer outcomes</li>
+<li>improve employee outcomes</li>
+<li>reduce loss in the system</li>
 </ul>
-</section>
-<section id="initial-data-understanding" class="level2">
-<h2 class="anchored" data-anchor-id="initial-data-understanding">Initial data understanding</h2>
-<p>Initial data understanding will help you to gauge what is possible with the data including any anomalies, caveats, and quality issues. Further information can be found in <a href="../../../guidance/03-analysis/index.html">Section 3</a> of the playbook.</p>
+<section id="selecting-a-project" class="level2">
+<h2 class="anchored" data-anchor-id="selecting-a-project">Selecting a project</h2>
 <ul>
-<li>Use data documentation and identify data subject matter expert (SMEs) (within the services and/or central MI or Data Services) who will support you to understand what fields are available and their suitability.</li>
-<li>Initial exploratory data analysis will also help you to get a better feel for the data in terms of its quality and suitability and what data preparation might be required.</li>
-<li>Should documentation not exist, you may wish to record:
-<ul>
-<li>a summary of what each column represents</li>
-<li>the number of missing records</li>
-<li>the number of errors</li>
-<li>if applicable, the logic used to calculate the column</li>
-</ul></li>
-</ul>
-<p>Combined with business understanding, this initial analysis will help to:</p>
-<ul>
-<li>inform the problem definition (PD)</li>
-<li>inform conversations with the customer of what is possible and not possible to achieve during the initiative</li>
-<li>identify other interesting research questions with the customer and explore if these are worth pursuing</li>
-</ul>
-</section>
-<section id="usage" class="level2">
-<h2 class="anchored" data-anchor-id="usage">Usage</h2>
-<p>Further advice on usage of specific datasets can be found within their own page in the internal Data Science Wiki.</p>
-</section>
-<section id="desk-research-and-business-understanding" class="level2">
-<h2 class="anchored" data-anchor-id="desk-research-and-business-understanding">Desk research and business understanding</h2>
-<p>Desk research and business understanding will help you understand what is possible for the initiative and ensure the work is not duplicated.</p>
-<p>To assist your work you could use:</p>
-<ul>
-<li>JIRA as a reference to previous initiatives</li>
-<li>reports and other outputs from previous initiatives in the project folders</li>
-<li>other team members, business SMEs and your critical friend to help develop business knowledge</li>
-<li>user research where applicable</li>
-<li>internal and external online resources which may describe the service, policy or other aspects relevant to understanding context</li>
-<li>externally or internal published statistics, data or dashboards relevant to the subject. They may also later be a source for validation and ensuring coherence.</li>
-<li>resources to support with methodology such as Github repositories, Stack Overflow, Medium and research papers</li>
-<li>DataCamp to complete relevant courses</li>
-</ul>
-<p>This is a guide of what is possible and is dependent on the current project’s requirements.</p>
-</section>
-<section id="user-research" class="level2">
-<h2 class="anchored" data-anchor-id="user-research">User research</h2>
-<p>Incorporating user research into data science projects allows the team to provide actionable insights through advanced analytics, improve patient and customer outcomes, and reduce system loss. By collaborating with the wider NHSBSA, NHS England, and external organisations, we ensure our solutions meet user needs and drive innovation.</p>
-<p>User research is integrated into the data science projects by:</p>
-<ul>
-<li><strong>using qualitative research methods</strong> such as surveys, focus groups, and interviews to understand user problems and pain points when using NHS services</li>
-<li><strong>using user insights</strong> to determine important features, enhancing model accuracy and relevance</li>
-<li><strong>establishing user-defined success metrics</strong> to measure the effectiveness of our models and analytics</li>
-<li><strong>designing models based on real-world use cases</strong>, ensuring they meet user expectations and improve outcomes</li>
-<li><strong>enhancing usability and accessibility</strong> of tools like NHSBSA branded R Shiny and Power BI dashboards based on user feedback</li>
-<li><strong>conducting usability testing</strong> to refine models and solutions using user feedback based on prototypes</li>
-<li><strong>building personalised recommendations and insights</strong> that adapt to user preferences</li>
-<li><strong>facilitating better communication</strong> by bridging the gap between data scientists and end-users</li>
-<li><strong>identifying impactful projects</strong> that should be prioritised and allocated the appropriate resources</li>
+<li>Projects can be identified by Data Science team members, an internal NHSBSA customer, an external customer, user research or recommendations from previous work.</li>
+<li>They may also be identified through collaborative ideas sessions we run with other teams.</li>
+<li>Customers can request work through the Data Science Lead, team members or <a href="mailto:dall@nhsbsa.nhs.uk">dall@nhsbsa.nhs.uk</a>.</li>
+<li>The Data Science team and internal customers can also log ideas for future projects on the ideas register.</li>
+<li>The Data Science Lead reviews projects for suitability in terms of scope and appropriateness, as well as any ethical implications. Projects may be triaged to other teams if not suitable.</li>
+<li>The Data Science Lead coordinates the assignment of initiatives to team members as well as critical friends.</li>
+<li>Once a project is accepted, it is initially created in JIRA, with initiative number and basic project information including project lead, team members and critical friend. The Data Science initiative number is identified using JIRA.</li>
+<li>A SharePoint folder is created to store documents and data using the template provided. The initiative number is included in the name.</li>
 </ul>
 
 

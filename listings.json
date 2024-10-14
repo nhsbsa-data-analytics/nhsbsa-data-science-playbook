@@ -9,6 +9,25 @@
     ]
   },
   {
+    "listing": "/guidance/03-analysis/index.html",
+    "items": [
+      "/guidance/03-analysis/analysis-steps/01-data-prep.html",
+      "/guidance/03-analysis/analysis-steps/02-analysis-modelling.html",
+      "/guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html",
+      "/guidance/03-analysis/analysis-steps/04-review.html"
+    ]
+  },
+  {
+    "listing": "/guidance/01-pre-pd/index.html",
+    "items": [
+      "/guidance/01-pre-pd/pre-pd-steps/01-question-identified.html",
+      "/guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html",
+      "/guidance/01-pre-pd/pre-pd-steps/03-develop-understanding.html",
+      "/guidance/01-pre-pd/pre-pd-steps/04-customer-engagement.html",
+      "/guidance/01-pre-pd/pre-pd-steps/05-create-update-initiative-resources.html"
+    ]
+  },
+  {
     "listing": "/guidance/04-wrap-up/index.html",
     "items": [
       "/guidance/04-wrap-up/wrap-up-steps/01-clean-up.html",
@@ -27,25 +46,6 @@
       "/guidance/02-pd/pd-steps/03-refine-pd.html",
       "/guidance/02-pd/pd-steps/04-estimate-timescales.html",
       "/guidance/02-pd/pd-steps/05-problem-definition-sign-off.html"
-    ]
-  },
-  {
-    "listing": "/guidance/03-analysis/index.html",
-    "items": [
-      "/guidance/03-analysis/analysis-steps/01-data-prep.html",
-      "/guidance/03-analysis/analysis-steps/02-analysis-modelling.html",
-      "/guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html",
-      "/guidance/03-analysis/analysis-steps/04-review.html"
-    ]
-  },
-  {
-    "listing": "/guidance/01-pre-pd/index.html",
-    "items": [
-      "/guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.html",
-      "/guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html",
-      "/guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.html",
-      "/guidance/01-pre-pd/pre-pd-steps/04-customer-engagement.html",
-      "/guidance/01-pre-pd/pre-pd-steps/05-create-update-initiative-resources.html"
     ]
   }
 ]
