@@ -1,0 +1,8 @@
+- 04: Initiative review
+    - Wrap up and clean code
+    - Create summary write-up
+    - Review the documentation
+    - Update the Wiki
+    - Make the repository public (if applicable)
+    - Consider potential future work
+    - Follow-up

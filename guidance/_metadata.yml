@@ -10,3 +10,4 @@ title-block-banner: true
 format:
   html:
     include-before-body: ../skip-link.html
+    include-after-body: ../callout-remove-aria-expanded.html

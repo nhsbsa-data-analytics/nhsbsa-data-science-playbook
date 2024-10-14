@@ -15,6 +15,10 @@ toc: false
 
 ![](section_2_diagram.png){fig-alt="Step 2 of Data Science initiative process" width=100%}
 
+::: {.callout-note title="Our process - text version" collapse="true"}
+{{< include ../../process-text-versions/process-text-02-pd.qmd >}}
+:::
+
 ### Overview
 
 In this step we aim to write and refine the problem definition until we have fully understood the problem we are trying to solve. The terms of the problem definition are agreed with the customer before moving onto the analysis.

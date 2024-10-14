@@ -1,0 +1,5 @@
+- 02: Problem definition
+    - Cycle through:
+        - Writing the problem definition + Customer feedback
+        - Refine problem definition
+        - Estimate timescales
