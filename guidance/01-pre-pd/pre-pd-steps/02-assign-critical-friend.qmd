@@ -2,6 +2,7 @@
 title: "Assign a critical friend"
 description: "Find a colleague who can provide support throughout the initiative."
 image: 02-assign-critical-friend.jpg
+image-alt: Man and woman working on laptop
 ---
 
 ## What is a critical friend?

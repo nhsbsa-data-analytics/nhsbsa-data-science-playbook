@@ -2,7 +2,7 @@
 title: "Refine the problem definition"
 description: "Begin to write a draft of your problem definition by including a range of information about the problem."
 image: 03-refine-pd.jpg
-image-alt: Photo by Jessica Lewis on Unsplash
+image-alt: Cup next to open notebook
 ---
 
 Customer feedback may highlight different angles to explore or amendments to the PD before the customer can sign off.

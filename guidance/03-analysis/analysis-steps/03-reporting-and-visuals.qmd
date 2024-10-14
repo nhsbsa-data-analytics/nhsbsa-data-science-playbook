@@ -2,7 +2,7 @@
 title: "Reporting and visuals"
 description: "Draft reports, slide decks, data sets, applications and any other agreed outputs."
 image: 03-reporting-and-visuals.jpg
-image-alt: Photo by Stephen Dawson on Unsplash
+image-alt: Close-up of a display with a charts and figures
 ---
 
 Within the Data Science team, the work that we conduct aims to tell a ‘story’ to the customer, providing them with the insights that the raw data alone would not.

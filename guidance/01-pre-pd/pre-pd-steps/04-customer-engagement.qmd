@@ -2,6 +2,7 @@
 title: "Customer engagement"
 description: "Meet with the customer to understand their expectations for the initiative."
 image: 04-customer-engagement.jpg
+image-alt: A handshake
 ---
 
 It is important to meet with the customer to discuss requirements. This may happen before and/or after you develop initial business and data understanding. During this meeting, you can identify:

@@ -5,16 +5,24 @@ project:
 website:
   bread-crumbs: false
   favicon: static/bsa-favicon.png
-  title: "NHSBSA DALL Playbook" 
+  title: "NHSBSA DALL Playbook"
+  # Search is good to have and works very well. But it introduces an accessibility
+  # issue no matter how it is configured.
+  # https://quarto.org/docs/websites/website-search.html
+  # overlay gives empty button, while textbox gives empty label
+  # Disabled for now until a solution is found
+  search: false
   navbar:
     title: false
-    logo: "static/logo-nhs.svg"
-    logo-alt: "NHS logo"
+    logo: "static/NHSBSA logo.png"
+    logo-alt: "NHS Business Services Authority"
+    logo-href: "https://www.nhsbsa.nhs.uk/"
     pinned: true
     background: "#005EB8"
+    collapse: false
     left:
       - href: index.qmd
-        text: Home
+        text: Playbook Home Page
       - text: "Guidance"
         menu:
         - href: guidance/01-pre-pd/index.qmd
@@ -24,12 +32,12 @@ website:
 
     right:
       - about.qmd
-      - icon: globe
-        href: https://www.nhsbsa.nhs.uk/nhsbsa-statistics-and-data-science
-      - icon: github
-        href: https://github.com/nhsbsa-data-analytics
-      - icon: twitter
-        href: https://twitter.com/nhsbsa
+      - href: https://www.nhsbsa.nhs.uk/nhsbsa-statistics-and-data-science
+        text: "{{< iconify mdi:house-outline size=xl >}} NHSBSA Data Science Home Page"
+      - href: https://github.com/nhsbsa-data-analytics
+        text: "{{< iconify mdi:github size=xl >}} GitHub"
+      - href: https://twitter.com/nhsbsa
+        text: "{{< iconify mdi:twitter size=xl >}} Twitter"
   sidebar:
     style: "docked"
     collapse-level: 1
@@ -37,9 +45,9 @@ website:
       - section: "Before the problem definition"
         contents:
           - guidance/01-pre-pd/index.qmd
-          - guidance/01-pre-pd/pre-pd-steps/01-hypothesis-identified.qmd
+          - guidance/01-pre-pd/pre-pd-steps/01-question-identified.qmd
           - guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.qmd
-          - guidance/01-pre-pd/pre-pd-steps/03-get-access-to-data.qmd
+          - guidance/01-pre-pd/pre-pd-steps/03-develop-understanding.qmd
           - guidance/01-pre-pd/pre-pd-steps/04-customer-engagement.qmd
           - guidance/01-pre-pd/pre-pd-steps/05-create-update-initiative-resources.qmd
       - section: "Problem definition"

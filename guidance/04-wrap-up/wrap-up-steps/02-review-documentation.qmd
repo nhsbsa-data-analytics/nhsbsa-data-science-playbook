@@ -1,8 +1,8 @@
 ---
 title: "Review the documentation"
 description: "Document your code before archiving it."
-image: 02-review-the-documentation.jpg
-image-alt: Photo by Unseen Studio on Unsplash
+image: 02-review-documentation.jpg
+image-alt: Someone working on a table
 ---
  
 Without good documentation, it is difficult for future projects to leverage past work.

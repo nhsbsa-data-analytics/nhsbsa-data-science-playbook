@@ -1,7 +1,8 @@
 ---
 title: "Question identified"
 description: "Investigate an initiative to work on for internal NHSBSA customer, or an external customer."
-image: 01-hypothesis-identified.jpg
+image: 01-question-identified.jpg
+image-alt: Two red question marks amongst scattered black question marks
 ---
 
 The Data Science team deliver [actionable insights](https://www.nhsbsa.nhs.uk/data-science-projects) from data through **innovation**, **experimentation** and **collaboration**. This drives policy, decision making and efficiencies across the NHSBSA and wider health and social care system. Projects typically align to the following areas:

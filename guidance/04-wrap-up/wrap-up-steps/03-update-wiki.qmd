@@ -2,7 +2,7 @@
 title: "Update the Wiki"
 description: "Take the oppourtunity to share any knowledge with the wider team."
 image: 03-update-wiki.jpg
-image-alt: Photo by Joshua Hoehne on Unsplash
+image-alt: Close-up of an open dictionary
 ---
   
 Throughout the initiative, you will have interrogated some data and potentially picked up some new skills in the process.

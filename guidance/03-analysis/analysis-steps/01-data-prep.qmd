@@ -2,7 +2,7 @@
 title: "Data preparation"
 description: "Prepare and clean the data to create the base table(s)."
 image: 01-data-prep.jpg
-image-alt: Photo by Claudio Schwarz on Unsplash
+image-alt: Close-up of display screen with reflection of buildings
 ---
 
 ## Data preparation

@@ -3,7 +3,7 @@ title: "Analysis"
 description: "Prepare the data, analyse or model it and review until the agreed outputs in problem definition are produced and approved."
 title-block-banner: true
 image: analysis.jpg
-image-alt: Photo by Emily Morter on Unsplash
+image-alt: Stylised neon question mark
 listing: 
   type: grid
   contents: analysis-steps
@@ -11,8 +11,12 @@ listing:
 toc: false
 ---
 
-![](section_3_diagram.png){width=100%}
+## Our process
+
+![](section_3_diagram.png){fig-alt="Step 3 of Data Science initiative process" width=100%}
+
+### Overview
 
 In this stage we prepare data, analyse it and review until outputs as specified in the problem definition are finalised. It is sometimes necessary to go back and refine the problem definition as a result of discoveries or issues found during these tasks.
 
-## Sections
+#### Process steps

@@ -2,7 +2,7 @@
 title: "Review"
 description: "Reviews of the code and outputs by yourself, the team, critical friend and customer before wrapping up the initiative."
 image: 04-review.jpg
-image-alt: Photo by Clay Banks on Unsplash
+image-alt: Close-up of interspersed hands
 ---
 
 There are multiple layers of review.
