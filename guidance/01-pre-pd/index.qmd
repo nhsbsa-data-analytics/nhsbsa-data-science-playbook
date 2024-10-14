@@ -15,6 +15,10 @@ toc: false
 
 ![](section_1_diagram.png){fig-alt="Step 1 of Data Science initiative process" width=100%}
 
+::: {.callout-note title="Our process - text version" collapse="true"}
+{{< include ../../process-text-versions/process-text-01-pre-pd.qmd >}}
+:::
+
 ### Overview
 
 This step forms the foundations of an initiative, consisting of tasks undertaken at the beginning of an initiative. There is no expected sequence for these steps; it will depend on the initiative. Usually once this step is completed there will only be occasional need to come back to it.
