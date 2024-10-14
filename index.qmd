@@ -10,8 +10,6 @@ format:
   html:
     html-math-method: katex
     css: styles.css
-    # include-in-header:
-    #   text: <script>$('.callout-header').removeAttribute('aria-expanded');</script>
     include-before-body: skip-link.html
     include-after-body: callout-remove-aria-expanded.html
 toc: false
