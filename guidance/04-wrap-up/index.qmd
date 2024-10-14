@@ -15,6 +15,10 @@ toc: false
 
 ![](section_4_diagram.png){fig-alt="Step 4 of Data Science initiative process" width=100%}
 
+::: {.callout-note title="Our process - text version" collapse="true"}
+{{< include ../../process-text-versions/process-text-04-wrap-up.qmd >}}
+:::
+
 ### Overview
 
 This is the final step. It is concerned with finalising the outputs of an initiative and then publishing or providing them to stakeholders.

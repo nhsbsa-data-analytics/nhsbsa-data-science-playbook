@@ -1,0 +1,10 @@
+- 03: Analysis & modelling
+    - Cycle through:
+        - Data preparation
+        - Analysis/modelling
+        - Reporting and visuals
+        - Review:
+          - Self review
+          - Team member
+          - Critical friend
+          - Customer
