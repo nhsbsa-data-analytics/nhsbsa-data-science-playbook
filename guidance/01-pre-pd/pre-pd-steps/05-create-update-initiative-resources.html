@@ -450,6 +450,12 @@ Always reference PII from the database.
 </section>
 
 </main> <!-- /main -->
+<script>
+  document.querySelectorAll('.callout-header').
+    forEach(function(element){
+      element.removeAttribute("aria-expanded");
+    });
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
