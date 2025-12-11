@@ -5,7 +5,7 @@ project:
 website:
   bread-crumbs: false
   favicon: static/bsa-favicon.png
-  title: "NHSBSA DALL Playbook"
+  title: "NHSBSA Data Science Playbook"
   # Search is good to have and works very well. But it introduces an accessibility
   # issue no matter how it is configured.
   # https://quarto.org/docs/websites/website-search.html
@@ -81,7 +81,7 @@ website:
 
 format:
   html:
-    pagetitle: "NHSBSA DALL Playbook"
+    pagetitle: "NHSBSA Data Science Playbook"
     lang: en-GB
     theme: cosmo
     css: styles.css
