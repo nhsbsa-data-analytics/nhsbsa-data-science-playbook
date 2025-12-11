@@ -5,83 +5,80 @@ image: 04-review.jpg
 image-alt: Close-up of interspersed hands
 ---
 
-The work should be iteratively reviewed by everyone involved throughout the initiative. 
-There are multiple layers of review:
+Work should be iteratively reviewed by everyone involved throughout the initiative. There are multiple layers of review:
 
-- Self Review
-- Team/Critical Friend Review
-- Data Science Lead Review
-- Customer Review
+- **Self Review** - Check your own work first
+- **Team/Critical Friend Review** - Peer review of code and outputs
+- **Data Science Lead Review** - Leadership oversight
+- **Customer Review** - Validate with stakeholders
 
-In response to any one of these reviews, it may be deemed necessary to go back to data preparation, analysis or drafting of outputs.
+Reviews may require returning to earlier stages (data preparation, analysis, or drafting outputs).
 
-During all review stages prior to the customer review the:
+### Standard Review Checks
+Before customer review, all reviewers should:
 
-- outputs should be checked for errors by sense checking the results and comparing to existing resources
-- text should be proof read to ensure that it is factually correct and tailored to the correct audience
+- **Check for errors** by sense checking results and comparing to existing resources
+- **Proofread text** to ensure factual accuracy and appropriate audience targeting
 
 ## Self review
+Review your own work continuously, and especially before requesting reviews from others.
 
-Review your own work as you go, but especially before requesting anyone else to review it. 
-Before asking for review you should:
+### Before Requesting Review:
+- Ensure all points in the [QA section][analysis-and-modelling-qa] are addressed
+- Sense check against the agreed [Problem Definition][problem-definition]
+- Confirm customer agreement for any deviations from the PD
+- Sense check reporting outputs to avoid naïve conclusions
+- Run code with a 'clean slate' to ensure no local dependencies
+- Consider writing repeatable tests rather than ad-hoc testing
+- Document your code and methodology
 
-- ensure all of the points in the [QA section][analysis-and-modelling-qa] are considered
-- sense check what you have done against what was agreed in the [Problem Definition][problem-definition]
-- make sure any deviations from the PD have been understood and agreed by the customer 
-- sense check reporting outputs to avoid giving naïve conclusions
-- run code with a ‘clean slate’ to ensure there are no dependencies in your local environment that will not be there later
-- consider writing repeatable tests rather than adhoc testing
-- document your code and the methodology used
-- create a pull request (PR) on Github once happy with the code
-- if you are building on an already-established draft, check the code diff (difference) on Github and add comments to explain to a code reviewer any decisions you made that are not obvious
-- check the code diff as it may highlight something you missed; in these cases make further changes and push them
-- if appropriate, try to include only a small amount of change in a single PR
-Once happy with your PR, request that someone code review it.
+### Creating Pull Requests:
+- Create a PR on GitHub once happy with the code
+- If building on existing work, check the code diff and add comments explaining non-obvious decisions
+- Review the code diff to catch anything you missed
+- Keep PRs small and focused when appropriate
+- Request a code review once satisfied with your PR
 
 ::: {.callout-important title="Give colleagues sufficient time"}
-<div>
-  <p> Remember that your colleagues have other work; give them enough time to review your work properly.</p>
-
-</div>
+Remember that your colleagues have other work; give them enough time to review your work properly.
 :::
 
-## Team review
+## Team Review
+One or more team members should review all code and outputs before merging to the main branch.
 
-One or more other members of the initiative team should review all code and outputs before it is merged into the main branch.
+### Reviewer Responsibilities:
+- Sense check against the [Problem Definition][problem-definition]
+- Pull the code locally and run it from a 'blank slate' state
+- Add comments and suggestions to the PR
+- Ask the code author for clarification when needed
+- Arrange a call to work through the PR together if several questions arise
 
-The reviewers should:
+## Critical Friend Review
+The [Critical Friend][critical-friend] provides independent peer review throughout the project.
 
-- sense check against what was agreed in the [Problem Definition][problem-definition]
-- pull the code into their local environment, and run it from a ‘blank slate’ state
-- add comments and suggestions to the PR
-- ask the code author to clarify if something does not make sense
-- organise a call with the code author and work through the PR together if several questions arise
+### Review Process:
+- **Request feedback frequently** - Always before customer reviews
+- **Validate against the Problem Definition** - Ensure alignment with agreed scope
+- **Review from multiple perspectives**:
+  - As the customer viewing outputs
+  - As a developer using the codebase
+- **Review holistically** - Not just the code, but the entire work
+- **Discuss complex feedback** - Arrange calls when needed
 
-## Critical Friend review
+## Customer Review
+Involve customers frequently throughout the initiative.
 
-The [Critical Friend][critical-friend] should:
+### During Development:
+- **Share draft outputs** for review in their own time (not just screen sharing)
+- **Be available for calls** to discuss their feedback
+- **Address questions and suggestions** openly
 
-- be asked for feedback on work in progress at frequent intervals, and always before asking a customer to look at it
-- sense check against what was agreed in the [Problem Definition][problem-definition]
-- put themselves in the shoes of the customer when reviewing outputs
-- put themselves in the shoes of someone tasked with using the code base when reviewing code
-- review the work as a whole, not just check the code
-- arrange a call with the initiative team to discuss if the feedback is complex or if there is lots of it
+### Final Presentation:
+When the initiative is completed, present findings to the customer and:
 
-## Customer review
-
-The customer should be given frequent opportunities to see the work in progress. To do this you should:
-
-- send them drafts of the outputs to review in their own time, rather than only sharing your screen in a call
-- be open to having calls once they have reviewed the work
-- discuss any questions or suggestions they have
-
-When you feel the initiative is completed, you should have a call with the customer to present your findings and:
-
-- ensure the customer is happy they understand how to use any interactive elements, such as dashboards
-- discuss any potential for future related work
-
-Additionally, if appropriate, once the initiative is completed you should send a survey to the customers to ensure all of their needs have been met.
+- Ensure they understand how to use interactive elements (e.g., dashboards)
+- Discuss potential for future related work
+- Send a follow-up survey (if appropriate) to confirm all needs were met
 
 [critical-friend]: ../critical-friend.qmd
 [problem-definition]: ../01-problem-definition/problem-definition.qmd
