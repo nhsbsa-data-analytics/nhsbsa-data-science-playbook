@@ -1,11 +1,12 @@
 ---
 title: "Review"
-description: "Reviews of the code and outputs by yourself, the team, Critical Friend and customer before wrapping up the initiative."
+description: "The work should be iteratively reviewed by everyone involved throughout the initiative."
 image: 04-review.jpg
 image-alt: Close-up of interspersed hands
 ---
 
-There are multiple layers of review.
+The work should be iteratively reviewed by everyone involved throughout the initiative. 
+There are multiple layers of review:
 
 - Self Review
 - Team/Critical Friend Review
@@ -21,9 +22,11 @@ During all review stages prior to the customer review the:
 
 ## Self review
 
-Review your own work as you go, but especially before requesting anyone else to review it. Before submitting for review you should:
+Review your own work as you go, but especially before requesting anyone else to review it. 
+Before asking for review you should:
 
-- ensure all of the points in the QA section on the Analysis and Modelling page are considered
+- ensure all of the points in the [QA section][analysis-and-modelling-qa] are considered
+- sense check what you have done against what was agreed in the [Problem Definition][problem-definition]
 - sense check reporting outputs to avoid giving naïve conclusions
 - run code with a ‘clean slate’ to ensure there are no dependencies in your local environment that will not be there later
 - consider writing repeatable tests rather than adhoc testing
@@ -47,7 +50,7 @@ One or more other members of the initiative team should review all code and outp
 
 The reviewers should:
 
-- sense check any outputs match what was agreed in the problem definition
+- sense check against what was agreed in the [Problem Definition][problem-definition]
 - pull the code into their local environment, and run it from a ‘blank slate’ state
 - add comments and suggestions to the PR
 - ask the code author to clarify if something does not make sense
@@ -55,13 +58,13 @@ The reviewers should:
 
 ## Critical Friend review
 
-Depending on the size of your initiative and number of colleagues working on it, you may want to ask the Critical Friend, if there is one, to review the content for a fresh perspective. If there is no Critical Friend assigned, you could ask the wider team to review, towards the end of the project.
-
-The initiative Critical Friend should:
+The [Critical Friend][critical-friend] should:
 
 - be asked for feedback on work in progress at frequent intervals, and always before asking a customer to look at it
+- sense check against what was agreed in the [Problem Definition][problem-definition]
 - put themselves in the shoes of the customer when reviewing outputs
 - put themselves in the shoes of someone tasked with using the code base when reviewing code
+- review the work as a whole, not just check the code
 - arrange a call with the initiative team to discuss if the feedback is complex or if there is lots of it
 
 ## Customer review
@@ -78,3 +81,7 @@ When you feel the initiative is completed, you should have a call with the custo
 - discuss any potential for future related work
 
 Additionally, if appropriate, once the initiative is completed you should send a survey to the customers to ensure all of their needs have been met.
+
+[critical-friend]: ../critical-friend.qmd
+[problem-definition]: ../01-problem-definition/problem-definition.qmd
+[analysis-and-modelling-qa]: ../02-analysis-and-modelling/analysis-and-modelling-qa.qmd

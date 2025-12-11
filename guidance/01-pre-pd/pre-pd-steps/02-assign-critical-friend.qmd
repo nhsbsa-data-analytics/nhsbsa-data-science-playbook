@@ -11,7 +11,7 @@ A Critical Friend is a colleague who provides independent peer-review to ensure:
 - the project plans to answer the right questions 
 - the project applies appropriate methods and draws the correct conclusions
 - the outputs are coherent and consistent with previous results and other sources of information
-- the outputs have been quality checked and are reproducible
+- the outputs are accurate, have been quality checked and are reproducible
 - the work solves the original problem outlined in the [Problem Definition][problem-definition]
 
 The Critical Friend also provides a fresh perspective and offers the opportunity to catch issues that are overlooked by the team. 
@@ -34,6 +34,6 @@ The Critical Fiend should be involved throughout the *entire project*, from draf
 - Ideally, a Critical Friend should have prior experience with similar data or techniques.
 - If you are an area expert, you can choose a new team member as the Critical Friend so they can gain experience.
 
-[problem-definition]: ./01-questions-identified
+[problem-definition]: ../03-problem-definition.qmd
 [nhsbsa-qa-playbook]: https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/03-responsibilities/pages/11-critical-friend.html
 [aqua-book-roles]: https://www.gov.uk/guidance/the-aqua-book#roles 
