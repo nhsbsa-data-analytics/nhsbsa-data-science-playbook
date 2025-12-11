@@ -1,6 +1,6 @@
 ---
 title: "Review"
-description: "Reviews of the code and outputs by yourself, the team, critical friend and customer before wrapping up the initiative."
+description: "Reviews of the code and outputs by yourself, the team, Critical Friend and customer before wrapping up the initiative."
 image: 04-review.jpg
 image-alt: Close-up of interspersed hands
 ---
@@ -53,11 +53,11 @@ The reviewers should:
 - ask the code author to clarify if something does not make sense
 - organise a call with the code author and work through the PR together if several questions arise
 
-## Critical friend review
+## Critical Friend review
 
-Depending on the size of your initiative and number of colleagues working on it, you may want to ask the critical friend, if there is one, to review the content for a fresh perspective. If there is no critical friend assigned, you could ask the wider team to review, towards the end of the project.
+Depending on the size of your initiative and number of colleagues working on it, you may want to ask the Critical Friend, if there is one, to review the content for a fresh perspective. If there is no Critical Friend assigned, you could ask the wider team to review, towards the end of the project.
 
-The initiative critical friend should:
+The initiative Critical Friend should:
 
 - be asked for feedback on work in progress at frequent intervals, and always before asking a customer to look at it
 - put themselves in the shoes of the customer when reviewing outputs

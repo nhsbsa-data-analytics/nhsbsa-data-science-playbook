@@ -1,31 +1,39 @@
 ---
-title: "Assign a critical friend"
+title: "Assign a Critical Friend"
 description: "Find a colleague who can provide support throughout the initiative."
 image: 02-assign-critical-friend.jpg
 image-alt: Man and woman working on laptop
 ---
 
-## What is a critical friend?
-- Typical Data Science initiatives involve 1-2 people working on the project.
-- For each project undertaken by a single team member a critical friend is assigned.
-- For group projects a critical friend is not mandatory but is advised. Where not allocated, group members must inherit the responsibilities of a critical friend through peer review.
-- A critical friend reviews the problem definition, business understanding and outputs.
-- The critical friend provides a fresh perspective and offers the opportunity to catch issues that are overlooked by the team. - They can also attend meetings, check documents and provide extra support and guidance throughout the initiative.
+## What is a Critical Friend?
+A Critical Friend is a colleague who provides independent peer-review to ensure:
+- the [Problem Definition][problem-definition] meets customer needs
+- the project plans to answer the right questions 
+- the project applies appropriate methods and draws the correct conclusions
+- the outputs are coherent and consistent with previous results and other sources of information
+- the outputs have been quality checked and are reproducible
+- the work solves the original problem outlined in the [Problem Definition][problem-definition]
 
-Towards the end of an initiative ask other team members to review the output.
+The Critical Friend also provides a fresh perspective and offers the opportunity to catch issues that are overlooked by the team. 
 
+For more details on the role of the Critical Friend (also known as the __Analytical Assurer__) in analytical work, see the [NHSBSA Producing Quality Analysis Playbook][nhsbsa-qa-playbook] 
+and [The AquA book][aqua-book-roles]. 
 
-## Assigning a critical friend
+## Working with your Critical Friend
+The Critical Fiend should be involved throughout the *entire project*, from drafting the [Problem Definition][problem-definition] through to delivery:
+- The Critical Friend will help by offering more insight and reviewing the project.
+- Regularly meet with the Critical Friend to keep them updated.
+- Reviews should happen iteratively in small increments throughout the project, rather than all at once at the end.
+- Make sure your project plan accounts for the Critical Friend's involvement.
+- Respect the Critical Friend’s diary and provide plenty of notice for work to be completed.
 
-- Assign a critical friend **as early as possible**.
-- Critical friends are assigned by the project members or the Data Science Lead.
-- The Data Science Lead knows who is available and has valuable knowledge related to the upcoming project.
-- Ideally, a critical friend should have prior experience with similar data or techniques.
-- If you are an area expert, you can choose a new team member as the critical friend so they can gain experience.
+## Assigning a Critical Friend
 
-## Working with your critical friend
+- Assign a Critical Friend **as early as possible**
+- Reach out to the Data Science team or the Data Science Lead to identify the right colleague to act as Critical Friend
+- Ideally, a Critical Friend should have prior experience with similar data or techniques.
+- If you are an area expert, you can choose a new team member as the Critical Friend so they can gain experience.
 
-- The critical friend will help by offering more insight and reviewing the project.
-- Regularly meet with the critical friend to keep them updated.
-- Assign work to review in small increments rather than all at once.
-- Respect the critical friend’s diary and provide plenty of notice for work to be completed.
+[problem-definition]: ./01-questions-identified
+[nhsbsa-qa-playbook]: https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/03-responsibilities/pages/11-critical-friend.html
+[aqua-book-roles]: https://www.gov.uk/guidance/the-aqua-book#roles 

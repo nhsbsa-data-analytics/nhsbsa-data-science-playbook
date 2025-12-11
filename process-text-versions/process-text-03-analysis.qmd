@@ -6,5 +6,5 @@
         - Review:
           - Self review
           - Team member
-          - Critical friend
+          - Critical Friend
           - Customer

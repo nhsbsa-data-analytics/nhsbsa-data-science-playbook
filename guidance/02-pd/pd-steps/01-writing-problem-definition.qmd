@@ -28,11 +28,11 @@ As part of writing the problem definition, you will need to include:
 -	Explain how you intend to use the data.
 -	Ensure the customer understands the aim by providing plenty of detail.
 -	Honestly assess time frames and relay these to the customer.
--	Your critical friend and Data Science Lead can assist with this process.
+-	Your Critical Friend and Data Science Lead can assist with this process.
 
 For more information, please see the internal Data Science Wiki.
 
-Throughout the process, your critical friend will review the problem definition to check:
+Throughout the process, your Critical Friend will review the problem definition to check:
 
 -	if you understood the customer's request correctly
 -	if your plans to solve the problems are appropriate

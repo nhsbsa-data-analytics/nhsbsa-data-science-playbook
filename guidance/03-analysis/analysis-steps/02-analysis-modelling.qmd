@@ -19,7 +19,7 @@ The analysis first requires an appropriate method that can provide the desired o
 -	Decide which methods are best suited to the problem:
     -	often the best method will be clear
     -	sometimes you may need to try a small number of methods before deciding on the overall best one
-    -	get the opinion of your critical friend, or other team members
+    -	get the opinion of your Critical Friend, or other team members
 
 Keep notes of your decision-making and method trials for the final write-up of the initiative.
 
@@ -98,7 +98,7 @@ As with data preparation, it is important to test and validate your results.
 - Where possible, check results against other sources.
 - Other sources could be data from previous initiatives, Management Information dashboards or ePACT2.
 
-Additionally, you must be careful about visualising sensitive results. Please contact your critical friend or the Data Science Lead if you are unsure. Results for external audience or general public must be subjected to [Statistical Disclosure Control](https://www.nhsbsa.nhs.uk/sites/default/files/2020-10/nhsbsa-sdc-protocol.pdf) before release.
+Additionally, you must be careful about visualising sensitive results. Please contact your Critical Friend or the Data Science Lead if you are unsure. Results for external audience or general public must be subjected to [Statistical Disclosure Control](https://www.nhsbsa.nhs.uk/sites/default/files/2020-10/nhsbsa-sdc-protocol.pdf) before release.
 
 Before pushing any code to GitHub, it's essential to ensure that the output is cleared, and that no sensitive information remains within it.
 

@@ -22,7 +22,7 @@ When preparing data there are some considerations that always apply.
 - Check summary statistics such as mean, median, mode, minima and maxima.
 - How complete is the data? Any null or otherwise unknown values?
 - Are any fields strongly correlated?
-- Discuss any data quality issues with the critical friend and/or customer.
+- Discuss any data quality issues with the Critical Friend and/or customer.
 
 There is a page on data quality in the internal Data Science Wiki.
 
