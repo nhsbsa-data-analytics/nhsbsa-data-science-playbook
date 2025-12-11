@@ -27,6 +27,7 @@ Before asking for review you should:
 
 - ensure all of the points in the [QA section][analysis-and-modelling-qa] are considered
 - sense check what you have done against what was agreed in the [Problem Definition][problem-definition]
+- make sure any deviations from the PD have been understood and agreed by the customer 
 - sense check reporting outputs to avoid giving naïve conclusions
 - run code with a ‘clean slate’ to ensure there are no dependencies in your local environment that will not be there later
 - consider writing repeatable tests rather than adhoc testing
