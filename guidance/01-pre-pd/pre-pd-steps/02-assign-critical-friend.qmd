@@ -6,33 +6,36 @@ image-alt: Man and woman working on laptop
 ---
 
 ## What is a Critical Friend?
-A Critical Friend is a colleague who provides independent peer-review to ensure:
+A Critical Friend is an independent colleague who peer-reviews your work throughout the project. They ensure:
+
 - the [Problem Definition][problem-definition] meets customer needs
-- the project aims to answer the right questions 
-- the project applies appropriate methods and draws the correct conclusions
-- the outputs are coherent and consistent with previous results and other sources of information
-- the outputs are accurate, have been quality checked and are reproducible
-- the work solves the original problem outlined in the [Problem Definition][problem-definition]
+- the project answers the right questions  
+- the project uses appropriate methods and draws correct conclusions
+- outputs are coherent and consistent with previous results and other sources
+- outputs are accurate, quality-checked and reproducible
+- the work solves the original problem
 
-The Critical Friend also provides a fresh perspective and offers the opportunity to catch issues that may have been overlooked by the team. 
+They also provide a fresh perspective to catch issues the team may have missed.
 
-For more details on the role of the Critical Friend (also known as the __Analytical Assurer__) in analytical work, see the [NHSBSA Producing Quality Analysis Playbook][nhsbsa-qa-playbook] 
-and [The AquA book][aqua-book-roles]. 
+::: {.callout-note}
+The Critical Friend is also known as the **Analytical Assurer**. For more details, see the [NHSBSA Producing Quality Analysis Playbook][nhsbsa-qa-playbook] and [The AquA book][aqua-book-roles].
+::: 
 
 ## Working with your Critical Friend
-The Critical Friend should be involved throughout the **entire project**, from drafting the [Problem Definition][problem-definition] through to delivery:
-- The Critical Friend will help by offering more insight and reviewing the project.
-- Regularly meet with the Critical Friend to keep them updated.
-- Reviews should happen iteratively in small increments throughout the project, rather than all at once at the end.
-- Make sure your project plan accounts for the Critical Friend's involvement.
-- Respect the Critical Friend’s diary and provide plenty of notice for work to be completed.
+Involve the Critical Friend throughout the **entire project**, from the [Problem Definition][problem-definition] through to delivery:
 
-## Assigning a Critical Friend
+- **Meet regularly** to keep them updated on progress
+- **Review iteratively** in small increments, not all at once at the end
+- **Plan ahead** by including their involvement in your project timeline
+- **Give notice** and respect their availability when requesting reviews
 
-- Assign a Critical Friend **as early as possible**
-- Reach out to the Data Science team or the Data Science Lead to identify the right colleague to act as Critical Friend
-- Ideally, a Critical Friend should have prior experience with similar data or techniques.
-- If you are an area expert, you can choose a new team member as the Critical Friend so they can gain experience.
+## How to Assign a Critical Friend
+
+1. **Assign early** – ideally during the Problem Definition stage
+2. **Contact** the Data Science team or Data Science Lead for recommendations
+3. **Choose wisely**:
+   - Ideally someone with experience in similar data or techniques
+   - If you're the area expert, consider a newer team member to help them gain experience
 
 [problem-definition]: ../03-problem-definition.qmd
 [nhsbsa-qa-playbook]: https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/03-responsibilities/pages/11-critical-friend.html
