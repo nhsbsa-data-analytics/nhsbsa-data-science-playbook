@@ -2,126 +2,126 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/accessibility.html</loc>
-    <lastmod>2024-10-23T10:55:00.093Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/about.html</loc>
-    <lastmod>2024-10-23T10:55:00.093Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/process-text-versions/process-text-02-pd.html</loc>
-    <lastmod>2024-10-23T10:55:00.193Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/process-text-versions/process-text-03-analysis.html</loc>
-    <lastmod>2024-10-23T10:55:00.193Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/03-analysis/analysis-steps/01-data-prep.html</loc>
-    <lastmod>2024-10-23T10:55:00.113Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/03-analysis/analysis-steps/04-review.html</loc>
-    <lastmod>2024-10-23T10:55:00.125Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/02-pd/index.html</loc>
-    <lastmod>2024-10-23T10:55:00.097Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/02-pd/pd-steps/03-refine-pd.html</loc>
-    <lastmod>2024-10-23T10:55:00.101Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/02-pd/pd-steps/01-writing-problem-definition.html</loc>
-    <lastmod>2024-10-23T10:55:00.101Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/04-wrap-up/index.html</loc>
-    <lastmod>2024-10-23T10:55:00.133Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/04-wrap-up/wrap-up-steps/04-public-repository.html</loc>
-    <lastmod>2024-10-23T10:55:00.165Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/04-wrap-up/wrap-up-steps/03-update-wiki.html</loc>
-    <lastmod>2024-10-23T10:55:00.161Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/04-wrap-up/wrap-up-steps/05-future-work.html</loc>
-    <lastmod>2024-10-23T10:55:00.173Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/01-pre-pd/pre-pd-steps/01-question-identified.html</loc>
-    <lastmod>2024-10-23T10:55:00.093Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/01-pre-pd/pre-pd-steps/05-create-update-initiative-resources.html</loc>
-    <lastmod>2024-10-23T10:55:00.097Z</lastmod>
+    <lastmod>2025-12-19T12:03:52.227Z</lastmod>
   </url>
   <url>
     <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.html</loc>
-    <lastmod>2024-10-23T10:55:00.093Z</lastmod>
+    <lastmod>2025-12-19T12:03:52.228Z</lastmod>
   </url>
   <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/01-pre-pd/pre-pd-steps/03-develop-understanding.html</loc>
-    <lastmod>2024-10-23T10:55:00.093Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/01-pre-pd/pre-pd-steps/04-customer-engagement.html</loc>
-    <lastmod>2024-10-23T10:55:00.097Z</lastmod>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/01-pre-pd/pre-pd-steps/05-create-update-initiative-resources.html</loc>
+    <lastmod>2025-12-19T12:03:52.230Z</lastmod>
   </url>
   <url>
     <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/01-pre-pd/index.html</loc>
-    <lastmod>2024-10-23T10:55:00.093Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/04-wrap-up/wrap-up-steps/02-review-documentation.html</loc>
-    <lastmod>2024-10-23T10:55:00.157Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/04-wrap-up/wrap-up-steps/01-clean-up.html</loc>
-    <lastmod>2024-10-23T10:55:00.149Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/04-wrap-up/wrap-up-steps/06-follow-up.html</loc>
-    <lastmod>2024-10-23T10:55:00.173Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/02-pd/pd-steps/04-estimate-timescales.html</loc>
-    <lastmod>2024-10-23T10:55:00.101Z</lastmod>
+    <lastmod>2025-12-19T12:03:52.227Z</lastmod>
   </url>
   <url>
     <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/02-pd/pd-steps/05-problem-definition-sign-off.html</loc>
-    <lastmod>2024-10-23T10:55:00.101Z</lastmod>
+    <lastmod>2025-12-19T12:03:52.234Z</lastmod>
   </url>
   <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/02-pd/pd-steps/02-customer-feedback.html</loc>
-    <lastmod>2024-10-23T10:55:00.101Z</lastmod>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/02-pd/pd-steps/01-writing-problem-definition.html</loc>
+    <lastmod>2025-12-19T12:03:52.232Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/02-pd/index.html</loc>
+    <lastmod>2025-12-19T12:03:52.232Z</lastmod>
   </url>
   <url>
     <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/03-analysis/analysis-steps/03-reporting-and-visuals.html</loc>
-    <lastmod>2024-10-23T10:55:00.121Z</lastmod>
+    <lastmod>2025-12-19T12:03:52.250Z</lastmod>
   </url>
   <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/03-analysis/analysis-steps/02-analysis-modelling.html</loc>
-    <lastmod>2024-10-23T10:55:00.117Z</lastmod>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/03-analysis/analysis-steps/04-review.html</loc>
+    <lastmod>2025-12-19T12:03:52.254Z</lastmod>
   </url>
   <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/03-analysis/index.html</loc>
-    <lastmod>2024-10-23T10:55:00.133Z</lastmod>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/04-wrap-up/wrap-up-steps/05-future-work.html</loc>
+    <lastmod>2025-12-19T12:03:52.297Z</lastmod>
   </url>
   <url>
-    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/process-text-versions/process-text-01-pre-pd.html</loc>
-    <lastmod>2024-10-23T10:55:00.189Z</lastmod>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/04-wrap-up/wrap-up-steps/01-clean-up.html</loc>
+    <lastmod>2025-12-19T12:03:52.273Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/04-wrap-up/wrap-up-steps/04-public-repository.html</loc>
+    <lastmod>2025-12-19T12:03:52.290Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/04-wrap-up/index.html</loc>
+    <lastmod>2025-12-19T12:03:52.261Z</lastmod>
   </url>
   <url>
     <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/process-text-versions/process-text-04-wrap-up.html</loc>
-    <lastmod>2024-10-23T10:55:00.193Z</lastmod>
+    <lastmod>2025-12-19T12:03:52.313Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/process-text-versions/process-text-01-pre-pd.html</loc>
+    <lastmod>2025-12-19T12:03:52.313Z</lastmod>
   </url>
   <url>
     <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/index.html</loc>
-    <lastmod>2024-10-23T10:55:00.189Z</lastmod>
+    <lastmod>2025-12-19T12:03:52.313Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/about.html</loc>
+    <lastmod>2025-12-19T12:03:52.227Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/process-text-versions/process-text-03-analysis.html</loc>
+    <lastmod>2025-12-19T12:03:52.313Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/process-text-versions/process-text-02-pd.html</loc>
+    <lastmod>2025-12-19T12:03:52.313Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/04-wrap-up/wrap-up-steps/06-follow-up.html</loc>
+    <lastmod>2025-12-19T12:03:52.298Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/04-wrap-up/wrap-up-steps/03-update-wiki.html</loc>
+    <lastmod>2025-12-19T12:03:52.287Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/04-wrap-up/wrap-up-steps/02-review-documentation.html</loc>
+    <lastmod>2025-12-19T12:03:52.283Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/03-analysis/index.html</loc>
+    <lastmod>2025-12-19T12:03:52.260Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/03-analysis/analysis-steps/01-data-prep.html</loc>
+    <lastmod>2025-12-19T12:03:52.244Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/03-analysis/analysis-steps/02-analysis-modelling.html</loc>
+    <lastmod>2025-12-19T12:03:52.248Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/02-pd/pd-steps/03-refine-pd.html</loc>
+    <lastmod>2025-12-19T12:03:52.233Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/02-pd/pd-steps/02-customer-feedback.html</loc>
+    <lastmod>2025-12-19T12:03:52.233Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/02-pd/pd-steps/04-estimate-timescales.html</loc>
+    <lastmod>2025-12-19T12:03:52.233Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/01-pre-pd/pre-pd-steps/04-customer-engagement.html</loc>
+    <lastmod>2025-12-19T12:03:52.229Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/01-pre-pd/pre-pd-steps/03-develop-understanding.html</loc>
+    <lastmod>2025-12-19T12:03:52.228Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nhsbsa-data-analytics.github.io/nhsbsa-data-science-playbook/guidance/01-pre-pd/pre-pd-steps/01-question-identified.html</loc>
+    <lastmod>2025-12-19T12:03:52.227Z</lastmod>
   </url>
 </urlset>
