@@ -42,7 +42,7 @@ To assist your work you could use:
 
 -	JIRA as a reference to previous initiatives
 -	reports and other outputs from previous initiatives in the project folders
--	other team members, business SMEs and your critical friend to help develop business knowledge
+-	other team members, business SMEs and your Critical Friend to help develop business knowledge
 -	user research where applicable
 -	internal and external online resources which may describe the service, policy or other aspects relevant to understanding context
 -	externally or internal published statistics, data or dashboards relevant to the subject. They may also later be a source for validation and ensuring coherence.

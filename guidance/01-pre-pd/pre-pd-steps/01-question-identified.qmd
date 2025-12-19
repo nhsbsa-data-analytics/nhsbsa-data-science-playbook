@@ -19,6 +19,6 @@ The Data Science team deliver [actionable insights](https://www.nhsbsa.nhs.uk/da
 - Customers can request work through the Data Science Lead, team members or [dall@nhsbsa.nhs.uk](mailto:dall@nhsbsa.nhs.uk).
 -	The Data Science team and internal customers can also log ideas for future projects on the ideas register.
 -	The Data Science Lead reviews projects for suitability in terms of scope and appropriateness, as well as any ethical implications. Projects may be triaged to other teams if not suitable.
--	The Data Science Lead coordinates the assignment of initiatives to team members as well as critical friends.
--	Once a project is accepted, it is initially created in JIRA, with initiative number and basic project information including project lead, team members and critical friend. The Data Science initiative number is identified using JIRA. 
+-	The Data Science Lead coordinates the assignment of initiatives to team members as well as Critical Friends.
+-	Once a project is accepted, it is initially created in JIRA, with initiative number and basic project information including project lead, team members and Critical Friend. The Data Science initiative number is identified using JIRA. 
 -	A SharePoint folder is created to store documents and data using the template provided. The initiative number is included in the name.

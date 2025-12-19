@@ -3,6 +3,6 @@ title: "About"
 title-block-banner: true
 ---
 
-This website has been developed by the NHSBSA Data and Analytics Learning Laboratory (DALL) team to provide guidance and processes for producing new initiatives.
+This website has been developed by the NHSBSA Data Science & Advanced Analytics team to provide guidance and processes for producing new initiatives.
 
 
