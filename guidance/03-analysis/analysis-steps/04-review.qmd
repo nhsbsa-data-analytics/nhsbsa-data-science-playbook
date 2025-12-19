@@ -24,7 +24,7 @@ Before customer review, all reviewers should:
 Review your own work continuously, and especially before requesting reviews from others.
 
 ### Before Requesting Review:
-- Ensure all points in the [QA section][analysis-and-modelling-qa] are addressed
+- Ensure all points in the [QA section][analysis-and-modelling] are addressed
 - Sense check against the agreed [Problem Definition][problem-definition]
 - Confirm customer agreement for any deviations from the PD
 - Sense check reporting outputs to avoid naïve conclusions
@@ -80,6 +80,6 @@ When the initiative is completed, present findings to the customer and:
 - Discuss potential for future related work
 - Send a follow-up survey (if appropriate) to confirm all needs were met
 
-[critical-friend]: ../critical-friend.qmd
-[problem-definition]: ../01-problem-definition/problem-definition.qmd
-[analysis-and-modelling-qa]: ../02-analysis-and-modelling/analysis-and-modelling-qa.qmd
+[critical-friend]: /guidance/01-pre-pd/pre-pd-steps/02-assign-critical-friend.qmd
+[problem-definition]: /guidance/02-pd/index.qmd
+[analysis-and-modelling]: /guidance/03-analysis/analysis-steps/02-analysis-modelling.qmd#quality-assurance-qa

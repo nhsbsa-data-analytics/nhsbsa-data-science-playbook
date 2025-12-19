@@ -37,6 +37,6 @@ Involve the Critical Friend throughout the **entire project**, from the [Problem
    - Ideally someone with experience in similar data or techniques
    - If you're the area expert, consider a newer team member to help them gain experience
 
-[problem-definition]: ../03-problem-definition.qmd
+[problem-definition]: /guidance/02-pd/index.qmd
 [nhsbsa-qa-playbook]: https://nhsbsa-data-analytics.github.io/nhsbsa-quality-analysis-playbook/guidance/03-responsibilities/pages/11-critical-friend.html
 [aqua-book-roles]: https://www.gov.uk/guidance/the-aqua-book#roles 
